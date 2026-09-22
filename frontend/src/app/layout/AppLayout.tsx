@@ -11,7 +11,7 @@ import styles from './AppLayout.module.css'
 const SCANNER_PANEL_ID = 'scanner-panel'
 
 export function AppLayout() {
-  const { collapsed, expand, panelRef, shellRef, height } = useScannerCollapse()
+  const { collapsed, toggle, expand, panelRef, shellRef, height } = useScannerCollapse()
 
   return (
     <>
@@ -25,7 +25,14 @@ export function AppLayout() {
         scannerPanelId={SCANNER_PANEL_ID}
       />
 
-      <ScannerPanel ref={panelRef} collapsed={collapsed} id={SCANNER_PANEL_ID} />
+      <ScannerPanel
+        ref={panelRef}
+        collapsed={collapsed}
+        onCollapse={() => {
+          if (!collapsed) toggle()
+        }}
+        id={SCANNER_PANEL_ID}
+      />
 
       <div ref={shellRef} className={styles.shell}>
         {/* Распорка резервирует место под фиксированную панель.

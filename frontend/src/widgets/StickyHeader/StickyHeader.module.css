@@ -1,4 +1,6 @@
 .header {
+  /* Вертикальный жест по шапке — наш: разворот свёрнутой панели. */
+  touch-action: pan-x;
   position: sticky;
   top: 0;
   z-index: 30;

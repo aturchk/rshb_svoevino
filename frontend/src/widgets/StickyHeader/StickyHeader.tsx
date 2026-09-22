@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom'
 
+import { useSwipeDown } from '@/features/scan-toggle/lib/useSwipeCollapse'
 import { ROUTES } from '@/shared/config/routes'
 import { cx } from '@/shared/lib/cx'
 
@@ -18,9 +19,12 @@ const TABS = [
 ] as const
 
 export function StickyHeader({ showScanButton, onScanClick, scannerPanelId }: StickyHeaderProps) {
+  // Свёрнутую панель тянуть не за что — она не видна. Обратный жест ловим шапкой.
+  const swipeDown = useSwipeDown(onScanClick, showScanButton)
+
   return (
     <>
-      <header className={styles.header}>
+      <header className={styles.header} {...swipeDown}>
         <div className={styles.inner}>
           <NavLink to={ROUTES.home} className={cx(styles.logo)}>
             Своё <span>Вино</span>

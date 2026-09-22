@@ -3,11 +3,11 @@ import { resolve } from 'node:path'
 
 import { beforeAll, describe, expect, it } from 'vitest'
 
-import { buildWineIndex } from '../src/entities/wine/lib/build-index.ts'
-import { runQuery, __testing } from '../src/entities/wine/lib/query.ts'
-import type { WineIndex, WineQuery } from '../src/entities/wine/model/types.ts'
-import { EMPTY_QUERY, STYLE_UNKNOWN } from '../src/entities/wine/model/types.ts'
-import type { WineDict, WineIndexFile } from '../src/shared/config/dataset-schema.ts'
+import { buildWineIndex } from '../app/entities/wine/lib/build-index.ts'
+import { runQuery, __testing } from '../app/entities/wine/lib/query.ts'
+import type { WineIndex, WineQuery } from '../app/entities/wine/model/types.ts'
+import { EMPTY_QUERY, STYLE_UNKNOWN } from '../app/entities/wine/model/types.ts'
+import type { WineDict, WineIndexFile } from '../app/shared/config/dataset-schema.ts'
 
 /**
  * Тесты идут по НАСТОЯЩЕМУ сгенерированному датасету, а не по синтетике:

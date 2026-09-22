@@ -3,7 +3,7 @@ import { existsSync, mkdirSync, readFileSync, statSync, writeFileSync } from 'no
 import { availableParallelism } from 'node:os'
 import { join, resolve } from 'node:path'
 
-import type { ImagesManifest } from '../src/shared/config/dataset-schema.ts'
+import type { ImagesManifest } from '../app/shared/config/dataset-schema.ts'
 
 import { loadCatalog } from './lib/csv.ts'
 import { assertDataset, CSV_PATH, IMG_DIR, IMG_MANIFEST } from './lib/paths.ts'

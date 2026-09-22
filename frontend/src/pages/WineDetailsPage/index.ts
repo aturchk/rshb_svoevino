@@ -1,1 +1,0 @@
-export { WineDetailsPage } from './WineDetailsPage'

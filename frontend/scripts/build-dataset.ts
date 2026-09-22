@@ -8,9 +8,9 @@ import type {
   WineDict,
   WineFacetsFile,
   WineIndexFile,
-} from '../src/shared/config/dataset-schema.ts'
-import { IMG_DETAIL, IMG_THUMB } from '../src/shared/config/dataset-schema.ts'
-import { normalizeSearchText } from '../src/shared/lib/normalize.ts'
+} from '../app/shared/config/dataset-schema.ts'
+import { IMG_DETAIL, IMG_THUMB } from '../app/shared/config/dataset-schema.ts'
+import { normalizeSearchText } from '../app/shared/lib/normalize.ts'
 
 import { loadCatalog } from './lib/csv.ts'
 import {

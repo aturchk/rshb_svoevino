@@ -1,59 +1,44 @@
 {
   "name": "svoe-vino-scanner",
-  "private": true,
-  "version": "0.0.0",
   "type": "module",
+  "private": true,
   "scripts": {
-    "dev": "vite",
-    "prebuild": "npm run build:data",
-    "build": "tsc -b && vite build",
+    "dev": "nuxt dev",
+    "dev:mobile": "nuxt dev --https --host 0.0.0.0",
+    "build": "npm run build:data && nuxt build",
+    "generate": "npm run build:data && nuxt generate",
+    "preview": "nuxt preview",
+    "preview:mobile": "HTTPS=1 nuxt preview --host 0.0.0.0 --port 4173",
     "build:data": "tsx scripts/build-dataset.ts",
     "build:images": "tsx scripts/build-images.ts",
-    "preview": "vite preview",
+    "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "format:check": "prettier --check .",
     "test": "vitest run",
-    "typecheck": "tsc -b",
-    "dev:mobile": "HTTPS=1 vite --host 0.0.0.0",
-    "preview:mobile": "HTTPS=1 vite preview --host 0.0.0.0 --port 4173"
+    "typecheck": "nuxt typecheck"
   },
   "dependencies": {
     "@fontsource-variable/playfair-display": "^5.3.0",
-    "@tanstack/react-virtual": "^3.14.13",
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8",
-    "react-router-dom": "^7.18.4",
-    "zustand": "^5.0.15"
+    "@tanstack/vue-virtual": "^3.13.39",
+    "nuxt": "^4.5.2",
+    "vue": "^3.5.43",
+    "vue-router": "^5.3.1"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.5",
-    "@types/node": "^24.13.3",
+    "@nuxt/eslint": "^1.17.0",
     "@types/papaparse": "^5.5.2",
-    "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.7",
-    "@vitejs/plugin-basic-ssl": "^2.3.0",
-    "@vitejs/plugin-react": "^6.1.1",
     "eslint": "^9.39.5",
     "eslint-config-prettier": "^10.1.8",
     "eslint-import-resolver-typescript": "^4.4.5",
     "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-react-hooks": "^7.1.1",
-    "eslint-plugin-react-refresh": "^0.5.7",
-    "globals": "^17.12.0",
     "papaparse": "^5.7.0",
     "prettier": "^3.9.8",
     "sharp": "^0.35.4",
     "tsx": "^4.23.15",
-    "typescript": "~6.0.2",
-    "typescript-eslint": "^8.70.1",
-    "vite": "^8.3.0",
-    "vitest": "^5.0.1"
+    "vitest": "^5.0.1",
+    "vue-tsc": "^3.3.11"
   },
   "engines": {
     "node": ">=20.19"
-  },
-  "sideEffects": [
-    "*.css"
-  ]
+  }
 }

@@ -1,0 +1,1 @@
+export { BottleImage } from './BottleImage'

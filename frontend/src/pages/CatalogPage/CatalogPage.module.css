@@ -1,0 +1,137 @@
+.layout {
+  display: grid;
+  gap: var(--space-6);
+}
+
+.aside {
+  display: none;
+}
+
+.toolbar {
+  position: sticky;
+  top: var(--header-h);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding-block: var(--space-3);
+  background-color: var(--color-bg);
+}
+
+.searchRow {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.search {
+  flex: 1;
+  min-width: 0;
+  padding: 12px 18px;
+  border: 1px solid var(--color-border-strong);
+  border-radius: 999px;
+  background-color: var(--color-surface);
+  font-size: 16px;
+}
+
+.search:focus-visible {
+  border-color: var(--color-accent);
+}
+
+.filtersButton {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 12px 18px;
+  border: 1px solid var(--color-border-strong);
+  border-radius: 999px;
+  font-size: 15px;
+}
+
+.filtersBadge {
+  min-width: 20px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background-color: var(--color-accent);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.resultRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-4);
+}
+
+.count {
+  color: var(--color-text-secondary);
+  font-size: 15px;
+  font-variant-numeric: tabular-nums;
+}
+
+.reset {
+  color: var(--color-accent);
+  font-size: 14px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  white-space: nowrap;
+}
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-7) var(--space-5);
+  text-align: center;
+  background-color: var(--color-surface-cream);
+  border-radius: var(--radius-lg);
+}
+
+.emptyTitle {
+  font-size: 22px;
+}
+
+.emptyText {
+  color: var(--color-text-secondary);
+  max-width: 44ch;
+}
+
+.skeletonRow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  padding-block: var(--space-3);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.error {
+  padding: var(--space-5);
+  border-radius: var(--radius-md);
+  background-color: var(--color-surface-soft);
+  color: var(--color-accent);
+}
+
+/* Десктоп: фильтры постоянной колонкой, шторка не нужна. */
+@media (width >= 1023px) {
+  .layout {
+    grid-template-columns: 300px 1fr;
+    align-items: start;
+  }
+
+  .aside {
+    display: block;
+    position: sticky;
+    top: calc(var(--header-h) + var(--space-5));
+    max-height: calc(100dvh - var(--header-h) - var(--space-6));
+    overflow-y: auto;
+    padding-inline-end: var(--space-3);
+  }
+
+  .filtersButton {
+    display: none;
+  }
+}

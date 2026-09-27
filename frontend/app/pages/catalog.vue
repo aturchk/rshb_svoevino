@@ -28,7 +28,7 @@ const found = computed(() => result.value?.ids.length ?? 0)
 
 <template>
   <section>
-    <h1 class="visually-hidden">Каталог вин «Своё Вино»</h1>
+    <h1 class="pageTitle">Каталог вин</h1>
 
     <div class="toolbar">
       <div class="searchRow">
@@ -156,6 +156,11 @@ const found = computed(() => result.value?.ids.length ?? 0)
 </template>
 
 <style scoped>
+.pageTitle {
+  padding-top: var(--space-4);
+  font-size: 28px;
+}
+
 .toolbar {
   position: sticky;
   top: var(--header-h);

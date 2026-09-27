@@ -17,7 +17,23 @@ export default defineNuxtConfig({
 
   css: ['~/assets/styles/global.css'],
 
+  /**
+   * Стили компонентов — прямо в HTML серверного рендера: без этого каждый срез
+   * тянет свой .css, и мелкие файлы блокируют первую отрисовку (Lighthouse: −600 мс).
+   */
+  features: { inlineStyles: true },
+
   runtimeConfig: {
+    /**
+     * Цифровой сомелье. По умолчанию отвечают правила (entities/pairing).
+     * NUXT_SOMMELIER_PROVIDER=llm и NUXT_SOMMELIER_LLM_ENDPOINT — точка подключения LLM,
+     * см. server/utils/sommelier.ts. Ключ модели только на сервере, в браузер не уходит.
+     */
+    sommelier: {
+      provider: 'rules',
+      llmEndpoint: '',
+      llmApiKey: '',
+    },
     public: {
       /**
        * История сканирования по умолчанию пуста: показывать выдуманные записи
@@ -25,10 +41,23 @@ export default defineNuxtConfig({
        * NUXT_PUBLIC_MOCK_SCAN_HISTORY=true
        */
       mockScanHistory: false,
+      /**
+       * Демо-режим сканера: вместо распознавания берёт вино каталога по хэшу снимка
+       * и по кругу прогоняет три исхода — найдено, не уверены, не найдено. Нужен, чтобы
+       * показать интерфейс до готовности CV-модели; в UI помечен «Демо».
+       * Эндпоинт скрипта оценки (/api/v1/eval/predict) его не использует.
+       * NUXT_PUBLIC_DEMO_SCAN=true
+       */
+      demoScan: false,
     },
   },
 
   app: {
+    /**
+     * Переход между страницами — короткое проявление со сдвигом на 6 px: только
+     * opacity и transform. При prefers-reduced-motion выключается в global.css.
+     */
+    pageTransition: { name: 'page', mode: 'out-in' },
     head: {
       htmlAttrs: { lang: 'ru' },
       title: 'Своё Вино — сканер',

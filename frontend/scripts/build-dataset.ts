@@ -16,11 +16,16 @@ import { loadCatalog } from './lib/csv.ts'
 import {
   deriveAbv,
   deriveColorFamily,
+  deriveFortified,
+  deriveOak,
   deriveSparkling,
   deriveStyle,
+  deriveSweetHint,
   splitGrapes,
   STYLES,
 } from './lib/derive.ts'
+import { canonicalGrapes } from './lib/grapes.ts'
+import { extractPairingNote } from './lib/pairing-note.ts'
 import { assertDataset, CSV_PATH, DATA_DIR, IMG_MANIFEST, WINES_DIR } from './lib/paths.ts'
 
 /**
@@ -60,6 +65,9 @@ function main(): void {
   const regions = buildLookup(rows.map((row) => row.Регион))
   const wineries = buildLookup(rows.map((row) => row.Винодельня))
   const grapes = buildLookup(rows.flatMap((row) => splitGrapes(row['Сорт винограда'])))
+  const grapeKeys = buildLookup(
+    rows.flatMap((row) => canonicalGrapes(splitGrapes(row['Сорт винограда']))),
+  )
 
   const dict: WineDict = {
     categories: categories.list,
@@ -68,6 +76,7 @@ function main(): void {
     wineries: wineries.list,
     wineriesNorm: wineries.list.map(normalizeSearchText),
     styles: [...STYLES],
+    grapeKeys: grapeKeys.list,
   }
 
   const index: WineIndexFile = {
@@ -81,6 +90,10 @@ function main(): void {
     sp: [],
     abv: [],
     g: [],
+    gk: [],
+    fo: [],
+    ok: [],
+    sh: [],
     img: [],
     iw: [],
     ih: [],
@@ -93,14 +106,21 @@ function main(): void {
   let withStyle = 0
   let withPhoto = 0
   let sparklingCount = 0
+  let fortifiedCount = 0
+  let withPairingNote = 0
 
   for (const row of rows) {
     const slug = row.Slug
     const name = row['Название вина']
     const style = deriveStyle(name, slug)
-    const sparkling = deriveSparkling(name, slug)
+    const sparkling = deriveSparkling(name, slug, row.Описание, row['Название фото'])
     const abv = deriveAbv(slug, row['Название фото'])
+    const fortified = deriveFortified(name, slug, style, abv)
+    const oak = deriveOak(name, row.Описание)
+    const sweetHint = deriveSweetHint(name, row.Описание, style)
     const grapeNames = splitGrapes(row['Сорт винограда'])
+    const grapeCanon = canonicalGrapes(grapeNames)
+    const pairingNote = extractPairingNote(row.Описание)
     const photo = manifest[slug]
 
     index.s.push(slug)
@@ -112,6 +132,10 @@ function main(): void {
     index.sp.push(sparkling ? 1 : 0)
     index.abv.push(abv)
     index.g.push(grapeNames.map((grape) => grapes.indexOf.get(grape) ?? 0))
+    index.gk.push(grapeCanon.map((grape) => grapeKeys.indexOf.get(grape) ?? 0))
+    index.fo.push(fortified ? 1 : 0)
+    index.ok.push(oak ? 1 : 0)
+    index.sh.push(sweetHint ? 1 : 0)
     index.img.push(photo ? 1 : 0)
     index.iw.push(photo?.width ?? 0)
     index.ih.push(photo?.height ?? 0)
@@ -120,6 +144,8 @@ function main(): void {
     if (style !== null) withStyle += 1
     if (photo) withPhoto += 1
     if (sparkling) sparklingCount += 1
+    if (fortified) fortifiedCount += 1
+    if (pairingNote) withPairingNote += 1
 
     // Карточка денормализована: прямой заход на /wine/:slug — ровно один запрос,
     // без справочников и без индекса.
@@ -134,9 +160,14 @@ function main(): void {
       wineryId: wineries.indexOf.get(row.Винодельня) ?? 0,
       grapeIds: grapeNames.map((grape) => grapes.indexOf.get(grape) ?? 0),
       grapes: grapeNames,
+      grapeKeys: grapeCanon,
       description: row.Описание,
+      pairingNote,
       style,
       sparkling,
+      fortified,
+      oak,
+      sweetHint,
       abv,
       image: photo
         ? {
@@ -190,8 +221,9 @@ function main(): void {
     [
       `CSV: ${totalRows} строк → ${rows.length} позиций (дублей отброшено ${duplicatesDropped}).`,
       `Крепость: ${withAbv} (${percent(withAbv)}%), диапазон ${facets.ranges.abv.min}–${facets.ranges.abv.max}%.`,
-      `Стиль: ${withStyle} (${percent(withStyle)}%). Игристых: ${sparklingCount}. Фото: ${withPhoto} (${percent(withPhoto)}%).`,
-      `Справочники: категорий ${dict.categories.length}, регионов ${dict.regions.length}, сортов ${dict.grapes.length}, виноделен ${dict.wineries.length}.`,
+      `Стиль: ${withStyle} (${percent(withStyle)}%). Игристых: ${sparklingCount}. Креплёных: ${fortifiedCount}. Фото: ${withPhoto} (${percent(withPhoto)}%).`,
+      `Гастрономия винодельни в описании: ${withPairingNote} (${percent(withPairingNote)}%).`,
+      `Справочники: категорий ${dict.categories.length}, регионов ${dict.regions.length}, сортов ${dict.grapes.length} (канонических ${dict.grapeKeys.length}), виноделен ${dict.wineries.length}.`,
       `Индекс: ${kb(JSON.stringify(index))} КБ. Карточек записано: ${rows.length}.`,
       `Готово за ${((Date.now() - started) / 1000).toFixed(1)} с.`,
     ].join('\n'),

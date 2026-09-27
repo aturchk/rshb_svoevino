@@ -71,7 +71,7 @@ describe('runQuery на реальном каталоге', () => {
   })
 
   it('«стиль не указан» — полноценное значение фильтра', () => {
-    expect(runQuery(index, query({ styles: [STYLE_UNKNOWN] })).ids.length).toBe(2103 - 1717)
+    expect(runQuery(index, query({ styles: [STYLE_UNKNOWN] })).ids.length).toBe(2103 - 1726)
   })
 
   it('диапазон крепости по умолчанию не прячет вина без крепости', () => {
@@ -80,7 +80,7 @@ describe('runQuery на реальном каталоге', () => {
       index,
       query({ abvMin: 12, abvMax: 13, abvIncludeUnknown: false }),
     ).ids.length
-    expect(withUnknown - without).toBe(2103 - 1581)
+    expect(withUnknown - without).toBe(2103 - 1537)
   })
 
   it('поиск требует все токены, а не любой', () => {

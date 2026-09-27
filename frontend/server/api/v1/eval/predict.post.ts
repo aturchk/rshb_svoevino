@@ -16,13 +16,13 @@ export default defineEventHandler(async (event) => {
   if (!image?.data?.length) {
     throw createError({
       statusCode: 400,
-      statusMessage: 'Ожидается multipart/form-data с непустым полем image',
+      message: 'Ожидается multipart/form-data с непустым полем image',
     })
   }
 
   throw createError({
     statusCode: 503,
-    statusMessage: 'Распознавание этикеток ещё не реализовано',
+    message: 'Распознавание этикеток ещё не реализовано',
     data: {
       slug: null,
       reason: 'not_implemented',

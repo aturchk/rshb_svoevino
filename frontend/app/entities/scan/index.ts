@@ -1,1 +1,9 @@
-export type { RecognizeCandidate, RecognizeResult, ScanHistoryItem } from './model/types'
+export type {
+  DemoScenario,
+  RecognizeCandidate,
+  RecognizeResult,
+  RecognizeStatus,
+  ScanCandidate,
+  ScanHistoryItem,
+} from './model/types'
+export { useScanHistory } from './model/history'

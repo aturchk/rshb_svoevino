@@ -58,7 +58,7 @@ export function parseQuery(params: URLSearchParams): WineQuery {
     abvMin,
     abvMax,
     // Вина без указанной крепости включены по умолчанию: иначе первое касание
-    // ползунка молча прячет 522 позиции.
+    // ползунка молча прячет 566 позиций.
     abvIncludeUnknown: params.get(PARAM.abvUnknown) !== '0',
   }
 }

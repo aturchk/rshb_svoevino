@@ -30,7 +30,7 @@ const current = computed(
 )
 
 // «Стиль не указан» — полноценное значение фильтра, а не отсутствие данных:
-// у 386 позиций сахар в названии просто не написан.
+// у 377 позиций сахар в названии просто не написан.
 const styleLabels = computed(() => [...props.index.dict.styles, 'Не указан'])
 const styleValues = computed(() => [
   ...props.index.dict.styles.map((_, i) => i),

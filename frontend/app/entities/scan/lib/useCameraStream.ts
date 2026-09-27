@@ -51,10 +51,17 @@ function classify(error: unknown): CameraStatus {
   }
 }
 
+/** Фонарик: MediaTrackCapabilities.torch есть в Chrome на Android, в Safari — нет. */
+interface TorchCapabilities extends MediaTrackCapabilities {
+  torch?: boolean
+}
+
 export function useCameraStream() {
   const status = ref<CameraStatus>('idle')
   const video = ref<HTMLVideoElement | null>(null)
   const stream = shallowRef<MediaStream | null>(null)
+  const torchSupported = ref(false)
+  const torchOn = ref(false)
   /** Счётчик запросов: ответ устаревшего вызова не должен перетирать актуальный. */
   let requestId = 0
 
@@ -67,6 +74,8 @@ export function useCameraStream() {
       stream.value = null
     }
     if (video.value) video.value.srcObject = null
+    torchSupported.value = false
+    torchOn.value = false
     if (status.value === 'streaming' || status.value === 'requesting') status.value = 'idle'
   }
 
@@ -89,6 +98,9 @@ export function useCameraStream() {
     })
 
     stream.value = media
+    // getCapabilities отсутствует в старых Firefox — фонарика там просто не будет.
+    const capabilities = (track.getCapabilities?.() ?? {}) as TorchCapabilities
+    torchSupported.value = capabilities.torch === true
     if (video.value) {
       video.value.srcObject = media
       // play() может отклониться, если элемент успели размонтировать.
@@ -133,9 +145,68 @@ export function useCameraStream() {
     }
   }
 
+  async function setTorch(on: boolean): Promise<void> {
+    const track = stream.value?.getVideoTracks().at(0)
+    if (!track || !torchSupported.value) return
+    try {
+      await track.applyConstraints({ advanced: [{ torch: on } as MediaTrackConstraintSet] })
+      torchOn.value = on
+    } catch {
+      // Часть прошивок заявляет torch, но включить его не даёт.
+      torchSupported.value = false
+      torchOn.value = false
+    }
+  }
+
+  /**
+   * Кадр ровно в тех границах, что видит пользователь: видео показано с object-fit:
+   * cover, поэтому из кадра вырезается видимая область — что в рамке, то и уходит
+   * на распознавание, без лишнего фона по краям.
+   */
+  async function capture(quality = 0.9): Promise<Blob | null> {
+    const element = video.value
+    if (!element || status.value !== 'streaming' || !element.videoWidth) return null
+    const sourceWidth = element.videoWidth
+    const sourceHeight = element.videoHeight
+    const box = element.getBoundingClientRect()
+    const viewRatio = box.width / box.height
+    const sourceRatio = sourceWidth / sourceHeight
+    let cropWidth = sourceWidth
+    let cropHeight = sourceHeight
+    if (sourceRatio > viewRatio) cropWidth = Math.round(sourceHeight * viewRatio)
+    else cropHeight = Math.round(sourceWidth / viewRatio)
+
+    const canvas = document.createElement('canvas')
+    canvas.width = cropWidth
+    canvas.height = cropHeight
+    const context = canvas.getContext('2d')
+    if (!context) return null
+    context.drawImage(
+      element,
+      (sourceWidth - cropWidth) / 2,
+      (sourceHeight - cropHeight) / 2,
+      cropWidth,
+      cropHeight,
+      0,
+      0,
+      cropWidth,
+      cropHeight,
+    )
+    return new Promise((resolve) => canvas.toBlob(resolve, 'image/jpeg', quality))
+  }
+
   if (import.meta.client) {
+    // Вкладка ушла в фон — гасим камеру; вернулась — включаем снова, если она работала.
+    // Разрешение к этому моменту уже выдано, поэтому повторного вопроса не будет.
+    let resumeOnVisible = false
     const onHidden = () => {
-      if (document.visibilityState === 'hidden') stop()
+      if (document.visibilityState === 'hidden') {
+        resumeOnVisible = status.value === 'streaming'
+        stop()
+      } else if (resumeOnVisible) {
+        resumeOnVisible = false
+        void start()
+      }
     }
     document.addEventListener('visibilitychange', onHidden)
     // iOS Safari при уходе в BFCache не всегда шлёт visibilitychange.
@@ -147,5 +218,5 @@ export function useCameraStream() {
     })
   }
 
-  return { status, video, start, stop }
+  return { status, video, start, stop, capture, torchSupported, torchOn, setTorch }
 }

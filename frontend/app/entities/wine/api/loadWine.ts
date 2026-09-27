@@ -1,11 +1,11 @@
-import type { WineDetailFile } from '@/shared/config/dataset-schema'
-import { wineFile } from '@/shared/config/dataset-schema'
+import { API } from '@/shared/config/api'
+
+import type { WineCard } from '../model/types'
 
 /**
- * Карточка вина. Файл денормализован, поэтому прямой заход на /wine/:slug —
- * ровно один запрос, без индекса и без справочников. Работает и на сервере:
+ * Карточка вина с похожими винами — один запрос к бэкенду. Работает и на сервере:
  * страница вина отдаётся отрендеренной.
  */
-export function loadWine(slug: string): Promise<WineDetailFile> {
-  return $fetch<WineDetailFile>(`/${wineFile(slug)}`)
+export function loadWine(slug: string): Promise<WineCard> {
+  return $fetch<WineCard>(API.wine(slug))
 }

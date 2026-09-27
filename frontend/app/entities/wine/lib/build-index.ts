@@ -63,6 +63,10 @@ export function buildWineIndex(dict: WineDict, file: WineIndexFile): WineIndex {
     imgHeight: Uint16Array.from(file.ih),
     abv,
     grapes: file.g,
+    grapeKeys: file.gk,
+    fortified: Uint8Array.from(file.fo),
+    oak: Uint8Array.from(file.ok),
+    sweetHint: Uint8Array.from(file.sh),
     postings: buildPostings(file, dict),
   }
 }

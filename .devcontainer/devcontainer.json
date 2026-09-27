@@ -1,0 +1,55 @@
+// Codespace — демо-стенд сканера «Своё Вино», который открывают с телефона.
+//
+// Камере нужен защищённый контекст, а Codespaces отдаёт проброшенный порт как
+// https://<имя-codespace>-3000.app.github.dev с настоящим сертификатом —
+// в отличие от `npm run dev:mobile`, телефону ничего подтверждать не нужно.
+{
+  "name": "Своё Вино — сканер",
+
+  // Официальный образ Node: nvm уже внутри (NVM_DIR=/usr/local/share/nvm), git тоже.
+  // Мажор Node здесь только стартовый — точную версию ставит post-create.sh
+  // из frontend/.nvmrc. «5-» фиксирует мажор образа: патчи приезжают, поломки — нет.
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:5-22-trixie",
+
+  // gh в этом образе нет, а без него порт не сделать публичным из скрипта.
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+
+  "containerEnv": {
+    // Codespace — демо-стенд, поэтому здесь демо-режим сканера включён.
+    // В самом приложении флаг по умолчанию выключен.
+    "NUXT_PUBLIC_DEMO_SCAN": "true",
+    // prod — сборка и node .output/server: стабильно, для показа.
+    // dev — nuxt dev с HMR, для правок на лету. Разово переключить:
+    //   SVOE_MODE=dev bash .devcontainer/start.sh restart
+    "SVOE_MODE": "prod"
+  },
+
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Своё Вино",
+      // Протокол между прокси Codespaces и приложением, а не для телефона:
+      // снаружи ссылка всё равно https. Приложение говорит по HTTP, и "https"
+      // здесь сломал бы прокси — к тому же Codespaces при этом сбрасывает порт в private.
+      "protocol": "http",
+      "onAutoForward": "notify"
+    }
+    // Видимость (public) здесь не задать: ни спецификация devcontainer, ни Codespaces
+    // её не поддерживают, а при каждом рестарте codespace порт снова становится private.
+    // Поэтому её выставляет start.sh через `gh codespace ports visibility`.
+  },
+  // nuxt dev держит служебные порты на 127.0.0.1 — не засоряем ими уведомления.
+  "otherPortsAttributes": {
+    "onAutoForward": "silent"
+  },
+
+  // Один раз при создании: Node из .nvmrc и npm ci.
+  "postCreateCommand": ["bash", "${containerWorkspaceFolder}/.devcontainer/post-create.sh"],
+  // При каждом старте codespace: поднять приложение в фоне. Скрипт идемпотентен.
+  "postStartCommand": ["bash", "${containerWorkspaceFolder}/.devcontainer/start.sh"],
+  // При каждом подключении IDE: поднять упавшее приложение и снова сделать порт
+  // публичным — Codespaces может сбросить видимость уже после postStartCommand.
+  "postAttachCommand": ["bash", "${containerWorkspaceFolder}/.devcontainer/start.sh"]
+}

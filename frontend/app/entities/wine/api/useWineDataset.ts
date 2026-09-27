@@ -37,11 +37,6 @@ function fetchDataset(): Promise<Dataset> {
   return inflight
 }
 
-/** Прогрев: вызывается заранее, результат никого не ждёт. */
-export function warmDataset(): void {
-  if (import.meta.client) void fetchDataset().catch(() => undefined)
-}
-
 export function useWineDataset() {
   // shallowRef, а не ref: индекс содержит типизированные массивы и постинг-листы,
   // делать их глубоко реактивными — чистая трата времени на прокси.

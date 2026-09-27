@@ -6,7 +6,6 @@
     "dev": "nuxt dev",
     "dev:mobile": "nuxt dev --https --host 0.0.0.0",
     "build": "npm run build:data && nuxt build",
-    "generate": "npm run build:data && nuxt generate",
     "preview": "nuxt preview",
     "preview:mobile": "HTTPS=1 nuxt preview --host 0.0.0.0 --port 4173",
     "build:data": "tsx scripts/build-dataset.ts",

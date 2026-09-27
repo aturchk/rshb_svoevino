@@ -8,6 +8,56 @@ import type { WineDetailFile, WineDict } from '@/shared/config/dataset-schema'
 
 export type Wine = WineDetailFile
 
+/** Короткая карточка для лент и списков: всё, что нужно, без запроса детальной. */
+export interface WineSummary {
+  slug: string
+  name: string
+  winery: string
+  category: string
+  style: string | null
+  sparkling: boolean
+  abv: number | null
+  image: { src: string; width: number; height: number } | null
+}
+
+/** Похожее вино с человеческим объяснением, почему оно похоже. */
+export interface SimilarWine extends WineSummary {
+  reasons: string[]
+}
+
+/** Карточка, которую отдаёт бэкенд: данные каталога плюс похожие вина — один запрос. */
+export interface WineCard extends Wine {
+  similar: SimilarWine[]
+}
+
+/**
+ * Подбор аналогов по частичным признакам: «вина нет в каталоге — оно красное сухое».
+ * null — признак неизвестен и не учитывается (а не «нет»). Поля с запасом на будущее:
+ * OCR этикетки даст сорт и регион, а pgvector — эмбеддинг снимка.
+ */
+export interface AnalogQuery {
+  category: string | null
+  style: string | null
+  sparkling: boolean | null
+  fortified?: boolean | null
+  grapes?: string[]
+  region?: string | null
+  /** Эмбеддинг снимка для реализации на pgvector; реализация по признакам его не читает. */
+  embedding?: number[] | null
+  /** slug, которые уже показаны пользователю */
+  exclude: string[]
+}
+
+/**
+ * Шов под эмбеддинги. Сейчас реализация — правила по признакам каталога
+ * (lib/similarity.ts, server/utils/similar-wines.ts). Позже — ближайшие соседи
+ * SigLIP-эмбеддингов в pgvector; сигнатура и форма ответа не меняются.
+ */
+export interface SimilarWinesProvider {
+  forWine(slug: string, limit: number): Promise<SimilarWine[]>
+  forQuery(query: AnalogQuery, limit: number): Promise<SimilarWine[]>
+}
+
 /** «Стиль не указан в названии» — отдельное значение фильтра, а не отсутствие фильтра. */
 export const STYLE_UNKNOWN = -1
 
@@ -35,6 +85,11 @@ export interface WineIndex {
   /** крепость; NaN = в данных не закодирована */
   abv: Float32Array
   grapes: number[][]
+  /** канонические сорта (dict.grapeKeys) — для схожести и правил сомелье */
+  grapeKeys: number[][]
+  fortified: Uint8Array
+  oak: Uint8Array
+  sweetHint: Uint8Array
   postings: WinePostings
 }
 
@@ -63,7 +118,7 @@ export interface WineQuery {
   withPhotoOnly: boolean
   abvMin: number | null
   abvMax: number | null
-  /** Без этого первое касание ползунка молча прячет 522 позиции без крепости. */
+  /** Без этого первое касание ползунка молча прячет 566 позиций без крепости. */
   abvIncludeUnknown: boolean
 }
 

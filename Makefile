@@ -1,5 +1,6 @@
-.PHONY: check-node install demo test frontend-check prepare validate-data smoke-demo \
-	acceptance-preflight acceptance-run release-check check-secrets
+.PHONY: check-node install demo local-setup local october-test test frontend-check \
+	prepare validate-data smoke-demo acceptance-preflight acceptance-run release-check \
+	check-secrets
 
 check-node:
 	@node -e 'const [major, minor] = process.versions.node.split(".").map(Number); if (major < 22 || (major === 22 && minor < 12)) { console.error(`Node >=22.12 required; found $${process.versions.node}. Run: cd frontend && nvm use`); process.exit(1) }'
@@ -11,6 +12,15 @@ install: check-node
 
 demo: check-node
 	cd frontend && NUXT_PUBLIC_DEMO_SCAN=true npm run dev
+
+local-setup:
+	ml/scripts/local_setup.sh
+
+local:
+	ml/scripts/local_stack.sh
+
+october-test:
+	ml/scripts/october_test.sh
 
 test: check-node validate-data
 	.venv/bin/python -m unittest discover -s ml/tests -v

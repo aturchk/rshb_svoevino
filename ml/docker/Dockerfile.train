@@ -10,4 +10,4 @@ COPY ml/tests ml/tests
 COPY ml/scripts ml/scripts
 RUN python -m pip install --no-cache-dir -e './ml[siglip,orb,api]'
 
-ENTRYPOINT ["bash", "ml/scripts/runpod_train.sh"]
+ENTRYPOINT ["bash", "ml/scripts/train_model.sh"]

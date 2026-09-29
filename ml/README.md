@@ -2,8 +2,8 @@
 
 This package turns the supplied catalog and media export into a reviewable reference gallery, validates manual field-photo labels, compares interchangeable retrieval pipelines, and serves both the product and organizer prediction endpoints. The source brief is summarized in [TASK_CONTEXT.md](docs/TASK_CONTEXT.md), the experiment order is in [CV_PLAN.md](docs/CV_PLAN.md), and the annotation contract is in [FIELD_DATA.md](docs/FIELD_DATA.md).
 
-The completed RunPod training receipt and proxy benchmark are summarized in
-[RUNPOD_RESULTS.md](docs/RUNPOD_RESULTS.md). These measurements are synthetic regression
+The completed reference training receipt and proxy benchmark are summarized in
+[TRAINING_RESULTS.md](docs/TRAINING_RESULTS.md). These measurements are synthetic regression
 signals. The 100 `real_photo` files now have one-pass manual decisions, but they remain
 a development pool; the official test is expected on 1 October 2026.
 
@@ -28,13 +28,13 @@ python3 -m venv .venv
 .venv/bin/python -m pip install -e './ml[orb,api]'
 ```
 
-For SigLIP on the GPU VM, first install the CUDA build of PyTorch and torchvision selected for that VM at [pytorch.org](https://pytorch.org/get-started/locally/), then install the project:
+For the complete local SigLIP pipeline (CUDA, Apple MPS, or CPU):
 
 ```bash
 .venv/bin/python -m pip install -e './ml[siglip,api]'
 ```
 
-The project pins `transformers==5.17.0`. No API key is needed. The first online run downloads the public Apache-2.0 model; final benchmark and service runs can use `--offline` after the files are cached.
+The project pins `transformers==5.17.0`. No API key is needed. The first online run downloads the public Apache-2.0 model; final benchmark and service runs can use `--offline` after the files are cached. From the repository root, `make local-setup` performs the full preparation and automatically selects CUDA, Apple MPS, or CPU.
 
 ## 1. Build the reference gallery
 
@@ -79,7 +79,7 @@ Export only confirmed, indexed, original photos for a benchmark:
 
 See [FIELD_DATA.md](docs/FIELD_DATA.md) for every required and optional field, allowed values, examples, split rules, and review policy.
 
-## 3. Build the SigLIP gallery index on the GPU VM
+## 3. Build the SigLIP gallery index locally
 
 Start with the fixed-resolution base model. The revision below freezes the checkpoint used by this repository plan:
 
@@ -88,11 +88,11 @@ Start with the fixed-resolution base model. The revision below freezes the check
   --pipeline siglip2 --gallery work/gallery-strict.jsonl --data-root . \
   --model-id google/siglip2-base-patch16-384 \
   --model-revision f775b65a79762255128c981547af89addcfe0f88 \
-  --device cuda --precision bfloat16 --batch-size 32 \
+  --device auto --precision auto --batch-size 8 \
   --cache-policy refresh
 ```
 
-Use `--precision float16` when the GPU does not support BF16. The implementation loads only the vision tower, applies the checkpoint's official image processor to EXIF-corrected RGB input, computes L2-normalized FP32 embeddings, and keeps the 928-reference matrix on the GPU. Retrieval is exact cosine search, which is appropriate at this gallery size.
+`auto` selects CUDA first, then Apple MPS, then CPU, and chooses a supported precision. The implementation loads only the vision tower, applies the checkpoint's official image processor to EXIF-corrected RGB input, computes L2-normalized FP32 embeddings, and keeps the 928-reference matrix on the selected device. Retrieval is exact cosine search, which is appropriate at this gallery size.
 
 The content-addressed cache consists of one `.safetensors` file and one JSON metadata file under `work/siglip-cache/`. Its identity includes model and resolved revision, PyTorch and Transformers versions, processor configuration, precision, batch size, attention implementation, NaFlex patch setting, and the ordered gallery slugs and image hashes. A service with `--cache-policy require` refuses to encode the gallery silently if the expected cache is missing or invalid.
 
@@ -110,7 +110,7 @@ After a reviewed bottle-grouped development split has been frozen and exported:
   --top-k 20 --warmup 3 \
   --model-id google/siglip2-base-patch16-384 \
   --model-revision f775b65a79762255128c981547af89addcfe0f88 \
-  --device cuda --precision bfloat16 --batch-size 32 \
+  --device auto --precision auto --batch-size 8 \
   --cache-policy require --offline
 ```
 
@@ -140,7 +140,7 @@ every other catalog item participates as a negative. It does not rewrite source 
   --output work/models/siglip2-field-adapter.safetensors \
   --model-id google/siglip2-base-patch16-384 \
   --model-revision f775b65a79762255128c981547af89addcfe0f88 \
-  --device cuda --precision bfloat16 --batch-size 32 \
+  --device auto --precision auto --batch-size 8 \
   --train-views 4 --val-views 1 --rank 64 --epochs 15 --seed 20260928
 ```
 
@@ -171,32 +171,28 @@ matched per request.
   --adapter-path work/models/siglip2-field-adapter.safetensors \
   --candidate-k 50 --orb-weight 0.35 --rrf-k 20 \
   --model-revision f775b65a79762255128c981547af89addcfe0f88 \
-  --device cuda --precision bfloat16 --cache-policy require --offline
+  --device auto --precision auto --batch-size 8 --cache-policy require --offline
 ```
 
-The RunPod proxy gain from ORB was only +0.0011 Top-1 while p95 rose by about 49 ms.
+The reference GPU proxy gain from ORB was only +0.0011 Top-1 while p95 rose by about 49 ms.
 Therefore the current production-candidate default is `siglip2` plus the adapter; enable
 `siglip2-orb` only if the reviewed real-photo development set shows a meaningful gain.
 
 ## 5. Serve the organizer endpoint
 
-```bash
-.venv/bin/wine-cv serve \
-  --pipeline siglip2 --gallery work/gallery-strict.jsonl --data-root . \
-  --model-id google/siglip2-base-patch16-384 \
-  --model-revision f775b65a79762255128c981547af89addcfe0f88 \
-  --device cuda --precision bfloat16 --batch-size 32 \
-  --adapter-path work/models/siglip2-field-adapter.safetensors \
-  --cache-policy require --offline --host 127.0.0.1 --port 8080
-```
-
-In another terminal:
+Prepare once and start the complete local ML + Nuxt stack:
 
 ```bash
-make acceptance-run
+make local-setup
+make local
 ```
 
-The wrapper validates the sealed query package, records `/v1/metadata`, calls the
+The application is available at `http://127.0.0.1:3000`, while the direct ML API is
+at `http://127.0.0.1:8080`. On 1 October, after placing the sealed package under
+`eval/test/`, stop the normal stack and run `make october-test`; it starts both services,
+runs the acceptance contract through Nuxt, saves evidence, and shuts everything down.
+
+The wrapper validates the sealed query package, records `/api/v1/metadata`, calls the
 endpoint sequentially, and validates the resulting JSONL. The endpoint accepts multipart
 field `image` and returns `{"slug":"..."}`. The organizer contract always requires one
 slug; a later consumer flow may abstain only after its threshold is calibrated on
@@ -216,7 +212,7 @@ The same harness supports cheap controls:
 .venv/bin/python -m unittest discover -s ml/tests -v
 ```
 
-The supplied three query images have no answers, so their runs cannot produce accuracy or F1. The local verification covers linkage conflicts, portable gallery hashes, label export, metrics, and lazy SigLIP registration. The actual Transformers checkpoint has not been downloaded or timed on this local checkout; build and benchmark it on the target CUDA VM before making an accuracy or latency claim.
+The supplied three query images have no answers, so their runs cannot produce accuracy or F1. The local verification covers linkage conflicts, portable gallery hashes, label export, metrics, and lazy SigLIP registration. Reference latency was measured on the hardware recorded in the evidence bundle; local latency depends on the selected CUDA/MPS/CPU device and must be read from the current receipt before making a machine-specific claim.
 
 ## Current limits
 
@@ -224,6 +220,6 @@ The supplied three query images have no answers, so their runs cannot produce ac
 - The one-pass field mapping is not an independent test: it has one reviewer, no frozen
   bottle groups, and 41 confirmed photos whose products are absent from strict gallery.
 - The official test is not in the repository yet. Its package and prediction receipts
-  belong under ignored `work/acceptance/`; do not tune on it after disclosure.
+  belong under ignored `work/acceptance-<timestamp>/`; do not tune on it after disclosure.
 - Shared or byte-identical media conflicts remain quarantined until a human or the source Strapi relation resolves them.
 - OCR reranking, automatic label detection, rejection calibration, and fine-tuning remain experiments described in [CV_PLAN.md](docs/CV_PLAN.md); they should be added only when the frozen SigLIP benchmark shows where they help.

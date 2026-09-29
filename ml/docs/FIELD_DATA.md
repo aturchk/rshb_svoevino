@@ -229,7 +229,7 @@ query and label files contain exactly the same IDs, as required by the benchmark
 runner.
 
 Because exported image paths remain relative to the repository root, use
-`--images-dir .` when benchmarking them. For example, on the GPU VM:
+`--images-dir .` when benchmarking them. For example, on the local ML runtime:
 
 ```bash
 .venv/bin/wine-cv benchmark \

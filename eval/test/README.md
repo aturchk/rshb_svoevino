@@ -13,9 +13,9 @@ eval/test/
 командой из корня:
 
 ```bash
-make acceptance-run
+make october-test
 ```
 
-Результаты и receipts записываются в игнорируемый `work/acceptance/`. Если
+Результаты и receipts записываются в игнорируемый `work/acceptance-<timestamp>/`. Если
 организатор выдаст другой путь или endpoint, используйте параметры из
 [`eval/README.md`](../README.md).

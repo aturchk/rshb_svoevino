@@ -27,9 +27,22 @@ docs/       презентационные и проектные материа�
 work/       локальные модели, кэши и отчёты; не коммитится
 ```
 
-## Локальный запуск
+## Полный локальный запуск
 
-Самый короткий путь для проверки приложения без GPU:
+Нужны Python 3.10+, `curl` и Node из `frontend/.nvmrc`. Первый запуск сам создаёт
+Python environment, устанавливает зависимости, готовит gallery, локальный SigLIP
+index и production build frontend:
+
+```bash
+make local
+```
+
+После готовности откройте `http://127.0.0.1:3000`. ML работает локально на
+`http://127.0.0.1:8080`; устройство выбирается автоматически: CUDA, Apple MPS или
+CPU. Артефакты остаются в ignored `work/`. Если adapter отсутствует на чистой машине,
+он один раз обучается локально. Принудительная повторная подготовка: `make local-setup`.
+
+Для быстрой проверки только интерфейса без ML:
 
 ```bash
 make install
@@ -85,7 +98,9 @@ python3 -m venv .venv
 .venv/bin/wine-cv prepare-strict --data-root .
 ```
 
-На CUDA-хосте установите совместимый PyTorch и затем `./ml[siglip,api]`. Полная команда сервиса приведена в [ML README](ml/README.md#5-serve-the-organizer-endpoint).
+Для полного SigLIP-контура используйте `make local-setup`; он ставит
+`./ml[siglip,orb,api,test]`, выбирает доступный accelerator и создаёт совместимый
+локальный embedding-cache. Подробности приведены в [ML README](ml/README.md#5-serve-the-organizer-endpoint).
 
 ## Production deployment
 
@@ -95,8 +110,8 @@ Runtime разделён на два контейнера: наружу публ
 
    ```bash
    .venv/bin/python ml/scripts/build_release.py \
-     --adapter work/runpod-results/work/models/siglip2-field-adapter.safetensors \
-     --cache-dir work/runpod-results/work/siglip-cache \
+     --adapter work/models/siglip2-field-adapter.safetensors \
+     --cache-dir work/siglip-cache \
      --model-dir /path/to/huggingface-cache-root \
      --release-id siglip2-20260928 --output work/release
    ```
@@ -123,16 +138,16 @@ make release-check
 ## Acceptance test 1 октября
 
 Положите выданные файлы без переименования в `eval/test/images/`, а manifest — в
-`eval/test/queries.tsv`. Затем на уже зафиксированной модели выполните:
+`eval/test/queries.tsv`. Полный стек поднимется, проверит package, выполнит запросы
+через Nuxt и сохранит evidence одной локальной командой:
 
 ```bash
-make acceptance-preflight
-make acceptance-run
+make october-test
 ```
 
-Второй target проверяет входные SHA-256, записывает `/v1/metadata`, последовательно
+Команда проверяет входные SHA-256, записывает `/api/v1/metadata`, последовательно
 вызывает organizer endpoint и валидирует итоговый JSONL. Evidence сохраняется в
-игнорируемом `work/acceptance/`. Без answer labels этот прогон подтверждает только
+игнорируемом `work/acceptance-<timestamp>/`. Без answer labels этот прогон подтверждает только
 целостность, контракт и latency — не accuracy. Полный протокол: [`eval/README.md`](eval/README.md).
 
 ## Stop-code
@@ -145,8 +160,10 @@ make acceptance-run
 4. Зафиксировать commit SHA, release ID, model metadata и hash test package.
 5. Публиковать field accuracy только при наличии официальных answer labels/score.
 
-Пошаговый RunPod и publication runbook: [`docs/STOP_CODE.md`](docs/STOP_CODE.md).
+Пошаговый локальный publication runbook: [`docs/STOP_CODE.md`](docs/STOP_CODE.md).
 
 ## Security
 
-Секреты не хранятся в репозитории. RunPod API key, ранее попавший в notebook/чат, удалён из рабочей копии и должен быть отозван и перевыпущен в RunPod.
+Секреты и приватный test package не хранятся в репозитории. Для локального запуска
+API-ключи не требуются: базовая модель публичная, а после `make local-setup` сервис
+работает с локальным model cache в offline-режиме.

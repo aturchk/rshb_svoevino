@@ -1,10 +1,9 @@
-# RunPod SigLIP 2 training receipt — 28 September 2026
+# SigLIP 2 reference training receipt — 28 September 2026
 
 ## Outcome
 
-The strict 928-SKU gallery was trained and benchmarked on a RunPod Secure Cloud
-`NVIDIA RTX PRO 4500 Blackwell` Pod using the official
-`runpod/pytorch:1.0.2-cu1281-torch280-ubuntu2404` image. The backbone was
+The strict 928-SKU gallery was trained and benchmarked on an
+`NVIDIA RTX PRO 4500 Blackwell` with a pinned CUDA 12.8 / PyTorch 2.8 runtime. The backbone was
 `google/siglip2-base-patch16-384` at revision
 `f775b65a79762255128c981547af89addcfe0f88`, with PyTorch 2.8.0+cu128,
 Transformers 5.17.0, BF16 inference, and SDPA attention.
@@ -36,24 +35,24 @@ adapter-SigLIP; `siglip2-orb` stays as a configurable ablation.
 
 ## Local artifacts
 
-Downloaded results are under `work/runpod-results/work/`:
+Archived results are under ignored `work/training-results/work/`:
 
 - `models/siglip2-field-adapter.safetensors` and its JSON training receipt;
 - `siglip-cache/` with adapter-bound gallery vectors and metadata;
 - `proxy-siglip-summary.json` and `proxy-siglip-orb-summary.json`;
 - complete prediction JSONL files;
-- `runpod-receipt.json` with runtime versions and artifact SHA-256 values;
-- `logs/runpod-train.log`.
+- `training-receipt.json` with runtime versions and artifact SHA-256 values;
+- `logs/model-training.log`.
 
-The complete download archive is `work/runpod-results/rshb-results-20260928.tar.gz`
+The complete local archive is `work/training-results/rshb-results-20260928.tar.gz`
 with SHA-256
 `967b43b85906c92717fae78e2d0244979f0a0d1c8edfc9b44ac17d1d5e96aae4`.
 
-## Infrastructure cleanup
+## Runtime portability
 
-The training Pod and its 50 GB network volume were terminated after the verified
-download. The temporary RunPod SSH-key registration was restored to the account's
-initial empty state. No Pod, volume, or registered SSH key from this run remains.
+The rank-64 adapter is device-portable. Embedding caches are intentionally rebuilt on
+each target machine because their identity includes device precision and library
+versions. `make local-setup` performs that rebuild for CUDA, Apple MPS, or CPU.
 
 ## Remaining acceptance gate
 

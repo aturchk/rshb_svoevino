@@ -10,7 +10,7 @@ Snapshot: **29 сентября 2026**. Этот каталог — компак
 - Adapter-SigLIP показал **94,07% Top-1, 99,89% Recall@5 и p95 84,89 мс** на отдельном synthetic JPEG proxy из 928 запросов.
 - ORB поднял Top-1 только до 94,18% (+0,108 п.п.), но увеличил p95 до 133,50 мс (+48,61 мс).
 - Это **не точность на фото из магазинов**. Ручной pool просмотрен, но официального test ещё нет; field Top-1, OOD/rejection и production thresholds не измерены.
-- RunPod runtime закреплён: model revision, BF16, CUDA/PyTorch/Transformers, gallery/cache/adapter hashes. 11/11 сохранённых SHA-256 были проверены локально.
+- Reference GPU runtime закреплён: model revision, BF16, CUDA/PyTorch/Transformers, gallery/cache/adapter hashes. 11/11 сохранённых SHA-256 были проверены локально; production launch теперь полностью host-local.
 
 ## Что можно честно говорить на слайде
 

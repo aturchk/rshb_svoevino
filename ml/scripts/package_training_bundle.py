@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create a minimal, hash-preserving RunPod training bundle without source rewrites."""
+"""Create a minimal, hash-preserving local training bundle without source rewrites."""
 
 from __future__ import annotations
 
@@ -21,7 +21,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, default=Path("."))
     parser.add_argument("--gallery", type=Path, default=Path("work/gallery-strict.jsonl"))
-    parser.add_argument("--output", type=Path, default=Path("work/runpod-bundle.tar.gz"))
+    parser.add_argument("--output", type=Path, default=Path("work/training-bundle.tar.gz"))
     args = parser.parse_args()
     root = args.root.resolve()
     gallery_path = (root / args.gallery).resolve()
@@ -29,7 +29,7 @@ def main() -> None:
         root / "ml/pyproject.toml", root / "ml/README.md",
         root / "ml/docs/ARCHITECTURE.md", root / "ml/docs/CV_PLAN.md",
         root / "ml/docs/FIELD_DATA.md", root / "ml/docs/TASK_CONTEXT.md",
-        root / "ml/docs/RUNPOD_RESULTS.md",
+        root / "ml/docs/TRAINING_RESULTS.md",
         gallery_path, root / "work/catalog-strict-report.json",
         root / "dataset/strapi_output0709.csv",
     }

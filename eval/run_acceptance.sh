@@ -7,8 +7,8 @@ set -euo pipefail
 
 images_dir="${TEST_IMAGES_DIR:-eval/test/images}"
 manifest="${TEST_MANIFEST:-eval/test/queries.tsv}"
-endpoint="${TEST_ENDPOINT:-http://127.0.0.1:8080/v1/eval/predict}"
-metadata_url="${TEST_METADATA_URL:-http://127.0.0.1:8080/v1/metadata}"
+endpoint="${TEST_ENDPOINT:-http://127.0.0.1:3000/api/v1/eval/predict}"
+metadata_url="${TEST_METADATA_URL:-http://127.0.0.1:3000/api/v1/metadata}"
 output_dir="${TEST_OUTPUT_DIR:-work/acceptance}"
 wine_cv="${WINE_CV:-.venv/bin/wine-cv}"
 

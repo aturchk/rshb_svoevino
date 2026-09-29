@@ -41,7 +41,7 @@
         {"pipeline": "Adapter-SigLIP + ORB", "top1": 0.94181, "recall5": 1.0, "recall20": 1.0, "p50Ms": 89.98, "p95Ms": 133.5, "default": false}
       ],
       "source": {
-        "label": "RunPod synthetic JPEG proxy benchmark",
+        "label": "Reference GPU synthetic JPEG proxy benchmark",
         "files": ["docs/presentation/ml-status/evidence/proxy-siglip-summary.json", "docs/presentation/ml-status/evidence/proxy-siglip-orb-summary.json"],
         "metricDefinitions": [
           {"field": "top1", "label": "Top-1 accuracy", "definition": "Exact-slug Top-1 accuracy on 928 deterministic synthetic JPEG transforms of the same strict catalog references; not real-photo accuracy.", "componentIds": ["proxy-comparison", "executive-summary"]},

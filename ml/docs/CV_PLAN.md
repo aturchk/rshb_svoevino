@@ -1,6 +1,6 @@
 # GPU plan for accurate and fast wine-label retrieval
 
-Status: frozen SigLIP 2 retrieval, low-rank adapter training, and optional ORB reranking were executed on RunPod on 28 September 2026. Measured numbers are synthetic proxy-regression results only, not real-photo accuracy. See [RUNPOD_RESULTS.md](RUNPOD_RESULTS.md). The task requirements and data audit are in [TASK_CONTEXT.md](TASK_CONTEXT.md).
+Status: frozen SigLIP 2 retrieval, low-rank adapter training, and optional ORB reranking were executed on reference GPU hardware on 28 September 2026. Measured numbers are synthetic proxy-regression results only, not real-photo accuracy. See [TRAINING_RESULTS.md](TRAINING_RESULTS.md). The task requirements and data audit are in [TASK_CONTEXT.md](TASK_CONTEXT.md).
 
 ## 1. Start from a trusted catalog and a real evaluation set
 
@@ -71,7 +71,7 @@ Use a CUDA-enabled VM with enough VRAM for the chosen encoder plus OCR/reranker;
 
 Use `torch.inference_mode()` and test FP16/BF16 inference with [PyTorch AMP guidance](https://docs.pytorch.org/tutorials/recipes/recipes/amp_recipe.html). Compare every lower-precision ranking against FP32 on hard pairs. Synchronize CUDA when measuring stage time. If profiling shows encoder inference dominates, evaluate fixed-shape export or TensorRT; follow [NVIDIA's optimization guidance](https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/optimization.html) and validate accuracy after conversion. If OCR dominates, reduce how often it runs before optimizing the vector index. Keep the organizer's flat `{"slug":"..."}` endpoint and reuse its script for end-to-end timing on the VM.
 
-The goal from the brief is Top-1 accuracy near 90–100% and response time under 3 seconds. The RunPod proxy run met the latency target with p95 84.9 ms for adapter-SigLIP and 133.5 ms with ORB, but **official test accuracy remains unmeasured**. Freeze the candidate before opening the sealed test package and preserve an accuracy guardrail for every later speed optimization.
+The goal from the brief is Top-1 accuracy near 90–100% and response time under 3 seconds. The reference GPU proxy run met the latency target with p95 84.9 ms for adapter-SigLIP and 133.5 ms with ORB, but **official test accuracy remains unmeasured**. Freeze the candidate before opening the sealed test package and preserve an accuracy guardrail for every later speed optimization.
 
 ## 7. Ordered experiment gates
 

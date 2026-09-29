@@ -2,7 +2,7 @@
 
 ## Требования
 
-- Запустите свой сервис распознавания.
+- Запустите полный локальный сервис командой `make local`.
 - Убедитесь, что установлены `bash`, `curl`, `jq` и `awk`.
 - Контрольные изображения должны находиться в папке `queries/` и быть перечислены в `queries.tsv`.
 
@@ -22,7 +22,7 @@ chmod +x participant_test.sh
 ./participant_test.sh \
   --images-dir ./queries \
   --manifest ./queries.tsv \
-  --endpoint 'http://127.0.0.1:8080/v1/eval/predict' \
+  --endpoint 'http://127.0.0.1:3000/api/v1/eval/predict' \
   --output ./predictions.jsonl
 ```
 
@@ -34,11 +34,11 @@ chmod +x participant_test.sh
 `eval/queries/` — только fixtures для проверки транспорта, у них нет answer labels.
 
 Когда организатор выдаст test, положите его без переименования в `eval/test/` по
-схеме из [`eval/test/README.md`](test/README.md). На уже замороженной модели:
+схеме из [`eval/test/README.md`](test/README.md). Остановите обычный `make local`,
+затем выполните весь локальный acceptance одной командой:
 
 ```bash
-make acceptance-preflight
-make acceptance-run
+make october-test
 ```
 
 Или с явными путями:
@@ -47,8 +47,8 @@ make acceptance-run
 eval/run_acceptance.sh \
   --images-dir /path/to/test/images \
   --manifest /path/to/test/queries.tsv \
-  --endpoint http://127.0.0.1:8080/v1/eval/predict \
-  --metadata-url http://127.0.0.1:8080/v1/metadata \
+  --endpoint http://127.0.0.1:3000/api/v1/eval/predict \
+  --metadata-url http://127.0.0.1:3000/api/v1/metadata \
   --output-dir work/acceptance-20261001
 ```
 

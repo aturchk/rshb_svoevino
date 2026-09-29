@@ -45,7 +45,7 @@
     "official_test_expected": "2026-10-01"
   },
   "integrity": {
-    "runpod_artifact_hashes_verified": "11/11",
+    "training_artifact_hashes_verified": "11/11",
     "result_archive_sha256": "967b43b85906c92717fae78e2d0244979f0a0d1c8edfc9b44ac17d1d5e96aae4",
     "gallery_file_sha256": "b7da3ae1bb504f1970926dbfa1ab29f1438363bd3be1b657567adb1552e6786d",
     "adapter_sha256": "9d5269a869e10618af51f837d2674542a7ced49309d010a2961008a7e4a32506"

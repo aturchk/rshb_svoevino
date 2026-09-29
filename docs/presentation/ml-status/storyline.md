@@ -20,7 +20,7 @@ Strict gallery покрывает 44,13% каталога. Мы исключил
 
 ## 4. Что уже доказано
 
-Pinned model revision, deterministic seeds, offline cache, hash-validated artifacts и один и тот же контракт для benchmark и API. RunPod: RTX PRO 4500 Blackwell, BF16, PyTorch 2.8.0+cu128, CUDA 12.8, Transformers 5.17.0. Все 928 proxy-запросов уложились в 3 секунды.
+Pinned model revision, deterministic seeds, offline cache, hash-validated artifacts и один и тот же контракт для benchmark и API. Reference runtime: RTX PRO 4500 Blackwell, BF16, PyTorch 2.8.0+cu128, CUDA 12.8, Transformers 5.17.0. Все 928 proxy-запросов уложились в 3 секунды; запуск приложения и acceptance выполняются локально.
 
 **Визуал:** `README-assets/training-curve.svg`.
 

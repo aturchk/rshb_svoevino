@@ -14,6 +14,7 @@ from .field_data import (export_field_eval, make_catalog_lookup, make_field_temp
                          validate_field_manifest)
 from .eval_data import validate_eval_package, validate_eval_predictions
 from .pipelines import PIPELINE_NAMES, make_pipeline
+from .views import QUERY_VIEW_MODES, REFERENCE_VIEW_MODES
 
 
 def add_siglip_arguments(parser: argparse.ArgumentParser, cache_policy: str) -> None:
@@ -33,6 +34,10 @@ def add_siglip_arguments(parser: argparse.ArgumentParser, cache_policy: str) -> 
                         help="Forbid model/config downloads and use the local HF cache only")
     parser.add_argument("--adapter-path", type=Path,
                         help="Optional trained low-rank SigLIP adapter (.safetensors)")
+    parser.add_argument("--reference-view-mode", choices=REFERENCE_VIEW_MODES,
+                        default="full", help="Index full bottles and optional label crops")
+    parser.add_argument("--query-view-mode", choices=QUERY_VIEW_MODES,
+                        default="full", help="Search full field photo and optional center crop")
     parser.add_argument("--candidate-k", type=int, default=50,
                         help="SigLIP candidates retained by the ORB reranker")
     parser.add_argument("--orb-weight", type=float, default=0.35)
@@ -54,6 +59,8 @@ def pipeline_options(args) -> dict:
         "attn_implementation": args.attn_implementation,
         "offline": args.offline,
         "adapter_path": args.adapter_path,
+        "reference_view_mode": args.reference_view_mode,
+        "query_view_mode": args.query_view_mode,
     }
     if args.pipeline == "siglip2-orb":
         options.update({"candidate_k": args.candidate_k, "orb_weight": args.orb_weight,

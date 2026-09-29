@@ -35,6 +35,7 @@ USER_AGENT = "wine-cv-dataset/1.0 (public wine catalog snapshot)"
 MAX_HTML_BYTES = 3_000_000
 MAX_IMAGE_BYTES = 20_000_000
 NORMALIZATION_VERSION = "exif-alpha-crop-pad-white-webp0-v2"
+REVIEW_FIELDS = {"slug", "source_image_sha256", "decision", "reason"}
 SITE_NS = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
 IMAGE_NS = "{http://www.google.com/schemas/sitemap-image/1.1}"
 
@@ -304,9 +305,38 @@ def _write_jsonl(path: Path, rows: list[dict]) -> None:
     _write_bytes_atomic(path, data.encode("utf-8"))
 
 
+def read_site_reference_review(path: Path | None) -> dict[str, dict[str, str]]:
+    """Load image-specific decisions; invalid review data must never widen the gallery."""
+    if path is None:
+        return {}
+    with path.open(encoding="utf-8-sig", newline="") as file:
+        reader = csv.DictReader(file, delimiter="\t")
+        missing = REVIEW_FIELDS - set(reader.fieldnames or [])
+        if missing:
+            raise ValueError(f"Site reference review is missing columns: {sorted(missing)}")
+        decisions = {}
+        for line, row in enumerate(reader, start=2):
+            slug = (row.get("slug") or "").strip()
+            digest = (row.get("source_image_sha256") or "").strip()
+            decision = (row.get("decision") or "").strip()
+            reason = (row.get("reason") or "").strip()
+            if not SLUG_RE.fullmatch(slug) or slug in decisions:
+                raise ValueError(f"Invalid or duplicated review slug on line {line}: {slug!r}")
+            if not re.fullmatch(r"[0-9a-f]{64}", digest):
+                raise ValueError(f"Invalid source image SHA-256 on review line {line}")
+            if decision not in {"allow", "quarantine"} or not reason:
+                raise ValueError(f"Invalid decision or missing reason on review line {line}")
+            decisions[slug] = {
+                "source_image_sha256": digest, "decision": decision, "reason": reason,
+            }
+    return decisions
+
+
 def build_outputs(output: Path, entries: list[dict], legacy_csv: Path | None,
-                  legacy_gallery: Path | None, failures: dict) -> dict:
+                  legacy_gallery: Path | None, failures: dict,
+                  review_manifest: Path | None = Path("data/site_reference_review.tsv")) -> dict:
     legacy = _legacy_rows(legacy_csv) if legacy_csv else {}
+    review = read_site_reference_review(review_manifest)
     by_slug = {entry["slug"]: entry for entry in entries}
     items = []
     for entry in entries:
@@ -342,11 +372,24 @@ def build_outputs(output: Path, entries: list[dict], legacy_csv: Path | None,
                              if len(slugs) > 1}
     semantic_collisions = {" | ".join(key): sorted(slugs) for key, slugs in name_groups.items()
                            if len(slugs) > 1}
-    blocked = set().union(*(set(slugs) for slugs in (
-        list(collisions.values()) + list(normalized_collisions.values()) +
-        list(semantic_collisions.values()))))
-    blocked.update(page_image_mismatch)
+    hard_blocked = set(page_image_mismatch)
+    hard_blocked.update(slug for group in (collisions, normalized_collisions)
+                        for slugs in group.values() for slug in slugs)
+    semantic_blocked = {slug for slugs in semantic_collisions.values() for slug in slugs}
+    stale_review = set()
+    review_quarantine = set()
+    for slug, decision in review.items():
+        item = by_slug.get(slug)
+        if item is None:
+            continue
+        images = item.get("downloaded_images") or []
+        if not images or images[0]["sha256"] != decision["source_image_sha256"]:
+            stale_review.add(slug)
+        elif decision["decision"] == "quarantine":
+            review_quarantine.add(slug)
+    blocked = hard_blocked | semantic_blocked | stale_review | review_quarantine
     gallery = []
+    site_references = {}
     try:
         output_relative = output.resolve().relative_to(Path.cwd().resolve())
     except ValueError:
@@ -354,7 +397,7 @@ def build_outputs(output: Path, entries: list[dict], legacy_csv: Path | None,
     if output_relative is not None:
         for item in items:
             images = item.get("downloaded_images") or []
-            if not images or item["slug"] in blocked:
+            if not images:
                 continue
             image = images[0]
             view = image.get("normalized") or image
@@ -364,14 +407,19 @@ def build_outputs(output: Path, entries: list[dict], legacy_csv: Path | None,
             flags = []
             if min(effective_width, effective_height) < 128:
                 flags.append("small_bottle_pixels")
-            gallery.append({
+            reference = {
                 "reference_id": f"vino-svoe:{item['slug']}", "slug": item["slug"],
                 "image_path": (output_relative / view["path"]).as_posix(),
                 "image_sha256": view["sha256"], "view": "site_normalized" if image.get("normalized") else "site_raw",
                 "review_status": "site_linked_unreviewed", "source_page_url": item["page_url"],
-                "source_image_url": image["url"], "source_image_sha256": image["sha256"],
+                "source_image_url": image["url"],
+                "source_image_path": (output_relative / image["path"]).as_posix(),
+                "source_image_sha256": image["sha256"],
                 "site_lastmod": item["site_lastmod"], "quality_flags": flags,
-            })
+            }
+            site_references[item["slug"]] = reference
+            if item["slug"] not in blocked:
+                gallery.append(reference)
         _write_jsonl(output / "gallery-site-candidates.jsonl", gallery)
     combined_gallery = list(gallery)
     legacy_fallback = []
@@ -391,6 +439,18 @@ def build_outputs(output: Path, entries: list[dict], legacy_csv: Path | None,
         combined_gallery.extend(legacy_fallback)
     if output_relative is not None:
         _write_jsonl(output / "gallery-merged-candidates.jsonl", combined_gallery)
+    reviewed_added = []
+    if output_relative is not None:
+        for slug in sorted(review):
+            decision = review[slug]
+            if (decision["decision"] == "allow" and slug in semantic_blocked and
+                    slug not in hard_blocked and slug not in stale_review and
+                    slug in site_references):
+                reviewed_added.append({
+                    **site_references[slug], "review_status": "site_image_reviewed",
+                })
+        _write_jsonl(output / "gallery-reviewed-candidates.jsonl",
+                     combined_gallery + reviewed_added)
     statuses = Counter()
     for item in items:
         statuses["with_site_image"] += bool(item["sitemap_images"])
@@ -407,6 +467,9 @@ def build_outputs(output: Path, entries: list[dict], legacy_csv: Path | None,
         if output_relative is not None else None,
         "gallery_merged_sha256": _sha256((output / "gallery-merged-candidates.jsonl").read_bytes())
         if output_relative is not None else None,
+        "gallery_reviewed_sha256": _sha256((output / "gallery-reviewed-candidates.jsonl").read_bytes())
+        if output_relative is not None else None,
+        "review_manifest_sha256": _sha256(review_manifest.read_bytes()) if review_manifest else None,
         "sitemap_items": len(entries), "complete_items": len(items),
         "failed_items": failures,
         "legacy_items": len(legacy), "legacy_slug_matches": statuses["with_legacy_slug"],
@@ -421,6 +484,12 @@ def build_outputs(output: Path, entries: list[dict], legacy_csv: Path | None,
         "gallery_candidate_count": len(gallery),
         "legacy_fallback_count": len(legacy_fallback),
         "merged_gallery_candidate_count": len(combined_gallery),
+        "review_decision_count": len(review),
+        "review_allow_count": sum(row["decision"] == "allow" for row in review.values()),
+        "review_quarantine_count": sum(row["decision"] == "quarantine" for row in review.values()),
+        "review_stale_slugs": sorted(stale_review),
+        "review_added_slugs": [row["slug"] for row in reviewed_added],
+        "reviewed_gallery_candidate_count": len(combined_gallery) + len(reviewed_added),
         "gallery_excluded_slugs": sorted(blocked),
         "complete": len(items) == len(entries) and not failures,
     }
@@ -430,7 +499,8 @@ def build_outputs(output: Path, entries: list[dict], legacy_csv: Path | None,
 
 def run(output: Path, *, workers: int, limit: int | None, download_images: bool,
         normalize: bool, legacy_csv: Path | None,
-        legacy_gallery: Path | None, refresh: bool = False) -> dict:
+        legacy_gallery: Path | None, refresh: bool = False,
+        review_manifest: Path | None = Path("data/site_reference_review.tsv")) -> dict:
     if not 1 <= workers <= 32:
         raise ValueError("workers must be between 1 and 32")
     sitemap = fetch(SITEMAP_URL)
@@ -456,7 +526,8 @@ def run(output: Path, *, workers: int, limit: int | None, download_images: bool,
                 completed += 1
                 if completed % 100 == 0 or completed == len(entries):
                     print(f"{completed}/{len(entries)} processed, {len(failures)} failed", flush=True)
-    report = build_outputs(output, entries, legacy_csv, legacy_gallery, failures)
+    report = build_outputs(output, entries, legacy_csv, legacy_gallery, failures,
+                           review_manifest=review_manifest)
     print(json.dumps({key: value for key, value in report.items() if not isinstance(value, (list, dict))},
                      ensure_ascii=False, indent=2), flush=True)
     return report
@@ -467,6 +538,7 @@ def main() -> None:
     parser.add_argument("--output", type=Path, default=Path("work/vino-svoe"))
     parser.add_argument("--legacy-csv", type=Path, default=Path("dataset/strapi_output0709.csv"))
     parser.add_argument("--legacy-gallery", type=Path, default=Path("work/gallery-strict.jsonl"))
+    parser.add_argument("--review-manifest", type=Path, default=Path("data/site_reference_review.tsv"))
     parser.add_argument("--workers", type=int, default=8)
     parser.add_argument("--limit", type=int, help="Smoke test on the first N sitemap entries")
     parser.add_argument("--no-images", action="store_true", help="Download attributes only")
@@ -478,7 +550,7 @@ def main() -> None:
                  download_images=not args.no_images, normalize=not args.no_normalize,
                  legacy_csv=args.legacy_csv,
                  legacy_gallery=None if args.limit else args.legacy_gallery,
-                 refresh=args.refresh)
+                 refresh=args.refresh, review_manifest=args.review_manifest)
     if not report["complete"]:
         raise SystemExit("Snapshot incomplete; rerun the same command to resume")
 

@@ -14,6 +14,8 @@ from pathlib import Path
 from PIL import Image, ImageOps
 
 from .pipelines import Candidate
+from .views import (QUERY_VIEW_MODES, REFERENCE_VIEW_MODES, VIEW_TRANSFORM_VERSION,
+                    query_views, reference_views)
 
 DEFAULT_MODEL_ID = "google/siglip2-base-patch16-384"
 CACHE_FORMAT_VERSION = 3
@@ -27,7 +29,8 @@ class Siglip2Pipeline:
                  device: str = "auto", precision: str = "auto", batch_size: int = 16,
                  cache_dir: Path = Path("work/siglip-cache"), cache_policy: str = "auto",
                  max_num_patches: int = 256, attn_implementation: str = "sdpa",
-                 offline: bool = False, adapter_path: Path | None = None):
+                 offline: bool = False, adapter_path: Path | None = None,
+                 reference_view_mode: str = "full", query_view_mode: str = "full"):
         if batch_size < 1:
             raise ValueError("batch_size must be positive")
         if precision not in {"auto", "float32", "float16", "bfloat16"}:
@@ -36,6 +39,10 @@ class Siglip2Pipeline:
             raise ValueError(f"Unsupported cache policy: {cache_policy}")
         if max_num_patches < 1:
             raise ValueError("max_num_patches must be positive")
+        if reference_view_mode not in REFERENCE_VIEW_MODES:
+            raise ValueError(f"Unsupported reference view mode: {reference_view_mode}")
+        if query_view_mode not in QUERY_VIEW_MODES:
+            raise ValueError(f"Unsupported query view mode: {query_view_mode}")
         self.model_id = model_id
         self.revision = revision
         self.device_requested = device
@@ -47,6 +54,10 @@ class Siglip2Pipeline:
         self.attn_implementation = attn_implementation
         self.offline = offline
         self.adapter_path = Path(adapter_path) if adapter_path else None
+        self.reference_view_mode = reference_view_mode
+        self.query_view_mode = query_view_mode
+        self._views_per_reference = {"full": 1, "full-label": 2,
+                                     "full-mid-label": 3}[reference_view_mode]
         self.slugs: list[str] = []
         self.embeddings = None
         self.cache_hit = False
@@ -221,6 +232,9 @@ class Siglip2Pipeline:
             "items": [{"slug": item["slug"], "image_sha256": self._image_digest(item)}
                       for item in gallery],
         }
+        if self.reference_view_mode != "full":
+            payload["reference_view_mode"] = self.reference_view_mode
+            payload["view_transform_version"] = VIEW_TRANSFORM_VERSION
         encoded = json.dumps(payload, ensure_ascii=False, sort_keys=True,
                              separators=(",", ":")).encode("utf-8")
         return hashlib.sha256(encoded).hexdigest()
@@ -264,7 +278,44 @@ class Siglip2Pipeline:
         return torch.cat(batches, dim=0)
 
     def _encode_paths(self, paths: list[Path], return_cpu: bool = True):
-        images = []
+        batches = []
+        for start in range(0, len(paths), self.batch_size):
+            chunk = paths[start:start + self.batch_size]
+            images = []
+            try:
+                for path in chunk:
+                    with Image.open(path) as source:
+                        image = ImageOps.exif_transpose(source).convert("RGB")
+                        image.load()
+                        if max(image.size) > DECODE_MAX_SIDE:
+                            image.thumbnail((DECODE_MAX_SIDE, DECODE_MAX_SIDE),
+                                            Image.Resampling.LANCZOS)
+                        images.append(image)
+                batches.append(self._encode_images(images, return_cpu=return_cpu))
+            except (OSError, ValueError) as error:
+                first = chunk[0] if chunk else "<empty>"
+                raise ValueError(
+                    f"Cannot preprocess SigLIP image batch beginning with {first}") from error
+            finally:
+                for image in images:
+                    image.close()
+        if not batches:
+            raise ValueError("Cannot encode an empty image path list")
+        return self._torch.cat(batches, dim=0)
+
+    def _encode_view_paths(self, paths: list[Path], *, reference: bool,
+                           return_cpu: bool = True):
+        """Encode derived views in small batches instead of retaining the gallery in RAM."""
+        pending: list[Image.Image] = []
+        batches = []
+
+        def flush() -> None:
+            if pending:
+                batches.append(self._encode_images(pending, return_cpu=return_cpu))
+                for view in pending:
+                    view.close()
+                pending.clear()
+
         try:
             for path in paths:
                 with Image.open(path) as source:
@@ -273,14 +324,21 @@ class Siglip2Pipeline:
                     if max(image.size) > DECODE_MAX_SIDE:
                         image.thumbnail((DECODE_MAX_SIDE, DECODE_MAX_SIDE),
                                         Image.Resampling.LANCZOS)
-                    images.append(image.copy())
-            return self._encode_images(images, return_cpu=return_cpu)
+                    views = (reference_views(image, self.reference_view_mode) if reference
+                             else query_views(image, self.query_view_mode))
+                    image.close()
+                for view in views:
+                    pending.append(view)
+                    if len(pending) >= self.batch_size:
+                        flush()
+            flush()
+            return self._torch.cat(batches, dim=0)
         except (OSError, ValueError) as error:
             first = paths[0] if paths else "<empty>"
             raise ValueError(f"Cannot preprocess SigLIP image batch beginning with {first}") from error
         finally:
-            for image in images:
-                image.close()
+            for view in pending:
+                view.close()
 
     def fit(self, gallery: list[dict]) -> None:
         if not gallery:
@@ -315,7 +373,7 @@ class Siglip2Pipeline:
                         metadata.get("slugs") == slugs):
                     candidate = self._load_file(str(tensor_path), device="cpu").get("embeddings")
                     if (candidate is not None and candidate.ndim == 2 and
-                            candidate.shape[0] == len(slugs)):
+                            candidate.shape[0] == len(slugs) * self._views_per_reference):
                         candidate = candidate.float()
                         dimension_ok = (self._expected_dimension is None or
                                         candidate.shape[1] == self._expected_dimension)
@@ -344,7 +402,9 @@ class Siglip2Pipeline:
             )
         if embeddings is None:
             encode_started = time.perf_counter()
-            embeddings = self._encode_paths([Path(item["image_path"]) for item in gallery])
+            paths = [Path(item["image_path"]) for item in gallery]
+            embeddings = (self._encode_paths(paths) if self.reference_view_mode == "full"
+                          else self._encode_view_paths(paths, reference=True))
             self._gallery_encode_ms = round((time.perf_counter() - encode_started) * 1000, 2)
             self.cache_hit = False
             if self.cache_policy != "off":
@@ -373,6 +433,10 @@ class Siglip2Pipeline:
                     "decode_max_side": DECODE_MAX_SIDE,
                     "adapter_path": str(self.adapter_path) if self.adapter_path else None,
                     "adapter_sha256": self._adapter_sha256,
+                    "reference_view_mode": self.reference_view_mode,
+                    "view_transform_version": (VIEW_TRANSFORM_VERSION
+                                               if self.reference_view_mode != "full" else None),
+                    "views_per_reference": self._views_per_reference,
                     "slugs": slugs,
                     "embedding_dimension": embeddings.shape[1],
                 }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -388,8 +452,13 @@ class Siglip2Pipeline:
         if top_k < 1:
             raise ValueError("top_k must be positive")
         with self._predict_lock:
-            query = self._encode_paths([image], return_cpu=False)
-            scores = (query @ self.embeddings.T).squeeze(0).cpu().tolist()
+            query = (self._encode_paths([image], return_cpu=False)
+                     if self.query_view_mode == "full" else
+                     self._encode_view_paths([image], reference=False, return_cpu=False))
+            similarities = query @ self.embeddings.T
+            scores = similarities.reshape(
+                query.shape[0], len(self.slugs), self._views_per_reference
+            ).amax(dim=(0, 2)).cpu().tolist()
         ranked = sorted(zip(self.slugs, scores), key=lambda pair: (-pair[1], pair[0]))
         return [Candidate(slug, float(score)) for slug, score in ranked[:top_k]]
 
@@ -413,6 +482,10 @@ class Siglip2Pipeline:
             "offline": self.offline,
             "adapter_path": str(self.adapter_path) if self.adapter_path else None,
             "adapter_sha256": self._adapter_sha256,
+            "reference_view_mode": self.reference_view_mode,
+            "query_view_mode": self.query_view_mode,
+            "view_transform_version": VIEW_TRANSFORM_VERSION,
+            "views_per_reference": self._views_per_reference,
             "cache_hit": self.cache_hit,
             "cache_path": str(self._cache_path) if self._cache_path else None,
             "embedding_dimension": int(self.embeddings.shape[1]) if self.embeddings is not None else None,

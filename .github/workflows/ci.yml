@@ -26,6 +26,9 @@ jobs:
           cache: pip
       - run: python -m pip install -e './ml[orb,api,test]'
       - run: python -m unittest discover -s ml/tests -v
+      - run: wine-cv prepare-strict --data-root .
+      - run: wine-cv validate-field --manifest data/field_mapping.tsv --data-root .
+      - run: wine-cv validate-eval-package --manifest eval/queries.tsv --images-dir eval/queries
 
   frontend:
     runs-on: ubuntu-latest
@@ -46,3 +49,4 @@ jobs:
         run: npm test
       - working-directory: frontend
         run: npm run build
+      - run: frontend/scripts/smoke-demo.sh

@@ -42,4 +42,4 @@ if [[ -n "${thresholds[0]}${thresholds[1]}${thresholds[2]}" ]]; then
   )
 fi
 
-exec wine-cv "${args[@]}"
+exec "${WINE_CV_BIN:-wine-cv}" "${args[@]}"

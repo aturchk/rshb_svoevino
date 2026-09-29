@@ -11,10 +11,10 @@ Run every command below from the repository root.
 
 - [`data/field_mapping.tsv`](data/field_mapping.tsv) is the canonical UTF-8,
   tab-separated annotation file. It currently contains one row for each of the
-  100 images in `dataset/real_photo`. Stable query IDs, relative image paths,
-  SHA-256 hashes, `source_kind=field`, `split=pool`, and
-  `review_status=pending` have already been generated. Edit this file to add
-  manual labels; do not replace the generated IDs, paths, or hashes.
+  100 images in `dataset/real_photo`. Stable query IDs, relative image paths and
+  SHA-256 hashes are preserved. All rows have one-pass manual decisions and
+  `review_status=single_reviewed`: 64 confirmed, 35 out of catalog and one
+  uncertain. They remain in `split=pool`; do not present them as the final test.
 - [`data/catalog_lookup.tsv`](data/catalog_lookup.tsv) is the read-only lookup
   sheet for manual matching. It contains all 2,103 distinct catalog slugs plus
   the wine name, winery, category, region, grape, gallery state, and reference
@@ -25,7 +25,7 @@ Run every command below from the repository root.
   available in this checkout.
 
 `make-field-template` created both TSV files. Do not rerun it with `--force`
-after annotation has started because that replaces `data/field_mapping.tsv`.
+because that replaces the reviewed `data/field_mapping.tsv`.
 If new source photos must be inventoried, first save the annotated file under a
 different name, then run:
 
@@ -250,3 +250,7 @@ Because exported image paths remain relative to the repository root, use
 Use the same gallery, model revision, preprocessing, and hardware settings when
 comparing runs. Tune on `dev`; run `test` only after the configuration is
 frozen.
+
+The official test expected on 1 October is a separate sealed package governed by
+[`eval/README.md`](../../eval/README.md). Do not copy it into this development
+manifest or relabel it after inspecting predictions.

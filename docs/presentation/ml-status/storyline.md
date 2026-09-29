@@ -32,6 +32,9 @@ Adapter-SigLIP: 94,07% Top-1, p95 84,89 мс. С ORB: 94,18%, p95 133,50 мс. �
 
 ## 6. Следующий честный acceptance gate
 
-100 real photos нужно разметить по exact SKU, заморозить bottle-grouped dev/test split и измерить Top-1, Recall@5, latency и rejection. После этого фиксируются threshold version и решение по ORB. Параллельно нужен trusted reference plan для 1 175 SKU вне индекса.
+100 real photos уже просмотрены: 64 exact-SKU, 35 вне каталога, 1 uncertain. Но это
+single-reviewed development pool, а 41 подтверждённое фото относится к SKU вне strict
+gallery. Модель фиксируется до официального test 1 октября; acceptance runner сохраняет
+входные hashes, model metadata, predictions и latency receipt без подглядывания в ответы.
 
-**Финальная фраза:** модель и deployment-путь готовы к проверке; production-accuracy будет фактом только после field benchmark.
+**Финальная фраза:** модель и deployment-путь готовы к проверке; production-accuracy будет фактом только после официального frozen test.

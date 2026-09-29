@@ -35,7 +35,8 @@ writeFileSync(join(out, 'latency-vs-quality.svg'), `<svg xmlns="http://www.w3.or
 const gates = [
   ['Reproducible runtime', 'READY', '#34d399'],
   ['GPU latency proxy', 'READY', '#34d399'],
-  ['100 real-photo labels', 'PENDING', '#f59e0b'],
+  ['100 real-photo one-pass decisions', 'READY', '#34d399'],
+  ['Official test · 1 October', 'PENDING', '#f59e0b'],
   ['Field accuracy + thresholds', 'BLOCKED', '#ef4444'],
   ['Full 2,103 SKU coverage', 'BLOCKED', '#ef4444'],
 ]

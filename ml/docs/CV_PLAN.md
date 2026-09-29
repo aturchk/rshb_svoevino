@@ -8,9 +8,21 @@ Status: frozen SigLIP 2 retrieval, low-rank adapter training, and optional ORB r
 
 For the first model comparisons, use only this 928-item strict gallery. Keep every excluded row in the report so it cannot silently enter evaluation. Manually inspect all retained links when practical, or at minimum a stratified sample plus every transliterated link; filename agreement is strong technical linkage but does not prove visual label correctness. If the original Strapi media relation or additional uploads become available later, regenerate the gallery as a new version and rerun every benchmark.
 
-The 100 photos in `dataset/real_photo` and three photos in `eval/queries/` are readable, but they have no trustworthy `slug` answer file. The generated `data/field_mapping.tsv` preserves IDs, relative paths, and SHA-256 hashes; `data/catalog_lookup.tsv` lists every allowed catalog slug and whether it is indexed. Set `label_status=confirmed` only when the exact product and year can be established, and retain the real slug even if its derived gallery state is `not_indexed`. Use `not_in_catalog`, `uncertain`, or `exclude` explicitly; never manufacture an `unknown` slug or substitute the closest product. Have two reviewers adjudicate confusing test labels. Record blur, glare, perspective, partial occlusion, label visibility, and visible year/text when practical. The full contract is in [FIELD_DATA.md](FIELD_DATA.md).
+The 100 photos in `dataset/real_photo` now have one-pass manual decisions in
+`data/field_mapping.tsv`: 64 confirmed exact-SKU, 35 `not_in_catalog`, and one
+`uncertain`. Only 23 confirmed photos target SKU present in strict gallery; 41 expose
+missing reference coverage. The rows remain a single-reviewed pool, not a final test.
+The three photos in `eval/queries/` still have no answers and are transport fixtures only.
+The official test is expected separately on 1 October 2026. The full annotation contract
+is in [FIELD_DATA.md](FIELD_DATA.md).
 
-Freeze a held-out real-photo test set before tuning. Group burst photos, crops, and shots of the same physical bottle together so they cannot cross training and test boundaries. Use the remaining queries for development and targeted error analysis. One hundred field photos are a useful start but too small to support a stable claim of 90–100% performance across conditions; expand the labeled set, especially sibling vintages and absent products, as new photos become available. The three unlabeled organizer queries can check API behavior and latency only.
+Keep the manually reviewed 100-photo pool for development and targeted error analysis;
+do not retroactively call it a held-out test. Group burst photos, crops and shots of the
+same physical bottle before any future training/dev split. Freeze the model before the
+separate official test is opened on 1 October. One hundred field photos remain too small
+for a stable 90–100% performance claim across conditions; expand coverage with confusing
+sibling vintages and absent products after the competition. The three unlabeled organizer
+fixtures can check API behavior and latency only.
 
 ## 2. Measurement contract
 
@@ -59,7 +71,7 @@ Use a CUDA-enabled VM with enough VRAM for the chosen encoder plus OCR/reranker;
 
 Use `torch.inference_mode()` and test FP16/BF16 inference with [PyTorch AMP guidance](https://docs.pytorch.org/tutorials/recipes/recipes/amp_recipe.html). Compare every lower-precision ranking against FP32 on hard pairs. Synchronize CUDA when measuring stage time. If profiling shows encoder inference dominates, evaluate fixed-shape export or TensorRT; follow [NVIDIA's optimization guidance](https://docs.nvidia.com/deeplearning/tensorrt/latest/performance/optimization.html) and validate accuracy after conversion. If OCR dominates, reduce how often it runs before optimizing the vector index. Keep the organizer's flat `{"slug":"..."}` endpoint and reuse its script for end-to-end timing on the VM.
 
-The goal from the brief is Top-1 accuracy near 90–100% and response time under 3 seconds. The RunPod proxy run met the latency target with p95 84.9 ms for adapter-SigLIP and 133.5 ms with ORB, but **field-photo accuracy remains unmeasured**. Preserve an accuracy guardrail for every speed optimization after the real development split exists.
+The goal from the brief is Top-1 accuracy near 90–100% and response time under 3 seconds. The RunPod proxy run met the latency target with p95 84.9 ms for adapter-SigLIP and 133.5 ms with ORB, but **official test accuracy remains unmeasured**. Freeze the candidate before opening the sealed test package and preserve an accuracy guardrail for every later speed optimization.
 
 ## 7. Ordered experiment gates
 

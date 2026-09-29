@@ -9,12 +9,12 @@ Snapshot: **29 сентября 2026**. Этот каталог — компак
 - Production candidate: pinned SigLIP 2 + rank-64 adapter + exact cosine retrieval. ORB по умолчанию выключен.
 - Adapter-SigLIP показал **94,07% Top-1, 99,89% Recall@5 и p95 84,89 мс** на отдельном synthetic JPEG proxy из 928 запросов.
 - ORB поднял Top-1 только до 94,18% (+0,108 п.п.), но увеличил p95 до 133,50 мс (+48,61 мс).
-- Это **не точность на фото из магазинов**. Все 100 real-photo записей пока `unlabeled`; field Top-1, OOD/rejection и production thresholds ещё не измерены.
+- Это **не точность на фото из магазинов**. Ручной pool просмотрен, но официального test ещё нет; field Top-1, OOD/rejection и production thresholds не измерены.
 - RunPod runtime закреплён: model revision, BF16, CUDA/PyTorch/Transformers, gallery/cache/adapter hashes. 11/11 сохранённых SHA-256 были проверены локально.
 
 ## Что можно честно говорить на слайде
 
-> Воспроизводимый SigLIP 2 pipeline достиг 94,1% Top-1 на synthetic regression proxy при p95 84,9 мс. Продовый default выбран без ORB. Следующий acceptance gate — frozen benchmark на 100 размеченных полевых фото и расширение strict gallery с 928 до полного каталога.
+> Воспроизводимый SigLIP 2 pipeline достиг 94,1% Top-1 на synthetic regression proxy при p95 84,9 мс. Продовый default выбран без ORB. 100 полевых фото просмотрены вручную; официальный frozen acceptance test ожидается 1 октября.
 
 Нельзя говорить: «точность на фото из магазинов — 94,1%» или «распознаём весь каталог».
 
@@ -34,4 +34,7 @@ Snapshot: **29 сентября 2026**. Этот каталог — компак
 
 ## Release decision
 
-Инженерная часть готова к интеграции и staged deployment. Заявление о production-quality блокируют два data gate: reviewed labels для 100 реальных фото и trusted references для 1 175 SKU вне strict gallery.
+Инженерная часть и acceptance runner готовы. Заявление о production-quality блокируют
+официальный закрытый test и trusted references для 1 175 SKU вне strict gallery. В
+ручном pool: 64 exact-SKU, 35 отсутствующих в каталоге и 1 uncertain; лишь 23 из 64
+подтверждений доступны текущему индексу.

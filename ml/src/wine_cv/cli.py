@@ -12,6 +12,7 @@ from .catalog import (STRICT_MIN_PIXELS, STRICT_MIN_SHORT_SIDE, build_gallery,
                       build_strict_gallery, read_gallery, write_jsonl)
 from .field_data import (export_field_eval, make_catalog_lookup, make_field_template,
                          validate_field_manifest)
+from .eval_data import validate_eval_package, validate_eval_predictions
 from .pipelines import PIPELINE_NAMES, make_pipeline
 
 
@@ -170,6 +171,21 @@ def main() -> None:
     export_field.add_argument("--gallery", type=Path, default=Path("work/gallery-strict.jsonl"))
     export_field.add_argument("--split", choices=["dev", "test"], required=True)
     export_field.add_argument("--output-dir", type=Path, default=Path("work/field-eval"))
+
+    validate_eval = commands.add_parser(
+        "validate-eval-package", help="Validate a sealed organizer query package")
+    validate_eval.add_argument("--manifest", type=Path, required=True)
+    validate_eval.add_argument("--images-dir", type=Path, required=True)
+    validate_eval.add_argument("--report", type=Path)
+
+    validate_predictions = commands.add_parser(
+        "validate-eval-predictions", help="Validate organizer-compatible prediction JSONL")
+    validate_predictions.add_argument("--manifest", type=Path, required=True)
+    validate_predictions.add_argument("--images-dir", type=Path, required=True)
+    validate_predictions.add_argument("--predictions", type=Path, required=True)
+    validate_predictions.add_argument("--catalog-csv", type=Path,
+                                      default=Path("dataset/strapi_output0709.csv"))
+    validate_predictions.add_argument("--report", type=Path)
     args = parser.parse_args()
 
     if args.command in {"prepare", "prepare-strict"}:
@@ -275,7 +291,22 @@ def main() -> None:
         print(rendered, end="")
         if not report["valid"]:
             raise SystemExit(1)
-    else:
+    elif args.command == "export-field-eval":
         receipt = export_field_eval(args.manifest, args.data_root, args.catalog_csv,
                                     args.gallery, args.split, args.output_dir)
         print(json.dumps(receipt, ensure_ascii=False, indent=2))
+    elif args.command == "validate-eval-package":
+        result = validate_eval_package(args.manifest, args.images_dir)
+        if args.report:
+            args.report.parent.mkdir(parents=True, exist_ok=True)
+            args.report.write_text(
+                json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print(json.dumps(result, ensure_ascii=False, indent=2))
+    else:
+        result = validate_eval_predictions(
+            args.manifest, args.images_dir, args.predictions, args.catalog_csv)
+        if args.report:
+            args.report.parent.mkdir(parents=True, exist_ok=True)
+            args.report.write_text(
+                json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print(json.dumps(result, ensure_ascii=False, indent=2))

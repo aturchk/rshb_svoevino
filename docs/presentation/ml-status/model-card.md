@@ -28,11 +28,14 @@ RTX PRO 4500 Blackwell; BF16; SDPA; PyTorch 2.8.0+cu128; CUDA 12.8; Transformers
 ## Known limitations
 
 - Strict gallery covers 928/2 103 SKU (44.13%).
-- 100 real photos are not yet labeled; field accuracy and rejection quality are unknown.
+- The 100 real photos have one-pass manual decisions (64 confirmed, 35 out of catalog,
+  one uncertain), but they are a single-reviewed development pool, not an official test.
+- Only 23 confirmed photos target SKU represented in the strict gallery; 41 confirmed
+  photos expose reference-coverage gaps.
 - Cosine similarity is not a probability.
 - `matched` and `not_found` must remain uncalibrated until reviewed in/out-of-catalog field examples exist.
 - Near-identical vintages/labels are deliberately quarantined where the catalog-to-image relation is ambiguous.
 
 ## Release policy
 
-Every release pins the model revision, adapter hash, gallery file hash, reference-image hashes, runtime versions and threshold version. One process owns one GPU; the browser reaches ML only through the Nuxt server proxy.
+Every release pins the model revision, adapter hash, gallery file hash, reference-image hashes, runtime versions and threshold version. One process owns one GPU; the browser reaches ML only through the Nuxt server proxy. The candidate must remain frozen after the official 1 October test package is opened.

@@ -4,8 +4,8 @@ This package turns the supplied catalog and media export into a reviewable refer
 
 The completed RunPod training receipt and proxy benchmark are summarized in
 [RUNPOD_RESULTS.md](docs/RUNPOD_RESULTS.md). These measurements are synthetic regression
-signals; the 100 `real_photo` files still need reviewed exact-product labels before any
-field-quality claim.
+signals. The 100 `real_photo` files now have one-pass manual decisions, but they remain
+a development pool; the official test is expected on 1 October 2026.
 
 ## Current data snapshot
 
@@ -48,14 +48,18 @@ This writes portable `work/gallery-strict.jsonl` and the full decision log `work
 
 Use `wine-cv prepare` only when the broader 1,014-row linkage gallery is needed for audit or coverage analysis. Review the strict report before treating the 928 retained links as semantically correct. Filename agreement proves a deterministic technical link; it does not replace a visual check or the original Strapi media relation.
 
-## 2. Complete the manual field mapping
+## 2. Review the manual field mapping
 
 The repository already contains:
 
 - `data/field_mapping.tsv`: one row for each of the 100 original field photos, with stable IDs, paths, and hashes.
 - `data/catalog_lookup.tsv`: all 2,103 catalog slugs and identifying fields, plus `indexed` or `not_indexed` gallery state.
 
-Edit the blank annotation fields in `data/field_mapping.tsv`. The minimum decisions are the physical bottle group, split, label state, exact slug when confirmed, and review state. A confirmed wine may be in the full catalog but absent from the working gallery; keep its real slug and let validation mark it `not_indexed`. Use `not_in_catalog` or `uncertain` explicitly and never substitute a similar slug.
+The current mapping contains 64 exact-SKU confirmations, 35 `not_in_catalog`
+decisions, and one `uncertain` row. All 100 rows are `single_reviewed` and remain in
+`split=pool`: they are not a frozen final test. Of the 64 confirmations, 23 photos are
+retrievable by the current strict gallery and 41 expose the catalog-coverage gap.
+Keep real slugs for `not_indexed` products; never substitute a similar indexed slug.
 
 Validate the sheet:
 
@@ -94,7 +98,7 @@ The content-addressed cache consists of one `.safetensors` file and one JSON met
 
 ## 4. Benchmark SigLIP on reviewed photos
 
-After exporting the development split:
+After a reviewed bottle-grouped development split has been frozen and exported:
 
 ```bash
 .venv/bin/wine-cv benchmark \
@@ -120,7 +124,8 @@ Run these experiments in order on the frozen development set:
 4. Full image versus an automatically produced label crop.
 5. OCR and local-feature reranking only for the strongest frozen retriever.
 
-Do not choose a model from the three unlabeled organizer queries. They are useful only for endpoint and latency checks.
+Do not choose a model from the three unlabeled organizer fixtures. They are useful only
+for endpoint and transport checks. Do not tune after opening the official 1 October test.
 
 ### Train the conservative catalog adapter
 
@@ -188,13 +193,14 @@ Therefore the current production-candidate default is `siglip2` plus the adapter
 In another terminal:
 
 ```bash
-./eval/participant_test.sh \
-  --images-dir ./eval/queries --manifest ./eval/queries.tsv \
-  --endpoint http://127.0.0.1:8080/v1/eval/predict \
-  --output ./work/participant-predictions.jsonl
+make acceptance-run
 ```
 
-The endpoint accepts multipart field `image` and returns `{"slug":"..."}`. The organizer contract always requires one slug; a later consumer flow may abstain only after its threshold is calibrated on separately labeled out-of-catalog examples.
+The wrapper validates the sealed query package, records `/v1/metadata`, calls the
+endpoint sequentially, and validates the resulting JSONL. The endpoint accepts multipart
+field `image` and returns `{"slug":"..."}`. The organizer contract always requires one
+slug; a later consumer flow may abstain only after its threshold is calibrated on
+separately labeled out-of-catalog examples. See [`eval/README.md`](../eval/README.md).
 
 ## CPU controls and verification
 
@@ -207,7 +213,7 @@ The same harness supports cheap controls:
 .venv/bin/wine-cv benchmark --pipeline orb \
   --output work/orb-predictions.jsonl --summary work/orb-summary.json
 
-.venv/bin/python -m unittest discover -s tests -v
+.venv/bin/python -m unittest discover -s ml/tests -v
 ```
 
 The supplied three query images have no answers, so their runs cannot produce accuracy or F1. The local verification covers linkage conflicts, portable gallery hashes, label export, metrics, and lazy SigLIP registration. The actual Transformers checkpoint has not been downloaded or timed on this local checkout; build and benchmark it on the target CUDA VM before making an accuracy or latency claim.
@@ -215,6 +221,9 @@ The supplied three query images have no answers, so their runs cannot produce ac
 ## Current limits
 
 - The strict working gallery covers 928 of 2,103 catalog slugs. A model cannot retrieve a missing or quarantined reference.
-- The 100 field photos still need manual exact-product labels. Numeric filename fragments are not ground truth.
+- The one-pass field mapping is not an independent test: it has one reviewer, no frozen
+  bottle groups, and 41 confirmed photos whose products are absent from strict gallery.
+- The official test is not in the repository yet. Its package and prediction receipts
+  belong under ignored `work/acceptance/`; do not tune on it after disclosure.
 - Shared or byte-identical media conflicts remain quarantined until a human or the source Strapi relation resolves them.
 - OCR reranking, automatic label detection, rejection calibration, and fine-tuning remain experiments described in [CV_PLAN.md](docs/CV_PLAN.md); they should be added only when the frozen SigLIP benchmark shows where they help.

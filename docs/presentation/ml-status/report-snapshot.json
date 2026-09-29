@@ -85,14 +85,14 @@
     },
     "field": {
       "label": "Real-photo labeling readiness",
-      "rows": [{"photos": 100, "labeled": 0, "pool": 100, "validationErrors": 0, "validationWarnings": 0}],
+      "rows": [{"photos": 100, "singleReviewed": 100, "confirmed": 64, "notInCatalog": 35, "uncertain": 1, "confirmedIndexed": 23, "confirmedNotIndexed": 41, "pool": 100, "validationErrors": 0}],
       "source": {
         "label": "Field mapping validation",
         "files": ["docs/presentation/ml-status/evidence/field-validation.json"],
         "metricDefinitions": [
-          {"field": "labeled", "label": "Reviewed labels", "definition": "Rows with an exact reviewed product label. Zero at the snapshot cutoff.", "componentIds": ["readiness-gates", "executive-summary"]}
+          {"field": "confirmed", "label": "Exact-SKU decisions", "definition": "Single-reviewed exact catalog mappings in the development pool; not official test labels.", "componentIds": ["readiness-gates", "executive-summary"]}
         ],
-        "evidenceFlow": [{"title": "Acceptance gate", "detail": "All 100 images have stable IDs and SHA-256 values, but remain unlabeled in the pool split. No field-quality or rejection metric is available yet."}]
+        "evidenceFlow": [{"title": "Acceptance gate", "detail": "All 100 images have stable IDs, SHA-256 values and one-pass decisions. They remain a single-reviewed pool. The official test is expected 1 October; no field-quality metric is available yet."}]
       }
     }
   }

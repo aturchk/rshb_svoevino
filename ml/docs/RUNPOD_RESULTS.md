@@ -57,8 +57,10 @@ initial empty state. No Pod, volume, or registered SSH key from this run remains
 
 ## Remaining acceptance gate
 
-Populate and review `data/field_mapping.tsv`, freeze bottle-grouped dev/test splits, and
-rerun both pipelines on exported `real_photo` labels. Only that result can choose the
-final reranker weights, calibrate any rejection threshold, and support a field-quality
-claim. OCR and automatic label cropping should remain disabled until the same real split
-shows a measurable gain.
+The one-pass `real_photo` mapping is complete (64 confirmed, 35 out of catalog, one
+uncertain), but only 23 confirmed photos are represented in strict gallery and the pool
+has one reviewer. It is development evidence, not the official test. Keep the published
+adapter-SigLIP configuration frozen until the sealed test arrives on 1 October 2026, run
+it through `eval/run_acceptance.sh`, and publish field-quality claims only from an
+official answer set or organizer score. OCR, crop logic and ORB weights must not be tuned
+after the test is opened.

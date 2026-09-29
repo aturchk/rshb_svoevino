@@ -1,6 +1,6 @@
 {
   "as_of": "2026-09-29",
-  "decision": "adapter_siglip_default_orb_disabled_pending_field_eval",
+  "decision": "adapter_siglip_frozen_orb_disabled_pending_official_test",
   "catalog": {
     "source_rows": 4147,
     "exact_duplicate_rows": 2044,
@@ -32,10 +32,17 @@
   },
   "field_evaluation": {
     "photos": 100,
-    "labeled": 0,
+    "single_reviewed": 100,
+    "confirmed": 64,
+    "not_in_catalog": 35,
+    "uncertain": 1,
+    "confirmed_indexed_photos": 23,
+    "confirmed_not_indexed_photos": 41,
+    "unique_confirmed_skus": 45,
     "split": "pool",
     "accuracy_available": false,
-    "thresholds_calibrated": false
+    "thresholds_calibrated": false,
+    "official_test_expected": "2026-10-01"
   },
   "integrity": {
     "runpod_artifact_hashes_verified": "11/11",

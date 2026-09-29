@@ -9,6 +9,18 @@ a development pool; the official test is expected on 1 October 2026.
 
 ## Current data snapshot
 
+The public site can now be captured separately with:
+
+```bash
+PYTHONPATH=ml/src .venv/bin/python -m wine_cv.site_dataset --workers 8
+```
+
+This produces a resumable catalog, full-size site photos, normalized reference
+views, an exact-slug join to the CSV below, and an experimental gallery in
+`work/vino-svoe/`. See [SITE_DATASET.md](docs/SITE_DATASET.md) for the data
+contract and field-photo adaptation plan. The existing strict gallery remains
+the current benchmark baseline until the site gallery is reviewed and measured.
+
 `dataset/strapi_output0709.csv` has 4,147 rows but only 2,103 distinct slugs; 2,044 rows are exact duplicates. The three upload folders contain 3,483 supported images. The deterministic linker finds 1,038 filename matches before conflict checks: 941 after separator and Strapi-hash normalization, plus 97 after exact Russian-to-Latin transliteration. It then quarantines every cross-slug asset or byte-identical image conflict.
 
 The resulting trusted gallery contains **1,014 slugs**: 917 ordinary normalized-name links and 97 transliterated links. Another 1,039 catalog rows have no matching upload, 26 are ambiguous, and 24 linked rows are quarantined because they participate in four shared asset IDs or 12 byte-identical content groups. Some conflict groups overlap, so those group counts must not be added. Six weaker slug-filename candidates remain in the review report and are not indexed.

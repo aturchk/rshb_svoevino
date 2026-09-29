@@ -1,0 +1,84 @@
+services:
+  ml:
+    build:
+      context: .
+      dockerfile: ml/docker/Dockerfile.api
+    environment:
+      ML_GALLERY_PATH: ${ML_GALLERY_PATH:-/opt/svoe/release/gallery-strict.jsonl}
+      ML_DATA_ROOT: ${ML_DATA_ROOT:-/opt/svoe/release}
+      ML_ADAPTER_PATH: ${ML_ADAPTER_PATH:-/opt/svoe/release/siglip2-field-adapter.safetensors}
+      ML_CACHE_DIR: ${ML_CACHE_DIR:-/opt/svoe/release/siglip-cache}
+      ML_MODEL_ID: ${ML_MODEL_ID:-google/siglip2-base-patch16-384}
+      ML_MODEL_REVISION: ${ML_MODEL_REVISION:-f775b65a79762255128c981547af89addcfe0f88}
+      ML_PIPELINE: ${ML_PIPELINE:-siglip2}
+      ML_DEVICE: ${ML_DEVICE:-cuda}
+      ML_PRECISION: ${ML_PRECISION:-bfloat16}
+      ML_BATCH_SIZE: ${ML_BATCH_SIZE:-32}
+      ML_OFFLINE: ${ML_OFFLINE:-true}
+      ML_MAX_UPLOAD_MB: ${ML_MAX_UPLOAD_MB:-12}
+      ML_TOP_K: ${ML_TOP_K:-5}
+      ML_NOT_FOUND_SCORE_THRESHOLD: ${ML_NOT_FOUND_SCORE_THRESHOLD:-}
+      ML_MATCHED_SCORE_THRESHOLD: ${ML_MATCHED_SCORE_THRESHOLD:-}
+      ML_MATCHED_MARGIN_THRESHOLD: ${ML_MATCHED_MARGIN_THRESHOLD:-}
+      ML_THRESHOLD_VERSION: ${ML_THRESHOLD_VERSION:-}
+    volumes:
+      - ${ML_RELEASE_DIR:-./work/release}:/opt/svoe/release:ro
+    read_only: true
+    tmpfs:
+      - /tmp:size=256m,mode=1777
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/health/ready', timeout=2)"]
+      interval: 10s
+      timeout: 3s
+      retries: 12
+      start_period: 90s
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    environment:
+      NUXT_ML_BASE_URL: ${NUXT_ML_BASE_URL:-http://ml:8080}
+      NUXT_ML_TIMEOUT_MS: ${NUXT_ML_TIMEOUT_MS:-2800}
+      NUXT_PUBLIC_DEMO_SCAN: ${NUXT_PUBLIC_DEMO_SCAN:-false}
+      NUXT_PUBLIC_MOCK_SCAN_HISTORY: ${NUXT_PUBLIC_MOCK_SCAN_HISTORY:-false}
+    ports:
+      - "3000:3000"
+    depends_on:
+      ml:
+        condition: service_healthy
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/api/health').then(r=>{if(!r.ok)process.exit(1)})"]
+      interval: 10s
+      timeout: 3s
+      retries: 6
+
+  trainer:
+    profiles: [training]
+    build:
+      context: .
+      dockerfile: ml/docker/Dockerfile.train
+    volumes:
+      - ./dataset:/workspace/rshb_svoevino/dataset:ro
+      - ./data:/workspace/rshb_svoevino/data:ro
+      - ./eval:/workspace/rshb_svoevino/eval:ro
+      - ./work:/workspace/rshb_svoevino/work
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]

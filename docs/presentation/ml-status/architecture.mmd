@@ -1,0 +1,15 @@
+flowchart LR
+    A[Mobile field photo] --> B[Nuxt server proxy]
+    B --> C[EXIF-safe RGB + SigLIP processor]
+    C --> D[SigLIP 2 vision tower\npinned revision]
+    D --> E[Rank-64 residual adapter]
+    E --> F[768-d L2 embedding]
+    G[928 hash-verified references] --> H[Offline gallery embedding cache]
+    H --> I[Exact cosine Top-K]
+    F --> I
+    I --> J{ORB feature flag}
+    J -->|off: production default| K[Top-5 raw scores]
+    J -->|on: field ablation only| L[Top-50 ORB RRF]
+    L --> K
+    K --> M[Card enrichment + UI]
+    K --> N[Organizer Top-1 endpoint]

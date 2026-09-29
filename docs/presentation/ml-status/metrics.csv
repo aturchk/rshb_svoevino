@@ -1,0 +1,6 @@
+stage,evidence_type,top1_accuracy,recall_at_5,recall_at_20,p50_ms,p95_ms,decision
+Frozen SigLIP features,training synthetic proxy,0.900862,0.985991,,,,baseline
+Best adapter epoch,training synthetic proxy,0.950431,1.000000,,,,selected epoch 14
+Adapter-SigLIP,separate JPEG synthetic proxy,0.940733,0.998922,1.000000,53.99,84.89,production candidate
+Adapter-SigLIP + ORB,separate JPEG synthetic proxy,0.941810,1.000000,1.000000,89.98,133.50,disabled pending field gain
+Real field photos,reviewed field benchmark,,,,,,pending labels

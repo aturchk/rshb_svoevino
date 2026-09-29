@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "svoe-vino-cv"
+version = "0.1.0"
+description = "Reproducible image-retrieval experiments for the Svoe Vino catalog"
+requires-python = ">=3.10"
+dependencies = ["Pillow>=10,<12"]
+
+[project.optional-dependencies]
+orb = ["opencv-python-headless>=4.8,<5", "numpy>=1.26,<3"]
+api = ["fastapi>=0.110,<1", "uvicorn>=0.27,<1", "python-multipart>=0.0.9,<1"]
+test = ["httpx>=0.27,<1"]
+siglip = [
+  "numpy>=1.26,<3",
+  "safetensors>=0.4,<1",
+  "torch>=2.5,<3",
+  "torchvision>=0.20,<1",
+  "transformers==5.17.0",
+]
+
+[project.scripts]
+wine-cv = "wine_cv.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

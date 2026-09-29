@@ -1,0 +1,99 @@
+{
+  "id": "svoe-vino-ml-status-20260929",
+  "title": "SigLIP 2 готов к field-проверке — production quality решит разметка",
+  "surface": "report",
+  "status": "reviewed-snapshot",
+  "buildStatus": "complete",
+  "generatedAt": "2026-09-29T13:00:00Z",
+  "filters": [],
+  "report": {
+    "asOf": "2026-09-29",
+    "originalQuestion": "Каков текущий статус ML-решения и что можно честно показать в презентации?"
+  },
+  "queries": {
+    "catalog": {
+      "label": "Catalog audit and strict gallery",
+      "rows": [
+        {"stage": "Source CSV", "count": 4147, "shareOfCatalog": null},
+        {"stage": "Exact duplicate rows", "count": 2044, "shareOfCatalog": null},
+        {"stage": "Unique SKU", "count": 2103, "shareOfCatalog": 1.0},
+        {"stage": "Linked SKU", "count": 1014, "shareOfCatalog": 0.482168},
+        {"stage": "Strict searchable SKU", "count": 928, "shareOfCatalog": 0.441274},
+        {"stage": "Not indexed", "count": 1175, "shareOfCatalog": 0.558726}
+      ],
+      "source": {
+        "label": "Strict catalog audit",
+        "files": ["docs/presentation/ml-status/evidence/catalog-strict-report.json"],
+        "metricDefinitions": [
+          {"field": "count", "label": "SKU / rows", "definition": "Exact count at the named audit stage. Source rows and duplicate rows are CSV row counts; other stages are unique catalog slugs.", "componentIds": ["catalog-coverage", "executive-summary"]},
+          {"field": "shareOfCatalog", "label": "Share of unique catalog", "definition": "count divided by 2,103 unique catalog slugs; null when the row grain is source CSV rows.", "componentIds": ["catalog-coverage"]}
+        ],
+        "evidenceFlow": [
+          {"title": "Deterministic audit", "detail": "The catalog builder deduplicates exact rows, normalizes names for linkage, verifies content hashes, and quarantines ambiguous/shared assets without rewriting source images."},
+          {"title": "Strict policy", "detail": "The model index excludes semantic name+winery collisions and genuinely low-resolution references. Strict coverage is 928 of 2,103 SKU."}
+        ]
+      }
+    },
+    "proxy": {
+      "label": "Synthetic proxy quality and latency",
+      "rows": [
+        {"pipeline": "Adapter-SigLIP", "top1": 0.940733, "recall5": 0.998922, "recall20": 1.0, "p50Ms": 53.99, "p95Ms": 84.89, "default": true},
+        {"pipeline": "Adapter-SigLIP + ORB", "top1": 0.94181, "recall5": 1.0, "recall20": 1.0, "p50Ms": 89.98, "p95Ms": 133.5, "default": false}
+      ],
+      "source": {
+        "label": "RunPod synthetic JPEG proxy benchmark",
+        "files": ["docs/presentation/ml-status/evidence/proxy-siglip-summary.json", "docs/presentation/ml-status/evidence/proxy-siglip-orb-summary.json"],
+        "metricDefinitions": [
+          {"field": "top1", "label": "Top-1 accuracy", "definition": "Exact-slug Top-1 accuracy on 928 deterministic synthetic JPEG transforms of the same strict catalog references; not real-photo accuracy.", "componentIds": ["proxy-comparison", "executive-summary"]},
+          {"field": "p95Ms", "label": "p95 latency", "definition": "95th percentile single-query inference latency after three warmup iterations on RTX PRO 4500 Blackwell.", "componentIds": ["proxy-comparison", "executive-summary"]}
+        ],
+        "evidenceFlow": [
+          {"title": "Scope", "detail": "Synthetic regression proxy only. Query transformations reuse the strict gallery sources and are not independent field photographs."},
+          {"title": "Decision", "detail": "ORB improves Top-1 by 0.108 percentage points while adding 48.61 ms to p95, so it remains disabled pending field evidence."}
+        ]
+      }
+    },
+    "training": {
+      "label": "Adapter training curve",
+      "rows": [
+        {"epoch": 0, "top1": 0.900862, "recall5": 0.985991},
+        {"epoch": 1, "top1": 0.901940, "recall5": 0.989224},
+        {"epoch": 2, "top1": 0.909483, "recall5": 0.994612},
+        {"epoch": 3, "top1": 0.920259, "recall5": 0.994612},
+        {"epoch": 4, "top1": 0.922414, "recall5": 0.994612},
+        {"epoch": 5, "top1": 0.928879, "recall5": 0.995690},
+        {"epoch": 6, "top1": 0.926724, "recall5": 0.995690},
+        {"epoch": 7, "top1": 0.926724, "recall5": 0.997845},
+        {"epoch": 8, "top1": 0.934267, "recall5": 0.997845},
+        {"epoch": 9, "top1": 0.936422, "recall5": 0.997845},
+        {"epoch": 10, "top1": 0.940733, "recall5": 0.998922},
+        {"epoch": 11, "top1": 0.943966, "recall5": 0.998922},
+        {"epoch": 12, "top1": 0.947198, "recall5": 0.998922},
+        {"epoch": 13, "top1": 0.950431, "recall5": 1.0},
+        {"epoch": 14, "top1": 0.950431, "recall5": 1.0},
+        {"epoch": 15, "top1": 0.949353, "recall5": 1.0}
+      ],
+      "source": {
+        "label": "Frozen SigLIP 2 low-rank adapter run",
+        "files": ["docs/presentation/ml-status/evidence/adapter-training.json"],
+        "metricDefinitions": [
+          {"field": "epoch", "label": "Epoch", "definition": "Epoch zero is the frozen-feature baseline; epochs 1–15 are adapter validation snapshots.", "componentIds": ["training-curve"]},
+          {"field": "top1", "label": "Validation Top-1", "definition": "Top-1 exact-slug accuracy on one deterministic synthetic validation view per gallery item.", "componentIds": ["training-curve"]}
+        ],
+        "evidenceFlow": [{"title": "Training", "detail": "Frozen vision tower; rank-64 residual projection; 4 training views and 1 validation view per item; best checkpoint epoch 14; seed 20260928."}]
+      }
+    },
+    "field": {
+      "label": "Real-photo labeling readiness",
+      "rows": [{"photos": 100, "labeled": 0, "pool": 100, "validationErrors": 0, "validationWarnings": 0}],
+      "source": {
+        "label": "Field mapping validation",
+        "files": ["docs/presentation/ml-status/evidence/field-validation.json"],
+        "metricDefinitions": [
+          {"field": "labeled", "label": "Reviewed labels", "definition": "Rows with an exact reviewed product label. Zero at the snapshot cutoff.", "componentIds": ["readiness-gates", "executive-summary"]}
+        ],
+        "evidenceFlow": [{"title": "Acceptance gate", "detail": "All 100 images have stable IDs and SHA-256 values, but remain unlabeled in the pool split. No field-quality or rejection metric is available yet."}]
+      }
+    }
+  }
+}

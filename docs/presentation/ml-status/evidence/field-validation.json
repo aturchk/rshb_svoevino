@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "rows": 100,
+  "valid": true,
+  "errors": [],
+  "warnings": [],
+  "label_status_counts": {
+    "unlabeled": 100
+  },
+  "gallery_state_counts": {
+    "na": 100
+  },
+  "split_counts": {
+    "pool": 100
+  },
+  "catalog_slug_count": 2103,
+  "gallery_slug_count": 928
+}

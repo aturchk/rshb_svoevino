@@ -1,0 +1,22 @@
+ARG PYTORCH_IMAGE=pytorch/pytorch:2.8.0-cuda12.8-cudnn9-runtime
+FROM ${PYTORCH_IMAGE}
+
+ENV PYTHONUNBUFFERED=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    HF_HOME=/opt/svoe/release/huggingface \
+    TRANSFORMERS_OFFLINE=1
+
+WORKDIR /opt/svoe/app
+COPY ml/pyproject.toml ./pyproject.toml
+COPY ml/src ./src
+RUN python -m pip install --no-cache-dir '.[siglip,api]'
+
+COPY ml/scripts/serve.sh /usr/local/bin/svoe-ml-serve
+RUN chmod 0555 /usr/local/bin/svoe-ml-serve \
+    && useradd --create-home --uid 10001 appuser \
+    && mkdir -p /opt/svoe/release \
+    && chown -R appuser:appuser /opt/svoe
+
+USER appuser
+EXPOSE 8080
+ENTRYPOINT ["/usr/local/bin/svoe-ml-serve"]

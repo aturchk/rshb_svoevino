@@ -1,0 +1,120 @@
+/**
+ * Токены дизайн-системы «Своё Вино».
+ * Значения сняты с боевого CSS vino-svoe.ru (_nuxt/entry.css, WineItem.css),
+ * а не подобраны на глаз — поэтому модуль выглядит частью каталога платформы.
+ */
+:root {
+  /* Поверхности */
+  --color-bg: #fefdfa;
+  --color-surface: #ffffff;
+  --color-surface-soft: #f9f1f1;
+  --color-surface-cream: #fdf9ed;
+  --color-surface-gold: #f8ecc9;
+  --color-surface-sand: #efdbc6;
+
+  /* Текст. Вторичный и приглушённый на сайте — #857e79 и #9a948f, но на кремовом
+     фоне они дают 3.9:1 и 2.9:1 — ниже WCAG AA для мелкого текста. Затемнены в той же
+     тёплой гамме до 5.4:1 и 4.9:1; #aea9a5 оставлен только для декора и disabled. */
+  --color-text: #2c2a28;
+  --color-text-secondary: #6f6863;
+  --color-text-muted: #756e69;
+  --color-text-faint: #aea9a5;
+  --color-text-on-dark: #fff;
+
+  /* Бордовый акцент бренда. Hover у кнопок и чипов — #ab494f,
+     #bc6267 на сайте только у текстовых ссылок. */
+  --color-accent: #8f3d42;
+  --color-accent-hover: #ab494f;
+  --color-accent-active: #723135;
+  --color-accent-deep: #7b3528;
+  --color-link-hover: #bc6267;
+  /* Бледно-розовые подложки secondary-кнопок: покой, hover, нажатие */
+  --color-accent-tint: #f9f1f1;
+  --color-accent-tint-hover: #edd4d6;
+  --color-accent-tint-active: #e0b8ba;
+
+  /* Границы */
+  --color-border: #ebe9e9;
+  --color-border-strong: #d7d4d2;
+  --color-border-input: #c2bfbc;
+
+  /* Тёмная сцена камеры и затемнение под шторкой */
+  --color-stage: #1a1614;
+  --color-overlay: rgb(0 0 0 / 50%);
+
+  /* Типографика */
+  --font-display: 'Playfair Display Variable', Georgia, 'Times New Roman', serif;
+  --font-sans: system-ui, -apple-system, sans-serif;
+
+  /* Радиусы сайта: 32 — инфоблоки, шторка и «Похожие вина»; 24 — блок сканера
+     и фото в карточках; 16 — карточка каталога, кнопка L, чип; 12 — кнопка M. */
+  --radius-xl: 40px;
+  --radius-lg: 32px;
+  --radius-card: 24px;
+  --radius-md: 16px;
+  --radius-button: 12px;
+  --radius-sm: 8px;
+  --radius-pill: 999px;
+
+  /* Тени сайта */
+  --shadow-elevated:
+    0 36px 12px #02030603, 0 24px 8px #02030603, 0 6px 8px #02030608, 0 4px 6px #0203060a,
+    0 1px 3px #02030612;
+  --shadow-floating: 0 1px 2px #6c550f1a, 0 4px 4px #6c550f0d, 0 0 20px #6c550f1a;
+  --shadow-sheet: 0 -8px 32px rgb(44 42 40 / 14%);
+  --shadow-gold:
+    0 15px 6px #be9f4b03, 0 8px 6px #be9f4b0d, 0 4px 4px #be9f4b17, 0 1px 2px #be9f4b1a;
+
+  /* Сетка */
+  --container-max: 1440px;
+  --container-pad: 48px;
+
+  /* Отступы */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  /* Движение. Длительности сайта: .15 у ссылок, .2 на нажатие, .3 на цвета.
+     Анимируются только transform и opacity. */
+  --transition-fast: 0.15s ease-in-out;
+  --transition-base: 0.2s linear;
+  --transition-slow: 0.3s ease-in;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.3, 0.64, 1);
+  --press-scale: 0.98;
+  --press-scale-card: 0.975;
+
+  /* Высоты хрома: используются и в CSS, и в расчёте анимации сканера */
+  --header-h: 56px;
+  --tabbar-h: 60px;
+  /* Высота липкой кнопки «Сканировать ещё» в карточке вина */
+  --cta-h: 72px;
+
+  /* Геометрия бутылки: медиана h/w по 953 резолвящимся фото = 3.56 */
+  --bottle-ratio: 0.2809; /* 1 / 3.56 */
+}
+
+/* Брейкпоинты бренда: 575 / 767 / 1023 / 1199.
+   CSS-переменные в media-запросах не работают, поэтому значения пишутся числами,
+   а здесь остаётся единственный источник правды для чтения глазами. */
+@media (width <= 767px) {
+  :root {
+    --container-pad: 24px;
+  }
+}
+
+@media (width <= 574px) {
+  :root {
+    --container-pad: 16px;
+  }
+}
+
+@media (width >= 1023px) {
+  :root {
+    --header-h: 72px;
+  }
+}

@@ -158,40 +158,18 @@ export function useCameraStream() {
     }
   }
 
-  /**
-   * Кадр ровно в тех границах, что видит пользователь: видео показано с object-fit:
-   * cover, поэтому из кадра вырезается видимая область — что в рамке, то и уходит
-   * на распознавание, без лишнего фона по краям.
-   */
+  /** Полный кадр камеры: бутылка и её края не должны теряться при съёмке. */
   async function capture(quality = 0.9): Promise<Blob | null> {
     const element = video.value
     if (!element || status.value !== 'streaming' || !element.videoWidth) return null
     const sourceWidth = element.videoWidth
     const sourceHeight = element.videoHeight
-    const box = element.getBoundingClientRect()
-    const viewRatio = box.width / box.height
-    const sourceRatio = sourceWidth / sourceHeight
-    let cropWidth = sourceWidth
-    let cropHeight = sourceHeight
-    if (sourceRatio > viewRatio) cropWidth = Math.round(sourceHeight * viewRatio)
-    else cropHeight = Math.round(sourceWidth / viewRatio)
-
     const canvas = document.createElement('canvas')
-    canvas.width = cropWidth
-    canvas.height = cropHeight
+    canvas.width = sourceWidth
+    canvas.height = sourceHeight
     const context = canvas.getContext('2d')
     if (!context) return null
-    context.drawImage(
-      element,
-      (sourceWidth - cropWidth) / 2,
-      (sourceHeight - cropHeight) / 2,
-      cropWidth,
-      cropHeight,
-      0,
-      0,
-      cropWidth,
-      cropHeight,
-    )
+    context.drawImage(element, 0, 0, sourceWidth, sourceHeight)
     return new Promise((resolve) => canvas.toBlob(resolve, 'image/jpeg', quality))
   }
 

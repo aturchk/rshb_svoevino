@@ -1,6 +1,9 @@
+import { liteMetadata } from '../../utils/dhash-retrieval'
+
 /** Expose frozen ML identity through the same local frontend used for evaluation. */
 export default defineEventHandler(async (event) => {
   const config = useRuntimeConfig(event)
+  if (config.ml.fallback === 'dhash') return liteMetadata
   try {
     const response = await fetch(`${config.ml.baseUrl.replace(/\/$/, '')}/v1/metadata`, {
       signal: AbortSignal.timeout(Number(config.ml.timeoutMs)),

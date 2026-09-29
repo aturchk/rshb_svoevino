@@ -28,6 +28,8 @@ export default defineNuxtConfig({
     ml: {
       baseUrl: 'http://127.0.0.1:8080',
       timeoutMs: 2800,
+      /** Low-resource visual-hash fallback for hosts without the SigLIP service. */
+      fallback: '',
     },
     /**
      * Цифровой сомелье. По умолчанию отвечают правила (entities/pairing).
@@ -54,6 +56,8 @@ export default defineNuxtConfig({
        * NUXT_PUBLIC_DEMO_SCAN=true
        */
       demoScan: false,
+      /** Show the reduced-accuracy visual-hash mode on constrained hosts. */
+      liteScan: false,
     },
   },
 
@@ -73,7 +77,7 @@ export default defineNuxtConfig({
         {
           name: 'description',
           content:
-            'Сканер российских вин платформы «Своё Вино»: наведите камеру на этикетку и получите карточку вина.',
+            'Сканер российских вин платформы «Своё Вино»: наведите камеру на бутылку и получите карточку вина.',
         },
       ],
     },

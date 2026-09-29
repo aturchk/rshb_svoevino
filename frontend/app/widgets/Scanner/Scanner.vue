@@ -294,6 +294,9 @@ onBeforeUnmount(() => window.clearInterval(stepTimer))
       </div>
 
       <div class="topBar">
+        <span v-if="flags.liteScan" class="liteBadge" title="Упрощённый поиск по визуальному хэшу; точность на реальных фото не измерена">
+          Базовый поиск
+        </span>
         <div v-if="flags.demoScan" class="demo">
           <button
             type="button"
@@ -561,6 +564,19 @@ onBeforeUnmount(() => window.clearInterval(stepTimer))
 
 .demo {
   position: relative;
+}
+
+.liteBadge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 6px 12px;
+  border-radius: var(--radius-pill);
+  background-color: var(--color-surface-gold);
+  color: var(--color-accent);
+  font-size: 12px;
+  font-weight: 600;
+  box-shadow: var(--shadow-floating);
 }
 
 .demoBadge {

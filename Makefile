@@ -1,4 +1,4 @@
-.PHONY: check-node install demo local-setup local october-test test frontend-check \
+.PHONY: check-node install demo local-setup local gpu-release october-test test frontend-check \
 	prepare validate-data smoke-demo acceptance-preflight acceptance-run release-check \
 	check-secrets verify-production
 
@@ -18,6 +18,9 @@ local-setup:
 
 local:
 	ml/scripts/local_stack.sh
+
+gpu-release:
+	ml/scripts/build_gpu_release.sh
 
 october-test:
 	ml/scripts/october_test.sh

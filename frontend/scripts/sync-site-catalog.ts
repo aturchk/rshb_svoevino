@@ -12,9 +12,10 @@ import { SITE_CATALOG_PATH, siteImagePath, type SiteCatalogFile, type SiteWine }
  * projection and its hashed source images are committed, unlike work/.
  */
 const REPO_ROOT = resolve(PROJECT_ROOT, '..')
-const CATALOG_SNAPSHOT = resolve(REPO_ROOT, 'work/vino-svoe/catalog.jsonl')
-const REVIEWED_GALLERY = resolve(REPO_ROOT, 'work/vino-svoe/gallery-reviewed-candidates.jsonl')
-const RAW_DIR = resolve(REPO_ROOT, 'work/vino-svoe/images/raw')
+const SNAPSHOT_DIR = resolve(REPO_ROOT, 'dataset/vino-svoe')
+const CATALOG_SNAPSHOT = resolve(SNAPSHOT_DIR, 'catalog.jsonl')
+const REVIEWED_GALLERY = resolve(SNAPSHOT_DIR, 'gallery-reviewed-candidates.jsonl')
+const RAW_DIR = resolve(SNAPSHOT_DIR, 'images/raw')
 
 interface SourceWine {
   slug: string
@@ -72,7 +73,7 @@ for (const row of reviewedSiteOnly) {
   if (relative(RAW_DIR, sourceImage).startsWith('..')) {
     throw new Error(`Фото вне raw snapshot: ${row.slug}`)
   }
-  const image = source.downloaded_images.find((item) => resolve(REPO_ROOT, 'work/vino-svoe', item.path) === sourceImage)
+  const image = source.downloaded_images.find((item) => resolve(SNAPSHOT_DIR, item.path) === sourceImage)
   if (!image || image.sha256 !== row.source_image_sha256) {
     throw new Error(`Gallery/source связь фотографии не совпала: ${row.slug}`)
   }

@@ -1,8 +1,9 @@
 # Сканер вин «Своё Вино»
 
-Мобильное Nuxt-приложение и локальный SigLIP 2 сервис поиска вина по фотографии.
-Интерфейс сканера, захват бутылки целиком и резервный Railway-режим сохранены
-из актуального `main`. Задание: [`task/10. РСХБ.Цифра.pdf`](task/10.%20РСХБ.Цифра.pdf).
+Мобильное Nuxt-приложение и сервис поиска вина по фотографии на SigLIP 2.
+Полное описание системы, модели, данных, метрик и развёртывания — в
+[DOCUMENTATION.md](DOCUMENTATION.md). Задание:
+[`task/10. РСХБ.Цифра.pdf`](task/10.%20РСХБ.Цифра.pdf).
 
 ## Что входит в репозиторий
 
@@ -60,13 +61,11 @@ HTTPS; загрузка сохранённого снимка доступна �
 ## Production и облегчённый режим
 
 Основной вариант — Nuxt как внешний сервис и один ML-процесс на GPU во
-внутренней сети. Для автономного offline-релиза после построения индекса:
+внутренней сети. На NVIDIA-хосте индекс и offline-релиз собираются в том же
+ML-образе, что используется для инференса:
 
 ```bash
-.venv/bin/python ml/scripts/build_release.py \
-  --cache-dir work/siglip-cache \
-  --model-dir /path/to/huggingface-cache-root \
-  --release-id siglip2-site-20260929 --output work/release
+ml/scripts/build_gpu_release.sh
 cp .env.example .env
 docker compose up --build
 ```
@@ -97,6 +96,7 @@ production-сборку, HTTP smoke и секреты. Три фото в `eval/
 считать замороженными.
 
 - [Архитектура и компоненты](ARCHITECTURE.md)
+- [Полная документация для сдачи](DOCUMENTATION.md)
 - [Приложение и фичи](frontend/README.md)
 - [ML: модель, обучение и inference](ml/README.md)
 - [Карточка обученного адаптера](ml/models/README.md)

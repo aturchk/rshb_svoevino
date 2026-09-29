@@ -5,24 +5,29 @@ This document describes schema version 1 implemented in
 photos to exact catalog slugs, validate the mapping, and export reproducible
 development and test benchmarks.
 
+This is the annotation schema for the original CSV and historical strict
+gallery. Production retrieval uses the 1,936-SKU portable site gallery; its
+field-photo selection and measured results are documented in
+[FIELD_ACCURACY_REPORT.md](FIELD_ACCURACY_REPORT.md). The 100-photo mapping below
+remains an audit input, not an independent test.
+
 Run every command below from the repository root.
 
 ## Files already prepared
 
-- [`data/field_mapping.tsv`](data/field_mapping.tsv) is the canonical UTF-8,
+- [`data/field_mapping.tsv`](../../data/field_mapping.tsv) is the canonical UTF-8,
   tab-separated annotation file. It currently contains one row for each of the
   100 images in `dataset/real_photo`. Stable query IDs, relative image paths and
   SHA-256 hashes are preserved. All rows have one-pass manual decisions and
   `review_status=single_reviewed`: 64 confirmed, 35 out of catalog and one
   uncertain. They remain in `split=pool`; do not present them as the final test.
-- [`data/catalog_lookup.tsv`](data/catalog_lookup.tsv) is the read-only lookup
+- [`data/catalog_lookup.tsv`](../../data/catalog_lookup.tsv) is the read-only lookup
   sheet for manual matching. It contains all 2,103 distinct catalog slugs plus
   the wine name, winery, category, region, grape, gallery state, and reference
   image path when one is available.
-- `work/gallery-strict.jsonl` is the current model-facing retrieval gallery. It
-  contains 928 indexed slugs. The remaining 1,175 catalog slugs are marked
-  `not_indexed` in the lookup because no trusted unique reference image is
-  available in this checkout.
+- `work/gallery-strict.jsonl` is the historical 928-SKU gallery used by this
+  lookup and validator. Its `not_indexed` column does not describe production
+  coverage; the current model uses `dataset/vino-svoe/gallery-reviewed-candidates.jsonl`.
 
 `make-field-template` created both TSV files. Do not rerun it with `--force`
 because that replaces the reviewed `data/field_mapping.tsv`.
@@ -67,10 +72,10 @@ field-000002	dataset/real_photo/example-b.webp	<64 lowercase hex characters>	fie
 field-000003	dataset/real_photo/example-c.webp	<64 lowercase hex characters>	field		bottle-0003	pool	uncertain		pending		
 ```
 
-## Full catalog and current gallery are different
+## Original CSV lookup and strict gallery are different
 
-The manual answer describes the wine; gallery state describes whether the
-current model can retrieve it.
+The manual answer describes the wine; `gallery_state` in this legacy lookup
+describes only whether the strict-gallery experiment could retrieve it.
 
 - Use `confirmed` when the exact product exists anywhere in
   `catalog_lookup.tsv`. Fill `true_slug` even if that lookup row says
@@ -88,7 +93,7 @@ Validation derives gallery membership from `work/gallery-strict.jsonl`. A confir
 slug in the gallery counts as `indexed`. A confirmed catalog slug outside the
 gallery counts as `not_indexed`: this is valid and produces a warning, because
 the label is useful for coverage and future out-of-gallery work. It cannot be a
-fair closed-set retrieval query against the current gallery and is therefore
+fair closed-set retrieval query against that strict gallery and is therefore
 left out of benchmark exports.
 
 Do not encode an absent wine with a fake slug such as `unknown`. The current
@@ -122,7 +127,7 @@ separate threshold evaluation that is not part of `export-field-eval` yet.
    `pool` while work is unfinished, and `none` for retained rows that should
    not enter a split.
 6. Validate after each annotation batch. Resolve every error before exporting.
-   Review warnings about confirmed slugs outside the current gallery; those
+   Review warnings about confirmed slugs outside the strict gallery; those
    warnings do not invalidate a correct label.
 
 For `train`, `dev`, and `test`, the validator requires both a nonempty

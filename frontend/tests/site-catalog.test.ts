@@ -1,3 +1,4 @@
+import { createHash } from 'node:crypto'
 import { existsSync, readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 
@@ -12,9 +13,27 @@ const index = JSON.parse(
   readFileSync(resolve(import.meta.dirname, '../public/data/wines.index.json'), 'utf8'),
 ) as WineIndexFile
 const manifest = JSON.parse(readFileSync(IMG_MANIFEST, 'utf8')) as ImagesManifest
-const site = loadSiteCatalog().wines
+const siteCatalog = loadSiteCatalog()
+const site = siteCatalog.wines
+
+function sha256(data: Buffer): string {
+  return createHash('sha256').update(data).digest('hex')
+}
 
 describe('site-only reviewed SKU в каталоге Nuxt', () => {
+  it('совпадает с версионированным снимком и покрывает всю ML-галерею', () => {
+    const snapshot = resolve(import.meta.dirname, '../../dataset/vino-svoe')
+    const catalog = readFileSync(resolve(snapshot, 'catalog.jsonl'))
+    const gallery = readFileSync(resolve(snapshot, 'gallery-reviewed-candidates.jsonl'))
+    expect(siteCatalog.sourceCatalogSha256).toBe(sha256(catalog))
+    expect(siteCatalog.sourceReviewedGallerySha256).toBe(sha256(gallery))
+    const slugs = new Set(index.s)
+    const references = gallery.toString('utf8').trim().split('\n')
+      .map((line) => JSON.parse(line) as { slug: string })
+    expect(references).toHaveLength(1936)
+    expect(references.every((reference) => slugs.has(reference.slug))).toBe(true)
+  })
+
   it('не перекрывают CSV и имеют полные карточки и локальные фото', () => {
     const csvSlugs = new Set(loadCatalog(CSV_PATH).rows.map((row) => row.Slug))
     expect(site).toHaveLength(75)

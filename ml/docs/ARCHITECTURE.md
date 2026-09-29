@@ -59,6 +59,6 @@ Field-photo splits are prepared outside the benchmark. Validation keeps each `bo
 
 ## Extending the system
 
-New retrieval pipelines implement the common `fit`/`predict` contract and register in `make_pipeline` and the CLI. Query and reference preprocessing must remain identical, returned scores must be higher-is-better, and benchmark metadata must fully identify any new model or index state. OCR, geometric reranking, and calibrated rejection remain later stages described in [CV_PLAN.md](CV_PLAN.md).
+New retrieval pipelines implement the common `fit`/`predict` contract and register in `make_pipeline` and the CLI. Query and reference preprocessing must remain identical, returned scores must be higher-is-better, and benchmark metadata must fully identify any new model or index state. OCR, geometric reranking, and calibrated rejection are not part of the current production configuration.
 
 The product service can resolve the predicted slug to the full Strapi wine card and add an after-search action. Out-of-catalog rejection requires a separately labeled dataset and calibrated threshold; cosine similarity and the Top-1/Top-2 margin are not probabilities or per-image F1 scores.

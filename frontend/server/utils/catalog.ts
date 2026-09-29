@@ -7,11 +7,10 @@ import type { WineDetailFile, WineDict, WineIndexFile } from '@/shared/config/da
 import { DICT_FILE, INDEX_FILE, wineFile } from '@/shared/config/dataset-schema'
 
 /**
- * Каталог на стороне сервера. Сейчас источник — сгенерированные JSON из public/data
- * (дамп заказчика после build:data); в целевой архитектуре — PostgreSQL. Всё, что
- * выше, работает с WineIndex и не знает, откуда он взялся.
+ * Серверный каталог из версионированных JSON в public/data.
+ * Потребители работают с WineIndex и не зависят от формата хранения.
  *
- * Индекс строится один раз на процесс: 2103 позиции, ~5 мс, дальше — из памяти.
+ * Индекс строится один раз на процесс: 2178 позиций, затем читается из памяти.
  */
 export interface Catalog {
   index: WineIndex

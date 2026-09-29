@@ -3,6 +3,7 @@
 /.venv/
 /work/
 /tmp/
+/data/chat.json
 /eval/predictions*.jsonl
 __pycache__/
 *.egg-info/

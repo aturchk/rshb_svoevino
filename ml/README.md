@@ -1,10 +1,9 @@
 # Svoe Vino: reproducible CV retrieval experiments
 
-This package turns the supplied catalog and media export into a reviewable reference gallery, validates manual field-photo labels, compares interchangeable retrieval pipelines, and serves both the product and organizer prediction endpoints. The source brief is summarized in [TASK_CONTEXT.md](docs/TASK_CONTEXT.md), the experiment order is in [CV_PLAN.md](docs/CV_PLAN.md), and the annotation contract is in [FIELD_DATA.md](docs/FIELD_DATA.md).
-
-The older strict-gallery training receipt in
-[TRAINING_RESULTS.md](docs/TRAINING_RESULTS.md) is a historical synthetic regression
-experiment, not the production candidate. The 100 `real_photo` files have
+This package validates the reference gallery, trains and serves SigLIP 2
+retrieval, and evaluates manually labeled field photos. The current release is
+described in [DOCUMENTATION.md](../DOCUMENTATION.md). The annotation schema is
+in [FIELD_DATA.md](docs/FIELD_DATA.md). The 100 `real_photo` files have
 one-pass manual decisions and remain a development pool; no closed-test result
 is claimed here.
 
@@ -281,10 +280,14 @@ The supplied three query images have no answers, so their runs cannot produce ac
 
 ## Current limits
 
-- The strict working gallery covers 928 of 2,103 catalog slugs. A model cannot retrieve a missing or quarantined reference.
-- The one-pass field mapping is not an independent test: it has one reviewer, no frozen
-  bottle groups, and 41 confirmed photos whose products are absent from strict gallery.
-- The official test is not in the repository yet. Its package and prediction receipts
-  belong under ignored `work/acceptance-<timestamp>/`; do not tune on it after disclosure.
-- Shared or byte-identical media conflicts remain quarantined until a human or the source Strapi relation resolves them.
-- OCR reranking, automatic label detection, rejection calibration, and fine-tuning remain experiments described in [CV_PLAN.md](docs/CV_PLAN.md); they should be added only when the frozen SigLIP benchmark shows where they help.
+- The production gallery has 1,936 SKU and covers 59 of 64 currently confirmed
+  field photos. A missing or quarantined reference cannot be retrieved exactly.
+- The 100-photo field mapping is a one-reviewer development pool without frozen
+  bottle groups; six answers have been flagged for a second review. It is not
+  an independent test or evidence of official acceptance accuracy.
+- The official test and its answer labels are not in the repository. Its package
+  and receipts belong under ignored `work/acceptance-<timestamp>/`; do not tune
+  the model after opening it.
+- Duplicate media and page/sitemap disagreements remain quarantined. OCR,
+  automatic bottle detection and calibrated out-of-catalog rejection are not
+  included in the selected production pipeline.

@@ -105,8 +105,8 @@ app (app.vue, layouts, assets) → pages → widgets → features → entities �
 `catalog/site-images/`; SHA-256 проверяется при сборке. `build:images` и `build:data`
 добавляют эти вина к обычному индексу, поэтому распознавание, каталог и `/wine/:slug`
 используют одни и те же slug. Снимок обновляется явной командой
-`npm run sync:site-catalog` после получения нового `work/vino-svoe/catalog.jsonl` и
-`gallery-reviewed-candidates.jsonl`; production-сборка от ignored `work/` не зависит.
+`npm run sync:site-catalog` после обновления проверенного снимка в
+`dataset/vino-svoe/`; production-сборка от ignored `work/` не зависит.
 `catalog/base-dict.json` сохраняет ID исходных справочников, чтобы фильтры и старые
 карточки не менялись при добавлении новых производителей и сортов.
 Диапазон крепости и неоднозначные исходные значения не превращаются в точный процент.

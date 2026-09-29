@@ -104,31 +104,18 @@ coverage and shared-image collisions. If the site's schema changes and the
 product data cannot be validated against the requested slug, the item fails
 and the snapshot is marked incomplete instead of silently creating a record.
 
-## Training and field photos
+## Current training and field-photo use
 
-The new images add direct product-to-photo relations and much broader coverage.
-They do not by themselves solve the gap between isolated bottle images and
-handheld shelf photos. The practical evaluation path is:
+The shipped adapter was trained only on deterministic derivatives of catalog
+images: whole bottles and source-pixel label crops with restrained changes to
+scale, rotation, light, blur, glare and occlusion. No field or closed-test photo
+was used for fitting. Inference indexes a whole-bottle and label view per
+reference but keeps the field query as a full image. Neither background
+compositing, bottle detection nor OCR is part of this release.
 
-1. Keep the original site image and the normalized view as paired references.
-   Crop via alpha only; never stretch labels or invent missing detail by
-   sharpening an image. Flag bottles with fewer than 128 source pixels on the
-   short side for manual review and targeted replacement.
-2. During training, composite transparent bottle cutouts onto diverse
-   independently sourced shelf/background photos, and apply restrained scale,
-   perspective, glare, blur, exposure, compression, and partial occlusion.
-   Preserve identifying producer, cuvée, and vintage text. Treat every such
-   image as a derivative of its source SKU and keep derivatives out of real
-   photo test sets.
-3. At inference, rank the full field photo and an automatically detected
-   bottle/label crop against the same gallery. Merge candidate lists before
-   reranking. Keep the full-image result when the crop detector is uncertain.
-   Compare OCR producer and visible vintage only when both readings are
-   reliable; avoid guessing a vintage from the page slug.
-4. Tune view fusion and any adapter on an independently reviewed development
-   split, with physical bottles and capture sessions grouped. Freeze the
-   pipeline before testing on independent real photos. Synthetic proxy scores
-   measure regression only, not field accuracy.
-
-This workflow can be integrated with the existing `fit`/`predict` pipeline
-without changing the current production gallery or evaluation labels.
+Catalog-photo proxy scores are regression checks, not field accuracy. The
+one-pass real-photo pool, its gallery coverage, benchmark results and known
+label ambiguities are documented in
+[FIELD_ACCURACY_REPORT.md](FIELD_ACCURACY_REPORT.md). A claim of production
+accuracy requires a separately reviewed and frozen test set with capture
+sessions or physical bottles grouped to prevent leakage.

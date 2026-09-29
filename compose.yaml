@@ -1,18 +1,21 @@
 services:
   ml:
+    image: svoe-vino-ml:release
     build:
       context: .
       dockerfile: ml/docker/Dockerfile.api
     environment:
-      ML_GALLERY_PATH: ${ML_GALLERY_PATH:-/opt/svoe/release/gallery-strict.jsonl}
+      ML_GALLERY_PATH: ${ML_GALLERY_PATH:-/opt/svoe/release/gallery-reviewed.jsonl}
       ML_DATA_ROOT: ${ML_DATA_ROOT:-/opt/svoe/release}
-      ML_ADAPTER_PATH: ${ML_ADAPTER_PATH:-/opt/svoe/release/siglip2-field-adapter.safetensors}
+      ML_ADAPTER_PATH: ${ML_ADAPTER_PATH:-/opt/svoe/release/siglip2-site-label-adapter.safetensors}
       ML_CACHE_DIR: ${ML_CACHE_DIR:-/opt/svoe/release/siglip-cache}
+      ML_REFERENCE_VIEW_MODE: ${ML_REFERENCE_VIEW_MODE:-full-label}
+      ML_QUERY_VIEW_MODE: ${ML_QUERY_VIEW_MODE:-full}
       ML_MODEL_ID: ${ML_MODEL_ID:-google/siglip2-base-patch16-384}
       ML_MODEL_REVISION: ${ML_MODEL_REVISION:-f775b65a79762255128c981547af89addcfe0f88}
       ML_PIPELINE: ${ML_PIPELINE:-siglip2}
       ML_DEVICE: ${ML_DEVICE:-cuda}
-      ML_PRECISION: ${ML_PRECISION:-bfloat16}
+      ML_PRECISION: ${ML_PRECISION:-float16}
       ML_BATCH_SIZE: ${ML_BATCH_SIZE:-32}
       ML_OFFLINE: ${ML_OFFLINE:-true}
       ML_MAX_UPLOAD_MB: ${ML_MAX_UPLOAD_MB:-12}
@@ -64,21 +67,3 @@ services:
       interval: 10s
       timeout: 3s
       retries: 6
-
-  trainer:
-    profiles: [training]
-    build:
-      context: .
-      dockerfile: ml/docker/Dockerfile.train
-    volumes:
-      - ./dataset:/workspace/rshb_svoevino/dataset:ro
-      - ./data:/workspace/rshb_svoevino/data:ro
-      - ./eval:/workspace/rshb_svoevino/eval:ro
-      - ./work:/workspace/rshb_svoevino/work
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              count: 1
-              capabilities: [gpu]

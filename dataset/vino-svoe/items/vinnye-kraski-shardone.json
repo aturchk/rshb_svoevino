@@ -1,0 +1,280 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 47350,
+      "format": "WEBP",
+      "height": 1920,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          536,
+          1920
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/vinnye-kraski-shardone.webp",
+        "sha256": "1cce3eace3c5e22027ab098a20f1aedd3a3344cc85e0571c8fb72a656b9a2f79",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          536,
+          1920
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/vinnye-kraski-shardone.webp",
+      "sha256": "891e2facef60978affb5c399c7f3c3b7d6f2182ea426d0e8fd0dc89366a40223",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/H4122_Vinnye_kraski_Shardone_2024_DKV_aa038d6d04.webp",
+      "width": 536
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/vinnye-kraski-shardone",
+  "retrieved_at_utc": "2026-09-29T19:14:30.154466+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Х4121 Винные краски Совиньон Блан  2024 ДКВ",
+        "url": "/uploads/H4121_Vinnye_kraski_Sovinon_Blan_2024_DKV_c067db407c.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 3.67,
+      "region": "Крым",
+      "slug": "vinnye-kraski-sovinon-blan",
+      "title": "Винные краски, Совиньон Блан"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Х4117 Улыбка ветра Совиньон Блан",
+        "url": "/uploads/H4117_Ulybka_vetra_Sovinon_Blan_2024_DKV_9223d656b0.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-sovinon-blan",
+      "title": "Улыбка ветра, Совиньон Блан"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Х4118 Улыбка ветра  Шардоне  2024",
+        "url": "/uploads/H4118_Ulybka_vetra_Shardone_2024_DKV_6f148eb928.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-shardone",
+      "title": "Улыбка ветра, Шардоне"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Совиньон Усадьба перовских",
+        "url": "/uploads/main_sauvignon_d3d8e795e1.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.9,
+      "region": "Крым",
+      "slug": "sovinon",
+      "title": "Совиньон"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотисто-соломенный",
+      "image": {
+        "altText": "Крымский бленд усадьба перовских",
+        "url": "/uploads/main_crimean_blend_2_5647edf21a.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "krymskij-blend",
+      "title": "Крымский бленд"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Ркацители и Мускат Оранж Усадьба перовских",
+        "url": "/uploads/main_rkatsiteli_muskat_orange_10c5cf3d2f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "rkacziteli-i-muskat-oranzh",
+      "title": "Ркацители и Мускат Оранж"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Ркацители Квеври Усадьба перовских",
+        "url": "/uploads/ge_rkatsiteli_2b9412517f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "rkacziteli-kvevri",
+      "title": "Ркацители Квеври"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Пино блан АртВин",
+        "url": "/uploads/pino_white2_no_bg_preview_carve_photos_d4f30395c7.webp"
+      },
+      "manufacturer": "Артвин",
+      "publicRating": 4.5,
+      "region": "Крым",
+      "slug": "pino-blan-art-vin",
+      "title": "Пино Блан АртВин"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "ии вино",
+        "url": "/uploads/ii_3_8ac201f314.webp"
+      },
+      "manufacturer": "WINEPARK",
+      "publicRating": 4.68,
+      "region": "Крым",
+      "slug": "ii-vino-1",
+      "title": "ИИ ВИНО"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Хихви Сенетх",
+        "url": "/uploads/Pre_W01_5a4d8050c2.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.56,
+      "region": "Кубань",
+      "slug": "hihvi-sueta",
+      "title": "Хихви Суета"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Зеленовато-соломенный",
+      "image": {
+        "altText": "Мцване Сенетх",
+        "url": "/uploads/Pre_W03_3d7437416c.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.8,
+      "region": "Кубань",
+      "slug": "mczvane-sueta",
+      "title": "Мцване Суета"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Зеленовато-соломенный",
+      "image": {
+        "altText": "Два Дубка Вионье",
+        "url": "/uploads/Pre_W04_2c44fe8ecb.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.67,
+      "region": "Кубань",
+      "slug": "vione-dva-dubka",
+      "title": "Вионье ДВА ДУБКА"
+    }
+  ],
+  "site_lastmod": "2026-09-22T15:36:48.000Z",
+  "site_wine": {
+    "alcohol": 12,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое сухое"
+    },
+    "color": "Светло-золотистый",
+    "description": "Тонкий аромат белых фруктов, цедры лимона и миндальный крошки с деликатной сливочной округлостью\nи свежестью скошенной травы в шлейфе. Вкус звонкий и легкий, с яркой кислотностью, сочностью спелых яблок и груш, ненавязчивой дыней в послевкусии и продолжительным финишем.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ostroe_cd4130b86a.webp"
+        },
+        "name": "Азиатская кухня"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ptica_9a6c7e3ea1.webp"
+        },
+        "name": "Блюда из птицы"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/sredizemnomorskaya_kuhnya_3c8be7f1a7.webp"
+        },
+        "name": "Закуски"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/legkie_zakuski_e5a2dedbf7.webp"
+        },
+        "name": "Легкие закуски"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Shardone_2_03e3197a65.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Shardone_54bbd4df90.webp"
+        },
+        "name": "Шардоне"
+      }
+    ],
+    "image": {
+      "altText": "Х4122 Винные краски Шардоне  2024",
+      "url": "/uploads/H4122_Vinnye_kraski_Shardone_2024_DKV_aa038d6d04.webp"
+    },
+    "manufacturer": {
+      "name": "Дом Крымских Вин",
+      "slug": "dom-krymskih-vin"
+    },
+    "publicRating": 4,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "vinnye-kraski-shardone",
+    "temperature": "10-12",
+    "title": "Винные краски, Шардоне"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Х4122 Винные краски Шардоне  2024",
+      "title": "Х4122 Винные краски Шардоне  2024",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/H4122_Vinnye_kraski_Shardone_2024_DKV_aa038d6d04.webp"
+    }
+  ],
+  "slug": "vinnye-kraski-shardone"
+}

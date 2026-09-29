@@ -1,0 +1,258 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 21512,
+      "format": "WEBP",
+      "height": 908,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          275,
+          908
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/orange.webp",
+        "sha256": "4e080c3fad54f84275942a866b9509ece6d4dbd224bfc245a55f40c1cf46eff8",
+        "source_bbox_xyxy": [
+          14,
+          13,
+          262,
+          902
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/orange.webp",
+      "sha256": "3de05d391c65f08c0ff9f3e007e0117c70b295c5641080ece4e36dad7f0698d5",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Orange_b3f73ad1d2.webp",
+      "width": 275
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/orange",
+  "retrieved_at_utc": "2026-09-29T19:17:47.947496+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое сухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Х4122 Винные краски Шардоне  2024",
+        "url": "/uploads/H4122_Vinnye_kraski_Shardone_2024_DKV_aa038d6d04.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 4,
+      "region": "Крым",
+      "slug": "vinnye-kraski-shardone",
+      "title": "Винные краски, Шардоне"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Х4121 Винные краски Совиньон Блан  2024 ДКВ",
+        "url": "/uploads/H4121_Vinnye_kraski_Sovinon_Blan_2024_DKV_c067db407c.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 3.67,
+      "region": "Крым",
+      "slug": "vinnye-kraski-sovinon-blan",
+      "title": "Винные краски, Совиньон Блан"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Х4117 Улыбка ветра Совиньон Блан",
+        "url": "/uploads/H4117_Ulybka_vetra_Sovinon_Blan_2024_DKV_9223d656b0.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-sovinon-blan",
+      "title": "Улыбка ветра, Совиньон Блан"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Х4118 Улыбка ветра  Шардоне  2024",
+        "url": "/uploads/H4118_Ulybka_vetra_Shardone_2024_DKV_6f148eb928.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-shardone",
+      "title": "Улыбка ветра, Шардоне"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Совиньон Усадьба перовских",
+        "url": "/uploads/main_sauvignon_d3d8e795e1.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.9,
+      "region": "Крым",
+      "slug": "sovinon",
+      "title": "Совиньон"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотисто-соломенный",
+      "image": {
+        "altText": "Крымский бленд усадьба перовских",
+        "url": "/uploads/main_crimean_blend_2_5647edf21a.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "krymskij-blend",
+      "title": "Крымский бленд"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Ркацители и Мускат Оранж Усадьба перовских",
+        "url": "/uploads/main_rkatsiteli_muskat_orange_10c5cf3d2f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "rkacziteli-i-muskat-oranzh",
+      "title": "Ркацители и Мускат Оранж"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Ркацители Квеври Усадьба перовских",
+        "url": "/uploads/ge_rkatsiteli_2b9412517f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "rkacziteli-kvevri",
+      "title": "Ркацители Квеври"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Пино блан АртВин",
+        "url": "/uploads/pino_white2_no_bg_preview_carve_photos_d4f30395c7.webp"
+      },
+      "manufacturer": "Артвин",
+      "publicRating": 4.5,
+      "region": "Крым",
+      "slug": "pino-blan-art-vin",
+      "title": "Пино Блан АртВин"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "ии вино",
+        "url": "/uploads/ii_3_8ac201f314.webp"
+      },
+      "manufacturer": "WINEPARK",
+      "publicRating": 4.68,
+      "region": "Крым",
+      "slug": "ii-vino-1",
+      "title": "ИИ ВИНО"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Хихви Сенетх",
+        "url": "/uploads/Pre_W01_5a4d8050c2.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.56,
+      "region": "Кубань",
+      "slug": "hihvi-sueta",
+      "title": "Хихви Суета"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Зеленовато-соломенный",
+      "image": {
+        "altText": "Мцване Сенетх",
+        "url": "/uploads/Pre_W03_3d7437416c.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.8,
+      "region": "Кубань",
+      "slug": "mczvane-sueta",
+      "title": "Мцване Суета"
+    }
+  ],
+  "site_lastmod": "2026-02-08T17:08:09.000Z",
+  "site_wine": {
+    "alcohol": 12,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое сухое"
+    },
+    "color": "Сухой насыщенной соломы",
+    "description": "Вино сухого цвета насыщенной соломы с выразительным и многогранным вкусом. Во вкусе доминируют ноты корочки запечённой айвы, груши и яблока, среднее по плотности тело придаёт вину гармоничную структуру. В финале проявляются характерные оттенки гребня и глины, добавляющие глубину и терруарность. Аромат тонкий и атмосферный, с нюансами нежной запечённой айвы, восточного базара, а также отчетливыми акцентами гребня и глины.\n\nФерментация с кожицей и гребнем. Выдержка бочка французский дуб 3 месяца.\n\nНАГРАДЫ: Серебро \"Гид по российским винам\" Артура Саркисяна и РБК, 2026; Лучшие российские вина 2025/2026, Simple Wine News",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/legkie_zakuski_e5a2dedbf7.webp"
+        },
+        "name": "Легкие закуски"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ryba_moreprodukty_e57b445d95.webp"
+        },
+        "name": "Рыба и морепродукты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Risling2_c6fa370506.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Risling_5a37344384.webp"
+        },
+        "name": "Рислинг"
+      }
+    ],
+    "image": {
+      "altText": "Orange WM",
+      "url": "/uploads/Orange_b3f73ad1d2.webp"
+    },
+    "manufacturer": {
+      "name": "WINEMAFIA",
+      "slug": "winemafia"
+    },
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "orange",
+    "temperature": "8-12",
+    "title": "Orange, 2023"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Orange WM",
+      "title": "Orange WM",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Orange_b3f73ad1d2.webp"
+    }
+  ],
+  "slug": "orange"
+}

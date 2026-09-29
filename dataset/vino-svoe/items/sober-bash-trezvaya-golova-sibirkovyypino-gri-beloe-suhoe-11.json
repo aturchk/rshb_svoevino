@@ -1,0 +1,284 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 33724,
+      "format": "WEBP",
+      "height": 1246,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          300,
+          1246
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/sober-bash-trezvaya-golova-sibirkovyypino-gri-beloe-suhoe-11.webp",
+        "sha256": "49262621ad2aa99c46178131820e3cf17525965a502ce9c6f09ddc0918f4809c",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          300,
+          1246
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/sober-bash-trezvaya-golova-sibirkovyypino-gri-beloe-suhoe-11.webp",
+      "sha256": "3ce2adea429c1c1f0b7880f0ba696d59795c6689dafeee1dabd5d414bec5870b",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/sober_bash_trezvaya_golova_sibirkovyypino_gri_beloe_suhoe_11_a02eb5c6fc.webp",
+      "width": 300
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/sober-bash-trezvaya-golova-sibirkovyypino-gri-beloe-suhoe-11",
+  "retrieved_at_utc": "2026-09-29T19:17:27.836198+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое сухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Х4122 Винные краски Шардоне  2024",
+        "url": "/uploads/H4122_Vinnye_kraski_Shardone_2024_DKV_aa038d6d04.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 4,
+      "region": "Крым",
+      "slug": "vinnye-kraski-shardone",
+      "title": "Винные краски, Шардоне"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Х4121 Винные краски Совиньон Блан  2024 ДКВ",
+        "url": "/uploads/H4121_Vinnye_kraski_Sovinon_Blan_2024_DKV_c067db407c.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 3.67,
+      "region": "Крым",
+      "slug": "vinnye-kraski-sovinon-blan",
+      "title": "Винные краски, Совиньон Блан"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Х4117 Улыбка ветра Совиньон Блан",
+        "url": "/uploads/H4117_Ulybka_vetra_Sovinon_Blan_2024_DKV_9223d656b0.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-sovinon-blan",
+      "title": "Улыбка ветра, Совиньон Блан"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Х4118 Улыбка ветра  Шардоне  2024",
+        "url": "/uploads/H4118_Ulybka_vetra_Shardone_2024_DKV_6f148eb928.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-shardone",
+      "title": "Улыбка ветра, Шардоне"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Совиньон Усадьба перовских",
+        "url": "/uploads/main_sauvignon_d3d8e795e1.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.9,
+      "region": "Крым",
+      "slug": "sovinon",
+      "title": "Совиньон"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотисто-соломенный",
+      "image": {
+        "altText": "Крымский бленд усадьба перовских",
+        "url": "/uploads/main_crimean_blend_2_5647edf21a.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "krymskij-blend",
+      "title": "Крымский бленд"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Ркацители и Мускат Оранж Усадьба перовских",
+        "url": "/uploads/main_rkatsiteli_muskat_orange_10c5cf3d2f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "rkacziteli-i-muskat-oranzh",
+      "title": "Ркацители и Мускат Оранж"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Ркацители Квеври Усадьба перовских",
+        "url": "/uploads/ge_rkatsiteli_2b9412517f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "rkacziteli-kvevri",
+      "title": "Ркацители Квеври"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Пино блан АртВин",
+        "url": "/uploads/pino_white2_no_bg_preview_carve_photos_d4f30395c7.webp"
+      },
+      "manufacturer": "Артвин",
+      "publicRating": 4.5,
+      "region": "Крым",
+      "slug": "pino-blan-art-vin",
+      "title": "Пино Блан АртВин"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "ии вино",
+        "url": "/uploads/ii_3_8ac201f314.webp"
+      },
+      "manufacturer": "WINEPARK",
+      "publicRating": 4.68,
+      "region": "Крым",
+      "slug": "ii-vino-1",
+      "title": "ИИ ВИНО"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Хихви Сенетх",
+        "url": "/uploads/Pre_W01_5a4d8050c2.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.56,
+      "region": "Кубань",
+      "slug": "hihvi-sueta",
+      "title": "Хихви Суета"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Зеленовато-соломенный",
+      "image": {
+        "altText": "Мцване Сенетх",
+        "url": "/uploads/Pre_W03_3d7437416c.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.8,
+      "region": "Кубань",
+      "slug": "mczvane-sueta",
+      "title": "Мцване Суета"
+    }
+  ],
+  "site_lastmod": "2026-04-01T22:06:27.000Z",
+  "site_wine": {
+    "alcohol": 11,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое сухое"
+    },
+    "color": "Соломенный",
+    "description": "В аромате цитрусовые ноты с цветочными оттенками. Вкус лёгкий, с освежающей кислотностью и намёком на минеральность.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/legkie_zakuski_e5a2dedbf7.webp"
+        },
+        "name": "Легкие закуски"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ostroe_cd4130b86a.webp"
+        },
+        "name": "Морепродукты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/pasta_9ce9a580b2.webp"
+        },
+        "name": "Паста"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Gri_76fc8e544f.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Gri2_4fc806861d.webp"
+        },
+        "name": "Пино Гри"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Glera2_9e33eb5e65.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Glera_0f17a1d0bf.webp"
+        },
+        "name": "Сибирьковый"
+      }
+    ],
+    "image": {
+      "altText": "Собер Баш",
+      "url": "/uploads/sober_bash_trezvaya_golova_sibirkovyypino_gri_beloe_suhoe_11_a02eb5c6fc.webp"
+    },
+    "manufacturer": {
+      "name": "Собер Баш",
+      "slug": "sober-bash"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "sober-bash-trezvaya-golova-sibirkovyypino-gri-beloe-suhoe-11",
+    "temperature": "10-12",
+    "title": "Трезвая голова. Сибирьковый+Пино Гри"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Собер Баш",
+      "title": "Собер Баш",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/sober_bash_trezvaya_golova_sibirkovyypino_gri_beloe_suhoe_11_a02eb5c6fc.webp"
+    }
+  ],
+  "slug": "sober-bash-trezvaya-golova-sibirkovyypino-gri-beloe-suhoe-11"
+}

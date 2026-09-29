@@ -1,0 +1,272 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 66820,
+      "format": "WEBP",
+      "height": 1920,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          548,
+          1920
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/sober-bash-dve-doliny-myuller-turgau-2023-beloe-suhoe-117.webp",
+        "sha256": "dec79048ca90e26de5ea5b674c850b5febaf0546c7c639ee77e29321d397ecf5",
+        "source_bbox_xyxy": [
+          64,
+          107,
+          487,
+          1833
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/sober-bash-dve-doliny-myuller-turgau-2023-beloe-suhoe-117.webp",
+      "sha256": "1c8065b9f79d930e7cbfa6bd47e954c6d534f472d7daa5d176b5c89b39dc39bc",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/sober_bash_dve_doliny_myuller_turgau_2023_beloe_suhoe_117_a86924eb95.webp",
+      "width": 548
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/sober-bash-dve-doliny-myuller-turgau-2023-beloe-suhoe-117",
+  "retrieved_at_utc": "2026-09-29T19:17:26.970573+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое сухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Х4122 Винные краски Шардоне  2024",
+        "url": "/uploads/H4122_Vinnye_kraski_Shardone_2024_DKV_aa038d6d04.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 4,
+      "region": "Крым",
+      "slug": "vinnye-kraski-shardone",
+      "title": "Винные краски, Шардоне"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Х4121 Винные краски Совиньон Блан  2024 ДКВ",
+        "url": "/uploads/H4121_Vinnye_kraski_Sovinon_Blan_2024_DKV_c067db407c.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 3.67,
+      "region": "Крым",
+      "slug": "vinnye-kraski-sovinon-blan",
+      "title": "Винные краски, Совиньон Блан"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Х4117 Улыбка ветра Совиньон Блан",
+        "url": "/uploads/H4117_Ulybka_vetra_Sovinon_Blan_2024_DKV_9223d656b0.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-sovinon-blan",
+      "title": "Улыбка ветра, Совиньон Блан"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Х4118 Улыбка ветра  Шардоне  2024",
+        "url": "/uploads/H4118_Ulybka_vetra_Shardone_2024_DKV_6f148eb928.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-shardone",
+      "title": "Улыбка ветра, Шардоне"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Совиньон Усадьба перовских",
+        "url": "/uploads/main_sauvignon_d3d8e795e1.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.9,
+      "region": "Крым",
+      "slug": "sovinon",
+      "title": "Совиньон"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотисто-соломенный",
+      "image": {
+        "altText": "Крымский бленд усадьба перовских",
+        "url": "/uploads/main_crimean_blend_2_5647edf21a.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "krymskij-blend",
+      "title": "Крымский бленд"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Ркацители и Мускат Оранж Усадьба перовских",
+        "url": "/uploads/main_rkatsiteli_muskat_orange_10c5cf3d2f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "rkacziteli-i-muskat-oranzh",
+      "title": "Ркацители и Мускат Оранж"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Ркацители Квеври Усадьба перовских",
+        "url": "/uploads/ge_rkatsiteli_2b9412517f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "rkacziteli-kvevri",
+      "title": "Ркацители Квеври"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Пино блан АртВин",
+        "url": "/uploads/pino_white2_no_bg_preview_carve_photos_d4f30395c7.webp"
+      },
+      "manufacturer": "Артвин",
+      "publicRating": 4.5,
+      "region": "Крым",
+      "slug": "pino-blan-art-vin",
+      "title": "Пино Блан АртВин"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "ии вино",
+        "url": "/uploads/ii_3_8ac201f314.webp"
+      },
+      "manufacturer": "WINEPARK",
+      "publicRating": 4.68,
+      "region": "Крым",
+      "slug": "ii-vino-1",
+      "title": "ИИ ВИНО"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Хихви Сенетх",
+        "url": "/uploads/Pre_W01_5a4d8050c2.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.56,
+      "region": "Кубань",
+      "slug": "hihvi-sueta",
+      "title": "Хихви Суета"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Зеленовато-соломенный",
+      "image": {
+        "altText": "Мцване Сенетх",
+        "url": "/uploads/Pre_W03_3d7437416c.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.8,
+      "region": "Кубань",
+      "slug": "mczvane-sueta",
+      "title": "Мцване Суета"
+    }
+  ],
+  "site_lastmod": "2026-04-29T12:59:46.000Z",
+  "site_wine": {
+    "alcohol": 11,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое сухое"
+    },
+    "color": "Светло-соломенный с зеленоватыми оттенками",
+    "description": "Аромат цитрусов, белых цветов и полевых трав. Во вкусе тропические нюансы, цитрусы, сбалансированная кислотность.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/legkie_zakuski_e5a2dedbf7.webp"
+        },
+        "name": "Легкие закуски"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ostroe_cd4130b86a.webp"
+        },
+        "name": "Морепродукты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/pasta_9ce9a580b2.webp"
+        },
+        "name": "Паста"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Бастардо",
+          "url": "/uploads/Bastardo_jpg_e0b3b61b63.webp"
+        },
+        "image": {
+          "altText": "ребо",
+          "url": "/uploads/rebo_dbf2855820.webp"
+        },
+        "name": "Мюллер тургау"
+      }
+    ],
+    "image": {
+      "altText": "Собер Баш",
+      "url": "/uploads/sober_bash_dve_doliny_myuller_turgau_2023_beloe_suhoe_117_a86924eb95.webp"
+    },
+    "manufacturer": {
+      "name": "Собер Баш",
+      "slug": "sober-bash"
+    },
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "sober-bash-dve-doliny-myuller-turgau-2023-beloe-suhoe-117",
+    "temperature": "10-12",
+    "title": "Две долины. Мюллер Тургау 2023"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Собер Баш",
+      "title": "Собер Баш",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/sober_bash_dve_doliny_myuller_turgau_2023_beloe_suhoe_117_a86924eb95.webp"
+    }
+  ],
+  "slug": "sober-bash-dve-doliny-myuller-turgau-2023-beloe-suhoe-117"
+}

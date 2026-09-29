@@ -1,0 +1,259 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 19750,
+      "format": "WEBP",
+      "height": 1500,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          410,
+          1500
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149.webp",
+        "sha256": "b957caed3fb81d61a22aa5ac5f6589850d5dc1d84e5692982c0cb961ccabc48e",
+        "source_bbox_xyxy": [
+          7,
+          5,
+          404,
+          1495
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149.webp",
+      "sha256": "dbdcf9749ace566375013df5126a6574bc1eeca855d91647e13f2a6749f06403",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/usadba_divnomorskoe_marselan_marselan_krasnoe_suhoe_149_cfc4d7c708.webp",
+      "width": 410
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149",
+  "retrieved_at_utc": "2026-09-29T19:15:43.984097+00:00",
+  "similar_wines": [
+    {
+      "category": "Красное сухое",
+      "color": "Насыщенный рубиновый с фиолетовым отливом",
+      "image": {
+        "altText": "Красное сухое вино Мулета от винодельни Орлова",
+        "url": "/uploads/Muleta_2020_2b726546bb.webp"
+      },
+      "manufacturer": "Винодельня Орлова",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "muleta",
+      "title": "Мулета"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красно-бордовый",
+      "image": {
+        "altText": "Яйла-Мальбек",
+        "url": "/uploads/Yajla_Malbek_2024_cb1c7ff096.webp"
+      },
+      "manufacturer": "Yaiyla Winery",
+      "publicRating": 4.33,
+      "region": "Крым",
+      "slug": "yaiyla-malbec",
+      "title": "YAIYLA MALBEC"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Х4123 Винные краски Каберне Совиньон",
+        "url": "/uploads/H4123_Vinnye_kraski_Kaberne_Sovinon_2024_DKV_06462e2b91.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 4.5,
+      "region": "Крым",
+      "slug": "vinnye-kraski-kaberne-sovinon",
+      "title": "Винные краски, Каберне Совиньон"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Темно-гранатовый",
+      "image": {
+        "altText": "Х4124 Винные краски Мерло 2024 ДК",
+        "url": "/uploads/H4124_Vinnye_kraski_Merlo_2024_DKV_1_3a6f83c9be.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 4,
+      "region": "Крым",
+      "slug": "vinnye-kraski-merlo",
+      "title": "Винные краски, Мерло"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Темно-рубиновый",
+      "image": {
+        "altText": "Х4119 Улыбка Ветра Каберне Совиньон",
+        "url": "/uploads/H4119_Ulybka_Vetra_Kaberne_Sovinon_2024_DKV_eba5b4df62.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-kaberne-sovinon",
+      "title": "Улыбка ветра, Каберне Совиньон"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Х4120 Улыбка ветра Мерло 2024 ДКВ",
+        "url": "/uploads/H4120_Ulybka_vetra_Merlo_2024_DKV_426a5f1726.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-merlo",
+      "title": "Улыбка ветра, Мерло"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "Саперави — лимитированная серия",
+        "url": "/uploads/lim_saperavi_0777d3f30f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.83,
+      "region": "Крым",
+      "slug": "saperavi-limitirovannaya-seriya",
+      "title": "Саперави — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Глубокий рубиновый",
+      "image": {
+        "altText": "Каберне Фран — лимитированная серия",
+        "url": "/uploads/lim_cabernet_franc_b8513a1a08.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.8,
+      "region": "Крым",
+      "slug": "kaberne-fran-limitirovannaya-seriya",
+      "title": "Каберне Фран — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красное",
+      "image": {
+        "altText": "Каберне Совиньон и Саперави — лимитированная серия",
+        "url": "/uploads/lim_cs_saperavi_63126ea067.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.9,
+      "region": "Крым",
+      "slug": "kaberne-sovinon-i-saperavi-limitirovannaya-seriya",
+      "title": "Каберне Совиньон и Саперави — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "Мерло — лимитированная серия",
+        "url": "/uploads/lim_merlot_455ff5ee23.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.78,
+      "region": "Крым",
+      "slug": "merlo-limitirovannaya-seriya",
+      "title": "Мерло — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "Сира — лимитированная серия",
+        "url": "/uploads/lim_syrah_26570c7f18.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.89,
+      "region": "Крым",
+      "slug": "sira-limitirovannaya-seriya",
+      "title": "Сира — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "135",
+        "url": "/uploads/lim_135_8dbef0e498.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.78,
+      "region": "Крым",
+      "slug": "135",
+      "title": "135"
+    }
+  ],
+  "site_lastmod": "2026-06-03T23:49:00.000Z",
+  "site_wine": {
+    "alcohol": 14,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "name": "Красное сухое"
+    },
+    "color": "Глубокий красный с чернильными оттенками",
+    "description": "В аромате доминируют нюансы лесной фиалки, черники, ежевики, какао. Вкус яркий, интенсивный, округлый, маслянистый, со сладкими шелковистыми танинами и приятным оттенком черничного джема в послевкусии.\nХорош к выдержанным сырам, стейку из говядины, ягнёнку, тушёным мясным блюдам.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/myaso_442273df41.webp"
+        },
+        "name": "Мясо и стейки"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Marselan10_b607b8c545.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Marselan_1858bd3d4e.webp"
+        },
+        "name": "Марселан"
+      }
+    ],
+    "image": {
+      "altText": "Marselan-Usadba-Divnomorskoe",
+      "url": "/uploads/usadba_divnomorskoe_marselan_marselan_krasnoe_suhoe_149_cfc4d7c708.webp"
+    },
+    "manufacturer": {
+      "name": "Усадьба Дивноморское",
+      "slug": "usadba-divnomorskoe"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149",
+    "temperature": "16-18",
+    "title": "Marselan"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Marselan-Usadba-Divnomorskoe",
+      "title": "Marselan-Usadba-Divnomorskoe",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/usadba_divnomorskoe_marselan_marselan_krasnoe_suhoe_149_cfc4d7c708.webp"
+    }
+  ],
+  "slug": "usadba-divnomorskoe-marselan-marselan-krasnoe-suhoe-149"
+}

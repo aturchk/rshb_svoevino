@@ -1,0 +1,266 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 41896,
+      "format": "WEBP",
+      "height": 1920,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          1357,
+          1920
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/katharon-mezenka-risling-polusuhoe.webp",
+        "sha256": "840c0bf5b8e8a92aa572d435d79faa131d6820e1b1dd98c57f0ee5df35b8c639",
+        "source_bbox_xyxy": [
+          477,
+          101,
+          886,
+          1844
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/katharon-mezenka-risling-polusuhoe.webp",
+      "sha256": "65a18a2ee09700d6ac28154c6cc6ebd3d768b262288c3a3a36793a72b36df2bb",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/IMG_20260617_132406_315_dc183ec137.webp",
+      "width": 1357
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/katharon-mezenka-risling-polusuhoe",
+  "retrieved_at_utc": "2026-09-29T19:15:15.982340+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Рислинг Резерв Усадьба Перовских",
+        "url": "/uploads/res_riesling_e367652923.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.89,
+      "region": "Крым",
+      "slug": "risling-rezerv",
+      "title": "Рислинг Резерв"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Рислинг",
+        "url": "/uploads/MAX_02346_1_edcbff60a1.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 3.33,
+      "region": "Кубань",
+      "slug": "risling-2",
+      "title": "Рислинг "
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Мускат",
+        "url": "/uploads/MAX_02198_1_c52c0cfeec.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 4.4,
+      "region": "Кубань",
+      "slug": "muskat",
+      "title": "Мускат"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Соломенный с золотистыми переливами",
+      "image": {
+        "altText": "Прибой Марченко белое полусухое",
+        "url": "/uploads/priboj_Marchenko_beloe_no_bg_preview_carve_photos_de18758756.webp"
+      },
+      "manufacturer": "Винодельня Марченко",
+      "publicRating": 3,
+      "region": "Кубань",
+      "slug": "priboj-marchenko-beloe-polusuhoe",
+      "title": "Прибой Марченко белое полусухое"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Бледно-соломенный",
+      "image": {
+        "altText": "Корур Мельниковы",
+        "url": "/uploads/DSC_00839_Photoroom_418c4b31b3.webp"
+      },
+      "manufacturer": "Винодельня Братьев Мельниковых",
+      "publicRating": 4.76,
+      "region": "Крым",
+      "slug": "kokur-2025",
+      "title": "Кокур, 2025 "
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Массандра Кокур",
+        "url": "/uploads/Massandra_Kokur_1fa858a17c.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 4.54,
+      "region": "Крым",
+      "slug": "massandra-kokur",
+      "title": "Массандра Кокур"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Inkerman Шато Блан белое полусухое",
+        "url": "/uploads/Inkerman_Shato_Blan_beloe_polusuhoe_526e6530b9.webp"
+      },
+      "manufacturer": "Инкерманский ЗМВ",
+      "publicRating": 4.4,
+      "region": "Крым",
+      "slug": "inkerman-shato-blan",
+      "title": "Инкерман Шато Блан"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Мускат премиум",
+        "url": "/uploads/MAX_02198_7f3ccea6d6.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "muskat-premium",
+      "title": "Мускат Премиум"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Табия Буковинка",
+        "url": "/uploads/Screenshot_10_a566dcdabb.webp"
+      },
+      "manufacturer": "Табия",
+      "publicRating": 4.82,
+      "region": "Кубань",
+      "slug": "bukovinka",
+      "title": "Буковинка"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Табия Рислинг",
+        "url": "/uploads/Screenshot_11_a9d7c8f8df.webp"
+      },
+      "manufacturer": "Табия",
+      "publicRating": 4.76,
+      "region": "Кубань",
+      "slug": "risling-1",
+      "title": "Рислинг"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Цитрон, Совиньон п.сух",
+        "url": "/uploads/Czitron_Sovinon_p_suh_f07f1d8280.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "czitronnyj-magaracha-sovinon-blan",
+      "title": "Жемчужная 9 Цитрон, Совиньон блан"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Рислинг, Совиньон п.сух",
+        "url": "/uploads/Risling_Sovinon_p_suh_2e0b39c41e.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "zhemchuzhnaya-9-risling-sovinon-blan",
+      "title": "Жемчужная 9 Рислинг,Совиньон блан"
+    }
+  ],
+  "site_lastmod": "2026-07-10T09:46:22.000Z",
+  "site_wine": {
+    "alcohol": 11,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое полусухое"
+    },
+    "color": "Cветло-соломенный с золотистым отблеском",
+    "description": "Аромат: спелый персик, абрикос, медовое яблоко, цветочные тона, цитрусовая свежесть;\nВкус: полусухой, с деликатной сладостью, уравновешенной свежей кислотностью, сочный фрукт, мягкая питкая текстура;\nФиниш: свежий, фруктовый, гармоничный",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ostroe_cd4130b86a.webp"
+        },
+        "name": "Азиатская кухня"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/frukty_545dae1854.webp"
+        },
+        "name": "Фрукты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Risling2_c6fa370506.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Rislaner_6d81eeefaa.webp"
+        },
+        "name": "Рислинг Рейнский"
+      }
+    ],
+    "image": {
+      "altText": "KATHARON Мезенка: Рислинг полусухое",
+      "url": "/uploads/IMG_20260617_132406_315_dc183ec137.webp"
+    },
+    "manufacturer": {
+      "name": "KATHARON",
+      "slug": "katharon"
+    },
+    "publicRating": 4.93,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "katharon-mezenka-risling-polusuhoe",
+    "temperature": "9-11",
+    "title": "Мезенка: Рислинг полусухое"
+  },
+  "sitemap_images": [
+    {
+      "caption": "KATHARON Мезенка: Рислинг полусухое",
+      "title": "KATHARON Мезенка: Рислинг полусухое",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/IMG_20260617_132406_315_dc183ec137.webp"
+    }
+  ],
+  "slug": "katharon-mezenka-risling-polusuhoe"
+}

@@ -1,0 +1,270 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 40118,
+      "format": "WEBP",
+      "height": 1920,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          453,
+          1920
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11.webp",
+        "sha256": "eddd67a5341753352b0a4fbcc749b6f19c8c68423b3aaf5ff27dce19456ae70c",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          453,
+          1920
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11.webp",
+      "sha256": "7fd8ef1b51dad71f3bb0011d35166addd3d20f2341d7bceb6648867fdb963d7f",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/fanagoriya_zelyonoe_vino_risling_tsitronnyy_magaracha_beloe_polusuhoe_11_e4de13ab6b.webp",
+      "width": 453
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+  "retrieved_at_utc": "2026-09-29T19:16:14.157156+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Рислинг Резерв Усадьба Перовских",
+        "url": "/uploads/res_riesling_e367652923.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.89,
+      "region": "Крым",
+      "slug": "risling-rezerv",
+      "title": "Рислинг Резерв"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Рислинг",
+        "url": "/uploads/MAX_02346_1_edcbff60a1.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 3.33,
+      "region": "Кубань",
+      "slug": "risling-2",
+      "title": "Рислинг "
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Мускат",
+        "url": "/uploads/MAX_02198_1_c52c0cfeec.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 4.4,
+      "region": "Кубань",
+      "slug": "muskat",
+      "title": "Мускат"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Соломенный с золотистыми переливами",
+      "image": {
+        "altText": "Прибой Марченко белое полусухое",
+        "url": "/uploads/priboj_Marchenko_beloe_no_bg_preview_carve_photos_de18758756.webp"
+      },
+      "manufacturer": "Винодельня Марченко",
+      "publicRating": 3,
+      "region": "Кубань",
+      "slug": "priboj-marchenko-beloe-polusuhoe",
+      "title": "Прибой Марченко белое полусухое"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Бледно-соломенный",
+      "image": {
+        "altText": "Корур Мельниковы",
+        "url": "/uploads/DSC_00839_Photoroom_418c4b31b3.webp"
+      },
+      "manufacturer": "Винодельня Братьев Мельниковых",
+      "publicRating": 4.76,
+      "region": "Крым",
+      "slug": "kokur-2025",
+      "title": "Кокур, 2025 "
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Массандра Кокур",
+        "url": "/uploads/Massandra_Kokur_1fa858a17c.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 4.54,
+      "region": "Крым",
+      "slug": "massandra-kokur",
+      "title": "Массандра Кокур"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Inkerman Шато Блан белое полусухое",
+        "url": "/uploads/Inkerman_Shato_Blan_beloe_polusuhoe_526e6530b9.webp"
+      },
+      "manufacturer": "Инкерманский ЗМВ",
+      "publicRating": 4.4,
+      "region": "Крым",
+      "slug": "inkerman-shato-blan",
+      "title": "Инкерман Шато Блан"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Мускат премиум",
+        "url": "/uploads/MAX_02198_7f3ccea6d6.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "muskat-premium",
+      "title": "Мускат Премиум"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Табия Буковинка",
+        "url": "/uploads/Screenshot_10_a566dcdabb.webp"
+      },
+      "manufacturer": "Табия",
+      "publicRating": 4.82,
+      "region": "Кубань",
+      "slug": "bukovinka",
+      "title": "Буковинка"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Табия Рислинг",
+        "url": "/uploads/Screenshot_11_a9d7c8f8df.webp"
+      },
+      "manufacturer": "Табия",
+      "publicRating": 4.76,
+      "region": "Кубань",
+      "slug": "risling-1",
+      "title": "Рислинг"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Цитрон, Совиньон п.сух",
+        "url": "/uploads/Czitron_Sovinon_p_suh_f07f1d8280.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "czitronnyj-magaracha-sovinon-blan",
+      "title": "Жемчужная 9 Цитрон, Совиньон блан"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Рислинг, Совиньон п.сух",
+        "url": "/uploads/Risling_Sovinon_p_suh_2e0b39c41e.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "zhemchuzhnaya-9-risling-sovinon-blan",
+      "title": "Жемчужная 9 Рислинг,Совиньон блан"
+    }
+  ],
+  "site_lastmod": "2026-04-02T13:20:15.000Z",
+  "site_wine": {
+    "alcohol": 11,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое полусухое"
+    },
+    "color": "Светло‑соломенный с зеленоватым оттенком",
+    "description": "В аромате цитрус, зелёное яблоко, травяные ноты. Вкус свежий, гармоничный, с минеральными тонами и цитрусовой кислинкой.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/legkie_zakuski_e5a2dedbf7.webp"
+        },
+        "name": "Легкие закуски"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ostroe_cd4130b86a.webp"
+        },
+        "name": "Морепродукты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Risling2_c6fa370506.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Risling_5a37344384.webp"
+        },
+        "name": "Рислинг"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Rkacziteli2_a6dd4baca5.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Vione_i_Verdeho_3502efff14.webp"
+        },
+        "name": "Цитронный Магарача"
+      }
+    ],
+    "image": {
+      "altText": "Фанагория",
+      "url": "/uploads/fanagoriya_zelyonoe_vino_risling_tsitronnyy_magaracha_beloe_polusuhoe_11_e4de13ab6b.webp"
+    },
+    "manufacturer": {
+      "name": "винный дом «Фанагория»",
+      "slug": "fanagoriya"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11",
+    "temperature": "8–10",
+    "title": "Зелёное вино. Рислинг - Цитронный Магарача"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Фанагория",
+      "title": "Фанагория",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/fanagoriya_zelyonoe_vino_risling_tsitronnyy_magaracha_beloe_polusuhoe_11_e4de13ab6b.webp"
+    }
+  ],
+  "slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-beloe-polusuhoe-11"
+}

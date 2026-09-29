@@ -1,0 +1,271 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 55508,
+      "format": "WEBP",
+      "height": 1920,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          523,
+          1920
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/fanagoriya-par-amour-pervenets-magaracha-beloe-polusuhoe-105-125.webp",
+        "sha256": "e8f2d59721a8c3d546d62f7a820ec61bee172b7ba361304ec4258ddbe74e3629",
+        "source_bbox_xyxy": [
+          1,
+          0,
+          523,
+          1920
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/fanagoriya-par-amour-pervenets-magaracha-beloe-polusuhoe-105-125.webp",
+      "sha256": "87e51be670b0de04b911d72506acb94036246188ace08d7b2ac07b7bd0b90850",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/fanagoriya_par_amour_pervenets_magaracha_beloe_polusuhoe_105_125_6db75a4f18.webp",
+      "width": 523
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/fanagoriya-par-amour-pervenets-magaracha-beloe-polusuhoe-105-125",
+  "retrieved_at_utc": "2026-09-29T19:16:15.934640+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Рислинг Резерв Усадьба Перовских",
+        "url": "/uploads/res_riesling_e367652923.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.89,
+      "region": "Крым",
+      "slug": "risling-rezerv",
+      "title": "Рислинг Резерв"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Рислинг",
+        "url": "/uploads/MAX_02346_1_edcbff60a1.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 3.33,
+      "region": "Кубань",
+      "slug": "risling-2",
+      "title": "Рислинг "
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Мускат",
+        "url": "/uploads/MAX_02198_1_c52c0cfeec.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 4.4,
+      "region": "Кубань",
+      "slug": "muskat",
+      "title": "Мускат"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Соломенный с золотистыми переливами",
+      "image": {
+        "altText": "Прибой Марченко белое полусухое",
+        "url": "/uploads/priboj_Marchenko_beloe_no_bg_preview_carve_photos_de18758756.webp"
+      },
+      "manufacturer": "Винодельня Марченко",
+      "publicRating": 3,
+      "region": "Кубань",
+      "slug": "priboj-marchenko-beloe-polusuhoe",
+      "title": "Прибой Марченко белое полусухое"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Бледно-соломенный",
+      "image": {
+        "altText": "Корур Мельниковы",
+        "url": "/uploads/DSC_00839_Photoroom_418c4b31b3.webp"
+      },
+      "manufacturer": "Винодельня Братьев Мельниковых",
+      "publicRating": 4.76,
+      "region": "Крым",
+      "slug": "kokur-2025",
+      "title": "Кокур, 2025 "
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Массандра Кокур",
+        "url": "/uploads/Massandra_Kokur_1fa858a17c.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 4.54,
+      "region": "Крым",
+      "slug": "massandra-kokur",
+      "title": "Массандра Кокур"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Inkerman Шато Блан белое полусухое",
+        "url": "/uploads/Inkerman_Shato_Blan_beloe_polusuhoe_526e6530b9.webp"
+      },
+      "manufacturer": "Инкерманский ЗМВ",
+      "publicRating": 4.4,
+      "region": "Крым",
+      "slug": "inkerman-shato-blan",
+      "title": "Инкерман Шато Блан"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Мускат премиум",
+        "url": "/uploads/MAX_02198_7f3ccea6d6.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "muskat-premium",
+      "title": "Мускат Премиум"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Табия Буковинка",
+        "url": "/uploads/Screenshot_10_a566dcdabb.webp"
+      },
+      "manufacturer": "Табия",
+      "publicRating": 4.82,
+      "region": "Кубань",
+      "slug": "bukovinka",
+      "title": "Буковинка"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Табия Рислинг",
+        "url": "/uploads/Screenshot_11_a9d7c8f8df.webp"
+      },
+      "manufacturer": "Табия",
+      "publicRating": 4.76,
+      "region": "Кубань",
+      "slug": "risling-1",
+      "title": "Рислинг"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Цитрон, Совиньон п.сух",
+        "url": "/uploads/Czitron_Sovinon_p_suh_f07f1d8280.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "czitronnyj-magaracha-sovinon-blan",
+      "title": "Жемчужная 9 Цитрон, Совиньон блан"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Рислинг, Совиньон п.сух",
+        "url": "/uploads/Risling_Sovinon_p_suh_2e0b39c41e.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "zhemchuzhnaya-9-risling-sovinon-blan",
+      "title": "Жемчужная 9 Рислинг,Совиньон блан"
+    }
+  ],
+  "site_lastmod": "2026-04-02T13:16:19.000Z",
+  "site_wine": {
+    "alcohol": 10,
+    "alcoholMax": 12.5,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое полусухое"
+    },
+    "color": "Соломенный",
+    "description": "В аромате садовые ягоды, лёгкий цитрус. Вкус свежий, минеральный, сбалансированный.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/legkie_zakuski_e5a2dedbf7.webp"
+        },
+        "name": "Легкие закуски"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ostroe_cd4130b86a.webp"
+        },
+        "name": "Морепродукты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Makabeo2_8d30670a08.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Glera2_9e33eb5e65.webp"
+        },
+        "name": "Бианка"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Harslevelyu_88e8ba6498.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Sharello1_4238e7b92f.webp"
+        },
+        "name": "Первенец Магарача"
+      }
+    ],
+    "image": {
+      "altText": "Фанагория",
+      "url": "/uploads/fanagoriya_par_amour_pervenets_magaracha_beloe_polusuhoe_105_125_6db75a4f18.webp"
+    },
+    "manufacturer": {
+      "name": "винный дом «Фанагория»",
+      "slug": "fanagoriya"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "fanagoriya-par-amour-pervenets-magaracha-beloe-polusuhoe-105-125",
+    "temperature": "8–10",
+    "title": "Par Amour"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Фанагория",
+      "title": "Фанагория",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/fanagoriya_par_amour_pervenets_magaracha_beloe_polusuhoe_105_125_6db75a4f18.webp"
+    }
+  ],
+  "slug": "fanagoriya-par-amour-pervenets-magaracha-beloe-polusuhoe-105-125"
+}

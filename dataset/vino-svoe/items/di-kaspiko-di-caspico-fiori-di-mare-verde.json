@@ -1,0 +1,295 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 70864,
+      "format": "WEBP",
+      "height": 1920,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          960,
+          1920
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/di-kaspiko-di-caspico-fiori-di-mare-verde.webp",
+        "sha256": "1afdf2ba8491669b70b37adbc53eb0de8df30dfd45e7220250e3d1e59e6434d5",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          960,
+          1920
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/di-kaspiko-di-caspico-fiori-di-mare-verde.webp",
+      "sha256": "195fe0affe9876e332ab334643aad7875de2fe7527c09b8cf06d6d4afae6a171",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/FDM_verde_white_4012edf5ad.webp",
+      "width": 960
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/di-kaspiko-di-caspico-fiori-di-mare-verde",
+  "retrieved_at_utc": "2026-09-29T19:14:56.164111+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое сухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Х4122 Винные краски Шардоне  2024",
+        "url": "/uploads/H4122_Vinnye_kraski_Shardone_2024_DKV_aa038d6d04.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 4,
+      "region": "Крым",
+      "slug": "vinnye-kraski-shardone",
+      "title": "Винные краски, Шардоне"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Х4121 Винные краски Совиньон Блан  2024 ДКВ",
+        "url": "/uploads/H4121_Vinnye_kraski_Sovinon_Blan_2024_DKV_c067db407c.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 3.67,
+      "region": "Крым",
+      "slug": "vinnye-kraski-sovinon-blan",
+      "title": "Винные краски, Совиньон Блан"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Х4117 Улыбка ветра Совиньон Блан",
+        "url": "/uploads/H4117_Ulybka_vetra_Sovinon_Blan_2024_DKV_9223d656b0.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-sovinon-blan",
+      "title": "Улыбка ветра, Совиньон Блан"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Х4118 Улыбка ветра  Шардоне  2024",
+        "url": "/uploads/H4118_Ulybka_vetra_Shardone_2024_DKV_6f148eb928.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-shardone",
+      "title": "Улыбка ветра, Шардоне"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Совиньон Усадьба перовских",
+        "url": "/uploads/main_sauvignon_d3d8e795e1.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.9,
+      "region": "Крым",
+      "slug": "sovinon",
+      "title": "Совиньон"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотисто-соломенный",
+      "image": {
+        "altText": "Крымский бленд усадьба перовских",
+        "url": "/uploads/main_crimean_blend_2_5647edf21a.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "krymskij-blend",
+      "title": "Крымский бленд"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Ркацители и Мускат Оранж Усадьба перовских",
+        "url": "/uploads/main_rkatsiteli_muskat_orange_10c5cf3d2f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "rkacziteli-i-muskat-oranzh",
+      "title": "Ркацители и Мускат Оранж"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Ркацители Квеври Усадьба перовских",
+        "url": "/uploads/ge_rkatsiteli_2b9412517f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "rkacziteli-kvevri",
+      "title": "Ркацители Квеври"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Пино блан АртВин",
+        "url": "/uploads/pino_white2_no_bg_preview_carve_photos_d4f30395c7.webp"
+      },
+      "manufacturer": "Артвин",
+      "publicRating": 4.5,
+      "region": "Крым",
+      "slug": "pino-blan-art-vin",
+      "title": "Пино Блан АртВин"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "ии вино",
+        "url": "/uploads/ii_3_8ac201f314.webp"
+      },
+      "manufacturer": "WINEPARK",
+      "publicRating": 4.68,
+      "region": "Крым",
+      "slug": "ii-vino-1",
+      "title": "ИИ ВИНО"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Хихви Сенетх",
+        "url": "/uploads/Pre_W01_5a4d8050c2.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.56,
+      "region": "Кубань",
+      "slug": "hihvi-sueta",
+      "title": "Хихви Суета"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Зеленовато-соломенный",
+      "image": {
+        "altText": "Мцване Сенетх",
+        "url": "/uploads/Pre_W03_3d7437416c.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.8,
+      "region": "Кубань",
+      "slug": "mczvane-sueta",
+      "title": "Мцване Суета"
+    }
+  ],
+  "site_lastmod": "2026-07-20T15:55:26.000Z",
+  "site_wine": {
+    "alcohol": 10,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое сухое"
+    },
+    "color": "Светло-соломенный",
+    "description": "Di Caspico Fiori di Mare — лёгкое сухое вино с освежающим характером и тонкой природной гармонией, навеянное морским бризом и мягкой прохладой прибрежных виноградников.\n\n\nВ бокале — светлый оттенок с едва заметным зеленоватым отблеском, подчёркивающий свежесть и чистоту стиля. Визуально вино создаёт ощущение лёгкости и прозрачности, словно отражение солнечного света на воде.\n\n\nАромат раскрывается деликатно и свежо: в нем переплетаются цитрусово-фруктовые ноты с легкими травянистыми оттенками, создавая живой и сбалансированный букет.\n\n\nВо вкусе вино яркое и освежающее, с цветочными нюансами и нотами белых фруктов. Приятная кислинка придаёт ему живость и делает вкус гармоничным, переходящим в мягкое и чистое послевкусие.\n\n\nFiori di Mare прекрасно сочетается с рыбой, морепродуктами, белым мясом, свежими салатами и мягкими сырами, подчеркивая их деликатность и добавляя свежие акценты.\n\n\nЭто вино — идеальный выбор для тёплых дней и легких встреч, когда хочется ощутить свежесть, свободу и атмосферу беззаботного отдыха у моря.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ptica_9a6c7e3ea1.webp"
+        },
+        "name": "Блюда из птицы"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ostroe_cd4130b86a.webp"
+        },
+        "name": "Морепродукты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/salat_1afebb2167.webp"
+        },
+        "name": "Салаты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Malvaziya_2_6fa1f30062.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Makabeo2_8d30670a08.webp"
+        },
+        "name": "Августин"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Makabeo2_8d30670a08.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Glera2_9e33eb5e65.webp"
+        },
+        "name": "Бианка"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Harslevelyu_88e8ba6498.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Sharello1_4238e7b92f.webp"
+        },
+        "name": "Первенец Магарача"
+      }
+    ],
+    "image": {
+      "altText": "FDM_verde_white",
+      "url": "/uploads/FDM_verde_white_4012edf5ad.webp"
+    },
+    "manufacturer": {
+      "name": "Дербент Вино",
+      "slug": "derbent-vino"
+    },
+    "publicRating": 4.31,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/dagestan_bb35548f71.webp"
+      },
+      "name": "Дагестан"
+    },
+    "slug": "di-kaspiko-di-caspico-fiori-di-mare-verde",
+    "temperature": "8-10",
+    "title": "Ди Каспико (Di Caspico Fiori di Mare Verde)"
+  },
+  "sitemap_images": [
+    {
+      "caption": "FDM_verde_white",
+      "title": "FDM_verde_white",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/FDM_verde_white_4012edf5ad.webp"
+    }
+  ],
+  "slug": "di-kaspiko-di-caspico-fiori-di-mare-verde"
+}

@@ -1,0 +1,256 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 45374,
+      "format": "WEBP",
+      "height": 1500,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          475,
+          1500
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/inkermanskiy-zmv-inkerman-muskat-polusladkoe-beloe-13.webp",
+        "sha256": "79efde47e3dd5a3cbd777f3f5c173e29218c66a0ce5201683f31b31a4ac92d96",
+        "source_bbox_xyxy": [
+          8,
+          10,
+          468,
+          1492
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/inkermanskiy-zmv-inkerman-muskat-polusladkoe-beloe-13.webp",
+      "sha256": "efd0f053c29c8b7877c6194e1459bb0f0428ca7d5966eb144dd210f370f54577",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/inkermanskiy_zmv_inkerman_muskat_polusladkoe_beloe_13_7b92ce68f8.webp",
+      "width": 475
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/inkermanskiy-zmv-inkerman-muskat-polusladkoe-beloe-13",
+  "retrieved_at_utc": "2026-09-29T19:15:38.363770+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое полусладкое",
+      "color": "Золотисто-соломенный",
+      "image": {
+        "altText": "Peti-Mansen_Dyna-kopia",
+        "url": "/uploads/Peti_Mansen_Dyna_kopia_14af7215d1.webp"
+      },
+      "manufacturer": "Yaiyla Winery",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "yaiyla-petit-manseng",
+      "title": "YAIYLA PETIT MANSENG  "
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Совиньон блан",
+        "url": "/uploads/MAX_02320_d56a1a6d6d.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 3,
+      "region": "Кубань",
+      "slug": "sovinon-blan",
+      "title": "Совиньон Блан"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Горка",
+        "url": "/uploads/MAX_02374_8762420674.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "region": "Кубань",
+      "slug": "domashnyaya-gorka",
+      "title": "Домашняя горка "
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса слад",
+        "url": "/uploads/CANTIANI_Igristoe_white_semi_444h1200px_2d2892b235.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.84,
+      "region": "Дагестан",
+      "slug": "cantiani-semisweet",
+      "title": "Cantiani Semisweet"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Caucasian Джарагъ",
+        "url": "/uploads/Caucasian_Dzharag_300681b16f.webp"
+      },
+      "manufacturer": "Дербент Вино",
+      "publicRating": 4.4,
+      "region": "Дагестан",
+      "slug": "caucasian-dzharag",
+      "title": "Caucasian Джарагъ "
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Inkerman мускатное белое полусладкое",
+        "url": "/uploads/Inkerman_muskatnoe_beloe_polusladkoe_092002be0d.webp"
+      },
+      "manufacturer": "Инкерманский ЗМВ",
+      "publicRating": 3,
+      "region": "Крым",
+      "slug": "inkerman-muskatnoe-beloe",
+      "title": "Inkerman Мускатное белое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Цимлянское белое полусладкое",
+        "url": "/uploads/Czimlyanskoe_beloe_polusladkoe_5c7026a82e.webp"
+      },
+      "manufacturer": "Цимлянские вина",
+      "publicRating": 3.5,
+      "region": "Долина Дона",
+      "slug": "czimlyanskoe-beloe-polusladkoe",
+      "title": "Цимлянское белое полусладкое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Цимлянское Бианка белое",
+        "url": "/uploads/Czimlyanskoe_Bianka_beloe_04a59b0f1e.webp"
+      },
+      "manufacturer": "Цимлянские вина",
+      "publicRating": 4,
+      "region": "Долина Дона",
+      "slug": "czimlyanskoe-bianka",
+      "title": "Цимлянское Бианка"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Валерий Захарьин Кокур и Ко игристое белое полусладкое",
+        "url": "/uploads/Valerij_Zaharin_Kokur_i_Ko_igristoe_beloe_polusladkoe_1334dee26c.webp"
+      },
+      "manufacturer": "Валерий Захарьин",
+      "region": "Крым",
+      "slug": "valerij-zaharin-kokur-i-ko-beloe-polusladkoe",
+      "title": "Валерий Захарьин Кокур и Ко белое полусладкое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Соломенно-желтый с золотистым оттенком",
+      "image": {
+        "altText": "Мысхако игристое полусладкое белое",
+        "url": "/uploads/Myshako_igristoe_polusladkoe_beloe_846a405f2a.webp"
+      },
+      "manufacturer": "Мысхако",
+      "region": "Кубань",
+      "slug": "myshako-igristoe-beloe-polusladkoe",
+      "title": "Мысхако игристое белое полусладкое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Абрау Дюрсо физз полусладкое",
+        "url": "/uploads/Abrau_Dyurso_fizz_polusladkoe_031d93d5e0.webp"
+      },
+      "manufacturer": "Абрау-Дюрсо",
+      "publicRating": 3.33,
+      "region": "Кубань",
+      "slug": "abrau-dyurso-fizz-beloe-polusladkoe",
+      "title": "Абрау Дюрсо Физз белое полусладкое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Соломенно-зеленоватый с ярким блеском",
+      "image": {
+        "altText": "Фанагория полусладкое",
+        "url": "/uploads/Fanagrriya_polusladkoe_30637d1cb8.webp"
+      },
+      "manufacturer": "винный дом «Фанагория»",
+      "publicRating": 4.6,
+      "region": "Кубань",
+      "slug": "fanagoriya-beloe-polusladkoe",
+      "title": "Фанагория белое полусладкое"
+    }
+  ],
+  "site_lastmod": "2026-06-04T10:21:10.000Z",
+  "site_wine": {
+    "alcohol": 13,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое полусладкое"
+    },
+    "color": "Светло-соломенный с золотистыми бликами",
+    "description": "Аромат мускатный, с нотами белых цветов, персика и мёда; вкус нежный, с характерной мускатной пряностью и приятной сладостью. К фруктовым десертам, мороженому, лёгкой выпечке.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/nesladkaya_vypechka_05bf04c48c.webp"
+        },
+        "name": "Выпечка и десерты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/sladkaya_vypechka_71424474e1.webp"
+        },
+        "name": "Десерты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Muskat_648c0fbc3f.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Shenen_Blan_0914f145a9.webp"
+        },
+        "name": "Мускат"
+      }
+    ],
+    "image": {
+      "altText": "Инкерман Мускат полусладкое",
+      "url": "/uploads/inkermanskiy_zmv_inkerman_muskat_polusladkoe_beloe_13_7b92ce68f8.webp"
+    },
+    "manufacturer": {
+      "name": "Инкерманский ЗМВ",
+      "slug": "inkermanskiy_zmv"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "inkermanskiy-zmv-inkerman-muskat-polusladkoe-beloe-13",
+    "temperature": "6-8",
+    "title": "Инкерман Мускат полусладкое"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Инкерман Мускат полусладкое",
+      "title": "Инкерман Мускат полусладкое",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/inkermanskiy_zmv_inkerman_muskat_polusladkoe_beloe_13_7b92ce68f8.webp"
+    }
+  ],
+  "slug": "inkermanskiy-zmv-inkerman-muskat-polusladkoe-beloe-13"
+}

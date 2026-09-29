@@ -1,0 +1,266 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 11398,
+      "format": "WEBP",
+      "height": 526,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          215,
+          526
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/nebo-rossii-glera.webp",
+        "sha256": "582471425ca96797be41dc475ff47ce4e1e6261d63cae9be871ef9de830fdf3b",
+        "source_bbox_xyxy": [
+          37,
+          7,
+          184,
+          511
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/nebo-rossii-glera.webp",
+      "sha256": "a489a3eff33176e47768cba6c2be65a7afa4e1a6d11a1ba5ebbf254e6d1eafe5",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Screenshot_6_Photoroom_b5b45ec3f4.webp",
+      "width": 215
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/nebo-rossii-glera",
+  "retrieved_at_utc": "2026-09-29T19:14:44.696210+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое брют",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Мускат Оттонель Гусев",
+        "url": "/uploads/petnat_muskat_no_bg_preview_carve_photos_2296dc8b1a.webp"
+      },
+      "manufacturer": "Гусевъ",
+      "publicRating": 5,
+      "region": "Нижняя Волга",
+      "slug": "muskat-ottonel-gusev",
+      "title": "Мускат Оттонель Гусевъ"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "алвиса монблан",
+        "url": "/uploads/MB_igrist_Blanc_vid_032026_kopiya_5c6680d1ef.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.86,
+      "region": "Дагестан",
+      "slug": "mont-blanc-blanc-de-blancs",
+      "title": "Mont Blanc, Blanc de Blancs"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Mont Vlanc Alvisa",
+        "url": "/uploads/MB_igrist_Cuvee_vid_032026_kopiya_8bb830fcc2.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.95,
+      "region": "Дагестан",
+      "slug": "mont-blanc-cuvee",
+      "title": "Mont Blanc Cuvée"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса рисл",
+        "url": "/uploads/CANTIANI_Igristoe_Riesl_vid_032025_kopiya_8150a5e627.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.88,
+      "region": "Дагестан",
+      "slug": "cantiani-riesling-1",
+      "title": "Cantiani Riesling"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса брют ",
+        "url": "/uploads/CANTIANI_Igrist_Brut_vid5_042026_kopiya_1b13527c60.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.83,
+      "region": "Дагестан",
+      "slug": "cantiani-brut",
+      "title": "Cantiani Brut"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса ркац",
+        "url": "/uploads/CANTIANI_Igristoe_Rkats_vid_032025_kopiya_29e44021af.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.98,
+      "region": "Дагестан",
+      "slug": "cantiani-rkatsiteli-1",
+      "title": "Cantiani Rkatsiteli"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса шадр",
+        "url": "/uploads/CANTIANI_Igristoe_Chardon_444h1200px_fa4fe5363b.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 5,
+      "region": "Дагестан",
+      "slug": "cantiani-chardonnay",
+      "title": "Cantiani Chardonnay"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Просека",
+        "url": "/uploads/Screenshot_4_7c7945f9a9.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 3.81,
+      "region": "Кубань",
+      "slug": "lesnaya-proseka",
+      "title": "Лесная просека"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Глера Манно",
+        "url": "/uploads/Screenshot_2_66036870aa.webp"
+      },
+      "manufacturer": "Мысхако",
+      "publicRating": 4.67,
+      "region": "Кубань",
+      "slug": "glera-manno",
+      "title": "Глера Манно"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Русток Глера Ru 140",
+        "url": "/uploads/Screenshot_3_dce2afc6e1.webp"
+      },
+      "manufacturer": "Мысхако",
+      "publicRating": 4.5,
+      "region": "Кубань",
+      "slug": "rustok-glera-ru-140",
+      "title": "Русток Глера Ru 140"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Аристов Анима милезимиато брют",
+        "url": "/uploads/Aristov_Anima_milezimiato_bryut_4a887b783f.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 4.67,
+      "region": "Кубань",
+      "slug": "aristov-anima-millesimato-beloe-bryut",
+      "title": "Аристов ANIMA Millesimato белое брют"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Солнечная Долина меганом кокур",
+        "url": "/uploads/Solnechnaya_Dolina_meganom_kokur_0084a50e59.webp"
+      },
+      "manufacturer": "Солнечная долина",
+      "publicRating": 3.67,
+      "region": "Крым",
+      "slug": "solnechnaya-dolina-meganom-kokur-beloe-bryut",
+      "title": "Солнечная Долина Меганом Кокур белое брют"
+    }
+  ],
+  "site_lastmod": "2026-08-13T10:55:06.000Z",
+  "site_wine": {
+    "alcohol": 11,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое брют"
+    },
+    "color": "Светло-соломенный",
+    "description": "В 2024 году рязанки Оксана Трунина и Юлия Машкова при поддержке винодельни Uva Vallis запустили авторскую линейку вин, посвящённую фестивалю воздухоплавания «Небо России». В 2025 году к ней добавилось игристое из глеры, сделанное вместе с Kalos Limen по методу ансестраль (петнат). «Небо России Глера» — третье вино проекта после Сира Розе и Совиньон Блан; оно задумано как ода свободе и лёгкости и отражает атмосферу августовского фестиваля, собирающего в Рязани тысячи гостей.\n\nОсобенности «Небо России Глера»: минимальное содержание сахара для изысканной лёгкости; длительная выдержка на осадке, дающая нежные ноты свежей выпечки; деликатный перляж, ассоциирующийся с россыпью аэростатов в синем небе. Каждая бутылка — воплощение мечты о полёте, созданное с любовью. ",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ptica_9a6c7e3ea1.webp"
+        },
+        "name": "Блюда из птицы"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ostroe_cd4130b86a.webp"
+        },
+        "name": "Морепродукты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Glera2_9e33eb5e65.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Glera_0f17a1d0bf.webp"
+        },
+        "name": "Глера"
+      }
+    ],
+    "image": {
+      "altText": "Небо России Глера",
+      "url": "/uploads/Screenshot_6_Photoroom_b5b45ec3f4.webp"
+    },
+    "manufacturer": {
+      "name": "Kalos Limen",
+      "slug": "kalos-limen"
+    },
+    "publicRating": 4.91,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "nebo-rossii-glera",
+    "temperature": "6-8",
+    "title": "Небо России Глера"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Небо России Глера",
+      "title": "Небо России Глера",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Screenshot_6_Photoroom_b5b45ec3f4.webp"
+    }
+  ],
+  "slug": "nebo-rossii-glera"
+}

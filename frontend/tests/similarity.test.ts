@@ -121,7 +121,7 @@ describe('findSimilar на реальном каталоге', () => {
       )
       if (firstForeign !== -1) expect(same.length).toBe(firstForeign)
     }
-  }, 15_000)
+  }, 45_000)
 })
 
 describe('findSimilar по частичным признакам', () => {

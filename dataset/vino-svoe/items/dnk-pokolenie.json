@@ -1,0 +1,266 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 17670,
+      "format": "WEBP",
+      "height": 897,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          282,
+          897
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/dnk-pokolenie.webp",
+        "sha256": "9baa7d485dd73a96a14e3fa262636cebaad75577f6c3607902883097acf07ba9",
+        "source_bbox_xyxy": [
+          14,
+          11,
+          251,
+          877
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/dnk-pokolenie.webp",
+      "sha256": "2c315322be3f9c60f814818713c9c543915ad6be1f06819298166e3e0a7b921e",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/DNK_Pokolenie_Merkotan2_5b589ac6e4.webp",
+      "width": 282
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/dnk-pokolenie",
+  "retrieved_at_utc": "2026-09-29T19:17:43.730371+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Рислинг Резерв Усадьба Перовских",
+        "url": "/uploads/res_riesling_e367652923.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.89,
+      "region": "Крым",
+      "slug": "risling-rezerv",
+      "title": "Рислинг Резерв"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Рислинг",
+        "url": "/uploads/MAX_02346_1_edcbff60a1.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 3.33,
+      "region": "Кубань",
+      "slug": "risling-2",
+      "title": "Рислинг "
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Мускат",
+        "url": "/uploads/MAX_02198_1_c52c0cfeec.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 4.4,
+      "region": "Кубань",
+      "slug": "muskat",
+      "title": "Мускат"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Соломенный с золотистыми переливами",
+      "image": {
+        "altText": "Прибой Марченко белое полусухое",
+        "url": "/uploads/priboj_Marchenko_beloe_no_bg_preview_carve_photos_de18758756.webp"
+      },
+      "manufacturer": "Винодельня Марченко",
+      "publicRating": 3,
+      "region": "Кубань",
+      "slug": "priboj-marchenko-beloe-polusuhoe",
+      "title": "Прибой Марченко белое полусухое"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Бледно-соломенный",
+      "image": {
+        "altText": "Корур Мельниковы",
+        "url": "/uploads/DSC_00839_Photoroom_418c4b31b3.webp"
+      },
+      "manufacturer": "Винодельня Братьев Мельниковых",
+      "publicRating": 4.76,
+      "region": "Крым",
+      "slug": "kokur-2025",
+      "title": "Кокур, 2025 "
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Массандра Кокур",
+        "url": "/uploads/Massandra_Kokur_1fa858a17c.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 4.54,
+      "region": "Крым",
+      "slug": "massandra-kokur",
+      "title": "Массандра Кокур"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Inkerman Шато Блан белое полусухое",
+        "url": "/uploads/Inkerman_Shato_Blan_beloe_polusuhoe_526e6530b9.webp"
+      },
+      "manufacturer": "Инкерманский ЗМВ",
+      "publicRating": 4.4,
+      "region": "Крым",
+      "slug": "inkerman-shato-blan",
+      "title": "Инкерман Шато Блан"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Мускат премиум",
+        "url": "/uploads/MAX_02198_7f3ccea6d6.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "muskat-premium",
+      "title": "Мускат Премиум"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Табия Буковинка",
+        "url": "/uploads/Screenshot_10_a566dcdabb.webp"
+      },
+      "manufacturer": "Табия",
+      "publicRating": 4.82,
+      "region": "Кубань",
+      "slug": "bukovinka",
+      "title": "Буковинка"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Табия Рислинг",
+        "url": "/uploads/Screenshot_11_a9d7c8f8df.webp"
+      },
+      "manufacturer": "Табия",
+      "publicRating": 4.76,
+      "region": "Кубань",
+      "slug": "risling-1",
+      "title": "Рислинг"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Цитрон, Совиньон п.сух",
+        "url": "/uploads/Czitron_Sovinon_p_suh_f07f1d8280.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "czitronnyj-magaracha-sovinon-blan",
+      "title": "Жемчужная 9 Цитрон, Совиньон блан"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Рислинг, Совиньон п.сух",
+        "url": "/uploads/Risling_Sovinon_p_suh_2e0b39c41e.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "zhemchuzhnaya-9-risling-sovinon-blan",
+      "title": "Жемчужная 9 Рислинг,Совиньон блан"
+    }
+  ],
+  "site_lastmod": "2026-02-01T12:48:44.000Z",
+  "site_wine": {
+    "alcohol": 13,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое полусухое"
+    },
+    "color": "Лимонный",
+    "description": "Вкус с нотами зеленых фруктов и полевых цветов, со средней кислотностью, с нежным послевкусием. Аромат свежий, с тонами зеленых фруктов (груша, зеленое яблоко, крыжовник) и полевых цветов.\n\nОсобенности технологии: ранняя ручная уборка для сохранения в ягоде хорошей кислотности и уменьшения потенциального алкоголя. Охлаждение винограда перед переработкой до 5⁰С. Переработка с минимальным контактом с кислородом. Прессование мембранным прессом. Брожение в стальной емкости при 14⁰С Брожение в стальной емкости при 14⁰С с контролем температуры для сохранения яркой ароматики. Выдержка на тонком дрожжевом осадке 3-4 месяца с батонажем 1 раз в 2 недели. Стерильная фильтрация перед розливом.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/legkie_zakuski_e5a2dedbf7.webp"
+        },
+        "name": "Легкие закуски"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/nesladkaya_vypechka_05bf04c48c.webp"
+        },
+        "name": "Несладкая выпечка"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ryba_moreprodukty_e57b445d95.webp"
+        },
+        "name": "Рыба и морепродукты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Rkacziteli1_5fa00630c0.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Rkacziteli1_5fa00630c0.webp"
+        },
+        "name": "Ркацители"
+      }
+    ],
+    "image": {
+      "altText": "ДНК Поколение Меркотан",
+      "url": "/uploads/DNK_Pokolenie_Merkotan2_5b589ac6e4.webp"
+    },
+    "manufacturer": {
+      "name": "Усадьба Меркотан",
+      "slug": "usadba-merkotan"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "dnk-pokolenie",
+    "temperature": "10-12",
+    "title": "ДНК. Поколение"
+  },
+  "sitemap_images": [
+    {
+      "caption": "ДНК Поколение Меркотан",
+      "title": "ДНК Поколение Меркотан",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/DNK_Pokolenie_Merkotan2_5b589ac6e4.webp"
+    }
+  ],
+  "slug": "dnk-pokolenie"
+}

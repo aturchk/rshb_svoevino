@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "split": "pool",
+  "evidence_level": "single_reviewed_development_diagnostic",
+  "pipeline": "siglip2",
+  "pipeline_runtime": {
+    "model_id": "google/siglip2-base-patch16-384",
+    "requested_revision": "f775b65a79762255128c981547af89addcfe0f88",
+    "resolved_revision": "f775b65a79762255128c981547af89addcfe0f88",
+    "device": "cuda",
+    "precision": "float16",
+    "torch": "2.8.0+cu128",
+    "cuda_runtime": "12.8",
+    "cuda_device_name": "NVIDIA GeForce RTX 5090",
+    "batch_size": 32,
+    "max_num_patches": null,
+    "attn_implementation": "sdpa",
+    "offline": true,
+    "adapter_path": "/workspace/models/siglip2-site-label-adapter.safetensors",
+    "adapter_sha256": "bde343102f06d5e4fe02df953ecce622e2725deb800a0fa57eb34b99d3bf9701",
+    "reference_view_mode": "full-label",
+    "query_view_mode": "full",
+    "view_transform_version": "bottle-bbox-label-crops-v1",
+    "views_per_reference": 2,
+    "cache_hit": false,
+    "cache_path": "work/runpod-eval/cache/google_siglip2-base-patch16-384-b5d70a2f72e9fbeefa6e.safetensors",
+    "embedding_dimension": 768,
+    "model_load_ms": 3122.24,
+    "cache_load_ms": null,
+    "cache_load_error": null,
+    "gallery_encode_ms": 45840.76
+  },
+  "sample_size": 59,
+  "ungrouped_selected_count": 59,
+  "confirmed_original_reviewed": 64,
+  "covered_confirmed_original_reviewed": 59,
+  "excluded": {
+    "not_in_catalog": 35,
+    "uncertain": 1,
+    "not_indexed": 5
+  },
+  "review_status_counts": {
+    "single_reviewed": 100
+  },
+  "gallery_review_status_counts": {
+    "site_linked_unreviewed": 1909,
+    "auto_linked": 16,
+    "site_image_reviewed": 11
+  },
+  "hits_at_1": 41,
+  "hits_at_5": 53,
+  "hits_at_20": 55,
+  "answer_rank_buckets": {
+    "rank_1": 41,
+    "rank_2_to_5": 12,
+    "rank_6_to_20": 2,
+    "below_20": 4
+  },
+  "metrics": {
+    "top1_accuracy": 0.6949152542372882,
+    "micro_f1_at_1": 0.6949152542372882,
+    "recall_at_5": 0.8983050847457628,
+    "recall_at_20": 0.9322033898305084,
+    "mean_set_f1_at_5": 0.29943502824858753,
+    "mean_latency_ms": 200.83966101694915,
+    "p50_latency_ms": 198.03,
+    "p95_latency_ms": 237.5,
+    "within_3s_rate": 1.0,
+    "gallery_coverage_of_confirmed": 0.921875,
+    "retrieval_only_top1_ceiling_on_confirmed": 0.921875
+  },
+  "errors": [
+    {
+      "query_id": "field-000014",
+      "true_slug": "massandra-muskatel-belyy-belye-sorta-vinograda-beloe-sladkoe-16",
+      "predicted_slug": "massandra-muskat-belyy-yuzhnoberezhnyy-beloe-sladkoe-16",
+      "in_top5": false,
+      "in_top20": true
+    },
+    {
+      "query_id": "field-000026",
+      "true_slug": "golubitskoe-estate-kaberne-sovinon-noble-selection-krasnoe-suhoe-133",
+      "predicted_slug": "golubitskoe-estate-merlo-rezerv-krasnoe-suhoe-135",
+      "in_top5": true,
+      "in_top20": true
+    },
+    {
+      "query_id": "field-000032",
+      "true_slug": "rubin-golodrigi",
+      "predicted_slug": "bukovinka",
+      "in_top5": true,
+      "in_top20": true
+    },
+    {
+      "query_id": "field-000048",
+      "true_slug": "pozdnij-sbor-beloe",
+      "predicted_slug": "sovinon-blan",
+      "in_top5": false,
+      "in_top20": false
+    },
+    {
+      "query_id": "field-000051",
+      "true_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+      "predicted_slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+      "in_top5": true,
+      "in_top20": true
+    },
+    {
+      "query_id": "field-000054",
+      "true_slug": "denisov_pereplyas_kurmyshi",
+      "predicted_slug": "denisov_barynya_kurmyshi",
+      "in_top5": true,
+      "in_top20": true
+    },
+    {
+      "query_id": "field-000061",
+      "true_slug": "golubitskoe-estate-merlo-krasnoe-suhoe-135",
+      "predicted_slug": "golubitskoe-estate-merlo-rezerv-krasnoe-suhoe-135",
+      "in_top5": true,
+      "in_top20": true
+    },
+    {
+      "query_id": "field-000076",
+      "true_slug": "czitronnyj-magaracha",
+      "predicted_slug": "risling-1",
+      "in_top5": true,
+      "in_top20": true
+    },
+    {
+      "query_id": "field-000079",
+      "true_slug": "novyy-svet-dom-shampanskih-vin-igristoe-vino-vyderzhannoe-bryut-rozovoe-novyy-svet-pino-nuar-125",
+      "predicted_slug": "novyy-svet-dom-shampanskih-vin-novyy-svet-polusladkoe-roze-shardone-rozovoe-115",
+      "in_top5": false,
+      "in_top20": false
+    },
+    {
+      "query_id": "field-000081",
+      "true_slug": "balaklava-muskat-beloe-polusladkoe",
+      "predicted_slug": "balaklava-muskat",
+      "in_top5": true,
+      "in_top20": true
+    },
+    {
+      "query_id": "field-000083",
+      "true_slug": "valeriy-zaharin-dom-zaharinyh-krasnoe-kaberne-sovinon-suhoe-125",
+      "predicted_slug": "valeriy-zaharin-bastardo-kefesiya-avtohtonnoe-vino-kryma-bastardo-magarachskiy-krasnoe-suhoe-115",
+      "in_top5": false,
+      "in_top20": false
+    },
+    {
+      "query_id": "field-000089",
+      "true_slug": "golubitskoe-estate-red-blend-kaberne-sovinon-krasnoe-suhoe-136",
+      "predicted_slug": "golubitskoe-estate-winery-series-roze-blend-kaberne-sovinon-rozovoe-suhoe-117",
+      "in_top5": false,
+      "in_top20": true
+    },
+    {
+      "query_id": "field-000090",
+      "true_slug": "czitronnyj-magaracha",
+      "predicted_slug": "bukovinka",
+      "in_top5": true,
+      "in_top20": true
+    },
+    {
+      "query_id": "field-000091",
+      "true_slug": "oleg",
+      "predicted_slug": "sober-bash-rubin-rubin-rubin-azos-krasnoe-suhoe-14",
+      "in_top5": false,
+      "in_top20": false
+    },
+    {
+      "query_id": "field-000092",
+      "true_slug": "vinodelnya-vedernikov-vedernikov-dolina-dona-beloe-suhoe-aligote-12",
+      "predicted_slug": "vinodelnya-vedernikov-pravoberezhnoe-beloe-aligote-suhoe-13",
+      "in_top5": true,
+      "in_top20": true
+    },
+    {
+      "query_id": "field-000094",
+      "true_slug": "oleg",
+      "predicted_slug": "rozovoe-zoloto",
+      "in_top5": true,
+      "in_top20": true
+    },
+    {
+      "query_id": "field-000096",
+      "true_slug": "denisov_rubin_klaret_krasnaya_strelka",
+      "predicted_slug": "denisov_pet_nat_rubin",
+      "in_top5": true,
+      "in_top20": true
+    },
+    {
+      "query_id": "field-000098",
+      "true_slug": "caperavi-avtorskoe-vino",
+      "predicted_slug": "massandra-portveyn-belyy-gurzuf-kokur-belyy-beloe-sladkoe-135",
+      "in_top5": true,
+      "in_top20": true
+    }
+  ],
+  "provenance": {
+    "selection_sha256": "dd8d6e1524cdb0ad3dc6d62f983b50a7e66fbe0323439a9ca237c072310b18bf",
+    "gallery_sha256": "d9ddfbc13848545836e7f59f788a6a8949b2fe29242cf6eaceb49d952c400266",
+    "field_manifest_sha256": "9a0320202f0208baf522ea21726c4736c6b046c6725e34e577cd91d0e1a14897",
+    "catalog_csv_sha256": "12a1b0b620db7a2264b094446861e83940a927708d65a1b7ccffda7ec3aeffee",
+    "query_manifest_sha256": "d0c7ac162c2f06cfb2ae909159be1b120ccba6957a594e0f00e23a8b8462d6be",
+    "labels_sha256": "d2daf031820b5772a51cfae9177802fcc90d1dfa7d6031a2477fe11200e8fbe6",
+    "predictions_sha256": "7114f96a186613a05a6d8ecc6ecfbe5d93d708693f56cdbca95878fcf2fb3bc7",
+    "benchmark_summary_sha256": "7740fe820014908e44a461a6c0052b79ed0cca72c1e82c4f9d307490037737ca"
+  }
+}

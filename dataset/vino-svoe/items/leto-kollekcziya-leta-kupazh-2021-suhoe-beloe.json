@@ -1,0 +1,270 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 41234,
+      "format": "WEBP",
+      "height": 1920,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          1440,
+          1920
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/leto-kollekcziya-leta-kupazh-2021-suhoe-beloe.webp",
+        "sha256": "feb814d2ce704b91077dbb78697696ef0d855a6c55a27554e0c5382d074997ae",
+        "source_bbox_xyxy": [
+          451,
+          63,
+          871,
+          1857
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/leto-kollekcziya-leta-kupazh-2021-suhoe-beloe.webp",
+      "sha256": "88cb9f59705fec427c7b9a5cf21d8a5bf95e223c7f34442bea957ee34a381da6",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Vino_suhoe_beloe_KOLLEK_Cz_I_Ya_LETA_KUPA_Zh_0ee86a0a33.webp",
+      "width": 1440
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/leto-kollekcziya-leta-kupazh-2021-suhoe-beloe",
+  "retrieved_at_utc": "2026-09-29T19:15:08.348530+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое сухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Х4122 Винные краски Шардоне  2024",
+        "url": "/uploads/H4122_Vinnye_kraski_Shardone_2024_DKV_aa038d6d04.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 4,
+      "region": "Крым",
+      "slug": "vinnye-kraski-shardone",
+      "title": "Винные краски, Шардоне"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Х4121 Винные краски Совиньон Блан  2024 ДКВ",
+        "url": "/uploads/H4121_Vinnye_kraski_Sovinon_Blan_2024_DKV_c067db407c.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 3.67,
+      "region": "Крым",
+      "slug": "vinnye-kraski-sovinon-blan",
+      "title": "Винные краски, Совиньон Блан"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Х4117 Улыбка ветра Совиньон Блан",
+        "url": "/uploads/H4117_Ulybka_vetra_Sovinon_Blan_2024_DKV_9223d656b0.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-sovinon-blan",
+      "title": "Улыбка ветра, Совиньон Блан"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Х4118 Улыбка ветра  Шардоне  2024",
+        "url": "/uploads/H4118_Ulybka_vetra_Shardone_2024_DKV_6f148eb928.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-shardone",
+      "title": "Улыбка ветра, Шардоне"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Совиньон Усадьба перовских",
+        "url": "/uploads/main_sauvignon_d3d8e795e1.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.9,
+      "region": "Крым",
+      "slug": "sovinon",
+      "title": "Совиньон"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотисто-соломенный",
+      "image": {
+        "altText": "Крымский бленд усадьба перовских",
+        "url": "/uploads/main_crimean_blend_2_5647edf21a.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "krymskij-blend",
+      "title": "Крымский бленд"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Ркацители и Мускат Оранж Усадьба перовских",
+        "url": "/uploads/main_rkatsiteli_muskat_orange_10c5cf3d2f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "rkacziteli-i-muskat-oranzh",
+      "title": "Ркацители и Мускат Оранж"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Ркацители Квеври Усадьба перовских",
+        "url": "/uploads/ge_rkatsiteli_2b9412517f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "rkacziteli-kvevri",
+      "title": "Ркацители Квеври"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Пино блан АртВин",
+        "url": "/uploads/pino_white2_no_bg_preview_carve_photos_d4f30395c7.webp"
+      },
+      "manufacturer": "Артвин",
+      "publicRating": 4.5,
+      "region": "Крым",
+      "slug": "pino-blan-art-vin",
+      "title": "Пино Блан АртВин"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "ии вино",
+        "url": "/uploads/ii_3_8ac201f314.webp"
+      },
+      "manufacturer": "WINEPARK",
+      "publicRating": 4.68,
+      "region": "Крым",
+      "slug": "ii-vino-1",
+      "title": "ИИ ВИНО"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Хихви Сенетх",
+        "url": "/uploads/Pre_W01_5a4d8050c2.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.56,
+      "region": "Кубань",
+      "slug": "hihvi-sueta",
+      "title": "Хихви Суета"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Зеленовато-соломенный",
+      "image": {
+        "altText": "Мцване Сенетх",
+        "url": "/uploads/Pre_W03_3d7437416c.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.8,
+      "region": "Кубань",
+      "slug": "mczvane-sueta",
+      "title": "Мцване Суета"
+    }
+  ],
+  "site_lastmod": "2026-06-26T09:22:50.000Z",
+  "site_wine": {
+    "alcohol": 12,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое сухое"
+    },
+    "color": "Вино бледно-соломенного цвета с золотистыми бликами.",
+    "description": "В течение 11 месяцев на осадке в ёмкостях из нержавеющей стали.  Аромат раскрывается яркими оттенками зеленых яблок и садовых ягод — белой смородины, спелого крыжовника.\nВкус вина нежный и яркий, с умеренной кислотностью яблок и нежными тонами абрикосов, белой смородины и крыжовника.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/salat_1afebb2167.webp"
+        },
+        "name": "Салаты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Risling2_c6fa370506.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Risling_5a37344384.webp"
+        },
+        "name": "Рислинг"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Sovinon_Blan_e82f684de6.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Sovinon_Blan2_64c30a0af4.webp"
+        },
+        "name": "Совиньон Блан"
+      }
+    ],
+    "image": {
+      "altText": "Вино сухое белое КОЛЛЕКЦИЯ ЛЕТА КУПАЖ 2021 LETO",
+      "url": "/uploads/Vino_suhoe_beloe_KOLLEK_Cz_I_Ya_LETA_KUPA_Zh_0ee86a0a33.webp"
+    },
+    "manufacturer": {
+      "name": "LETO",
+      "slug": "leto"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "leto-kollekcziya-leta-kupazh-2021-suhoe-beloe",
+    "temperature": "8-12",
+    "title": "LETO Коллекция Лета Купаж 2021 сухое белое"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Вино сухое белое КОЛЛЕКЦИЯ ЛЕТА КУПАЖ 2021 LETO",
+      "title": "Вино сухое белое КОЛЛЕКЦИЯ ЛЕТА КУПАЖ 2021 LETO",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Vino_suhoe_beloe_KOLLEK_Cz_I_Ya_LETA_KUPA_Zh_0ee86a0a33.webp"
+    }
+  ],
+  "slug": "leto-kollekcziya-leta-kupazh-2021-suhoe-beloe"
+}

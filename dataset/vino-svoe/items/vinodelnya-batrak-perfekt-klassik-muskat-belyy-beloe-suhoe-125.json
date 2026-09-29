@@ -1,0 +1,272 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 32186,
+      "format": "WEBP",
+      "height": 1000,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          241,
+          1000
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125.webp",
+        "sha256": "c703ef1eff78c706f391c8d84316b6f7df2183145de5db2ab6665645e10ab161",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          241,
+          1000
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125.webp",
+      "sha256": "51b57da6be57a24f7a5d8a459b314e1d0a238b43a03ed1a456b68670716fbdd5",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/vinodelnya_batrak_perfekt_klassik_muskat_belyy_beloe_suhoe_125_bfb281d569.webp",
+      "width": 241
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+  "retrieved_at_utc": "2026-09-29T19:19:19.767504+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое сухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Х4122 Винные краски Шардоне  2024",
+        "url": "/uploads/H4122_Vinnye_kraski_Shardone_2024_DKV_aa038d6d04.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 4,
+      "region": "Крым",
+      "slug": "vinnye-kraski-shardone",
+      "title": "Винные краски, Шардоне"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Х4121 Винные краски Совиньон Блан  2024 ДКВ",
+        "url": "/uploads/H4121_Vinnye_kraski_Sovinon_Blan_2024_DKV_c067db407c.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 3.67,
+      "region": "Крым",
+      "slug": "vinnye-kraski-sovinon-blan",
+      "title": "Винные краски, Совиньон Блан"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Х4117 Улыбка ветра Совиньон Блан",
+        "url": "/uploads/H4117_Ulybka_vetra_Sovinon_Blan_2024_DKV_9223d656b0.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-sovinon-blan",
+      "title": "Улыбка ветра, Совиньон Блан"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Х4118 Улыбка ветра  Шардоне  2024",
+        "url": "/uploads/H4118_Ulybka_vetra_Shardone_2024_DKV_6f148eb928.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-shardone",
+      "title": "Улыбка ветра, Шардоне"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Совиньон Усадьба перовских",
+        "url": "/uploads/main_sauvignon_d3d8e795e1.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.9,
+      "region": "Крым",
+      "slug": "sovinon",
+      "title": "Совиньон"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотисто-соломенный",
+      "image": {
+        "altText": "Крымский бленд усадьба перовских",
+        "url": "/uploads/main_crimean_blend_2_5647edf21a.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "krymskij-blend",
+      "title": "Крымский бленд"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Ркацители и Мускат Оранж Усадьба перовских",
+        "url": "/uploads/main_rkatsiteli_muskat_orange_10c5cf3d2f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "rkacziteli-i-muskat-oranzh",
+      "title": "Ркацители и Мускат Оранж"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Ркацители Квеври Усадьба перовских",
+        "url": "/uploads/ge_rkatsiteli_2b9412517f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "rkacziteli-kvevri",
+      "title": "Ркацители Квеври"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Пино блан АртВин",
+        "url": "/uploads/pino_white2_no_bg_preview_carve_photos_d4f30395c7.webp"
+      },
+      "manufacturer": "Артвин",
+      "publicRating": 4.5,
+      "region": "Крым",
+      "slug": "pino-blan-art-vin",
+      "title": "Пино Блан АртВин"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "ии вино",
+        "url": "/uploads/ii_3_8ac201f314.webp"
+      },
+      "manufacturer": "WINEPARK",
+      "publicRating": 4.68,
+      "region": "Крым",
+      "slug": "ii-vino-1",
+      "title": "ИИ ВИНО"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Хихви Сенетх",
+        "url": "/uploads/Pre_W01_5a4d8050c2.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.56,
+      "region": "Кубань",
+      "slug": "hihvi-sueta",
+      "title": "Хихви Суета"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Зеленовато-соломенный",
+      "image": {
+        "altText": "Мцване Сенетх",
+        "url": "/uploads/Pre_W03_3d7437416c.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.8,
+      "region": "Кубань",
+      "slug": "mczvane-sueta",
+      "title": "Мцване Суета"
+    }
+  ],
+  "site_lastmod": "2026-01-12T11:51:24.000Z",
+  "site_wine": {
+    "alcohol": 12,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое сухое"
+    },
+    "color": "Светло-золотистый",
+    "description": "Вкус: Легкий, свежий, с элегантными тонами фруктов, специй, трав и цветов, с тонким и приятным послевкусием. Изящный, цветочно-фруктовый, с изысканными мускатными оттенками.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ptica_9a6c7e3ea1.webp"
+        },
+        "name": "Блюда из птицы"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/myaso_442273df41.webp"
+        },
+        "name": "Мясо и стейки"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ryba_moreprodukty_e57b445d95.webp"
+        },
+        "name": "Рыба и морепродукты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/frukty_545dae1854.webp"
+        },
+        "name": "Фрукты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Muskat_d58579a0e1.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Marsan3_97291c74a8.webp"
+        },
+        "name": "Мускат Белый"
+      }
+    ],
+    "image": {
+      "altText": "Perfekt Klassik Мускат Белый",
+      "url": "/uploads/vinodelnya_batrak_perfekt_klassik_muskat_belyy_beloe_suhoe_125_bfb281d569.webp"
+    },
+    "manufacturer": {
+      "name": "Винодельня Батрак",
+      "slug": "vinodelnya-batrak"
+    },
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/stavropolie_c83a9850fc.webp"
+      },
+      "name": "Ставрополье"
+    },
+    "slug": "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125",
+    "temperature": "10-12",
+    "title": "Perfekt Klassik Мускат Белый"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Perfekt Klassik Мускат Белый",
+      "title": "Perfekt Klassik Мускат Белый",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/vinodelnya_batrak_perfekt_klassik_muskat_belyy_beloe_suhoe_125_bfb281d569.webp"
+    }
+  ],
+  "slug": "vinodelnya-batrak-perfekt-klassik-muskat-belyy-beloe-suhoe-125"
+}

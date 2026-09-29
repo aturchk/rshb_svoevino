@@ -256,6 +256,12 @@ def score_field_sample(selection_path: Path, gallery: Path, predictions: Path,
         "hits_at_1": hits_at_1,
         "hits_at_5": hits_at_5,
         "hits_at_20": hits_at_20 if depth >= 20 else None,
+        "answer_rank_buckets": {
+            "rank_1": hits_at_1,
+            "rank_2_to_5": hits_at_5 - hits_at_1,
+            "rank_6_to_20": hits_at_20 - hits_at_5 if depth >= 20 else None,
+            "below_20": n - hits_at_20 if depth >= 20 else None,
+        },
         "metrics": metrics,
         "errors": errors,
         "provenance": {
@@ -277,7 +283,8 @@ def score_field_sample(selection_path: Path, gallery: Path, predictions: Path,
              "Проверенный split; сравнивать с официальным test можно только при одинаковом протоколе.")
     runtime = report["pipeline_runtime"] or {}
     runtime_fields = ("model_id", "resolved_revision", "device", "precision", "torch",
-                      "cuda_runtime", "cuda_device_name", "adapter_sha256")
+                      "cuda_runtime", "cuda_device_name", "adapter_sha256",
+                      "reference_view_mode", "query_view_mode", "view_transform_version")
     runtime_lines = [f"- {key}: `{runtime[key]}`" for key in runtime_fields
                      if runtime.get(key) is not None]
     coverage_note = (
@@ -307,6 +314,12 @@ def score_field_sample(selection_path: Path, gallery: Path, predictions: Path,
         f"| Recall@20 | {str(hits_at_20) + '/' + str(n) + ' (' + _percent(metrics['recall_at_20']) + ')' if depth >= 20 else 'не измерен: ranking_depth < 20'} |",
         f"| p50 / p95 поиска | {metrics['p50_latency_ms']:.1f} / {metrics['p95_latency_ms']:.1f} мс |",
         f"| Ответы до 3 секунд | {_percent(metrics['within_3s_rate'])} |",
+        "",
+        (f"Ранг правильного ответа: №1 — {hits_at_1}; места 2–5 — "
+         f"{hits_at_5 - hits_at_1}; места 6–20 — {hits_at_20 - hits_at_5}; "
+         f"ниже 20-го места — {n - hits_at_20}." if depth >= 20 else
+         f"Ранг правильного ответа: №1 — {hits_at_1}; места 2–5 — "
+         f"{hits_at_5 - hits_at_1}."),
         "",
         "Micro-F1@1 равен доле точных ответов, потому что на каждый запрос требуется ровно один slug. "
         "Set-F1@5 считается для множества первых пяти кандидатов и одного правильного slug: "

@@ -1,10 +1,52 @@
 # Live Svoe Vino catalog snapshot
 
-The public [wine sitemap](https://vino-svoe.ru/wines-sitemap.xml) currently lists
+The captured public [wine sitemap](https://vino-svoe.ru/wines-sitemap.xml) lists
 2,110 wine pages and a high resolution image URL for each one. The site serves
 the product attributes inside the server rendered `__NUXT_DATA__` JSON on each
 page. `wine_cv.site_dataset` uses those two public sources, so it does not need
 to scrape 132 paginated result pages or depend on an undocumented API.
+
+## Portable repository snapshot
+
+The checked-in `dataset/vino-svoe/` snapshot is about 352 MB. It contains all
+2,110 captured wine cards, 2,110 original downloaded images, and 2,110
+normalized images. Each `items/<slug>.json` record retains the product page and
+image URLs, fetch time, image dimensions, normalization details, and SHA-256
+values. The original and normalized files were independently checked against
+all 4,220 recorded hashes. Source photos are kept byte-for-byte; the normalized
+views are separate derived files.
+
+`dataset/vino-svoe/gallery-reviewed-candidates.jsonl` contains 1,936
+model-readable references after automatic conflict checks and decisions in
+`data/site_reference_review.tsv`. Its `image_path` and `source_image_path`
+values are repository-relative. The name means review decisions were applied;
+it does not mean every wine photo received human review. The tracked
+`legacy-gallery-strict.jsonl` supplies 16 references for wines absent from the
+site sitemap, using source images already in `dataset/`. A fresh clone can read
+the gallery without any files under `work/`.
+
+To rebuild the JSONL galleries and report from the checked-in source snapshot
+without a network request, run this from the repository root:
+
+```bash
+PYTHONPATH=ml/src .venv/bin/python - <<'PY'
+from pathlib import Path
+from wine_cv.site_dataset import build_outputs, parse_sitemap
+
+snapshot = Path("dataset/vino-svoe")
+entries = parse_sitemap((snapshot / "wines-sitemap.xml").read_bytes())
+report = build_outputs(
+    snapshot, entries, Path("dataset/strapi_output0709.csv"),
+    snapshot / "legacy-gallery-strict.jsonl", {},
+    review_manifest=Path("data/site_reference_review.tsv"),
+)
+assert report["complete"] and report["reviewed_gallery_candidate_count"] == 1936
+PY
+```
+
+The live scraper below still writes to ignored `work/vino-svoe/` by default.
+Use that directory for new captures and experiments; promote a refreshed
+snapshot to `dataset/vino-svoe/` only after validating counts and hashes.
 
 Run from the repository root, through a Russian VPN if the site is unreachable:
 
@@ -53,6 +95,9 @@ failure. Transient HTTP errors are retried with bounded exponential backoff.
   Current site records take precedence;
   a site conflict is not hidden by falling back to an older photo. The legacy
   input can be selected with `--legacy-gallery`.
+- `gallery-reviewed-candidates.jsonl`: the merged gallery plus explicitly
+  allowed image relations from `data/site_reference_review.tsv`. Duplicate
+  image bytes and page/sitemap image disagreements remain quarantined.
 
 Every image is decoded and hashed after download. `report.json` records
 coverage and shared-image collisions. If the site's schema changes and the

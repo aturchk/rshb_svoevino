@@ -4,16 +4,18 @@ set -euo pipefail
 args=(
   serve
   --pipeline "${ML_PIPELINE:-siglip2}"
-  --gallery "${ML_GALLERY_PATH:-/opt/svoe/release/gallery-strict.jsonl}"
+  --gallery "${ML_GALLERY_PATH:-/opt/svoe/release/gallery-reviewed.jsonl}"
   --data-root "${ML_DATA_ROOT:-/opt/svoe/release}"
   --model-id "${ML_MODEL_ID:-google/siglip2-base-patch16-384}"
   --model-revision "${ML_MODEL_REVISION:-f775b65a79762255128c981547af89addcfe0f88}"
   --device "${ML_DEVICE:-cuda}"
-  --precision "${ML_PRECISION:-bfloat16}"
+  --precision "${ML_PRECISION:-float16}"
   --batch-size "${ML_BATCH_SIZE:-32}"
   --cache-dir "${ML_CACHE_DIR:-/opt/svoe/release/siglip-cache}"
   --cache-policy require
-  --adapter-path "${ML_ADAPTER_PATH:-/opt/svoe/release/siglip2-field-adapter.safetensors}"
+  --adapter-path "${ML_ADAPTER_PATH:-/opt/svoe/release/siglip2-site-label-adapter.safetensors}"
+  --reference-view-mode "${ML_REFERENCE_VIEW_MODE:-full-label}"
+  --query-view-mode "${ML_QUERY_VIEW_MODE:-full}"
   --max-upload-mb "${ML_MAX_UPLOAD_MB:-12}"
   --product-top-k "${ML_TOP_K:-5}"
   --host 0.0.0.0

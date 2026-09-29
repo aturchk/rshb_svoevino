@@ -1,0 +1,272 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 21788,
+      "format": "WEBP",
+      "height": 1000,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          290,
+          1000
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/ivan-ksenia-kruz-argonne-pinot-noir-pino-nuar-rozovoe-suhoe-122.webp",
+        "sha256": "4ce43cfa7d2a9e699f207829605f8b8b5e5b0e7950a423cd8fc63fdcd2bb62b2",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          290,
+          1000
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/ivan-ksenia-kruz-argonne-pinot-noir-pino-nuar-rozovoe-suhoe-122.webp",
+      "sha256": "91e1b5599de5959241bb28880102dae88992ccbcd0649c2dd8ccde9868e10d0e",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/ivan_ksenia_kruz_argonne_pinot_noir_pino_nuar_rozovoe_suhoe_122_956b877f5c.webp",
+      "width": 290
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/ivan-ksenia-kruz-argonne-pinot-noir-pino-nuar-rozovoe-suhoe-122",
+  "retrieved_at_utc": "2026-09-29T19:20:15.649686+00:00",
+  "similar_wines": [
+    {
+      "category": "Розовое сухое",
+      "color": "Нежно-розовое",
+      "image": {
+        "altText": "Розовое сухое Усадьба перовских",
+        "url": "/uploads/main_rose_dry_daef1d0a86.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.82,
+      "region": "Крым",
+      "slug": "rozovoe-suhoe",
+      "title": "Розовое сухое"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Розовый",
+      "image": {
+        "altText": "Восток розе",
+        "url": "/uploads/c5bc5ded2f2bc7b_343x610_notcrop_2c484caa6b.webp"
+      },
+      "manufacturer": "Château Le Grand Vostock",
+      "publicRating": 4.4,
+      "region": "Кубань",
+      "slug": "vostok-roze",
+      "title": "Восток розе"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Розовый",
+      "image": {
+        "altText": "закат денисов вайнери",
+        "url": "/uploads/zakat_denisov_vajneri_no_bg_preview_carve_photos_1_6ae9baa13d.webp"
+      },
+      "manufacturer": "Denisov Winery",
+      "publicRating": 4.63,
+      "region": "Самара",
+      "slug": "zakat-denisov-vajneri",
+      "title": "Закат. Денисов Вайнери"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Лососевый",
+      "image": {
+        "altText": "Пино нуар Мельниковы",
+        "url": "/uploads/DSC_00836_4070f8fd2f.webp"
+      },
+      "manufacturer": "Винодельня Братьев Мельниковых",
+      "publicRating": 4.82,
+      "region": "Крым",
+      "slug": "pino-nuar-2025",
+      "title": "Пино Нуар, 2025"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Нежно-розовое",
+      "image": {
+        "altText": "Массандра сухое розовое",
+        "url": "/uploads/Massandra_suhoe_rozovoe_218d80e12d.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-rozovoe-suhoe",
+      "title": "Массандра розовое сухое"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Светло-розовое",
+      "image": {
+        "altText": "Golubitskoe Rose",
+        "url": "/uploads/Golubitskoe_Estate_Rose_84adcc1cea.webp"
+      },
+      "manufacturer": "Поместье Голубицкое",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "golubitskoe-rose",
+      "title": "Golubitskoe Rose"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Блестяще-розовый",
+      "image": {
+        "altText": "Высокий берег Цвайгельт",
+        "url": "/uploads/Vysokij_bereg_Czvajgelt_8c439c9f75.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "vysokij-bereg-czvajgelt",
+      "title": "Высокий Берег Цвайгельт"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Нежно-розовый",
+      "image": {
+        "altText": "Литавщук розе",
+        "url": "/uploads/Screenshot_24_c38ca52fac.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 4.92,
+      "region": "Кубань",
+      "slug": "roze-premium",
+      "title": "Розе. Премиум"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Нежно-розовый",
+      "image": {
+        "altText": "Табия розе",
+        "url": "/uploads/Screenshot_17_6d600742f0.webp"
+      },
+      "manufacturer": "Табия",
+      "publicRating": 4.97,
+      "region": "Кубань",
+      "slug": "roze-2",
+      "title": "Розе"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Лососево-розовый",
+      "image": {
+        "altText": "ЛОРИО_РОЗОВОЕ",
+        "url": "/uploads/LORIO_ROZOVOE_9e1be3c909.webp"
+      },
+      "manufacturer": "ЛОРИО -  семейная винодельня Логуновых",
+      "publicRating": 4.89,
+      "region": "Кубань",
+      "slug": "lorio-rozovoe",
+      "title": "ЛОРИО. Розовое"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Светло-розовый с лососевым оттенком и блеском",
+      "image": {
+        "altText": "Галицкий",
+        "url": "/uploads/roze_0cd69a079f.webp"
+      },
+      "manufacturer": "Галицкий и Галицкий",
+      "publicRating": 4.75,
+      "region": "Кубань",
+      "slug": "roze-1",
+      "title": "Розе"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Светло-розовый",
+      "image": {
+        "altText": "Мускат, Пино Гри сух",
+        "url": "/uploads/Muskat_Pino_Gri_suh_bbbbbf5ff9.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "zhemchuzhnaya-9-muskat-rozovyj-pino-gri",
+      "title": "Жемчужная 9 Мускат Розовый, Пино гри"
+    }
+  ],
+  "site_lastmod": "2026-01-12T11:42:30.000Z",
+  "site_wine": {
+    "alcohol": 12,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "name": "Розовое сухое"
+    },
+    "color": "Розовый",
+    "description": "Вкус: Фруктово-сливочный. Тона лесной брусники, спелой клубники, малины, оттенки припудренных белых цветов, с легким цветочным акцентом.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/legkie_zakuski_e5a2dedbf7.webp"
+        },
+        "name": "Легкие закуски"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/myaso_442273df41.webp"
+        },
+        "name": "Мясо и стейки"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ryba_moreprodukty_e57b445d95.webp"
+        },
+        "name": "Рыба и морепродукты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/salat_1afebb2167.webp"
+        },
+        "name": "Салаты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Nuar3_8f666dc69e.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Nuar2_6c049e4c48.webp"
+        },
+        "name": "Пино Нуар"
+      }
+    ],
+    "image": {
+      "altText": "Argonne Pinot Noir",
+      "url": "/uploads/ivan_ksenia_kruz_argonne_pinot_noir_pino_nuar_rozovoe_suhoe_122_956b877f5c.webp"
+    },
+    "manufacturer": {
+      "name": "Ivan & Ksenia Kruz",
+      "slug": "ivan-ksenia-kruz"
+    },
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "ivan-ksenia-kruz-argonne-pinot-noir-pino-nuar-rozovoe-suhoe-122",
+    "temperature": "10-12",
+    "title": "Argonne Pinot Noir"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Argonne Pinot Noir",
+      "title": "Argonne Pinot Noir",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/ivan_ksenia_kruz_argonne_pinot_noir_pino_nuar_rozovoe_suhoe_122_956b877f5c.webp"
+    }
+  ],
+  "slug": "ivan-ksenia-kruz-argonne-pinot-noir-pino-nuar-rozovoe-suhoe-122"
+}

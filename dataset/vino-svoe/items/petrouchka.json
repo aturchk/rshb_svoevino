@@ -1,0 +1,266 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 36860,
+      "format": "WEBP",
+      "height": 1320,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          1056,
+          1320
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/petrouchka.webp",
+        "sha256": "6cb26e03d0917f5273238e97ff6a6909cdedfbab668026e5a46b1893568c5c97",
+        "source_bbox_xyxy": [
+          356,
+          23,
+          707,
+          1297
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/petrouchka.webp",
+      "sha256": "80a6014aef99b16aeb35d64ecbfb16fe2ec8bef377897746167265d9da629f4c",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/petrushka_b748b8a4ba.webp",
+      "width": 1056
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/petrouchka",
+  "retrieved_at_utc": "2026-09-29T19:15:00.563931+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое сухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Х4122 Винные краски Шардоне  2024",
+        "url": "/uploads/H4122_Vinnye_kraski_Shardone_2024_DKV_aa038d6d04.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 4,
+      "region": "Крым",
+      "slug": "vinnye-kraski-shardone",
+      "title": "Винные краски, Шардоне"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Х4121 Винные краски Совиньон Блан  2024 ДКВ",
+        "url": "/uploads/H4121_Vinnye_kraski_Sovinon_Blan_2024_DKV_c067db407c.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 3.67,
+      "region": "Крым",
+      "slug": "vinnye-kraski-sovinon-blan",
+      "title": "Винные краски, Совиньон Блан"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Х4117 Улыбка ветра Совиньон Блан",
+        "url": "/uploads/H4117_Ulybka_vetra_Sovinon_Blan_2024_DKV_9223d656b0.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-sovinon-blan",
+      "title": "Улыбка ветра, Совиньон Блан"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Х4118 Улыбка ветра  Шардоне  2024",
+        "url": "/uploads/H4118_Ulybka_vetra_Shardone_2024_DKV_6f148eb928.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-shardone",
+      "title": "Улыбка ветра, Шардоне"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Совиньон Усадьба перовских",
+        "url": "/uploads/main_sauvignon_d3d8e795e1.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.9,
+      "region": "Крым",
+      "slug": "sovinon",
+      "title": "Совиньон"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотисто-соломенный",
+      "image": {
+        "altText": "Крымский бленд усадьба перовских",
+        "url": "/uploads/main_crimean_blend_2_5647edf21a.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "krymskij-blend",
+      "title": "Крымский бленд"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Ркацители и Мускат Оранж Усадьба перовских",
+        "url": "/uploads/main_rkatsiteli_muskat_orange_10c5cf3d2f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "rkacziteli-i-muskat-oranzh",
+      "title": "Ркацители и Мускат Оранж"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Ркацители Квеври Усадьба перовских",
+        "url": "/uploads/ge_rkatsiteli_2b9412517f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "rkacziteli-kvevri",
+      "title": "Ркацители Квеври"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Пино блан АртВин",
+        "url": "/uploads/pino_white2_no_bg_preview_carve_photos_d4f30395c7.webp"
+      },
+      "manufacturer": "Артвин",
+      "publicRating": 4.5,
+      "region": "Крым",
+      "slug": "pino-blan-art-vin",
+      "title": "Пино Блан АртВин"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "ии вино",
+        "url": "/uploads/ii_3_8ac201f314.webp"
+      },
+      "manufacturer": "WINEPARK",
+      "publicRating": 4.68,
+      "region": "Крым",
+      "slug": "ii-vino-1",
+      "title": "ИИ ВИНО"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Хихви Сенетх",
+        "url": "/uploads/Pre_W01_5a4d8050c2.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.56,
+      "region": "Кубань",
+      "slug": "hihvi-sueta",
+      "title": "Хихви Суета"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Зеленовато-соломенный",
+      "image": {
+        "altText": "Мцване Сенетх",
+        "url": "/uploads/Pre_W03_3d7437416c.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.8,
+      "region": "Кубань",
+      "slug": "mczvane-sueta",
+      "title": "Мцване Суета"
+    }
+  ],
+  "site_lastmod": "2026-07-13T20:06:46.000Z",
+  "site_wine": {
+    "alcohol": 13,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое сухое"
+    },
+    "color": "Золотисто-соломенный",
+    "description": "Аромат: оттенки сухофруктов, мёда, пряностей, зеленого чая и цветущей лилии.\n\nВкус: среднетелое, с доминантой желтых тропических фруктов: личи, манго, маракуйи, нотками листового чая и ярким лимонным финишем.\n\nОсобенность винификации\n\nРучной сбор винограда в первой декаде сентября. ⁠Предварительное охлаждение винограда, деликатное гребнеотделение. Холодное настаивание в винификаторе при температуре 5 градусов Цельсия в течение 3 суток. Брожение на мезге с регулярным ремонтажем, при температуре 22-23 градуса. После завершения брожения проводили длительный скин-контакт, продолжавшийся 6 месяцев. 50% от общего объема выдержано в барриках 2-го и 3-го пассажей. Продолжительность выдержки - 10 месяцев во французском дубе. Деликатная кларификация, розлив в феврале 2025.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ptica_9a6c7e3ea1.webp"
+        },
+        "name": "Блюда из птицы"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/fastfood_9fbdc9215b.webp"
+        },
+        "name": "Брускетты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/sredizemnomorskaya_kuhnya_3c8be7f1a7.webp"
+        },
+        "name": "Закуски"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Sovinon_Blan_e82f684de6.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Sovinon_Blan2_64c30a0af4.webp"
+        },
+        "name": "Совиньон Блан"
+      }
+    ],
+    "image": {
+      "altText": "г",
+      "url": "/uploads/petrushka_b748b8a4ba.webp"
+    },
+    "manufacturer": {
+      "name": "Галицкий и Галицкий",
+      "slug": "galiczkij-i-galiczkij"
+    },
+    "publicRating": 4.69,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "petrouchka",
+    "temperature": "10-12",
+    "title": "Petrouchka"
+  },
+  "sitemap_images": [
+    {
+      "caption": "г",
+      "title": "г",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/petrushka_b748b8a4ba.webp"
+    }
+  ],
+  "slug": "petrouchka"
+}

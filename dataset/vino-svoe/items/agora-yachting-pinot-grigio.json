@@ -1,0 +1,265 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 24664,
+      "format": "WEBP",
+      "height": 1080,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          315,
+          1080
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/agora-yachting-pinot-grigio.webp",
+        "sha256": "cbf38bc594309a26702a898869c78278069e203bbc5e9208144512e8680a138f",
+        "source_bbox_xyxy": [
+          18,
+          8,
+          299,
+          1063
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/agora-yachting-pinot-grigio.webp",
+      "sha256": "a677c199802e00540d83f414a98d30574da24693b91fd0207e9afe2ca7048f0b",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Agora_Rezerv_Yahting_Pino_Gridzhio_5daf688202.webp",
+      "width": 315
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/agora-yachting-pinot-grigio",
+  "retrieved_at_utc": "2026-09-29T19:17:52.468888+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое сухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Х4122 Винные краски Шардоне  2024",
+        "url": "/uploads/H4122_Vinnye_kraski_Shardone_2024_DKV_aa038d6d04.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 4,
+      "region": "Крым",
+      "slug": "vinnye-kraski-shardone",
+      "title": "Винные краски, Шардоне"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Х4121 Винные краски Совиньон Блан  2024 ДКВ",
+        "url": "/uploads/H4121_Vinnye_kraski_Sovinon_Blan_2024_DKV_c067db407c.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 3.67,
+      "region": "Крым",
+      "slug": "vinnye-kraski-sovinon-blan",
+      "title": "Винные краски, Совиньон Блан"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Х4117 Улыбка ветра Совиньон Блан",
+        "url": "/uploads/H4117_Ulybka_vetra_Sovinon_Blan_2024_DKV_9223d656b0.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-sovinon-blan",
+      "title": "Улыбка ветра, Совиньон Блан"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Х4118 Улыбка ветра  Шардоне  2024",
+        "url": "/uploads/H4118_Ulybka_vetra_Shardone_2024_DKV_6f148eb928.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-shardone",
+      "title": "Улыбка ветра, Шардоне"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Совиньон Усадьба перовских",
+        "url": "/uploads/main_sauvignon_d3d8e795e1.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.9,
+      "region": "Крым",
+      "slug": "sovinon",
+      "title": "Совиньон"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотисто-соломенный",
+      "image": {
+        "altText": "Крымский бленд усадьба перовских",
+        "url": "/uploads/main_crimean_blend_2_5647edf21a.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "krymskij-blend",
+      "title": "Крымский бленд"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Ркацители и Мускат Оранж Усадьба перовских",
+        "url": "/uploads/main_rkatsiteli_muskat_orange_10c5cf3d2f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "rkacziteli-i-muskat-oranzh",
+      "title": "Ркацители и Мускат Оранж"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Ркацители Квеври Усадьба перовских",
+        "url": "/uploads/ge_rkatsiteli_2b9412517f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "rkacziteli-kvevri",
+      "title": "Ркацители Квеври"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Пино блан АртВин",
+        "url": "/uploads/pino_white2_no_bg_preview_carve_photos_d4f30395c7.webp"
+      },
+      "manufacturer": "Артвин",
+      "publicRating": 4.5,
+      "region": "Крым",
+      "slug": "pino-blan-art-vin",
+      "title": "Пино Блан АртВин"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "ии вино",
+        "url": "/uploads/ii_3_8ac201f314.webp"
+      },
+      "manufacturer": "WINEPARK",
+      "publicRating": 4.68,
+      "region": "Крым",
+      "slug": "ii-vino-1",
+      "title": "ИИ ВИНО"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Хихви Сенетх",
+        "url": "/uploads/Pre_W01_5a4d8050c2.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.56,
+      "region": "Кубань",
+      "slug": "hihvi-sueta",
+      "title": "Хихви Суета"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Зеленовато-соломенный",
+      "image": {
+        "altText": "Мцване Сенетх",
+        "url": "/uploads/Pre_W03_3d7437416c.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.8,
+      "region": "Кубань",
+      "slug": "mczvane-sueta",
+      "title": "Мцване Суета"
+    }
+  ],
+  "site_lastmod": "2026-01-24T16:47:23.000Z",
+  "site_wine": {
+    "alcohol": 12,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое сухое"
+    },
+    "color": "Соломенный",
+    "description": "Вкус мягкий, округлый с освежающей кислотностью и долгим послевкусием. Аромат свежий, изящный, сотканный из нот персика, белых цветов, жимолости, трав. \n\nСбор винограда происходит вручную с последующим охлаждением в специальных холодильных камерах для сохранения нюансов сортовых характеристик. Ферментация при контролируемой температуре с последующей выдержкой в дубовых бочках 12 и более месяцев.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ptica_9a6c7e3ea1.webp"
+        },
+        "name": "Блюда из птицы"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/pasta_9ce9a580b2.webp"
+        },
+        "name": "Паста"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ryba_moreprodukty_e57b445d95.webp"
+        },
+        "name": "Рыба и морепродукты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Gri_76fc8e544f.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Gri2_4fc806861d.webp"
+        },
+        "name": "Пино Гриджио"
+      }
+    ],
+    "image": {
+      "altText": "Агора Резерв Яхтинг Пино Гриджио",
+      "url": "/uploads/Agora_Rezerv_Yahting_Pino_Gridzhio_5daf688202.webp"
+    },
+    "manufacturer": {
+      "name": "AGORA WINERY",
+      "slug": "agora-winery"
+    },
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "agora-yachting-pinot-grigio",
+    "temperature": "10-12",
+    "title": "Agora Yachting Pinot Grigio"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Агора Резерв Яхтинг Пино Гриджио",
+      "title": "Агора Резерв Яхтинг Пино Гриджио",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Agora_Rezerv_Yahting_Pino_Gridzhio_5daf688202.webp"
+    }
+  ],
+  "slug": "agora-yachting-pinot-grigio"
+}

@@ -1,0 +1,281 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 48270,
+      "format": "WEBP",
+      "height": 1200,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          346,
+          1200
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/zb-wine-moscato-beloe-polusladkoe.webp",
+        "sha256": "d55f4d0dab810b9475130c19e057de6302fdbfe8f1effdb7a134f04fc82fd579",
+        "source_bbox_xyxy": [
+          16,
+          54,
+          331,
+          1146
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/zb-wine-moscato-beloe-polusladkoe.webp",
+      "sha256": "c60b99bd0e7bf673735099fa48dd30e72490acf43b529a87ce963d02f8531c0d",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/ZB_VAJN_Moskato_beloe_polusladkoe_68f4d64b83.webp",
+      "width": 346
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/zb-wine-moscato-beloe-polusladkoe",
+  "retrieved_at_utc": "2026-09-29T19:14:54.163195+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое полусладкое",
+      "color": "Золотисто-соломенный",
+      "image": {
+        "altText": "Peti-Mansen_Dyna-kopia",
+        "url": "/uploads/Peti_Mansen_Dyna_kopia_14af7215d1.webp"
+      },
+      "manufacturer": "Yaiyla Winery",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "yaiyla-petit-manseng",
+      "title": "YAIYLA PETIT MANSENG  "
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Совиньон блан",
+        "url": "/uploads/MAX_02320_d56a1a6d6d.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 3,
+      "region": "Кубань",
+      "slug": "sovinon-blan",
+      "title": "Совиньон Блан"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Горка",
+        "url": "/uploads/MAX_02374_8762420674.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "region": "Кубань",
+      "slug": "domashnyaya-gorka",
+      "title": "Домашняя горка "
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса слад",
+        "url": "/uploads/CANTIANI_Igristoe_white_semi_444h1200px_2d2892b235.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.84,
+      "region": "Дагестан",
+      "slug": "cantiani-semisweet",
+      "title": "Cantiani Semisweet"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Caucasian Джарагъ",
+        "url": "/uploads/Caucasian_Dzharag_300681b16f.webp"
+      },
+      "manufacturer": "Дербент Вино",
+      "publicRating": 4.4,
+      "region": "Дагестан",
+      "slug": "caucasian-dzharag",
+      "title": "Caucasian Джарагъ "
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Inkerman мускатное белое полусладкое",
+        "url": "/uploads/Inkerman_muskatnoe_beloe_polusladkoe_092002be0d.webp"
+      },
+      "manufacturer": "Инкерманский ЗМВ",
+      "publicRating": 3,
+      "region": "Крым",
+      "slug": "inkerman-muskatnoe-beloe",
+      "title": "Inkerman Мускатное белое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Цимлянское белое полусладкое",
+        "url": "/uploads/Czimlyanskoe_beloe_polusladkoe_5c7026a82e.webp"
+      },
+      "manufacturer": "Цимлянские вина",
+      "publicRating": 3.5,
+      "region": "Долина Дона",
+      "slug": "czimlyanskoe-beloe-polusladkoe",
+      "title": "Цимлянское белое полусладкое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Цимлянское Бианка белое",
+        "url": "/uploads/Czimlyanskoe_Bianka_beloe_04a59b0f1e.webp"
+      },
+      "manufacturer": "Цимлянские вина",
+      "publicRating": 4,
+      "region": "Долина Дона",
+      "slug": "czimlyanskoe-bianka",
+      "title": "Цимлянское Бианка"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Валерий Захарьин Кокур и Ко игристое белое полусладкое",
+        "url": "/uploads/Valerij_Zaharin_Kokur_i_Ko_igristoe_beloe_polusladkoe_1334dee26c.webp"
+      },
+      "manufacturer": "Валерий Захарьин",
+      "region": "Крым",
+      "slug": "valerij-zaharin-kokur-i-ko-beloe-polusladkoe",
+      "title": "Валерий Захарьин Кокур и Ко белое полусладкое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Соломенно-желтый с золотистым оттенком",
+      "image": {
+        "altText": "Мысхако игристое полусладкое белое",
+        "url": "/uploads/Myshako_igristoe_polusladkoe_beloe_846a405f2a.webp"
+      },
+      "manufacturer": "Мысхако",
+      "region": "Кубань",
+      "slug": "myshako-igristoe-beloe-polusladkoe",
+      "title": "Мысхако игристое белое полусладкое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Абрау Дюрсо физз полусладкое",
+        "url": "/uploads/Abrau_Dyurso_fizz_polusladkoe_031d93d5e0.webp"
+      },
+      "manufacturer": "Абрау-Дюрсо",
+      "publicRating": 3.33,
+      "region": "Кубань",
+      "slug": "abrau-dyurso-fizz-beloe-polusladkoe",
+      "title": "Абрау Дюрсо Физз белое полусладкое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Соломенно-зеленоватый с ярким блеском",
+      "image": {
+        "altText": "Фанагория полусладкое",
+        "url": "/uploads/Fanagrriya_polusladkoe_30637d1cb8.webp"
+      },
+      "manufacturer": "винный дом «Фанагория»",
+      "publicRating": 4.6,
+      "region": "Кубань",
+      "slug": "fanagoriya-beloe-polusladkoe",
+      "title": "Фанагория белое полусладкое"
+    }
+  ],
+  "site_lastmod": "2026-08-05T08:29:44.000Z",
+  "site_wine": {
+    "alcohol": 11,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое полусладкое"
+    },
+    "color": "Светло-золотистый",
+    "description": "Игристое вино обладает ярким, мускатным ароматом с оттенками персика, абрикоса и лепестков чайной розы. Игристое вино демонстрирует сладковатый, но не приторный вкус с нотами грейпфрута и тропических фруктов, бархатистой текстурой и долгим послевкусием",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ostroe_cd4130b86a.webp"
+        },
+        "name": "Азиатская кухня"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ptica_9a6c7e3ea1.webp"
+        },
+        "name": "Блюда из птицы"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/sladkaya_vypechka_71424474e1.webp"
+        },
+        "name": "Мороженое"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/frukty_545dae1854.webp"
+        },
+        "name": "Фрукты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Muskat_d58579a0e1.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Marsan3_97291c74a8.webp"
+        },
+        "name": "Мускат Белый"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Muskat_d58579a0e1.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Vione_i_Verdeho_3502efff14.webp"
+        },
+        "name": "Мускат Янтарный"
+      }
+    ],
+    "image": {
+      "altText": "ЗБ ВАЙН Москато белое полусладкое",
+      "url": "/uploads/ZB_VAJN_Moskato_beloe_polusladkoe_68f4d64b83.webp"
+    },
+    "manufacturer": {
+      "name": "Золотая Балка",
+      "slug": "zolotaya_balka"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "zb-wine-moscato-beloe-polusladkoe",
+    "temperature": "8-10",
+    "title": "ZB Wine Moscato белое полусладкое"
+  },
+  "sitemap_images": [
+    {
+      "caption": "ЗБ ВАЙН Москато белое полусладкое",
+      "title": "ЗБ ВАЙН Москато белое полусладкое",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/ZB_VAJN_Moskato_beloe_polusladkoe_68f4d64b83.webp"
+    }
+  ],
+  "slug": "zb-wine-moscato-beloe-polusladkoe"
+}

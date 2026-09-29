@@ -1,0 +1,256 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 47994,
+      "format": "WEBP",
+      "height": 1824,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          686,
+          1824
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/chteau-le-grand-vostock-fagotine-pino-gri-rozovoe-polusladkoe-11.webp",
+        "sha256": "edcfcf147ff107652a804c7d8895fe36a1374df472020caa231c126cd71a456c",
+        "source_bbox_xyxy": [
+          88,
+          33,
+          473,
+          1703
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/chteau-le-grand-vostock-fagotine-pino-gri-rozovoe-polusladkoe-11.webp",
+      "sha256": "9326d6c0b0bab5f93cf1fae2e50af34f8fed331b4a3de008cb4c017b7846887f",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/chteau_le_grand_vostock_fagotine_pino_gri_rozovoe_polusladkoe_11_674bd59659.webp",
+      "width": 686
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/chteau-le-grand-vostock-fagotine-pino-gri-rozovoe-polusladkoe-11",
+  "retrieved_at_utc": "2026-09-29T19:17:13.552549+00:00",
+  "similar_wines": [
+    {
+      "category": "Розовое полусладкое",
+      "color": "Темно-Розовый",
+      "image": {
+        "altText": "Каберне, Пино нуар п.сл",
+        "url": "/uploads/Kaberne_Pino_nuar_p_sl_ba5ed7824d.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "zhemchuzhnaya-9-kaberne-sovinon-pino-nuar-1",
+      "title": "Жемчужная 9 Каберне Совиньон, Пино Нуар"
+    },
+    {
+      "category": "Розовое полусладкое",
+      "color": "Насыщенный розовый",
+      "image": {
+        "altText": "Пино Нуар, Мускат п.сл",
+        "url": "/uploads/Pino_Nuar_Muskat_p_sl_7adf03cd48.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2",
+      "title": "Жемчужная 9 Пино нуар, Мускат Розовый"
+    },
+    {
+      "category": "Розовое полусладкое",
+      "color": "Розовый, с оттенком клубники",
+      "image": {
+        "altText": "Роз.Пантера Аратти",
+        "url": "/uploads/Roz_Pantera_becb2c2b2a.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "rozovaya-pantera",
+      "title": "Розовая Пантера полусладкое розовое"
+    },
+    {
+      "category": "Розовое полусладкое",
+      "color": "Ярко-розовый",
+      "image": {
+        "altText": "Мускат, Каберне п.сл",
+        "url": "/uploads/Muskat_Kaberne_p_sl_7faf5a7173.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 4.88,
+      "region": "Кубань",
+      "slug": "zhemchuzhnaya-9-muskat-rozovyj-kaberne-sovinon",
+      "title": "Жемчужная 9 Мускат Розовый, Каберне Совиньон"
+    },
+    {
+      "category": "Розовое полусладкое",
+      "color": "Розовый",
+      "image": {
+        "altText": "балка",
+        "url": "/uploads/PU_Sjv7dn_M_Nil_H25_TO_9_Bcb_D_v_EZB_Mijp_NGR_Wvy6u_Ifxk_Fr_Yqzmn_Hkb_TDN_Sql_Q_Sk_M5nnryrf3_Sd_Jnv_NIRGZKU_e_Q_03b44d8031.webp"
+      },
+      "manufacturer": "Золотая Балка",
+      "publicRating": 4,
+      "region": "Крым",
+      "slug": "rozovoe-polusladkoe-1",
+      "title": "Розовое полусладкое"
+    },
+    {
+      "category": "Розовое полусладкое",
+      "color": "Лососевый",
+      "image": {
+        "altText": "Фанагория",
+        "url": "/uploads/PU_Sjv7dn_M_Nil_H25_TO_9_Bcb_Fq_WE_Fmk_HJ_5_O_Xnj_Got_CN_vax_0croyl_P_3x_Y_Xp_E34_B238k_V_Muxth_JLK_Hv_6_IW_4_L_Ig_0e234892f1.webp"
+      },
+      "manufacturer": "винный дом «Фанагория»",
+      "publicRating": 3.8,
+      "region": "Кубань",
+      "slug": "rozovoe-polusladkoe",
+      "title": "Розовое полусладкое"
+    },
+    {
+      "category": "Розовое полусладкое",
+      "color": "Вино розового цвета, с оттенками цветущего персика.",
+      "image": {
+        "altText": "Розовое Полусладкое",
+        "url": "/uploads/Rozovoe_Polusladkoe_44f6f05597.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.9,
+      "region": "Крым",
+      "slug": "perovskih_polusladkoe_rosovoe",
+      "title": "Полусладкое розовое"
+    },
+    {
+      "category": "Розовое полусладкое",
+      "color": "Вино насыщенного розового цвета с ярким клубничным оттенком.",
+      "image": {
+        "altText": "Лаветти Розовое Полусладкое",
+        "url": "/uploads/soyuz_vino_lavetti_rozovoe_polusladkoe_krasnye_sorta_vinograda_11_079294d0a5.webp"
+      },
+      "manufacturer": "Союз-Вино",
+      "region": "Кубань",
+      "slug": "soyuz-vino-lavetti-rozovoe-polusladkoe-krasnye-sorta-vinograda-11",
+      "title": "Лаветти Розовое Полусладкое"
+    },
+    {
+      "category": "Розовое полусладкое",
+      "color": "Светло-соломенный с золотистыми бликами",
+      "image": {
+        "altText": "Инкерман Розовое полусладкое",
+        "url": "/uploads/inkermanskiy_zmv_inkerman_rozovoe_polusladkoe_rkatsiteli_12_2cbe882a16.webp"
+      },
+      "manufacturer": "Инкерманский ЗМВ",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "inkermanskiy-zmv-inkerman-rozovoe-polusladkoe-rkatsiteli-12",
+      "title": "Инкерман Розовое полусладкое"
+    },
+    {
+      "category": "Розовое полусладкое",
+      "color": "Нежно-розовый",
+      "image": {
+        "altText": "Pinot Fran Rose Semi-Sweet Noviy Svet",
+        "url": "/uploads/novyy_svet_dom_shampanskih_vin_igristoe_vino_vyderzhannoe_polusladkoe_rozovoe_novyy_svet_pino_fran_135_f0782b6699.webp"
+      },
+      "manufacturer": "Новый Свет. Дом шампанских вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "novyy-svet-dom-shampanskih-vin-igristoe-vino-vyderzhannoe-polusladkoe-rozovoe-novyy-svet-pino-fran-135",
+      "title": "Игристое вино выдержанное полусладкое розовое «Новый Свет. Пино Фран»"
+    },
+    {
+      "category": "Розовое полусладкое",
+      "color": "Розовый, сверкающий",
+      "image": {
+        "altText": "Rose Aged Russian Sparkling Semi-Sweet Novy Svet",
+        "url": "/uploads/novyy_svet_dom_shampanskih_vin_rossiyskoe_shampanskoe_vyderzhannoe_polusladkoe_rozovoe_novyy_svet_shardone_125_a0a982c0c9.webp"
+      },
+      "manufacturer": "Новый Свет. Дом шампанских вин",
+      "region": "Крым",
+      "slug": "novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-vyderzhannoe-polusladkoe-rozovoe-novyy-svet-shardone-125",
+      "title": "Российское шампанское выдержанное полусладкое розовое «Новый Свет»"
+    },
+    {
+      "category": "Розовое полусладкое",
+      "color": "Нежно-розовый",
+      "image": {
+        "altText": "ZB Moscato Semi-Sweet Rose",
+        "url": "/uploads/zolotaya_balka_zb_moscato_semi_sweet_rose_muskat_yantarnyy_rozovoe_polusladkoe_9_25026eb2e3.webp"
+      },
+      "manufacturer": "Золотая Балка",
+      "region": "Крым",
+      "slug": "zolotaya-balka-zb-moscato-semi-sweet-rose-muskat-yantarnyy-rozovoe-polusladkoe-9",
+      "title": "ZB Moscato Semi-Sweet Rose"
+    }
+  ],
+  "site_lastmod": "2026-04-02T11:33:23.000Z",
+  "site_wine": {
+    "alcohol": 11,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "name": "Розовое полусладкое"
+    },
+    "color": "Розовый",
+    "description": "В аромате красные ягоды с цитрусовыми нотками. Во вкусе тона клубники и леденцов, сладость хорошо гармонирует с кислотностью, длительное фруктовое послевкусие.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ostroe_cd4130b86a.webp"
+        },
+        "name": "Морепродукты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Gri_76fc8e544f.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Gri2_4fc806861d.webp"
+        },
+        "name": "Пино Гри"
+      }
+    ],
+    "image": {
+      "altText": "Château Le Grand Vostock",
+      "url": "/uploads/chteau_le_grand_vostock_fagotine_pino_gri_rozovoe_polusladkoe_11_674bd59659.webp"
+    },
+    "manufacturer": {
+      "name": "Château Le Grand Vostock",
+      "slug": "chateau-le-grand-vostock"
+    },
+    "publicRating": 3.46,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "chteau-le-grand-vostock-fagotine-pino-gri-rozovoe-polusladkoe-11",
+    "temperature": "8-10",
+    "title": "Fagotine"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Château Le Grand Vostock",
+      "title": "Château Le Grand Vostock",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/chteau_le_grand_vostock_fagotine_pino_gri_rozovoe_polusladkoe_11_674bd59659.webp"
+    }
+  ],
+  "slug": "chteau-le-grand-vostock-fagotine-pino-gri-rozovoe-polusladkoe-11"
+}

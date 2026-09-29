@@ -1,0 +1,270 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 48016,
+      "format": "WEBP",
+      "height": 1920,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          618,
+          1920
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/fanagoriya-alveus-ultra-cuvee-ekstra-bryut-beloe-risling-reynskiy-12.webp",
+        "sha256": "c40c6e21dc6a98deba352d7e176b27456d4bd27f4a57a6a9c14b1eb9c7487584",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          618,
+          1920
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/fanagoriya-alveus-ultra-cuvee-ekstra-bryut-beloe-risling-reynskiy-12.webp",
+      "sha256": "726ad0395073b8afd9c2ed9acf424a4594bba33ceb5a3e347f93bfeb7137b52e",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/fanagoriya_alveus_ultra_cuvee_ekstra_bryut_beloe_risling_reynskiy_12_d3eb10a98a.webp",
+      "width": 618
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/fanagoriya-alveus-ultra-cuvee-ekstra-bryut-beloe-risling-reynskiy-12",
+  "retrieved_at_utc": "2026-09-29T19:16:05.784889+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое экстра брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Выдержанное Экстра Брют Рислинг Брют Натюр",
+        "url": "/uploads/sp_riesling_brut_nature_cf7fa86914.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.7,
+      "region": "Крым",
+      "slug": "vyderzhannoe-ekstra-bryut-risling-bryut-natyur",
+      "title": "Выдержанное Экстра Брют Рислинг Брют Натюр"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Зеленовато-соломенный",
+      "image": {
+        "altText": "Выдержанное Экстра Брют Блан де Блан Брют Натюр",
+        "url": "/uploads/sp_brut_blanc_de_blancs_312964b5f5.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "vyderzhannoe-ekstra-bryut-blan-de-blan-bryut-natyur",
+      "title": "Выдержанное Экстра Брют Блан де Блан Брют Натюр"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "le Nuage",
+        "url": "/uploads/Spark_02_736d569163.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.67,
+      "region": "Кубань",
+      "slug": "vione-nyuazh-zero-dozazh",
+      "title": "Вионье Нюаж Зеро Дозаж"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Фиолетовый Ранний гусев",
+        "url": "/uploads/petnat_fioletovyj_no_bg_preview_carve_photos_e4ddd605bc.webp"
+      },
+      "manufacturer": "Гусевъ",
+      "publicRating": 1,
+      "region": "Нижняя Волга",
+      "slug": "fioletovyj-rannij-petnat",
+      "title": "Фиолетовый Ранний петнат"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Кокур Мельниковы",
+        "url": "/uploads/DSC_09166_cf6c3aaa12.webp"
+      },
+      "manufacturer": "Винодельня Братьев Мельниковых",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "dva-brata-pet-nat-kokur-2024",
+      "title": "Два Брата Пет Нат Кокур, 2024"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "бледно-лимонный",
+      "image": {
+        "altText": "Гранд Кюве",
+        "url": "/uploads/Screenshot_2_fotor_bg_remover_202607141683_5f9e4ecf95.webp"
+      },
+      "manufacturer": "Скалистый берег",
+      "publicRating": 4.92,
+      "region": "Кубань",
+      "slug": "grand-kyuve",
+      "title": "Гранд Кюве"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Скалистый берег",
+        "url": "/uploads/Screenshot_16_fotor_bg_remover_20260714153549_d6a93eabf2.webp"
+      },
+      "manufacturer": "Скалистый берег",
+      "publicRating": 4.93,
+      "region": "Кубань",
+      "slug": "blan-de-blan",
+      "title": "Блан де Блан"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Золотисто-соломенный",
+      "image": {
+        "altText": "Гранд",
+        "url": "/uploads/output_img_022_62bebb88f8.webp"
+      },
+      "manufacturer": "Галицкий и Галицкий",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "grand-jete-blanc-de-noirs",
+      "title": "Grand Jete Blanc de Noirs"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Бледно-золотистый",
+      "image": {
+        "altText": "Жете",
+        "url": "/uploads/output_img_021_ecc606d2a1.webp"
+      },
+      "manufacturer": "Галицкий и Галицкий",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "grand-jete-blanc-de-blancs",
+      "title": "Grand Jete Blanc de Blancs"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Вино золотистого цвета с персиковым отливом. ",
+      "image": {
+        "altText": "Блан де Нуар. Брют Натюр",
+        "url": "/uploads/Blanc_de_noirs_brut_nature_030b095589.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.92,
+      "region": "Крым",
+      "slug": "perovskih_blan_de_noir",
+      "title": "Блан де Нуар. Брют Натюр"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Светло-соломенный с зеленоватым оттенком",
+      "image": {
+        "altText": "Винодельня Ведерниковъ Цимлянский Черный-Сибирьковый Экстра Брют",
+        "url": "/uploads/vinodelnya_vedernikov_vinodelnya_vedernikov_tsimlyanskiy_chernyy_sibirkovyy_ekstra_bryut_beloe_13_8299616071.webp"
+      },
+      "manufacturer": "Ведерниковъ",
+      "publicRating": 5,
+      "region": "Долина Дона",
+      "slug": "vinodelnya-vedernikov-vinodelnya-vedernikov-tsimlyanskiy-chernyy-sibirkovyy-ekstra-bryut-beloe-13",
+      "title": "Винодельня Ведерниковъ Цимлянский Черный-Сибирьковый Экстра Брют"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Светло-соломенный, прозрачный",
+      "image": {
+        "altText": "Инкерман Пино Блан Зеро Дозаж",
+        "url": "/uploads/inkermanskiy_zmv_inkerman_pino_blan_zero_dozazh_beloe_ekstra_bryut_12_8502401e55.webp"
+      },
+      "manufacturer": "Инкерманский ЗМВ",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "inkermanskiy-zmv-inkerman-pino-blan-zero-dozazh-beloe-ekstra-bryut-12",
+      "title": "Инкерман Пино Блан Зеро Дозаж"
+    }
+  ],
+  "site_lastmod": "2026-04-02T13:33:43.000Z",
+  "site_wine": {
+    "alcohol": 12,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое экстра брют"
+    },
+    "color": "Соломенный",
+    "description": "В аромате цветочно-медовые оттенки, нотки зеленого яблока, груши и лайма. Вкус свежий, фруктовый, с солоноватым минеральным послевкусием.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ostroe_cd4130b86a.webp"
+        },
+        "name": "Морепродукты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Risling2_c6fa370506.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Rislaner_6d81eeefaa.webp"
+        },
+        "name": "Рислинг Рейнский"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Shardone_2_03e3197a65.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Shardone_54bbd4df90.webp"
+        },
+        "name": "Шардоне"
+      }
+    ],
+    "image": {
+      "altText": "Фанагория",
+      "url": "/uploads/fanagoriya_alveus_ultra_cuvee_ekstra_bryut_beloe_risling_reynskiy_12_d3eb10a98a.webp"
+    },
+    "manufacturer": {
+      "name": "винный дом «Фанагория»",
+      "slug": "fanagoriya"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "fanagoriya-alveus-ultra-cuvee-ekstra-bryut-beloe-risling-reynskiy-12",
+    "temperature": "8-10",
+    "title": "Alveus Ultra Cuvee. Экстра брют белое"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Фанагория",
+      "title": "Фанагория",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/fanagoriya_alveus_ultra_cuvee_ekstra_bryut_beloe_risling_reynskiy_12_d3eb10a98a.webp"
+    }
+  ],
+  "slug": "fanagoriya-alveus-ultra-cuvee-ekstra-bryut-beloe-risling-reynskiy-12"
+}

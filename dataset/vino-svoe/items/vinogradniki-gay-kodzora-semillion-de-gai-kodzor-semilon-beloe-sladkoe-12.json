@@ -1,0 +1,272 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 26332,
+      "format": "WEBP",
+      "height": 998,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          302,
+          998
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/vinogradniki-gay-kodzora-semillion-de-gai-kodzor-semilon-beloe-sladkoe-12.webp",
+        "sha256": "395f0a8b47d477ac033cc241a56f827bf8a9765dec9bd576433eba962772f02c",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          302,
+          998
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/vinogradniki-gay-kodzora-semillion-de-gai-kodzor-semilon-beloe-sladkoe-12.webp",
+      "sha256": "1aae06d8a95f23aa26369b89b14be50130c43cd3f016da50589b46c0cc4ea7b1",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/vinogradniki_gay_kodzora_semillion_de_gai_kodzor_semilon_beloe_sladkoe_12_61091f4885.webp",
+      "width": 302
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/vinogradniki-gay-kodzora-semillion-de-gai-kodzor-semilon-beloe-sladkoe-12",
+  "retrieved_at_utc": "2026-09-29T19:20:00.164923+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое сладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Массандра Портвейн белый Сурож",
+        "url": "/uploads/Massandra_Portvejn_belyj_Surozh_5476f24b50.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 3.67,
+      "region": "Крым",
+      "slug": "portvejn-surozh",
+      "title": "Портвейн Сурож"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Янтарный",
+      "image": {
+        "altText": "Солнечная Долина Сары Пандас выдержанное",
+        "url": "/uploads/Solnechnaya_Dolina_Sary_Pandas_vyderzhannoe_c056d7120c.webp"
+      },
+      "manufacturer": "Солнечная долина",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "sary-pandas-vyderzhannoe",
+      "title": "Сары Пандас выдержанное"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Массандра Мадера Крымская",
+        "url": "/uploads/Massandra_Madera_Krymskaya_42f85c120a.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 4.88,
+      "region": "Крым",
+      "slug": "madera-krymskaya",
+      "title": "Мадера Крымская"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Массандра Херес",
+        "url": "/uploads/Massandra_Heres_f281a9d608.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-heres",
+      "title": "Массандра Херес"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Шато Тамань резерв мускат десертный выдержанный",
+        "url": "/uploads/Shato_Taman_rezerv_muskat_desertnyj_vyderzhannyj_fcef49a1a7.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "region": "Кубань",
+      "slug": "chateau-tamagne-grand-dessert-muscat",
+      "title": "Chateau Tamagne Grand Dessert Muscat"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Солнечная долина портвейн крымский",
+        "url": "/uploads/Solnechnaya_dolina_portvejn_krymskij_e3f225c04e.webp"
+      },
+      "manufacturer": "Солнечная долина",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "portvejn-krymskij",
+      "title": "Портвейн Крымский"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Поздний сбор",
+        "url": "/uploads/Screenshot_21_2f4c3173b1.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 4.78,
+      "region": "Кубань",
+      "slug": "pozdnij-sbor-beloe",
+      "title": "Поздний сбор  Белое"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Янтарный, с золотистыми отблесками",
+      "image": {
+        "altText": "г",
+        "url": "/uploads/output_img_037_425130ed89.webp"
+      },
+      "manufacturer": "Галицкий и Галицкий",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "le-general-hiver",
+      "title": "Le General Hiver"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Насыщенный золотистый",
+      "image": {
+        "altText": "Пино Гри 2025 поздний сбор бюрнье",
+        "url": "/uploads/Pino_Gri_2025_pozdnij_sbor_png_4dc63be6e9.webp"
+      },
+      "manufacturer": "Винодельня Бюрнье",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "b-yu-rne-pino-gri-pozdnij-sbor-sladkoe-beloe",
+      "title": "БЮРНЬЕ.ПИНО ГРИ Поздний сбор сладкое белое"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Золотистый, янтарный",
+      "image": {
+        "altText": "Вино Port White Alushta Massandra",
+        "url": "/uploads/massandra_portveyn_belyy_alushta_belye_sorta_vinograda_beloe_sladkoe_17_ab89a72383.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-portveyn-belyy-alushta-belye-sorta-vinograda-beloe-sladkoe-17",
+      "title": "Портвейн белый Алушта"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Янтарно-золотистый, прозрачный",
+      "image": {
+        "altText": "Вино Muskatel White Massandra",
+        "url": "/uploads/massandra_muskatel_belyy_belye_sorta_vinograda_beloe_sladkoe_16_f7e0314033.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-muskatel-belyy-belye-sorta-vinograda-beloe-sladkoe-16",
+      "title": "Мускатель белый"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Янтарно-золотистый",
+      "image": {
+        "altText": "Вино Muskat Late Harvest White Massandra",
+        "url": "/uploads/massandra_muskat_belyy_pozdnego_sbora_beloe_sladkoe_10_17230edc84.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-muskat-belyy-pozdnego-sbora-beloe-sladkoe-10",
+      "title": "Мускат белый позднего сбора"
+    }
+  ],
+  "site_lastmod": "2026-01-12T11:46:00.000Z",
+  "site_wine": {
+    "alcohol": 12,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое сладкое"
+    },
+    "color": "Светло-золотистый",
+    "description": "Вкус: Фруктово-пряный. Персик, ананас, груша, абрикос, мед, айв, ноты цитрусов и шафрана.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ptica_9a6c7e3ea1.webp"
+        },
+        "name": "Блюда из птицы"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/nesladkaya_vypechka_05bf04c48c.webp"
+        },
+        "name": "Выпечка и десерты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/myaso_442273df41.webp"
+        },
+        "name": "Мясо и стейки"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/frukty_545dae1854.webp"
+        },
+        "name": "Фрукты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/semilon2_b547b86a9e.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Makabeo2_8d30670a08.webp"
+        },
+        "name": "Семильон"
+      }
+    ],
+    "image": {
+      "altText": "Semillion de Gai-Kodzor",
+      "url": "/uploads/vinogradniki_gay_kodzora_semillion_de_gai_kodzor_semilon_beloe_sladkoe_12_61091f4885.webp"
+    },
+    "manufacturer": {
+      "name": "Виноградники Гай-Кодзора",
+      "slug": "vinogradniki-gay-kodzora"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "vinogradniki-gay-kodzora-semillion-de-gai-kodzor-semilon-beloe-sladkoe-12",
+    "temperature": "6-8",
+    "title": "Semillion de Gai-Kodzor"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Semillion de Gai-Kodzor",
+      "title": "Semillion de Gai-Kodzor",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/vinogradniki_gay_kodzora_semillion_de_gai_kodzor_semilon_beloe_sladkoe_12_61091f4885.webp"
+    }
+  ],
+  "slug": "vinogradniki-gay-kodzora-semillion-de-gai-kodzor-semilon-beloe-sladkoe-12"
+}

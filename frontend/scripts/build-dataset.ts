@@ -26,7 +26,8 @@ import {
 } from './lib/derive.ts'
 import { canonicalGrapes } from './lib/grapes.ts'
 import { extractPairingNote } from './lib/pairing-note.ts'
-import { assertDataset, CSV_PATH, DATA_DIR, IMG_MANIFEST, WINES_DIR } from './lib/paths.ts'
+import { assertDataset, CSV_PATH, DATA_DIR, IMG_MANIFEST, PROJECT_ROOT, WINES_DIR } from './lib/paths.ts'
+import { loadSiteCatalog, siteToCsvRow } from './lib/site-catalog.ts'
 
 /**
  * CSV → готовые JSON. Запускается в prebuild, потому что в браузере датасет
@@ -34,9 +35,13 @@ import { assertDataset, CSV_PATH, DATA_DIR, IMG_MANIFEST, WINES_DIR } from './li
  * в секунды блокировки главного потока.
  */
 
-/** Справочник со стабильными индексами: индекс уходит в URL, поэтому порядок фиксируем. */
-function buildLookup(values: Iterable<string>): { list: string[]; indexOf: Map<string, number> } {
-  const list = [...new Set(values)].sort((a, b) => a.localeCompare(b, 'ru'))
+/** Старые ID живут в URL и карточках: новые значения только добавляются в конец. */
+function buildLookup(values: Iterable<string>, base: readonly string[]): { list: string[]; indexOf: Map<string, number> } {
+  const list = [...new Set(base)]
+  const known = new Set(list)
+  const added = [...new Set(values)].filter((value) => !known.has(value))
+    .sort((a, b) => a.localeCompare(b, 'ru'))
+  list.push(...added)
   const indexOf = new Map(list.map((value, index) => [value, index]))
   return { list, indexOf }
 }
@@ -52,7 +57,15 @@ function countBy(values: number[], size: number): FacetValue[] {
 function main(): void {
   assertDataset()
   const started = Date.now()
-  const { rows, totalRows, duplicatesDropped } = loadCatalog(CSV_PATH)
+  const { rows: legacyRows, totalRows, duplicatesDropped } = loadCatalog(CSV_PATH)
+  const siteWines = loadSiteCatalog().wines
+  const legacySlugs = new Set(legacyRows.map((row) => row.Slug))
+  for (const wine of siteWines) {
+    if (legacySlugs.has(wine.slug)) throw new Error(`Site-only slug уже есть в CSV: ${wine.slug}`)
+  }
+  const siteBySlug = new Map(siteWines.map((wine) => [wine.slug, wine]))
+  const rows = [...legacyRows, ...siteWines.map(siteToCsvRow)]
+  const baseDict = JSON.parse(readFileSync(join(PROJECT_ROOT, 'catalog/base-dict.json'), 'utf8')) as WineDict
 
   const manifest: ImagesManifest['items'] = existsSync(IMG_MANIFEST)
     ? (JSON.parse(readFileSync(IMG_MANIFEST, 'utf8')) as ImagesManifest).items
@@ -60,13 +73,19 @@ function main(): void {
   if (Object.keys(manifest).length === 0) {
     console.warn('Манифест изображений пуст — соберите их командой npm run build:images.')
   }
+  for (const wine of siteWines) {
+    if (!manifest[wine.slug]) {
+      throw new Error(`Нет собранного изображения site-only SKU ${wine.slug}; запустите npm run build:images`)
+    }
+  }
 
-  const categories = buildLookup(rows.map((row) => row.Категория))
-  const regions = buildLookup(rows.map((row) => row.Регион))
-  const wineries = buildLookup(rows.map((row) => row.Винодельня))
-  const grapes = buildLookup(rows.flatMap((row) => splitGrapes(row['Сорт винограда'])))
+  const categories = buildLookup(rows.map((row) => row.Категория), baseDict.categories)
+  const regions = buildLookup(rows.map((row) => row.Регион), baseDict.regions)
+  const wineries = buildLookup(rows.map((row) => row.Винодельня), baseDict.wineries)
+  const grapes = buildLookup(rows.flatMap((row) => splitGrapes(row['Сорт винограда'])), baseDict.grapes)
   const grapeKeys = buildLookup(
     rows.flatMap((row) => canonicalGrapes(splitGrapes(row['Сорт винограда']))),
+    baseDict.grapeKeys,
   )
 
   const dict: WineDict = {
@@ -112,9 +131,17 @@ function main(): void {
   for (const row of rows) {
     const slug = row.Slug
     const name = row['Название вина']
-    const style = deriveStyle(name, slug)
-    const sparkling = deriveSparkling(name, slug, row.Описание, row['Название фото'])
-    const abv = deriveAbv(slug, row['Название фото'])
+    const site = siteBySlug.get(slug)
+    const style = site ? deriveStyle(site.category, '') : deriveStyle(name, slug)
+    const sparkling = site
+      ? deriveSparkling(site.category, '', '', '')
+      : deriveSparkling(name, slug, row.Описание, row['Название фото'])
+    // The site often gives a range: a lower bound is not an exact ABV.
+    const abv = site
+      ? (site.alcohol !== null && site.alcohol <= 22 && (site.alcoholMax === null || site.alcoholMax === site.alcohol)
+          ? site.alcohol
+          : null)
+      : deriveAbv(slug, row['Название фото'])
     const fortified = deriveFortified(name, slug, style, abv)
     const oak = deriveOak(name, row.Описание)
     const sweetHint = deriveSweetHint(name, row.Описание, style)
@@ -219,7 +246,7 @@ function main(): void {
 
   console.log(
     [
-      `CSV: ${totalRows} строк → ${rows.length} позиций (дублей отброшено ${duplicatesDropped}).`,
+      `CSV: ${totalRows} строк → ${legacyRows.length} позиций (дублей отброшено ${duplicatesDropped}); site-only: ${siteWines.length}; всего: ${rows.length}.`,
       `Крепость: ${withAbv} (${percent(withAbv)}%), диапазон ${facets.ranges.abv.min}–${facets.ranges.abv.max}%.`,
       `Стиль: ${withStyle} (${percent(withStyle)}%). Игристых: ${sparklingCount}. Креплёных: ${fortifiedCount}. Фото: ${withPhoto} (${percent(withPhoto)}%).`,
       `Гастрономия винодельни в описании: ${withPairingNote} (${percent(withPairingNote)}%).`,

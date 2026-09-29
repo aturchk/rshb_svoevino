@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# Historical 928-SKU strict-gallery proxy experiment only. The selected
+# production adapter is already committed under ml/models/; use
+# `make local-setup` to build its index without retraining.
 set -euo pipefail
 
 script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

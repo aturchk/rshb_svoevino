@@ -1,0 +1,141 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 39406,
+      "format": "WEBP",
+      "height": 1920,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          610,
+          1920
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/fanagoriya-brule-saperavi-saperavi-igristoe-sladkoe-krasnoe-bryut-125.webp",
+        "sha256": "96484e0bc3b0c2e278c7ad90eb41934dd12bf6794cce40c59c4a7cf31a5ebdc8",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          610,
+          1920
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/fanagoriya-brule-saperavi-saperavi-igristoe-sladkoe-krasnoe-bryut-125.webp",
+      "sha256": "c82fc20fd97627d00676839cbbd9dd585b91ee8f2ee8521c13749e15c40d564d",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/fanagoriya_brule_saperavi_saperavi_igristoe_sladkoe_krasnoe_bryut_125_433b942aaa.webp",
+      "width": 610
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/fanagoriya-brule-saperavi-saperavi-igristoe-sladkoe-krasnoe-bryut-125",
+  "retrieved_at_utc": "2026-09-29T19:16:00.548510+00:00",
+  "similar_wines": [
+    {
+      "category": "Красное брют",
+      "color": "Тёмно-рубиновый, насыщенный",
+      "image": {
+        "altText": "Cabernet Sauvignon Brut Novy Svet",
+        "url": "/uploads/novyy_svet_dom_shampanskih_vin_igristoe_vino_vyderzhannoe_bryut_krasnoe_novyy_svet_kaberne_sovinon_135_c251fa3c04.webp"
+      },
+      "manufacturer": "Новый Свет. Дом шампанских вин",
+      "publicRating": 4,
+      "region": "Крым",
+      "slug": "novyy-svet-dom-shampanskih-vin-igristoe-vino-vyderzhannoe-bryut-krasnoe-novyy-svet-kaberne-sovinon-135",
+      "title": "Игристое вино выдержанное брют красное «Новый Свет. Каберне Совиньон»"
+    },
+    {
+      "category": "Красное брют",
+      "color": "Темно-рубиновый",
+      "image": {
+        "altText": "Новый Свет. Каберне Совиньон",
+        "url": "/uploads/4308_TC_5bs_GE_232f37619b.webp"
+      },
+      "manufacturer": "Новый Свет. Дом шампанских вин",
+      "region": "Крым",
+      "slug": "novyj-svet-kaberne-sovinon",
+      "title": "Новый Свет. Каберне Совиньон"
+    },
+    {
+      "category": "Красное брют",
+      "color": "Красный",
+      "image": {
+        "altText": "Rouge de Noirs",
+        "url": "/uploads/vinodelnya_myshako_rouge_de_noirs_merlo_igristoe_bryut_krasnoe_13_3e3fa77db7.webp"
+      },
+      "manufacturer": "Мысхако",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "vinodelnya-myshako-rouge-de-noirs-merlo-krasnoe-bryut-13",
+      "title": "Rouge de Noirs"
+    }
+  ],
+  "site_lastmod": "2026-07-16T14:33:23.000Z",
+  "site_wine": {
+    "alcohol": 12,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "name": "Красное брют"
+    },
+    "color": "Тёмно-рубиновый",
+    "description": "В аромате спелые ягоды, сливы и специи. Вкус фруктово-ягодный, свежий, полный, обволакивающий, с длительным послевкусием.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/kavkazskaya_kuhnya_0f18f731b5.webp"
+        },
+        "name": "Кавказская кухня"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/kavkazskaya_kuhnya_0f18f731b5.webp"
+        },
+        "name": "Мясное ассорти"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Saperavi3_973cb28f6e.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Saperavi_severnyj_e91216eac7.webp"
+        },
+        "name": "Саперави"
+      }
+    ],
+    "image": {
+      "altText": "Фанагория",
+      "url": "/uploads/fanagoriya_brule_saperavi_saperavi_igristoe_sladkoe_krasnoe_bryut_125_433b942aaa.webp"
+    },
+    "manufacturer": {
+      "name": "винный дом «Фанагория»",
+      "slug": "fanagoriya"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "fanagoriya-brule-saperavi-saperavi-igristoe-sladkoe-krasnoe-bryut-125",
+    "temperature": "14–16",
+    "title": "Brule Saperavi"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Фанагория",
+      "title": "Фанагория",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/fanagoriya_brule_saperavi_saperavi_igristoe_sladkoe_krasnoe_bryut_125_433b942aaa.webp"
+    }
+  ],
+  "slug": "fanagoriya-brule-saperavi-saperavi-igristoe-sladkoe-krasnoe-bryut-125"
+}

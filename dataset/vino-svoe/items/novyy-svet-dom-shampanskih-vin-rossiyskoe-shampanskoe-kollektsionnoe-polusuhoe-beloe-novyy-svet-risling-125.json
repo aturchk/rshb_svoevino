@@ -1,0 +1,291 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 60338,
+      "format": "WEBP",
+      "height": 1500,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          385,
+          1500
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-kollektsionnoe-polusuhoe-beloe-novyy-svet-risling-125.webp",
+        "sha256": "cc904ba1a2574636db4169906f030ae0c927dc920fc3dda553d5ed758583a292",
+        "source_bbox_xyxy": [
+          3,
+          3,
+          385,
+          1499
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-kollektsionnoe-polusuhoe-beloe-novyy-svet-risling-125.webp",
+      "sha256": "ed75b8a01111a283c5a24cd03c576918984ac1aaf1c7b11306cdbc3d76ae659d",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/novyy_svet_dom_shampanskih_vin_rossiyskoe_shampanskoe_kollektsionnoe_polusuhoe_beloe_novyy_svet_risling_125_7748979b97.webp",
+      "width": 385
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-kollektsionnoe-polusuhoe-beloe-novyy-svet-risling-125",
+  "retrieved_at_utc": "2026-09-29T19:15:41.863609+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Рислинг Резерв Усадьба Перовских",
+        "url": "/uploads/res_riesling_e367652923.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.89,
+      "region": "Крым",
+      "slug": "risling-rezerv",
+      "title": "Рислинг Резерв"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Рислинг",
+        "url": "/uploads/MAX_02346_1_edcbff60a1.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 3.33,
+      "region": "Кубань",
+      "slug": "risling-2",
+      "title": "Рислинг "
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Мускат",
+        "url": "/uploads/MAX_02198_1_c52c0cfeec.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 4.4,
+      "region": "Кубань",
+      "slug": "muskat",
+      "title": "Мускат"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Соломенный с золотистыми переливами",
+      "image": {
+        "altText": "Прибой Марченко белое полусухое",
+        "url": "/uploads/priboj_Marchenko_beloe_no_bg_preview_carve_photos_de18758756.webp"
+      },
+      "manufacturer": "Винодельня Марченко",
+      "publicRating": 3,
+      "region": "Кубань",
+      "slug": "priboj-marchenko-beloe-polusuhoe",
+      "title": "Прибой Марченко белое полусухое"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Бледно-соломенный",
+      "image": {
+        "altText": "Корур Мельниковы",
+        "url": "/uploads/DSC_00839_Photoroom_418c4b31b3.webp"
+      },
+      "manufacturer": "Винодельня Братьев Мельниковых",
+      "publicRating": 4.76,
+      "region": "Крым",
+      "slug": "kokur-2025",
+      "title": "Кокур, 2025 "
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Массандра Кокур",
+        "url": "/uploads/Massandra_Kokur_1fa858a17c.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 4.54,
+      "region": "Крым",
+      "slug": "massandra-kokur",
+      "title": "Массандра Кокур"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Inkerman Шато Блан белое полусухое",
+        "url": "/uploads/Inkerman_Shato_Blan_beloe_polusuhoe_526e6530b9.webp"
+      },
+      "manufacturer": "Инкерманский ЗМВ",
+      "publicRating": 4.4,
+      "region": "Крым",
+      "slug": "inkerman-shato-blan",
+      "title": "Инкерман Шато Блан"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Мускат премиум",
+        "url": "/uploads/MAX_02198_7f3ccea6d6.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "muskat-premium",
+      "title": "Мускат Премиум"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Табия Буковинка",
+        "url": "/uploads/Screenshot_10_a566dcdabb.webp"
+      },
+      "manufacturer": "Табия",
+      "publicRating": 4.82,
+      "region": "Кубань",
+      "slug": "bukovinka",
+      "title": "Буковинка"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Табия Рислинг",
+        "url": "/uploads/Screenshot_11_a9d7c8f8df.webp"
+      },
+      "manufacturer": "Табия",
+      "publicRating": 4.76,
+      "region": "Кубань",
+      "slug": "risling-1",
+      "title": "Рислинг"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Цитрон, Совиньон п.сух",
+        "url": "/uploads/Czitron_Sovinon_p_suh_f07f1d8280.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "czitronnyj-magaracha-sovinon-blan",
+      "title": "Жемчужная 9 Цитрон, Совиньон блан"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Рислинг, Совиньон п.сух",
+        "url": "/uploads/Risling_Sovinon_p_suh_2e0b39c41e.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "zhemchuzhnaya-9-risling-sovinon-blan",
+      "title": "Жемчужная 9 Рислинг,Совиньон блан"
+    }
+  ],
+  "site_lastmod": "2026-06-04T10:06:33.000Z",
+  "site_wine": {
+    "alcohol": 12,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое полусухое"
+    },
+    "color": "Светло-соломенный с зеленоватыми отблесками",
+    "description": "Аромат с нотами свежих ягод и полевых цветов; вкус гармоничный, хорошо сбалансированный, с минеральными и фруктовыми нотками, приятной умеренной сладостью. Освежающий, лёгкий финиш. Хорошо к лёгким фруктовым десертам, мягким сырам и в качестве аперитива.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/legkie_zakuski_e5a2dedbf7.webp"
+        },
+        "name": "Легкие закуски"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Marsan3_97291c74a8.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Malvaziya_2_6fa1f30062.webp"
+        },
+        "name": "Алиготе"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Nuar3_8f666dc69e.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Nuar2_6c049e4c48.webp"
+        },
+        "name": "Пино Нуар"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Risling2_c6fa370506.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Risling_5a37344384.webp"
+        },
+        "name": "Рислинг"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Shardone_2_03e3197a65.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Shardone_54bbd4df90.webp"
+        },
+        "name": "Шардоне"
+      }
+    ],
+    "image": {
+      "altText": "Collection Russian Sparkling Semi-Dry Novy Svet",
+      "url": "/uploads/novyy_svet_dom_shampanskih_vin_rossiyskoe_shampanskoe_kollektsionnoe_polusuhoe_beloe_novyy_svet_risling_125_7748979b97.webp"
+    },
+    "manufacturer": {
+      "name": "Новый Свет. Дом шампанских вин",
+      "slug": "noviy_svet"
+    },
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-kollektsionnoe-polusuhoe-beloe-novyy-svet-risling-125",
+    "temperature": "6-8",
+    "title": "Российское шампанское коллекционное полусухое белое «Новый Свет»"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Collection Russian Sparkling Semi-Dry Novy Svet",
+      "title": "Collection Russian Sparkling Semi-Dry Novy Svet",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/novyy_svet_dom_shampanskih_vin_rossiyskoe_shampanskoe_kollektsionnoe_polusuhoe_beloe_novyy_svet_risling_125_7748979b97.webp"
+    }
+  ],
+  "slug": "novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-kollektsionnoe-polusuhoe-beloe-novyy-svet-risling-125"
+}

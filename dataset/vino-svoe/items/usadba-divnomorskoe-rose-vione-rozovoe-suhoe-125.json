@@ -1,0 +1,281 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 7532,
+      "format": "WEBP",
+      "height": 639,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          188,
+          639
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/usadba-divnomorskoe-rose-vione-rozovoe-suhoe-125.webp",
+        "sha256": "cf2072223b5c26b7d39eb77c44a60119da01746aaa03a8265ea360e9f4b241db",
+        "source_bbox_xyxy": [
+          5,
+          4,
+          181,
+          634
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/usadba-divnomorskoe-rose-vione-rozovoe-suhoe-125.webp",
+      "sha256": "d7e8cd9b5815b8950c159e18ed09f264bda3c2a4ce2f57ff1155cf1d1f57dde8",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/usadba_divnomorskoe_rose_vione_rozovoe_suhoe_125_cc6f84dbad.webp",
+      "width": 188
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/usadba-divnomorskoe-rose-vione-rozovoe-suhoe-125",
+  "retrieved_at_utc": "2026-09-29T19:15:43.648711+00:00",
+  "similar_wines": [
+    {
+      "category": "Розовое сухое",
+      "color": "Нежно-розовое",
+      "image": {
+        "altText": "Розовое сухое Усадьба перовских",
+        "url": "/uploads/main_rose_dry_daef1d0a86.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.82,
+      "region": "Крым",
+      "slug": "rozovoe-suhoe",
+      "title": "Розовое сухое"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Розовый",
+      "image": {
+        "altText": "Восток розе",
+        "url": "/uploads/c5bc5ded2f2bc7b_343x610_notcrop_2c484caa6b.webp"
+      },
+      "manufacturer": "Château Le Grand Vostock",
+      "publicRating": 4.4,
+      "region": "Кубань",
+      "slug": "vostok-roze",
+      "title": "Восток розе"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Розовый",
+      "image": {
+        "altText": "закат денисов вайнери",
+        "url": "/uploads/zakat_denisov_vajneri_no_bg_preview_carve_photos_1_6ae9baa13d.webp"
+      },
+      "manufacturer": "Denisov Winery",
+      "publicRating": 4.63,
+      "region": "Самара",
+      "slug": "zakat-denisov-vajneri",
+      "title": "Закат. Денисов Вайнери"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Лососевый",
+      "image": {
+        "altText": "Пино нуар Мельниковы",
+        "url": "/uploads/DSC_00836_4070f8fd2f.webp"
+      },
+      "manufacturer": "Винодельня Братьев Мельниковых",
+      "publicRating": 4.82,
+      "region": "Крым",
+      "slug": "pino-nuar-2025",
+      "title": "Пино Нуар, 2025"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Нежно-розовое",
+      "image": {
+        "altText": "Массандра сухое розовое",
+        "url": "/uploads/Massandra_suhoe_rozovoe_218d80e12d.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-rozovoe-suhoe",
+      "title": "Массандра розовое сухое"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Светло-розовое",
+      "image": {
+        "altText": "Golubitskoe Rose",
+        "url": "/uploads/Golubitskoe_Estate_Rose_84adcc1cea.webp"
+      },
+      "manufacturer": "Поместье Голубицкое",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "golubitskoe-rose",
+      "title": "Golubitskoe Rose"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Блестяще-розовый",
+      "image": {
+        "altText": "Высокий берег Цвайгельт",
+        "url": "/uploads/Vysokij_bereg_Czvajgelt_8c439c9f75.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "vysokij-bereg-czvajgelt",
+      "title": "Высокий Берег Цвайгельт"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Нежно-розовый",
+      "image": {
+        "altText": "Литавщук розе",
+        "url": "/uploads/Screenshot_24_c38ca52fac.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 4.92,
+      "region": "Кубань",
+      "slug": "roze-premium",
+      "title": "Розе. Премиум"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Нежно-розовый",
+      "image": {
+        "altText": "Табия розе",
+        "url": "/uploads/Screenshot_17_6d600742f0.webp"
+      },
+      "manufacturer": "Табия",
+      "publicRating": 4.97,
+      "region": "Кубань",
+      "slug": "roze-2",
+      "title": "Розе"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Лососево-розовый",
+      "image": {
+        "altText": "ЛОРИО_РОЗОВОЕ",
+        "url": "/uploads/LORIO_ROZOVOE_9e1be3c909.webp"
+      },
+      "manufacturer": "ЛОРИО -  семейная винодельня Логуновых",
+      "publicRating": 4.89,
+      "region": "Кубань",
+      "slug": "lorio-rozovoe",
+      "title": "ЛОРИО. Розовое"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Светло-розовый с лососевым оттенком и блеском",
+      "image": {
+        "altText": "Галицкий",
+        "url": "/uploads/roze_0cd69a079f.webp"
+      },
+      "manufacturer": "Галицкий и Галицкий",
+      "publicRating": 4.75,
+      "region": "Кубань",
+      "slug": "roze-1",
+      "title": "Розе"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Светло-розовый",
+      "image": {
+        "altText": "Мускат, Пино Гри сух",
+        "url": "/uploads/Muskat_Pino_Gri_suh_bbbbbf5ff9.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "zhemchuzhnaya-9-muskat-rozovyj-pino-gri",
+      "title": "Жемчужная 9 Мускат Розовый, Пино гри"
+    }
+  ],
+  "site_lastmod": "2026-06-03T23:49:00.000Z",
+  "site_wine": {
+    "alcohol": 12,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "name": "Розовое сухое"
+    },
+    "color": "Бледно-лососевый с оттенками лепестков роз",
+    "description": "Нежный, деликатный аромат клубники, цветков граната, красной смородины и барбариса. Вкус изысканный и хорошо сбалансированный, освежающий с лёгким ягодным послевкусием.\nПревосходный аперитив, сочетается с морепродуктами, белой рыбой, зелёными салатами, птицей, мягкими сырами.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/legkie_zakuski_e5a2dedbf7.webp"
+        },
+        "name": "Легкие закуски"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ryba_moreprodukty_e57b445d95.webp"
+        },
+        "name": "Рыба и морепродукты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Glera_0f17a1d0bf.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Vione_47efa643ea.webp"
+        },
+        "name": "Вионье"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Marselan10_b607b8c545.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Marselan_1858bd3d4e.webp"
+        },
+        "name": "Марселан"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Shiraz_Sira3_ac5d95b730.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Shiraz_Sira2_bc5babc4a3.webp"
+        },
+        "name": "Сира"
+      }
+    ],
+    "image": {
+      "altText": "Rose-Usadba-Divnomorskoe",
+      "url": "/uploads/usadba_divnomorskoe_rose_vione_rozovoe_suhoe_125_cc6f84dbad.webp"
+    },
+    "manufacturer": {
+      "name": "Усадьба Дивноморское",
+      "slug": "usadba-divnomorskoe"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "usadba-divnomorskoe-rose-vione-rozovoe-suhoe-125",
+    "temperature": "8-10",
+    "title": "Rose"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Rose-Usadba-Divnomorskoe",
+      "title": "Rose-Usadba-Divnomorskoe",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/usadba_divnomorskoe_rose_vione_rozovoe_suhoe_125_cc6f84dbad.webp"
+    }
+  ],
+  "slug": "usadba-divnomorskoe-rose-vione-rozovoe-suhoe-125"
+}

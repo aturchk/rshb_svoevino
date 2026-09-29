@@ -1,0 +1,277 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 45838,
+      "format": "WEBP",
+      "height": 1280,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          314,
+          1280
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/czitronnyj-magaracha-sovinon-blan.webp",
+        "sha256": "bb8dda2d808f05fc5041bdee8b0fc25cee2b7afc39b00be48ae35f19e4de0361",
+        "source_bbox_xyxy": [
+          0,
+          1,
+          314,
+          1280
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/czitronnyj-magaracha-sovinon-blan.webp",
+      "sha256": "3855fedb17490a5f4f08b6d608110b872771a689bc8b35eeb68df333505fb940",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Czitron_Sovinon_p_suh_f07f1d8280.webp",
+      "width": 314
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/czitronnyj-magaracha-sovinon-blan",
+  "retrieved_at_utc": "2026-09-29T19:15:03.444135+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Рислинг Резерв Усадьба Перовских",
+        "url": "/uploads/res_riesling_e367652923.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.89,
+      "region": "Крым",
+      "slug": "risling-rezerv",
+      "title": "Рислинг Резерв"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Рислинг",
+        "url": "/uploads/MAX_02346_1_edcbff60a1.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 3.33,
+      "region": "Кубань",
+      "slug": "risling-2",
+      "title": "Рислинг "
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Мускат",
+        "url": "/uploads/MAX_02198_1_c52c0cfeec.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 4.4,
+      "region": "Кубань",
+      "slug": "muskat",
+      "title": "Мускат"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Соломенный с золотистыми переливами",
+      "image": {
+        "altText": "Прибой Марченко белое полусухое",
+        "url": "/uploads/priboj_Marchenko_beloe_no_bg_preview_carve_photos_de18758756.webp"
+      },
+      "manufacturer": "Винодельня Марченко",
+      "publicRating": 3,
+      "region": "Кубань",
+      "slug": "priboj-marchenko-beloe-polusuhoe",
+      "title": "Прибой Марченко белое полусухое"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Бледно-соломенный",
+      "image": {
+        "altText": "Корур Мельниковы",
+        "url": "/uploads/DSC_00839_Photoroom_418c4b31b3.webp"
+      },
+      "manufacturer": "Винодельня Братьев Мельниковых",
+      "publicRating": 4.76,
+      "region": "Крым",
+      "slug": "kokur-2025",
+      "title": "Кокур, 2025 "
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Массандра Кокур",
+        "url": "/uploads/Massandra_Kokur_1fa858a17c.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 4.54,
+      "region": "Крым",
+      "slug": "massandra-kokur",
+      "title": "Массандра Кокур"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Inkerman Шато Блан белое полусухое",
+        "url": "/uploads/Inkerman_Shato_Blan_beloe_polusuhoe_526e6530b9.webp"
+      },
+      "manufacturer": "Инкерманский ЗМВ",
+      "publicRating": 4.4,
+      "region": "Крым",
+      "slug": "inkerman-shato-blan",
+      "title": "Инкерман Шато Блан"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Мускат премиум",
+        "url": "/uploads/MAX_02198_7f3ccea6d6.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "muskat-premium",
+      "title": "Мускат Премиум"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Табия Буковинка",
+        "url": "/uploads/Screenshot_10_a566dcdabb.webp"
+      },
+      "manufacturer": "Табия",
+      "publicRating": 4.82,
+      "region": "Кубань",
+      "slug": "bukovinka",
+      "title": "Буковинка"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Табия Рислинг",
+        "url": "/uploads/Screenshot_11_a9d7c8f8df.webp"
+      },
+      "manufacturer": "Табия",
+      "publicRating": 4.76,
+      "region": "Кубань",
+      "slug": "risling-1",
+      "title": "Рислинг"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Рислинг, Совиньон п.сух",
+        "url": "/uploads/Risling_Sovinon_p_suh_2e0b39c41e.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "zhemchuzhnaya-9-risling-sovinon-blan",
+      "title": "Жемчужная 9 Рислинг,Совиньон блан"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Совион п.сух Аратти",
+        "url": "/uploads/Sovion_p_suh_e5467c856b.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 4.93,
+      "region": "Кубань",
+      "slug": "aratti-sovinon-blan-beloe-polusuhoe",
+      "title": "АРАТТИ Совиньон блан белое полусухое"
+    }
+  ],
+  "site_lastmod": "2026-07-09T15:31:06.000Z",
+  "site_wine": {
+    "alcohol": 11,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое полусухое"
+    },
+    "color": "Светло-соломенный",
+    "description": "Вкус и аромат: цветочный букет с нотами лайма и мяты. Во вкусе свежесть сада после дождя — лёгкая, с намёком на цитрус и деликатной сладостью.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ostroe_cd4130b86a.webp"
+        },
+        "name": "Морепродукты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/salat_1afebb2167.webp"
+        },
+        "name": "Салаты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Sovinon_Blan_e82f684de6.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Sovinon_Blan2_64c30a0af4.webp"
+        },
+        "name": "Совиньон Блан"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Rkacziteli2_a6dd4baca5.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Vione_i_Verdeho_3502efff14.webp"
+        },
+        "name": "Цитронный Магарача"
+      }
+    ],
+    "image": {
+      "altText": "Цитрон, Совиньон п.сух",
+      "url": "/uploads/Czitron_Sovinon_p_suh_f07f1d8280.webp"
+    },
+    "manufacturer": {
+      "name": "АРАТТИ",
+      "slug": "aratti"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "czitronnyj-magaracha-sovinon-blan",
+    "temperature": "10-12",
+    "title": "Жемчужная 9 Цитрон, Совиньон блан"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Цитрон, Совиньон п.сух",
+      "title": "Цитрон, Совиньон п.сух",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Czitron_Sovinon_p_suh_f07f1d8280.webp"
+    }
+  ],
+  "slug": "czitronnyj-magaracha-sovinon-blan"
+}

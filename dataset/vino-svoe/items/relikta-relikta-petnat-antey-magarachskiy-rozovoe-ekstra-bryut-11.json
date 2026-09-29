@@ -1,0 +1,272 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 79312,
+      "format": "WEBP",
+      "height": 1920,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          798,
+          1920
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/relikta-relikta-petnat-antey-magarachskiy-rozovoe-ekstra-bryut-11.webp",
+        "sha256": "21365dbc3a62f6eb851b7a76a08d49d3a77ccf4e6077bee0a294e934332303e7",
+        "source_bbox_xyxy": [
+          95,
+          38,
+          709,
+          1856
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/relikta-relikta-petnat-antey-magarachskiy-rozovoe-ekstra-bryut-11.webp",
+      "sha256": "c427e228a25d0eeb424aa8d5efbf5c1fa92402c91d643cfc18d20b9800217bbc",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/relikta_relikta_petnat_antey_magarachskiy_rozovoe_ekstra_bryut_11_00d21fcaf1.webp",
+      "width": 798
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/relikta-relikta-petnat-antey-magarachskiy-rozovoe-ekstra-bryut-11",
+  "retrieved_at_utc": "2026-09-29T19:17:01.742518+00:00",
+  "similar_wines": [
+    {
+      "category": "Розовое экстра брют",
+      "color": "Розовый",
+      "image": {
+        "altText": "Выдержанное Экстра Брют Розе Брют Натюр",
+        "url": "/uploads/sp_brut_rose_48a093c302.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.57,
+      "region": "Крым",
+      "slug": "vyderzhannoe-ekstra-bryut-roze-bryut-natyur",
+      "title": "Выдержанное Экстра Брют Розе Брют Натюр"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Светло-персиковый",
+      "image": {
+        "altText": "Петнат соседи",
+        "url": "/uploads/DSC_09170_a4e65f21e4.webp"
+      },
+      "manufacturer": "Коммуналка",
+      "publicRating": 4.58,
+      "region": "Крым",
+      "slug": "pet-nat-sosedi-2024",
+      "title": "Пет Нат Соседи, 2024 "
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Лососевый",
+      "image": {
+        "altText": "м",
+        "url": "/uploads/f804754fa9ae3bf4c674ad5d82e86b14_d9b6930374.webp"
+      },
+      "manufacturer": "Mantra Estate",
+      "publicRating": 4.85,
+      "region": "Кубань",
+      "slug": "magnatum-rose",
+      "title": "Magnatum Rose"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Бледно-розовый с лососевым оттенком",
+      "image": {
+        "altText": "Галицкий",
+        "url": "/uploads/output_img_024_4a97c5528e.webp"
+      },
+      "manufacturer": "Галицкий и Галицкий",
+      "publicRating": 4.38,
+      "region": "Кубань",
+      "slug": "grand-jete-rose",
+      "title": "Grand Jete Rose"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Светло-соломенный с устойчивым муссом и длительным перляжем",
+      "image": {
+        "altText": "Пет-нат Рубин",
+        "url": "/uploads/PETNAT_Rubin_prozrachnaya_3964ed9fec.webp"
+      },
+      "manufacturer": "Denisov Winery",
+      "publicRating": 5,
+      "region": "Самара",
+      "slug": "denisov_pet_nat_rubin",
+      "title": "Пет-Нат Рубин"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Кораллово-розовый цвет с блеском, элегантный перляж. ",
+      "image": {
+        "altText": "Розе",
+        "url": "/uploads/Extra_Brut_Rose_b02ec16ad0.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "perovskih_rose",
+      "title": "Розе"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Нежно-розовый, прозрачный",
+      "image": {
+        "altText": "Инкерман Розе Зеро Дозаж",
+        "url": "/uploads/inkermanskiy_zmv_inkerman_roze_zero_dozazh_kokur_rozovoe_ekstra_bryut_12_2c38685dfc.webp"
+      },
+      "manufacturer": "Инкерманский ЗМВ",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "inkermanskiy-zmv-inkerman-roze-zero-dozazh-kokur-rozovoe-ekstra-bryut-12",
+      "title": "Инкерман Розе Зеро Дозаж"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Розовый",
+      "image": {
+        "altText": "Фанагория",
+        "url": "/uploads/fanagoriya_fanagoria_extra_brut_rose_2019_pino_nuar_igristoe_bryut_rozovoe_ekstra_bryut_12_aef88041a9.webp"
+      },
+      "manufacturer": "винный дом «Фанагория»",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "fanagoriya-fanagoria-extra-brut-rose-2019-pino-nuar-igristoe-bryut-rozovoe-ekstra-bryut-12",
+      "title": "Fanagoria Extra Brut Rose 2019"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Розовый с золотистым оттенком",
+      "image": {
+        "altText": "Фанагория",
+        "url": "/uploads/fanagoriya_alveus_ultra_cuvee_ekstra_bryut_rozovoe_merlo_12_dda03da431.webp"
+      },
+      "manufacturer": "винный дом «Фанагория»",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "fanagoriya-alveus-ultra-cuvee-ekstra-bryut-rozovoe-merlo-12",
+      "title": "Alveus Ultra Cuvee. Экстра брют розовое"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Жемчужно-розовый",
+      "image": {
+        "altText": "Аристов Кюве Розе_Пино_2023_0,75л_брют",
+        "url": "/uploads/Aristov_Kyuve_Roze_Pino_2023_0_75l_bryut_Normal_Photoroom_cc598880d5.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "aristov-kyuve-aleksandr-roze-de-pino",
+      "title": "Аристов. Кюве Александр. Розе Де Пино"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Клубнично-розовый",
+      "image": {
+        "altText": "Пино Гри",
+        "url": "/uploads/shato_pino_pino_gri_igristoe_ekstra_bryut_rozovoe_11_660c923c47.webp"
+      },
+      "manufacturer": "Шато Пино",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "shato-pino-petnat-pino-gri-rozovoe-ekstra-bryut-11",
+      "title": "Петнат Пино Гри"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Клубнично-розовый",
+      "image": {
+        "altText": "Пино Нуар",
+        "url": "/uploads/shato_pino_pino_nuar_igristoe_ekstra_bryut_rozovoe_11_ebf10494b8.webp"
+      },
+      "manufacturer": "Шато Пино",
+      "region": "Кубань",
+      "slug": "shato-pino-petnat-pino-nuar-rozovoe-ekstra-bryut-11",
+      "title": "Петнат Пино Нуар"
+    }
+  ],
+  "site_lastmod": "2026-04-02T12:17:47.000Z",
+  "site_wine": {
+    "alcohol": 11,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "name": "Розовое экстра брют"
+    },
+    "color": "Розовый",
+    "description": "В аромате малина, северные ягоды. Вкус свежий, насыщенный.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/legkie_zakuski_e5a2dedbf7.webp"
+        },
+        "name": "Легкие закуски"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ostroe_cd4130b86a.webp"
+        },
+        "name": "Морепродукты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/pasta_9ce9a580b2.webp"
+        },
+        "name": "Паста"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "ребо",
+          "url": "/uploads/rebo_dbf2855820.webp"
+        },
+        "image": {
+          "altText": "ребо",
+          "url": "/uploads/rebo_dbf2855820.webp"
+        },
+        "name": "Антей магарачский"
+      }
+    ],
+    "image": {
+      "altText": "Реликта",
+      "url": "/uploads/relikta_relikta_petnat_antey_magarachskiy_rozovoe_ekstra_bryut_11_00d21fcaf1.webp"
+    },
+    "manufacturer": {
+      "name": "Реликта",
+      "slug": "relikta"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "relikta-relikta-petnat-antey-magarachskiy-rozovoe-ekstra-bryut-11",
+    "temperature": "14-18",
+    "title": "Реликта Петнат"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Реликта",
+      "title": "Реликта",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/relikta_relikta_petnat_antey_magarachskiy_rozovoe_ekstra_bryut_11_00d21fcaf1.webp"
+    }
+  ],
+  "slug": "relikta-relikta-petnat-antey-magarachskiy-rozovoe-ekstra-bryut-11"
+}

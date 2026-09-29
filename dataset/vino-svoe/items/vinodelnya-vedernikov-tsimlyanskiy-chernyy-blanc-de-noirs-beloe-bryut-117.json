@@ -1,0 +1,259 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 51566,
+      "format": "WEBP",
+      "height": 1500,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          475,
+          1500
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/vinodelnya-vedernikov-tsimlyanskiy-chernyy-blanc-de-noirs-beloe-bryut-117.webp",
+        "sha256": "db79b9c95d92e50d5a0f2668b863cec9af4808e82e25cf45ebef5168b027a28d",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          475,
+          1500
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/vinodelnya-vedernikov-tsimlyanskiy-chernyy-blanc-de-noirs-beloe-bryut-117.webp",
+      "sha256": "05663955914a3fc6643007bfce2b442e6b599da42e62c896933b991a7330cb3c",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/vinodelnya_vedernikov_tsimlyanskiy_chernyy_blanc_de_noirs_beloe_bryut_117_eb7b9970f8.webp",
+      "width": 475
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/vinodelnya-vedernikov-tsimlyanskiy-chernyy-blanc-de-noirs-beloe-bryut-117",
+  "retrieved_at_utc": "2026-09-29T19:16:32.923181+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое брют",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Мускат Оттонель Гусев",
+        "url": "/uploads/petnat_muskat_no_bg_preview_carve_photos_2296dc8b1a.webp"
+      },
+      "manufacturer": "Гусевъ",
+      "publicRating": 5,
+      "region": "Нижняя Волга",
+      "slug": "muskat-ottonel-gusev",
+      "title": "Мускат Оттонель Гусевъ"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "алвиса монблан",
+        "url": "/uploads/MB_igrist_Blanc_vid_032026_kopiya_5c6680d1ef.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.86,
+      "region": "Дагестан",
+      "slug": "mont-blanc-blanc-de-blancs",
+      "title": "Mont Blanc, Blanc de Blancs"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Mont Vlanc Alvisa",
+        "url": "/uploads/MB_igrist_Cuvee_vid_032026_kopiya_8bb830fcc2.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.95,
+      "region": "Дагестан",
+      "slug": "mont-blanc-cuvee",
+      "title": "Mont Blanc Cuvée"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса рисл",
+        "url": "/uploads/CANTIANI_Igristoe_Riesl_vid_032025_kopiya_8150a5e627.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.88,
+      "region": "Дагестан",
+      "slug": "cantiani-riesling-1",
+      "title": "Cantiani Riesling"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса брют ",
+        "url": "/uploads/CANTIANI_Igrist_Brut_vid5_042026_kopiya_1b13527c60.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.83,
+      "region": "Дагестан",
+      "slug": "cantiani-brut",
+      "title": "Cantiani Brut"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса ркац",
+        "url": "/uploads/CANTIANI_Igristoe_Rkats_vid_032025_kopiya_29e44021af.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.98,
+      "region": "Дагестан",
+      "slug": "cantiani-rkatsiteli-1",
+      "title": "Cantiani Rkatsiteli"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса шадр",
+        "url": "/uploads/CANTIANI_Igristoe_Chardon_444h1200px_fa4fe5363b.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 5,
+      "region": "Дагестан",
+      "slug": "cantiani-chardonnay",
+      "title": "Cantiani Chardonnay"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Просека",
+        "url": "/uploads/Screenshot_4_7c7945f9a9.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 3.81,
+      "region": "Кубань",
+      "slug": "lesnaya-proseka",
+      "title": "Лесная просека"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Небо России Глера",
+        "url": "/uploads/Screenshot_6_Photoroom_b5b45ec3f4.webp"
+      },
+      "manufacturer": "Kalos Limen",
+      "publicRating": 4.91,
+      "region": "Крым",
+      "slug": "nebo-rossii-glera",
+      "title": "Небо России Глера"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Глера Манно",
+        "url": "/uploads/Screenshot_2_66036870aa.webp"
+      },
+      "manufacturer": "Мысхако",
+      "publicRating": 4.67,
+      "region": "Кубань",
+      "slug": "glera-manno",
+      "title": "Глера Манно"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Русток Глера Ru 140",
+        "url": "/uploads/Screenshot_3_dce2afc6e1.webp"
+      },
+      "manufacturer": "Мысхако",
+      "publicRating": 4.5,
+      "region": "Кубань",
+      "slug": "rustok-glera-ru-140",
+      "title": "Русток Глера Ru 140"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Аристов Анима милезимиато брют",
+        "url": "/uploads/Aristov_Anima_milezimiato_bryut_4a887b783f.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 4.67,
+      "region": "Кубань",
+      "slug": "aristov-anima-millesimato-beloe-bryut",
+      "title": "Аристов ANIMA Millesimato белое брют"
+    }
+  ],
+  "site_lastmod": "2026-04-02T12:45:32.000Z",
+  "site_wine": {
+    "alcohol": 11,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое брют"
+    },
+    "color": "Соломенно-золотистый",
+    "description": "Аромат травянистый с нотками белых цветов, желтого яблока, груши, алычи, минеральными тонами. Вкус сбалансированный с тонами зеленого яблока, абрикоса, белой шелковицы, хрустящей кислотностью и продолжительным минеральным послевкусием.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ostroe_cd4130b86a.webp"
+        },
+        "name": "Морепродукты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/salat_1afebb2167.webp"
+        },
+        "name": "Салаты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Merlo_14_f0e42dbdb6.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Czimlyanskij_chernyj1_1becf8ce13.webp"
+        },
+        "name": "Цимлянский черный"
+      }
+    ],
+    "image": {
+      "altText": "Винодельня Ведерниковъ",
+      "url": "/uploads/vinodelnya_vedernikov_tsimlyanskiy_chernyy_blanc_de_noirs_beloe_bryut_117_eb7b9970f8.webp"
+    },
+    "manufacturer": {
+      "name": "Ведерниковъ",
+      "slug": "vinodelnya-vedernikov"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/dolina_dona_ddc225057d.webp"
+      },
+      "name": "Долина Дона"
+    },
+    "slug": "vinodelnya-vedernikov-tsimlyanskiy-chernyy-blanc-de-noirs-beloe-bryut-117",
+    "temperature": "8-10",
+    "title": "Цимлянский Черный Blanc de Noirs"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Винодельня Ведерниковъ",
+      "title": "Винодельня Ведерниковъ",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/vinodelnya_vedernikov_tsimlyanskiy_chernyy_blanc_de_noirs_beloe_bryut_117_eb7b9970f8.webp"
+    }
+  ],
+  "slug": "vinodelnya-vedernikov-tsimlyanskiy-chernyy-blanc-de-noirs-beloe-bryut-117"
+}

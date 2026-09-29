@@ -26,8 +26,10 @@ def copy_file(source: Path, destination: Path) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, default=Path("."))
-    parser.add_argument("--gallery", type=Path, default=Path("work/gallery-strict.jsonl"))
-    parser.add_argument("--adapter", type=Path, required=True)
+    parser.add_argument("--gallery", type=Path,
+                        default=Path("dataset/vino-svoe/gallery-reviewed-candidates.jsonl"))
+    parser.add_argument("--adapter", type=Path,
+                        default=Path("ml/models/siglip2-site-label-adapter.safetensors"))
     parser.add_argument("--cache-dir", type=Path, required=True)
     parser.add_argument("--model-dir", type=Path, required=True,
                         help="Hugging Face cache root containing the pinned snapshot")
@@ -48,18 +50,28 @@ def main() -> None:
         if not path.exists():
             raise FileNotFoundError(path)
 
-    copy_file(gallery_path, output / "gallery-strict.jsonl")
     sidecar = adapter_path.with_suffix(adapter_path.suffix + ".json")
-    copy_file(adapter_path, output / "siglip2-field-adapter.safetensors")
-    copy_file(sidecar, output / "siglip2-field-adapter.safetensors.json")
+    if not sidecar.is_file():
+        raise FileNotFoundError(sidecar)
+    gallery_rows = [json.loads(line) for line in gallery_path.read_text(encoding="utf-8").splitlines()
+                    if line.strip()]
+    ordered_images = [{"slug": row["slug"], "sha256": row["image_sha256"]}
+                      for row in gallery_rows]
+    gallery_digest = hashlib.sha256(json.dumps(
+        ordered_images, sort_keys=True, separators=(",", ":")
+    ).encode("utf-8")).hexdigest()
+    adapter_metadata = json.loads(sidecar.read_text(encoding="utf-8"))
+    if adapter_metadata.get("gallery_sha256") != gallery_digest:
+        raise ValueError("Adapter was trained against a different ordered gallery")
+
+    copy_file(gallery_path, output / "gallery-reviewed.jsonl")
+    copy_file(adapter_path, output / "siglip2-site-label-adapter.safetensors")
+    copy_file(sidecar, output / "siglip2-site-label-adapter.safetensors.json")
     shutil.copytree(cache_dir, output / "siglip-cache")
     shutil.copytree(model_dir, output / "huggingface")
 
     references = 0
-    for line in gallery_path.read_text(encoding="utf-8").splitlines():
-        if not line.strip():
-            continue
-        row = json.loads(line)
+    for row in gallery_rows:
         relative = Path(row["image_path"])
         if relative.is_absolute() or ".." in relative.parts:
             raise ValueError(f"Unsafe gallery path: {relative}")

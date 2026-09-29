@@ -1,0 +1,266 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 14550,
+      "format": "WEBP",
+      "height": 894,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          596,
+          894
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/riesling-dva-petra-2022.webp",
+        "sha256": "5a06ec554600ad3373813e3c8a3d6743263d2ee3cb213c0e9834cad4a710d555",
+        "source_bbox_xyxy": [
+          213,
+          200,
+          379,
+          813
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/riesling-dva-petra-2022.webp",
+      "sha256": "73e9784de5aefb31e27a7a493860d6e2c2742ac01b8e573f53e8bcb95d803603",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Shardone_no_bg_preview_carve_photos_807a0bdba0.webp",
+      "width": 596
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/riesling-dva-petra-2022",
+  "retrieved_at_utc": "2026-09-29T19:14:57.761534+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое сухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Х4122 Винные краски Шардоне  2024",
+        "url": "/uploads/H4122_Vinnye_kraski_Shardone_2024_DKV_aa038d6d04.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 4,
+      "region": "Крым",
+      "slug": "vinnye-kraski-shardone",
+      "title": "Винные краски, Шардоне"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Х4121 Винные краски Совиньон Блан  2024 ДКВ",
+        "url": "/uploads/H4121_Vinnye_kraski_Sovinon_Blan_2024_DKV_c067db407c.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 3.67,
+      "region": "Крым",
+      "slug": "vinnye-kraski-sovinon-blan",
+      "title": "Винные краски, Совиньон Блан"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Х4117 Улыбка ветра Совиньон Блан",
+        "url": "/uploads/H4117_Ulybka_vetra_Sovinon_Blan_2024_DKV_9223d656b0.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-sovinon-blan",
+      "title": "Улыбка ветра, Совиньон Блан"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Х4118 Улыбка ветра  Шардоне  2024",
+        "url": "/uploads/H4118_Ulybka_vetra_Shardone_2024_DKV_6f148eb928.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-shardone",
+      "title": "Улыбка ветра, Шардоне"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Совиньон Усадьба перовских",
+        "url": "/uploads/main_sauvignon_d3d8e795e1.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.9,
+      "region": "Крым",
+      "slug": "sovinon",
+      "title": "Совиньон"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотисто-соломенный",
+      "image": {
+        "altText": "Крымский бленд усадьба перовских",
+        "url": "/uploads/main_crimean_blend_2_5647edf21a.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "krymskij-blend",
+      "title": "Крымский бленд"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Ркацители и Мускат Оранж Усадьба перовских",
+        "url": "/uploads/main_rkatsiteli_muskat_orange_10c5cf3d2f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "rkacziteli-i-muskat-oranzh",
+      "title": "Ркацители и Мускат Оранж"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Ркацители Квеври Усадьба перовских",
+        "url": "/uploads/ge_rkatsiteli_2b9412517f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "rkacziteli-kvevri",
+      "title": "Ркацители Квеври"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Пино блан АртВин",
+        "url": "/uploads/pino_white2_no_bg_preview_carve_photos_d4f30395c7.webp"
+      },
+      "manufacturer": "Артвин",
+      "publicRating": 4.5,
+      "region": "Крым",
+      "slug": "pino-blan-art-vin",
+      "title": "Пино Блан АртВин"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "ии вино",
+        "url": "/uploads/ii_3_8ac201f314.webp"
+      },
+      "manufacturer": "WINEPARK",
+      "publicRating": 4.68,
+      "region": "Крым",
+      "slug": "ii-vino-1",
+      "title": "ИИ ВИНО"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Хихви Сенетх",
+        "url": "/uploads/Pre_W01_5a4d8050c2.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.56,
+      "region": "Кубань",
+      "slug": "hihvi-sueta",
+      "title": "Хихви Суета"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Зеленовато-соломенный",
+      "image": {
+        "altText": "Мцване Сенетх",
+        "url": "/uploads/Pre_W03_3d7437416c.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.8,
+      "region": "Кубань",
+      "slug": "mczvane-sueta",
+      "title": "Мцване Суета"
+    }
+  ],
+  "site_lastmod": "2026-07-18T13:44:02.000Z",
+  "site_wine": {
+    "alcohol": 13,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое сухое"
+    },
+    "color": "Бледно-лимонный",
+    "description": "Вкус: легкий, свежий и минеральный вкус с хорошо интегрированной кислотностью. Гармоничная структура с оттенками зеленого яблока и косточки абрикоса в послевкусии. Баланс и точность — ключевые черты этого вина.\n\nАромат: тонкий и многослойный, с акцентами белых цветов, зеленого яблока и косточковых фруктов. Легкие нюансы цитрусов, молодой травы и характерная для Рислинга бензольная нота придают аромату узнаваемую сортовую элегантность.\n\n\"Два Петра\" Рислинг — белое сухое вино, созданное на крымской винодельне, расположенной в районе Феодосии. Выполненное из винограда сорта Рислинг урожая 2022 года, это вино отражает особенности южного терруара и философию авторского подхода к производству.\n\nБережная переработка урожая начинается с отбора и прессования, после чего сусло сбраживается при контролируемой температуре, что позволяет сохранить естественную свежесть. Вино проходит легкую фильтрацию и разливается без выдержки, сразу после стабилизации.\n\nЭлегантное, сбалансированное и чистое по стилю, оно хорошо подходит как для повседневной подачи, так и для гастрономических сочетаний. Идеально раскрывается при подаче охлажденным.\n\n\"Два Петра\" Рислинг было удостоено бронзовой медали на международной выставке \"Продэкспо-2025\" в Москве. Эта награда подтверждают стабильное качество и высокую оценку вина со стороны профессионального дегустационного сообщества.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ptica_9a6c7e3ea1.webp"
+        },
+        "name": "Блюда из птицы"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/salat_1afebb2167.webp"
+        },
+        "name": "Салаты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Risling2_c6fa370506.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Risling_5a37344384.webp"
+        },
+        "name": "Рислинг"
+      }
+    ],
+    "image": {
+      "altText": "Шардоне Два Петра",
+      "url": "/uploads/Shardone_no_bg_preview_carve_photos_807a0bdba0.webp"
+    },
+    "manufacturer": {
+      "name": "Два Петра",
+      "slug": "dva_petra"
+    },
+    "publicRating": 4.8,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "riesling-dva-petra-2022",
+    "temperature": "8-12",
+    "title": "Riesling Два Петра 2022"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Шардоне Два Петра",
+      "title": "Шардоне Два Петра",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Shardone_no_bg_preview_carve_photos_807a0bdba0.webp"
+    }
+  ],
+  "slug": "riesling-dva-petra-2022"
+}

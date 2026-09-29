@@ -238,7 +238,7 @@ describe('база правил', () => {
 
   it('каждое вино каталога получает 3–6 пар с объяснениями и подачу', () => {
     const files = readdirSync(resolve(dataDir, 'wines'))
-    expect(files.length).toBe(2103)
+    expect(files.length).toBe(2178)
     for (const file of files) {
       const detail = JSON.parse(
         readFileSync(resolve(dataDir, 'wines', file), 'utf8'),

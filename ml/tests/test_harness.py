@@ -14,7 +14,7 @@ from wine_cv.catalog import (build_gallery, build_strict_gallery, read_gallery,
 from wine_cv.field_data import (REQUIRED_COLUMNS, export_field_eval,
                                 validate_field_manifest)
 from wine_cv.pipelines import Candidate, SiglipOrbRerankPipeline, make_pipeline
-from wine_cv.training import field_augment
+from wine_cv.training import field_augment, label_field_augment
 
 
 class HarnessTests(unittest.TestCase):
@@ -203,6 +203,18 @@ class HarnessTests(unittest.TestCase):
         third = field_augment(source, 43)
         self.assertEqual(first.tobytes(), second.tobytes())
         self.assertNotEqual(first.tobytes(), third.tobytes())
+
+    def test_label_augmentation_is_seeded(self):
+        source = Image.new("RGB", (200, 300), "white")
+        from PIL import ImageDraw
+        draw = ImageDraw.Draw(source)
+        draw.rectangle((80, 20, 120, 280), fill="black")
+        draw.rectangle((80, 190, 120, 260), fill="red")
+        first = label_field_augment(source, 42)
+        second = label_field_augment(source, 42)
+        self.assertGreater(first.width, 0)
+        self.assertGreater(first.height, 0)
+        self.assertEqual(first.tobytes(), second.tobytes())
 
     def test_siglip_orb_reranker_uses_only_primary_candidates(self):
         class FakeSiglip:

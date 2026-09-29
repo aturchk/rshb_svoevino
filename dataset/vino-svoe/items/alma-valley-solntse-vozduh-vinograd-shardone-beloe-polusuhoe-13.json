@@ -1,0 +1,321 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 37112,
+      "format": "WEBP",
+      "height": 1280,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          512,
+          1280
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/alma-valley-solntse-vozduh-vinograd-shardone-beloe-polusuhoe-13.webp",
+        "sha256": "1ead871f2464cfd85fe1e93698dac42e725e37d8108bd720dc73bc065f1eb734",
+        "source_bbox_xyxy": [
+          98,
+          41,
+          396,
+          1254
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/alma-valley-solntse-vozduh-vinograd-shardone-beloe-polusuhoe-13.webp",
+      "sha256": "2199aa3bdd30783c3e7abfcecd4c6d5d96cb3a7afa8e5206da84d385703b68c9",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/alma_valley_solntse_vozduh_vinograd_shardone_beloe_polusuhoe_13_532db72561.webp",
+      "width": 512
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/alma-valley-solntse-vozduh-vinograd-shardone-beloe-polusuhoe-13",
+  "retrieved_at_utc": "2026-09-29T19:16:49.067242+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Рислинг Резерв Усадьба Перовских",
+        "url": "/uploads/res_riesling_e367652923.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.89,
+      "region": "Крым",
+      "slug": "risling-rezerv",
+      "title": "Рислинг Резерв"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Рислинг",
+        "url": "/uploads/MAX_02346_1_edcbff60a1.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 3.33,
+      "region": "Кубань",
+      "slug": "risling-2",
+      "title": "Рислинг "
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Мускат",
+        "url": "/uploads/MAX_02198_1_c52c0cfeec.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 4.4,
+      "region": "Кубань",
+      "slug": "muskat",
+      "title": "Мускат"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Соломенный с золотистыми переливами",
+      "image": {
+        "altText": "Прибой Марченко белое полусухое",
+        "url": "/uploads/priboj_Marchenko_beloe_no_bg_preview_carve_photos_de18758756.webp"
+      },
+      "manufacturer": "Винодельня Марченко",
+      "publicRating": 3,
+      "region": "Кубань",
+      "slug": "priboj-marchenko-beloe-polusuhoe",
+      "title": "Прибой Марченко белое полусухое"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Бледно-соломенный",
+      "image": {
+        "altText": "Корур Мельниковы",
+        "url": "/uploads/DSC_00839_Photoroom_418c4b31b3.webp"
+      },
+      "manufacturer": "Винодельня Братьев Мельниковых",
+      "publicRating": 4.76,
+      "region": "Крым",
+      "slug": "kokur-2025",
+      "title": "Кокур, 2025 "
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Массандра Кокур",
+        "url": "/uploads/Massandra_Kokur_1fa858a17c.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 4.54,
+      "region": "Крым",
+      "slug": "massandra-kokur",
+      "title": "Массандра Кокур"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Inkerman Шато Блан белое полусухое",
+        "url": "/uploads/Inkerman_Shato_Blan_beloe_polusuhoe_526e6530b9.webp"
+      },
+      "manufacturer": "Инкерманский ЗМВ",
+      "publicRating": 4.4,
+      "region": "Крым",
+      "slug": "inkerman-shato-blan",
+      "title": "Инкерман Шато Блан"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Мускат премиум",
+        "url": "/uploads/MAX_02198_7f3ccea6d6.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "muskat-premium",
+      "title": "Мускат Премиум"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Табия Буковинка",
+        "url": "/uploads/Screenshot_10_a566dcdabb.webp"
+      },
+      "manufacturer": "Табия",
+      "publicRating": 4.82,
+      "region": "Кубань",
+      "slug": "bukovinka",
+      "title": "Буковинка"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Табия Рислинг",
+        "url": "/uploads/Screenshot_11_a9d7c8f8df.webp"
+      },
+      "manufacturer": "Табия",
+      "publicRating": 4.76,
+      "region": "Кубань",
+      "slug": "risling-1",
+      "title": "Рислинг"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Цитрон, Совиньон п.сух",
+        "url": "/uploads/Czitron_Sovinon_p_suh_f07f1d8280.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "czitronnyj-magaracha-sovinon-blan",
+      "title": "Жемчужная 9 Цитрон, Совиньон блан"
+    },
+    {
+      "category": "Белое полусухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Рислинг, Совиньон п.сух",
+        "url": "/uploads/Risling_Sovinon_p_suh_2e0b39c41e.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "zhemchuzhnaya-9-risling-sovinon-blan",
+      "title": "Жемчужная 9 Рислинг,Совиньон блан"
+    }
+  ],
+  "site_lastmod": "2026-04-02T12:20:30.000Z",
+  "site_wine": {
+    "alcohol": 13,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое полусухое"
+    },
+    "color": "Светло-соломенный",
+    "description": "Аромат цветочно-цитрусовый, с оттенками белого персика. Вкус лёгкий, сбалансированный, с тонами жёлтых спелых фруктов и мягким длительным послевкусием.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ostroe_cd4130b86a.webp"
+        },
+        "name": "Азиатская кухня"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ostroe_cd4130b86a.webp"
+        },
+        "name": "Морепродукты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Marsan2_63527d80b2.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Marsan3_97291c74a8.webp"
+        },
+        "name": "Кокур"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Blan2_2e1cacc40f.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Blan_4f2900e7cb.webp"
+        },
+        "name": "Пино Блан"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Risling2_c6fa370506.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Risling_5a37344384.webp"
+        },
+        "name": "Рислинг"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/semilon2_b547b86a9e.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Makabeo2_8d30670a08.webp"
+        },
+        "name": "Семильон"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Sovinon_Blan_e82f684de6.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Sovinon_Blan2_64c30a0af4.webp"
+        },
+        "name": "Совиньон Блан"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Shardone_2_03e3197a65.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Shardone_54bbd4df90.webp"
+        },
+        "name": "Шардоне"
+      }
+    ],
+    "image": {
+      "altText": "Alma Valley",
+      "url": "/uploads/alma_valley_solntse_vozduh_vinograd_shardone_beloe_polusuhoe_13_532db72561.webp"
+    },
+    "manufacturer": {
+      "name": "Alma Valley",
+      "slug": "alma-valley"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "alma-valley-solntse-vozduh-vinograd-shardone-beloe-polusuhoe-13",
+    "temperature": "10-12",
+    "title": "Солнце, воздух, виноград"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Alma Valley",
+      "title": "Alma Valley",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/alma_valley_solntse_vozduh_vinograd_shardone_beloe_polusuhoe_13_532db72561.webp"
+    }
+  ],
+  "slug": "alma-valley-solntse-vozduh-vinograd-shardone-beloe-polusuhoe-13"
+}

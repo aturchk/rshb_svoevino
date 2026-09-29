@@ -1,0 +1,257 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 48106,
+      "format": "WEBP",
+      "height": 1120,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          283,
+          1120
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/vinodelnya-myshako-quintessence-storm-shiraz-krasnoe-polusuhoe-15.webp",
+        "sha256": "407e79f5622b47d29987c1816dcd75b709f469ccec7a73ec3e2303ca28505cd6",
+        "source_bbox_xyxy": [
+          1,
+          0,
+          283,
+          1119
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/vinodelnya-myshako-quintessence-storm-shiraz-krasnoe-polusuhoe-15.webp",
+      "sha256": "ac3f7f04a96eb81611692d06efd72b7ed127ab25f2ef53d5ffd3bcc318bc32ba",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/vinodelnya_myshako_quintessence_storm_shiraz_krasnoe_polusuhoe_15_ac3fdf4813.webp",
+      "width": 283
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/vinodelnya-myshako-quintessence-storm-shiraz-krasnoe-polusuhoe-15",
+  "retrieved_at_utc": "2026-09-29T19:20:23.344135+00:00",
+  "similar_wines": [
+    {
+      "category": "Красное полусухое",
+      "color": "Темно-рубиновый",
+      "image": {
+        "altText": "Каберне совньон",
+        "url": "/uploads/MAX_02337_7ecc0a53a9.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "kaberne-sovinon-3",
+      "title": "Каберне Совиньон"
+    },
+    {
+      "category": "Красное полусухое",
+      "color": "Глубокий рубиновый",
+      "image": {
+        "altText": "Прибой Марченко красное полусухое",
+        "url": "/uploads/Priboj_Marchenko_krasnoe_no_bg_preview_carve_photos_6e051269ba.webp"
+      },
+      "manufacturer": "Винодельня Марченко",
+      "publicRating": 4.25,
+      "region": "Кубань",
+      "slug": "priboj-marchenko-krasnoe-polusuhoe",
+      "title": "Прибой Марченко красное полусухое"
+    },
+    {
+      "category": "Красное полусухое",
+      "color": "Красно-рубиновый",
+      "image": {
+        "altText": "Инкерман Шато Руж",
+        "url": "/uploads/Inkerman_Shato_Ruzh_85fa6ee9ce.webp"
+      },
+      "manufacturer": "Инкерманский ЗМВ",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "inkerman-shato-ruzh",
+      "title": "Inkerman Шато Руж"
+    },
+    {
+      "category": "Красное полусухое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Дербент Вино Фьори ди Маре Ди Каспико",
+        "url": "/uploads/Derbent_Vino_Fori_di_Mare_Di_Kaspiko_d67089804b.webp"
+      },
+      "manufacturer": "Дербент Вино",
+      "publicRating": 5,
+      "region": "Дагестан",
+      "slug": "fiori-di-mare-krasnoe-polusuhoe",
+      "title": "Fiori di Mare красное полусухое"
+    },
+    {
+      "category": "Красное полусухое",
+      "color": "Гранатовый",
+      "image": {
+        "altText": "Саперави винтаж",
+        "url": "/uploads/Saperavi_1fe8cca7fc.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "saperavi-premium",
+      "title": "Саперави. Премиум"
+    },
+    {
+      "category": "Красное полусухое",
+      "color": "Насыщенный рубиновый",
+      "image": {
+        "altText": "Вино полусухое красное КАБЕРНЕ СОВИНЬОН",
+        "url": "/uploads/Vino_polusuhoe_krasnoe_KABERNE_SOVINON_cfd594e5f6.webp"
+      },
+      "manufacturer": "LETO",
+      "publicRating": 4.88,
+      "region": "Кубань",
+      "slug": "leto-kaberne-sovinon-2023-polusuhoe-krasnoe",
+      "title": "LETO Каберне Совиньон 2023 полусухое красное"
+    },
+    {
+      "category": "Красное полусухое",
+      "color": "Вино красное полусухое, рубинового цвета.",
+      "image": {
+        "altText": "Полусухое красное",
+        "url": "/uploads/Krasnoe_polusuhoe_2024_a4eadaac17.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.89,
+      "region": "Крым",
+      "slug": "perovskih_polusuhoe_krasnoe",
+      "title": "Полусухое Красное"
+    },
+    {
+      "category": "Красное полусухое",
+      "color": "У вина темный пурпурный цвет.",
+      "image": {
+        "altText": "Шато де Монгольфьер Шираз Полусухое",
+        "url": "/uploads/soyuz_vino_shato_de_mongolfer_shiraz_polusuhoe_krasnoe_11_a657118526.webp"
+      },
+      "manufacturer": "Союз-Вино",
+      "region": "Кубань",
+      "slug": "soyuz-vino-shato-de-mongolfer-shiraz-polusuhoe-krasnoe-11",
+      "title": "Шато де Монгольфьер Шираз Полусухое"
+    },
+    {
+      "category": "Красное полусухое",
+      "color": "Рубиновый, с фиолетовым оттенком",
+      "image": {
+        "altText": "Alma Valley",
+        "url": "/uploads/alma_valley_solntse_vozduh_vinograd_sira_shiraz_krasnoe_polusuhoe_135_7cd3395fb2.webp"
+      },
+      "manufacturer": "Alma Valley",
+      "publicRating": 3.67,
+      "region": "Крым",
+      "slug": "alma-valley-solntse-vozduh-vinograd-sira-shiraz-krasnoe-polusuhoe-135",
+      "title": "Солнце, воздух, виноград"
+    },
+    {
+      "category": "Красное полусухое",
+      "color": "Светло-гранатовый",
+      "image": {
+        "altText": "Собер Баш",
+        "url": "/uploads/sober_bash_dve_doliny_kaberne_fran_2023_krasnoe_polusuhoe_14_fae22fb7b6.webp"
+      },
+      "manufacturer": "Собер Баш",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "sober-bash-dve-doliny-kaberne-fran-2023-krasnoe-polusuhoe-14",
+      "title": "Две долины. Каберне Фран 2023"
+    },
+    {
+      "category": "Красное полусухое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Собер Баш",
+        "url": "/uploads/sober_bash_dve_doliny_saperavi_kachich_krasnoe_polusuhoe_15_05e046e50c.webp"
+      },
+      "manufacturer": "Собер Баш",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "sober-bash-dve-doliny-saperavi-kachich-krasnoe-polusuhoe-15",
+      "title": "Две долины. Саперави-Качич"
+    },
+    {
+      "category": "Красное полусухое",
+      "color": "Темно-красный",
+      "image": {
+        "altText": "Черное из Красного. Аппассименто",
+        "url": "/uploads/vinodelnya_myshako_chernoe_iz_krasnogo_appassimento_kaberne_sovinon_krasnoe_polusuhoe_15_4a7481518e.webp"
+      },
+      "manufacturer": "Мысхако",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "vinodelnya-myshako-chernoe-iz-krasnogo-appassimento-kaberne-sovinon-krasnoe-polusuhoe-15",
+      "title": "Черное из Красного. Аппассименто"
+    }
+  ],
+  "site_lastmod": "2026-01-12T11:42:11.000Z",
+  "site_wine": {
+    "alcohol": 15,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "name": "Красное полусухое"
+    },
+    "color": "Тёмно-фиолетовый",
+    "description": "Вкус: Полный, мягкий, шелковистый, с отличным балансом, тонкой фруктовой кислинкой, насыщенными нотами ежевики и сливы. Округлые танины пронизывают долгое, приятное послевкусие с ненавязчивой, едва заметной фруктовой сладостью. Тона темных ягод, специй, табака.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/myaso_442273df41.webp"
+        },
+        "name": "Мясо и стейки"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Shiraz_Sira3_ac5d95b730.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Shiraz_Sira2_bc5babc4a3.webp"
+        },
+        "name": "Шираз"
+      }
+    ],
+    "image": {
+      "altText": "Quintessence Storm. Шираз",
+      "url": "/uploads/vinodelnya_myshako_quintessence_storm_shiraz_krasnoe_polusuhoe_15_ac3fdf4813.webp"
+    },
+    "manufacturer": {
+      "name": "Мысхако",
+      "slug": "vinodelnya-myshako"
+    },
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "vinodelnya-myshako-quintessence-storm-shiraz-krasnoe-polusuhoe-15",
+    "temperature": "16-18",
+    "title": "Quintessence Storm. Шираз"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Quintessence Storm. Шираз",
+      "title": "Quintessence Storm. Шираз",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/vinodelnya_myshako_quintessence_storm_shiraz_krasnoe_polusuhoe_15_ac3fdf4813.webp"
+    }
+  ],
+  "slug": "vinodelnya-myshako-quintessence-storm-shiraz-krasnoe-polusuhoe-15"
+}

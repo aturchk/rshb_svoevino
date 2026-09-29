@@ -1,0 +1,258 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 20302,
+      "format": "WEBP",
+      "height": 700,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          178,
+          700
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/massandra-bastardo-bastardo-magarachskiy-krasnoe-sladkoe-16.webp",
+        "sha256": "7f1cda794acd77d5e97961d42eb63a3ea422a0dd68f00c94713d17018923c1db",
+        "source_bbox_xyxy": [
+          3,
+          3,
+          175,
+          698
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/massandra-bastardo-bastardo-magarachskiy-krasnoe-sladkoe-16.webp",
+      "sha256": "4ef91504f988219f2b5845b3a130e0e04d96de0a6c127af95a59840a97a88518",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/massandra_bastardo_bastardo_magarachskiy_krasnoe_sladkoe_16_c111755788.webp",
+      "width": 178
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/massandra-bastardo-bastardo-magarachskiy-krasnoe-sladkoe-16",
+  "retrieved_at_utc": "2026-09-29T19:15:40.763243+00:00",
+  "similar_wines": [
+    {
+      "category": "Красное сладкое",
+      "color": "Рубиново-красный",
+      "image": {
+        "altText": "Цимлянское кюве красное красностоп и цимлянский черный",
+        "url": "/uploads/Czimlyanskoe_kyuve_krasnoe_krasnostop_i_czimlyanskij_chernyj_d1e86bb6b6.webp"
+      },
+      "manufacturer": "Цимлянские вина",
+      "publicRating": 5,
+      "region": "Долина Дона",
+      "slug": "kyuve-czimlyanskij-chernyj-i-krasnostop-zolotoj",
+      "title": "Кюве Цимлянский черный и Красностоп золотовский"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Шато Тамань резерв нектар десертный выдержанный",
+        "url": "/uploads/Shato_Taman_rezerv_nektar_desertnyj_vyderzhannyj_36d8cd6fae.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "region": "Кубань",
+      "slug": "chateau-tamagne-grand-dessert-nectar",
+      "title": "Chateau Tamagne Grand Dessert Nectar"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Игристое сладкое красное Цимлянское",
+        "url": "/uploads/Igristoe_krasnoe_sladkoe_Czimlyanskoe_ea86054adf.webp"
+      },
+      "manufacturer": "Цимлянские вина",
+      "publicRating": 5,
+      "region": "Долина Дона",
+      "slug": "igristoe-krasnoe-sladkoe-czimlyanskoe",
+      "title": "Игристое красное сладкое Цимлянское"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Солнечная долина Приват",
+        "url": "/uploads/Solnechnaya_dolina_Privat_e29e2f450a.webp"
+      },
+      "manufacturer": "Солнечная долина",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "privat",
+      "title": "Приват"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Гранатово-красный",
+      "image": {
+        "altText": "Литавщук поздний",
+        "url": "/uploads/Screenshot_22_1b291bec0e.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "pozdnij-sbor-krasnoe",
+      "title": "Поздний сбор, Красное"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Глубокий рубиновый",
+      "image": {
+        "altText": "Винтаж премиум",
+        "url": "/uploads/MAX_02207_7755994110.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "vintazh-premium",
+      "title": "Винтаж. Премиум"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "У вина глубокий красно-рубиновый цвет.",
+      "image": {
+        "altText": "Канонические Традиции Красное Сладкое",
+        "url": "/uploads/soyuz_vino_kanonicheskie_traditsii_krasnoe_sladkoe_kaberne_sovinon_115_7b60103360.webp"
+      },
+      "manufacturer": "Союз-Вино",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "soyuz-vino-kanonicheskie-traditsii-krasnoe-sladkoe-kaberne-sovinon-115",
+      "title": "Канонические Традиции Красное Сладкое"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Тёмно-рубиновый с коричневатым оттенком",
+      "image": {
+        "altText": "Портвейн красный Алушта",
+        "url": "/uploads/massandra_portveyn_krasnyy_alushta_krasnye_sorta_vinograda_krasnoe_sladkoe_17_15423ac1a3.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 4.8,
+      "region": "Крым",
+      "slug": "massandra-portveyn-krasnyy-alushta-krasnye-sorta-vinograda-krasnoe-sladkoe-17",
+      "title": "Портвейн красный Алушта"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Тёмно-рубиновый",
+      "image": {
+        "altText": "Вино Muskatel Black Massandra",
+        "url": "/uploads/massandra_muskatel_chernyy_krasnye_sorta_vinograda_krasnoe_sladkoe_16_b35635608c.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 4.88,
+      "region": "Крым",
+      "slug": "massandra-muskatel-chernyy-krasnye-sorta-vinograda-krasnoe-sladkoe-16",
+      "title": "Мускатель черный"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Тёмно-рубиновый с коричневатым оттенком",
+      "image": {
+        "altText": "Вино Port Red Livadia Massandra",
+        "url": "/uploads/massandra_portveyn_krasnyy_livadiya_kaberne_sovinon_krasnoe_sladkoe_185_02e4e0776e.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-portveyn-krasnyy-livadiya-kaberne-sovinon-krasnoe-sladkoe-185",
+      "title": "Портвейн красный Ливадия"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Тёмно-рубиновый, густой",
+      "image": {
+        "altText": "Вино Lacryma Christi Massandra",
+        "url": "/uploads/massandra_lakrima_kristi_aleatiko_krasnoe_sladkoe_16_2a990c55e6.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-lakrima-kristi-aleatiko-krasnoe-sladkoe-16",
+      "title": "Лакрима Кристи"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Тёмно-рубиновый",
+      "image": {
+        "altText": "Вино Kagor Gursuf Massandra",
+        "url": "/uploads/massandra_kagor_gurzuf_saperavi_krasnoe_sladkoe_16_deb9b34e9f.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 4.67,
+      "region": "Крым",
+      "slug": "massandra-kagor-gurzuf-saperavi-krasnoe-sladkoe-16",
+      "title": "Кагор Гурзуф"
+    }
+  ],
+  "site_lastmod": "2026-06-04T10:08:06.000Z",
+  "site_wine": {
+    "alcohol": 16,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "name": "Красное сладкое"
+    },
+    "color": "Тёмно-рубиновый с фиолетовым оттенком",
+    "description": "Аромат мускатный, интенсивный, с нотами чёрной смородины, вишни, сливы и шоколада; вкус тельное, округлое, с мягкими танинами, нотами вишневого конфитюра и долгим шоколадным послевкусием. Хорошо к шоколадным десертам, утке в ягодном соусе, мясным паштетам и зрелым сырам.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/sladkaya_vypechka_71424474e1.webp"
+        },
+        "name": "Десерты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/sladkaya_vypechka_71424474e1.webp"
+        },
+        "name": "Мороженое"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Alyaniko2_45f10e3262.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Izabella_0a3d8c6d20.webp"
+        },
+        "name": "Бастардо Магарачский"
+      }
+    ],
+    "image": {
+      "altText": "Вино Bastardo Massandra",
+      "url": "/uploads/massandra_bastardo_bastardo_magarachskiy_krasnoe_sladkoe_16_c111755788.webp"
+    },
+    "manufacturer": {
+      "name": "Массандра",
+      "slug": "massandra"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "massandra-bastardo-bastardo-magarachskiy-krasnoe-sladkoe-16",
+    "temperature": "16-18",
+    "title": "Бастардо"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Вино Bastardo Massandra",
+      "title": "Вино Bastardo Massandra",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/massandra_bastardo_bastardo_magarachskiy_krasnoe_sladkoe_16_c111755788.webp"
+    }
+  ],
+  "slug": "massandra-bastardo-bastardo-magarachskiy-krasnoe-sladkoe-16"
+}

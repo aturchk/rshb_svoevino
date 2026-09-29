@@ -1,0 +1,259 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 40258,
+      "format": "WEBP",
+      "height": 1500,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          456,
+          1500
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/inkermanskiy-zmv-inkerman-pino-blan-zero-dozazh-beloe-ekstra-bryut-12.webp",
+        "sha256": "b71bc7dbd75855f817c9179385671faf8e9da0a5b1dd1cdc8786e9e2b0673987",
+        "source_bbox_xyxy": [
+          9,
+          0,
+          443,
+          1488
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/inkermanskiy-zmv-inkerman-pino-blan-zero-dozazh-beloe-ekstra-bryut-12.webp",
+      "sha256": "0268d3c9166531f6f60fc9affa9e343fabff175cfea2a1afaef7cd6d99490a64",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/inkermanskiy_zmv_inkerman_pino_blan_zero_dozazh_beloe_ekstra_bryut_12_8502401e55.webp",
+      "width": 456
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/inkermanskiy-zmv-inkerman-pino-blan-zero-dozazh-beloe-ekstra-bryut-12",
+  "retrieved_at_utc": "2026-09-29T19:15:38.649315+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое экстра брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Выдержанное Экстра Брют Рислинг Брют Натюр",
+        "url": "/uploads/sp_riesling_brut_nature_cf7fa86914.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.7,
+      "region": "Крым",
+      "slug": "vyderzhannoe-ekstra-bryut-risling-bryut-natyur",
+      "title": "Выдержанное Экстра Брют Рислинг Брют Натюр"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Зеленовато-соломенный",
+      "image": {
+        "altText": "Выдержанное Экстра Брют Блан де Блан Брют Натюр",
+        "url": "/uploads/sp_brut_blanc_de_blancs_312964b5f5.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "vyderzhannoe-ekstra-bryut-blan-de-blan-bryut-natyur",
+      "title": "Выдержанное Экстра Брют Блан де Блан Брют Натюр"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "le Nuage",
+        "url": "/uploads/Spark_02_736d569163.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.67,
+      "region": "Кубань",
+      "slug": "vione-nyuazh-zero-dozazh",
+      "title": "Вионье Нюаж Зеро Дозаж"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Фиолетовый Ранний гусев",
+        "url": "/uploads/petnat_fioletovyj_no_bg_preview_carve_photos_e4ddd605bc.webp"
+      },
+      "manufacturer": "Гусевъ",
+      "publicRating": 1,
+      "region": "Нижняя Волга",
+      "slug": "fioletovyj-rannij-petnat",
+      "title": "Фиолетовый Ранний петнат"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Кокур Мельниковы",
+        "url": "/uploads/DSC_09166_cf6c3aaa12.webp"
+      },
+      "manufacturer": "Винодельня Братьев Мельниковых",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "dva-brata-pet-nat-kokur-2024",
+      "title": "Два Брата Пет Нат Кокур, 2024"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "бледно-лимонный",
+      "image": {
+        "altText": "Гранд Кюве",
+        "url": "/uploads/Screenshot_2_fotor_bg_remover_202607141683_5f9e4ecf95.webp"
+      },
+      "manufacturer": "Скалистый берег",
+      "publicRating": 4.92,
+      "region": "Кубань",
+      "slug": "grand-kyuve",
+      "title": "Гранд Кюве"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Скалистый берег",
+        "url": "/uploads/Screenshot_16_fotor_bg_remover_20260714153549_d6a93eabf2.webp"
+      },
+      "manufacturer": "Скалистый берег",
+      "publicRating": 4.93,
+      "region": "Кубань",
+      "slug": "blan-de-blan",
+      "title": "Блан де Блан"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Золотисто-соломенный",
+      "image": {
+        "altText": "Гранд",
+        "url": "/uploads/output_img_022_62bebb88f8.webp"
+      },
+      "manufacturer": "Галицкий и Галицкий",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "grand-jete-blanc-de-noirs",
+      "title": "Grand Jete Blanc de Noirs"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Бледно-золотистый",
+      "image": {
+        "altText": "Жете",
+        "url": "/uploads/output_img_021_ecc606d2a1.webp"
+      },
+      "manufacturer": "Галицкий и Галицкий",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "grand-jete-blanc-de-blancs",
+      "title": "Grand Jete Blanc de Blancs"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Вино золотистого цвета с персиковым отливом. ",
+      "image": {
+        "altText": "Блан де Нуар. Брют Натюр",
+        "url": "/uploads/Blanc_de_noirs_brut_nature_030b095589.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.92,
+      "region": "Крым",
+      "slug": "perovskih_blan_de_noir",
+      "title": "Блан де Нуар. Брют Натюр"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Светло-соломенный с зеленоватым оттенком",
+      "image": {
+        "altText": "Винодельня Ведерниковъ Цимлянский Черный-Сибирьковый Экстра Брют",
+        "url": "/uploads/vinodelnya_vedernikov_vinodelnya_vedernikov_tsimlyanskiy_chernyy_sibirkovyy_ekstra_bryut_beloe_13_8299616071.webp"
+      },
+      "manufacturer": "Ведерниковъ",
+      "publicRating": 5,
+      "region": "Долина Дона",
+      "slug": "vinodelnya-vedernikov-vinodelnya-vedernikov-tsimlyanskiy-chernyy-sibirkovyy-ekstra-bryut-beloe-13",
+      "title": "Винодельня Ведерниковъ Цимлянский Черный-Сибирьковый Экстра Брют"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Светло-соломенный, с тонким перляжем",
+      "image": {
+        "altText": "Collection Russian Sparkling Blanc de Noirs Extra Brut Novy Svet",
+        "url": "/uploads/novyy_svet_dom_shampanskih_vin_rossiyskoe_shampanskoe_kollektsionnoe_ekstra_bryut_beloe_novyy_svet_blan_de_nuar_pino_nuar_13_c8e5d77c41.webp"
+      },
+      "manufacturer": "Новый Свет. Дом шампанских вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-kollektsionnoe-ekstra-bryut-beloe-novyy-svet-blan-de-nuar-pino-nuar-13",
+      "title": "Российское шампанское коллекционное экстра брют белое «Новый Свет. Блан де Нуар»"
+    }
+  ],
+  "site_lastmod": "2026-06-04T10:15:17.000Z",
+  "site_wine": {
+    "alcohol": 12,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое экстра брют"
+    },
+    "color": "Светло-соломенный, прозрачный",
+    "description": "Аромат тонкий, с нотами белых цветов, цитруса и лёгкой минеральности; вкус свежий, с живой кислотностью, чистый и элегантный. Идеальный аперитив, к устрицам, морепродуктам, нежной рыбе.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ryba_moreprodukty_e57b445d95.webp"
+        },
+        "name": "Рыба и морепродукты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ustricy_aaab30581c.webp"
+        },
+        "name": "Устрицы"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Blan2_2e1cacc40f.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Blan_4f2900e7cb.webp"
+        },
+        "name": "Пино Блан"
+      }
+    ],
+    "image": {
+      "altText": "Инкерман Пино Блан Зеро Дозаж",
+      "url": "/uploads/inkermanskiy_zmv_inkerman_pino_blan_zero_dozazh_beloe_ekstra_bryut_12_8502401e55.webp"
+    },
+    "manufacturer": {
+      "name": "Инкерманский ЗМВ",
+      "slug": "inkermanskiy_zmv"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "inkermanskiy-zmv-inkerman-pino-blan-zero-dozazh-beloe-ekstra-bryut-12",
+    "temperature": "6-8",
+    "title": "Инкерман Пино Блан Зеро Дозаж"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Инкерман Пино Блан Зеро Дозаж",
+      "title": "Инкерман Пино Блан Зеро Дозаж",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/inkermanskiy_zmv_inkerman_pino_blan_zero_dozazh_beloe_ekstra_bryut_12_8502401e55.webp"
+    }
+  ],
+  "slug": "inkermanskiy-zmv-inkerman-pino-blan-zero-dozazh-beloe-ekstra-bryut-12"
+}

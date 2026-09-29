@@ -1,0 +1,255 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 25766,
+      "format": "WEBP",
+      "height": 1000,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          224,
+          1000
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/valeriy-zaharin-kokur-valeriy-zaharin-kokur-belyy-beloe-polusladkoe-125.webp",
+        "sha256": "a06a111b58e480caf403c48775ec077d41f4b7bfe0697c5e66acca475fa1814d",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          224,
+          1000
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/valeriy-zaharin-kokur-valeriy-zaharin-kokur-belyy-beloe-polusladkoe-125.webp",
+      "sha256": "29a0667b9d842c61057f5e73f4906f8f35237a75f927e83a25716d96f7a5d535",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/valeriy_zaharin_kokur_valeriy_zaharin_kokur_belyy_beloe_polusladkoe_125_f1a78bab87.webp",
+      "width": 224
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/valeriy-zaharin-kokur-valeriy-zaharin-kokur-belyy-beloe-polusladkoe-125",
+  "retrieved_at_utc": "2026-09-29T19:19:25.832951+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое полусладкое",
+      "color": "Золотисто-соломенный",
+      "image": {
+        "altText": "Peti-Mansen_Dyna-kopia",
+        "url": "/uploads/Peti_Mansen_Dyna_kopia_14af7215d1.webp"
+      },
+      "manufacturer": "Yaiyla Winery",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "yaiyla-petit-manseng",
+      "title": "YAIYLA PETIT MANSENG  "
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Совиньон блан",
+        "url": "/uploads/MAX_02320_d56a1a6d6d.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 3,
+      "region": "Кубань",
+      "slug": "sovinon-blan",
+      "title": "Совиньон Блан"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Горка",
+        "url": "/uploads/MAX_02374_8762420674.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "region": "Кубань",
+      "slug": "domashnyaya-gorka",
+      "title": "Домашняя горка "
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса слад",
+        "url": "/uploads/CANTIANI_Igristoe_white_semi_444h1200px_2d2892b235.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.84,
+      "region": "Дагестан",
+      "slug": "cantiani-semisweet",
+      "title": "Cantiani Semisweet"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Caucasian Джарагъ",
+        "url": "/uploads/Caucasian_Dzharag_300681b16f.webp"
+      },
+      "manufacturer": "Дербент Вино",
+      "publicRating": 4.4,
+      "region": "Дагестан",
+      "slug": "caucasian-dzharag",
+      "title": "Caucasian Джарагъ "
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Inkerman мускатное белое полусладкое",
+        "url": "/uploads/Inkerman_muskatnoe_beloe_polusladkoe_092002be0d.webp"
+      },
+      "manufacturer": "Инкерманский ЗМВ",
+      "publicRating": 3,
+      "region": "Крым",
+      "slug": "inkerman-muskatnoe-beloe",
+      "title": "Inkerman Мускатное белое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Цимлянское белое полусладкое",
+        "url": "/uploads/Czimlyanskoe_beloe_polusladkoe_5c7026a82e.webp"
+      },
+      "manufacturer": "Цимлянские вина",
+      "publicRating": 3.5,
+      "region": "Долина Дона",
+      "slug": "czimlyanskoe-beloe-polusladkoe",
+      "title": "Цимлянское белое полусладкое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Цимлянское Бианка белое",
+        "url": "/uploads/Czimlyanskoe_Bianka_beloe_04a59b0f1e.webp"
+      },
+      "manufacturer": "Цимлянские вина",
+      "publicRating": 4,
+      "region": "Долина Дона",
+      "slug": "czimlyanskoe-bianka",
+      "title": "Цимлянское Бианка"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Валерий Захарьин Кокур и Ко игристое белое полусладкое",
+        "url": "/uploads/Valerij_Zaharin_Kokur_i_Ko_igristoe_beloe_polusladkoe_1334dee26c.webp"
+      },
+      "manufacturer": "Валерий Захарьин",
+      "region": "Крым",
+      "slug": "valerij-zaharin-kokur-i-ko-beloe-polusladkoe",
+      "title": "Валерий Захарьин Кокур и Ко белое полусладкое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Соломенно-желтый с золотистым оттенком",
+      "image": {
+        "altText": "Мысхако игристое полусладкое белое",
+        "url": "/uploads/Myshako_igristoe_polusladkoe_beloe_846a405f2a.webp"
+      },
+      "manufacturer": "Мысхако",
+      "region": "Кубань",
+      "slug": "myshako-igristoe-beloe-polusladkoe",
+      "title": "Мысхако игристое белое полусладкое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Абрау Дюрсо физз полусладкое",
+        "url": "/uploads/Abrau_Dyurso_fizz_polusladkoe_031d93d5e0.webp"
+      },
+      "manufacturer": "Абрау-Дюрсо",
+      "publicRating": 3.33,
+      "region": "Кубань",
+      "slug": "abrau-dyurso-fizz-beloe-polusladkoe",
+      "title": "Абрау Дюрсо Физз белое полусладкое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Соломенно-зеленоватый с ярким блеском",
+      "image": {
+        "altText": "Фанагория полусладкое",
+        "url": "/uploads/Fanagrriya_polusladkoe_30637d1cb8.webp"
+      },
+      "manufacturer": "винный дом «Фанагория»",
+      "publicRating": 4.6,
+      "region": "Кубань",
+      "slug": "fanagoriya-beloe-polusladkoe",
+      "title": "Фанагория белое полусладкое"
+    }
+  ],
+  "site_lastmod": "2026-01-12T11:50:31.000Z",
+  "site_wine": {
+    "alcohol": 12,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое полусладкое"
+    },
+    "color": "Светло-соломенный",
+    "description": "Вкус: Мягкий, с нежной фруктовой сладостью, сбалансированной тонкой кислотностью и приятным послевкусием. С тонами спелой сочной груши и яблока, сладких цитрусовых фруктов и белых цветов.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/nesladkaya_vypechka_05bf04c48c.webp"
+        },
+        "name": "Выпечка и десерты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/kuhni_narodov_mira_3c04fdacff.webp"
+        },
+        "name": "Кухни народов мира"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Marsan3_97291c74a8.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Marsan2_63527d80b2.webp"
+        },
+        "name": "Кокур Белый"
+      }
+    ],
+    "image": {
+      "altText": "Кокур. Валерий Захарьин",
+      "url": "/uploads/valeriy_zaharin_kokur_valeriy_zaharin_kokur_belyy_beloe_polusladkoe_125_f1a78bab87.webp"
+    },
+    "manufacturer": {
+      "name": "Валерий Захарьин",
+      "slug": "valeriy-zaharin"
+    },
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "valeriy-zaharin-kokur-valeriy-zaharin-kokur-belyy-beloe-polusladkoe-125",
+    "temperature": "10-12",
+    "title": "Кокур. Валерий Захарьин"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Кокур. Валерий Захарьин",
+      "title": "Кокур. Валерий Захарьин",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/valeriy_zaharin_kokur_valeriy_zaharin_kokur_belyy_beloe_polusladkoe_125_f1a78bab87.webp"
+    }
+  ],
+  "slug": "valeriy-zaharin-kokur-valeriy-zaharin-kokur-belyy-beloe-polusladkoe-125"
+}

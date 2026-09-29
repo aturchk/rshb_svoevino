@@ -1,0 +1,273 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 59248,
+      "format": "WEBP",
+      "height": 1920,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          565,
+          1920
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/shato-taman-bryut.webp",
+        "sha256": "c347e47209f5ef8ad3008312bdcfcc15e9b0adb1a68bc9f0802d782d9c2571d4",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          565,
+          1920
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/shato-taman-bryut.webp",
+      "sha256": "e77cbaf4892356f54c12d6a3520c26c930220897dd5e9bcf526fb9e24a29ae00",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Sh_T_Igristoe_0_75_l_2024gu_Normal_Bryut_Beloe_1312c070e0.webp",
+      "width": 565
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/shato-taman-bryut",
+  "retrieved_at_utc": "2026-09-29T19:17:42.738441+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое брют",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Мускат Оттонель Гусев",
+        "url": "/uploads/petnat_muskat_no_bg_preview_carve_photos_2296dc8b1a.webp"
+      },
+      "manufacturer": "Гусевъ",
+      "publicRating": 5,
+      "region": "Нижняя Волга",
+      "slug": "muskat-ottonel-gusev",
+      "title": "Мускат Оттонель Гусевъ"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "алвиса монблан",
+        "url": "/uploads/MB_igrist_Blanc_vid_032026_kopiya_5c6680d1ef.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.86,
+      "region": "Дагестан",
+      "slug": "mont-blanc-blanc-de-blancs",
+      "title": "Mont Blanc, Blanc de Blancs"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Mont Vlanc Alvisa",
+        "url": "/uploads/MB_igrist_Cuvee_vid_032026_kopiya_8bb830fcc2.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.95,
+      "region": "Дагестан",
+      "slug": "mont-blanc-cuvee",
+      "title": "Mont Blanc Cuvée"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса рисл",
+        "url": "/uploads/CANTIANI_Igristoe_Riesl_vid_032025_kopiya_8150a5e627.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.88,
+      "region": "Дагестан",
+      "slug": "cantiani-riesling-1",
+      "title": "Cantiani Riesling"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса брют ",
+        "url": "/uploads/CANTIANI_Igrist_Brut_vid5_042026_kopiya_1b13527c60.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.83,
+      "region": "Дагестан",
+      "slug": "cantiani-brut",
+      "title": "Cantiani Brut"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса ркац",
+        "url": "/uploads/CANTIANI_Igristoe_Rkats_vid_032025_kopiya_29e44021af.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.98,
+      "region": "Дагестан",
+      "slug": "cantiani-rkatsiteli-1",
+      "title": "Cantiani Rkatsiteli"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса шадр",
+        "url": "/uploads/CANTIANI_Igristoe_Chardon_444h1200px_fa4fe5363b.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 5,
+      "region": "Дагестан",
+      "slug": "cantiani-chardonnay",
+      "title": "Cantiani Chardonnay"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Просека",
+        "url": "/uploads/Screenshot_4_7c7945f9a9.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 3.81,
+      "region": "Кубань",
+      "slug": "lesnaya-proseka",
+      "title": "Лесная просека"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Небо России Глера",
+        "url": "/uploads/Screenshot_6_Photoroom_b5b45ec3f4.webp"
+      },
+      "manufacturer": "Kalos Limen",
+      "publicRating": 4.91,
+      "region": "Крым",
+      "slug": "nebo-rossii-glera",
+      "title": "Небо России Глера"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Глера Манно",
+        "url": "/uploads/Screenshot_2_66036870aa.webp"
+      },
+      "manufacturer": "Мысхако",
+      "publicRating": 4.67,
+      "region": "Кубань",
+      "slug": "glera-manno",
+      "title": "Глера Манно"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Русток Глера Ru 140",
+        "url": "/uploads/Screenshot_3_dce2afc6e1.webp"
+      },
+      "manufacturer": "Мысхако",
+      "publicRating": 4.5,
+      "region": "Кубань",
+      "slug": "rustok-glera-ru-140",
+      "title": "Русток Глера Ru 140"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Аристов Анима милезимиато брют",
+        "url": "/uploads/Aristov_Anima_milezimiato_bryut_4a887b783f.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 4.67,
+      "region": "Кубань",
+      "slug": "aristov-anima-millesimato-beloe-bryut",
+      "title": "Аристов ANIMA Millesimato белое брют"
+    }
+  ],
+  "site_lastmod": "2026-02-03T17:27:11.000Z",
+  "site_wine": {
+    "alcohol": 11,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое брют"
+    },
+    "color": "Светло-соломенный с оттенками от зеленоватого до золотистого",
+    "description": "Вкус нежный и гармоничный. В аромате цветочные тона.\n\nСортовой состав: Шардоне, Рислинг, Пино Блан, Алиготе, Бианка.\n\nСбор винограда осуществляется на сахарах 19-21%. Прессование винограда проходит в мягком режиме (чтобы не экстрагировать полифенолы из кожицы винограда). Осветление сусла проводится с помощью технологического способа – флотация. Затем проводится брожение в емкостях из нержавеющей стали при температуре 16-18 градусов. После брожения производится съем с дрожжевого осадка с дальнейшим купажированием виноматериалов.\n \nВо время вторичной ферментации бродильную смесь направляют на шампанизацию в бродильные резервуары. Брожение проводят при температуре не выше 20°С. Первые 24 часа брожение открытое, после начала активного выделения СО2 — герметичное. В процессе вторичной ферментации должно быть сброжено не менее 18 г/дм3 сахара и достигнуто давление в бродильном резервуаре не менее 450 кПа при 20°С, после чего проводится остановка брожения путем охлаждения бродильной смеси до температуры 0°С, предварительно шампанизированное вино охлаждают до температуры +7 - +10°С и снимают с дрожжевого осадка. Затем шампанизированное вино охлаждают до температуры минус 4°С. Охлаждение вина производят за время не более 18 часов, после чего его выдерживают при температуре охлаждения не менее 48 часов.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/legkie_zakuski_e5a2dedbf7.webp"
+        },
+        "name": "Легкие закуски"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/salat_1afebb2167.webp"
+        },
+        "name": "Салаты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/frukty_545dae1854.webp"
+        },
+        "name": "Фрукты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Shardone_2_03e3197a65.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Shardone_54bbd4df90.webp"
+        },
+        "name": "Шардоне"
+      }
+    ],
+    "image": {
+      "altText": "ШТ Игристое 0,75 л 2024гу Normal Брют Белое",
+      "url": "/uploads/Sh_T_Igristoe_0_75_l_2024gu_Normal_Bryut_Beloe_1312c070e0.webp"
+    },
+    "manufacturer": {
+      "name": "Кубань-Вино",
+      "slug": "kuban-vino"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "shato-taman-bryut",
+    "temperature": "8-10",
+    "title": "Шато Тамань Брют"
+  },
+  "sitemap_images": [
+    {
+      "caption": "ШТ Игристое 0,75 л 2024гу Normal Брют Белое",
+      "title": "ШТ Игристое 0,75 л 2024гу Normal Брют Белое",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Sh_T_Igristoe_0_75_l_2024gu_Normal_Bryut_Beloe_1312c070e0.webp"
+    }
+  ],
+  "slug": "shato-taman-bryut"
+}

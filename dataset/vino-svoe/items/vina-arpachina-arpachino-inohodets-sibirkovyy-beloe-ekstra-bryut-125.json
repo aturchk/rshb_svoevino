@@ -1,0 +1,265 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 26158,
+      "format": "WEBP",
+      "height": 1000,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          253,
+          1000
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/vina-arpachina-arpachino-inohodets-sibirkovyy-beloe-ekstra-bryut-125.webp",
+        "sha256": "1e93383217617adb175866d23c6bc3788f90f555a10d40af9b880860640e30d8",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          253,
+          1000
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/vina-arpachina-arpachino-inohodets-sibirkovyy-beloe-ekstra-bryut-125.webp",
+      "sha256": "5fb4feb771442e0d7fb1cd5665f038d50500ea837cfd0677f52b31b44c9dc86f",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/vina_arpachina_arpachino_inohodets_sibirkovyy_igristoe_ekstra_bryut_beloe_125_75a58dd24e.webp",
+      "width": 253
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/vina-arpachina-arpachino-inohodets-sibirkovyy-beloe-ekstra-bryut-125",
+  "retrieved_at_utc": "2026-09-29T19:20:02.055186+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое экстра брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Выдержанное Экстра Брют Рислинг Брют Натюр",
+        "url": "/uploads/sp_riesling_brut_nature_cf7fa86914.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.7,
+      "region": "Крым",
+      "slug": "vyderzhannoe-ekstra-bryut-risling-bryut-natyur",
+      "title": "Выдержанное Экстра Брют Рислинг Брют Натюр"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Зеленовато-соломенный",
+      "image": {
+        "altText": "Выдержанное Экстра Брют Блан де Блан Брют Натюр",
+        "url": "/uploads/sp_brut_blanc_de_blancs_312964b5f5.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "vyderzhannoe-ekstra-bryut-blan-de-blan-bryut-natyur",
+      "title": "Выдержанное Экстра Брют Блан де Блан Брют Натюр"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "le Nuage",
+        "url": "/uploads/Spark_02_736d569163.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.67,
+      "region": "Кубань",
+      "slug": "vione-nyuazh-zero-dozazh",
+      "title": "Вионье Нюаж Зеро Дозаж"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Фиолетовый Ранний гусев",
+        "url": "/uploads/petnat_fioletovyj_no_bg_preview_carve_photos_e4ddd605bc.webp"
+      },
+      "manufacturer": "Гусевъ",
+      "publicRating": 1,
+      "region": "Нижняя Волга",
+      "slug": "fioletovyj-rannij-petnat",
+      "title": "Фиолетовый Ранний петнат"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Кокур Мельниковы",
+        "url": "/uploads/DSC_09166_cf6c3aaa12.webp"
+      },
+      "manufacturer": "Винодельня Братьев Мельниковых",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "dva-brata-pet-nat-kokur-2024",
+      "title": "Два Брата Пет Нат Кокур, 2024"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "бледно-лимонный",
+      "image": {
+        "altText": "Гранд Кюве",
+        "url": "/uploads/Screenshot_2_fotor_bg_remover_202607141683_5f9e4ecf95.webp"
+      },
+      "manufacturer": "Скалистый берег",
+      "publicRating": 4.92,
+      "region": "Кубань",
+      "slug": "grand-kyuve",
+      "title": "Гранд Кюве"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Скалистый берег",
+        "url": "/uploads/Screenshot_16_fotor_bg_remover_20260714153549_d6a93eabf2.webp"
+      },
+      "manufacturer": "Скалистый берег",
+      "publicRating": 4.93,
+      "region": "Кубань",
+      "slug": "blan-de-blan",
+      "title": "Блан де Блан"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Золотисто-соломенный",
+      "image": {
+        "altText": "Гранд",
+        "url": "/uploads/output_img_022_62bebb88f8.webp"
+      },
+      "manufacturer": "Галицкий и Галицкий",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "grand-jete-blanc-de-noirs",
+      "title": "Grand Jete Blanc de Noirs"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Бледно-золотистый",
+      "image": {
+        "altText": "Жете",
+        "url": "/uploads/output_img_021_ecc606d2a1.webp"
+      },
+      "manufacturer": "Галицкий и Галицкий",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "grand-jete-blanc-de-blancs",
+      "title": "Grand Jete Blanc de Blancs"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Вино золотистого цвета с персиковым отливом. ",
+      "image": {
+        "altText": "Блан де Нуар. Брют Натюр",
+        "url": "/uploads/Blanc_de_noirs_brut_nature_030b095589.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.92,
+      "region": "Крым",
+      "slug": "perovskih_blan_de_noir",
+      "title": "Блан де Нуар. Брют Натюр"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Светло-соломенный с зеленоватым оттенком",
+      "image": {
+        "altText": "Винодельня Ведерниковъ Цимлянский Черный-Сибирьковый Экстра Брют",
+        "url": "/uploads/vinodelnya_vedernikov_vinodelnya_vedernikov_tsimlyanskiy_chernyy_sibirkovyy_ekstra_bryut_beloe_13_8299616071.webp"
+      },
+      "manufacturer": "Ведерниковъ",
+      "publicRating": 5,
+      "region": "Долина Дона",
+      "slug": "vinodelnya-vedernikov-vinodelnya-vedernikov-tsimlyanskiy-chernyy-sibirkovyy-ekstra-bryut-beloe-13",
+      "title": "Винодельня Ведерниковъ Цимлянский Черный-Сибирьковый Экстра Брют"
+    },
+    {
+      "category": "Белое экстра брют",
+      "color": "Светло-соломенный, прозрачный",
+      "image": {
+        "altText": "Инкерман Пино Блан Зеро Дозаж",
+        "url": "/uploads/inkermanskiy_zmv_inkerman_pino_blan_zero_dozazh_beloe_ekstra_bryut_12_8502401e55.webp"
+      },
+      "manufacturer": "Инкерманский ЗМВ",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "inkermanskiy-zmv-inkerman-pino-blan-zero-dozazh-beloe-ekstra-bryut-12",
+      "title": "Инкерман Пино Блан Зеро Дозаж"
+    }
+  ],
+  "site_lastmod": "2026-01-12T11:45:56.000Z",
+  "site_wine": {
+    "alcohol": 12,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое экстра брют"
+    },
+    "color": "Светло-соломенный",
+    "description": "Вкус: Фруктово-цветочный с тонами и легкими нюансами тостов в сухом послевкусии. Ноты белых цветов, цитрусовых, с фруктовыми оттенками.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ryba_moreprodukty_e57b445d95.webp"
+        },
+        "name": "Рыба и морепродукты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/salat_1afebb2167.webp"
+        },
+        "name": "Салаты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ustricy_aaab30581c.webp"
+        },
+        "name": "Устрицы"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Glera2_9e33eb5e65.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Glera_0f17a1d0bf.webp"
+        },
+        "name": "Сибирьковый"
+      }
+    ],
+    "image": {
+      "altText": "Арпачино. Иноходец",
+      "url": "/uploads/vina_arpachina_arpachino_inohodets_sibirkovyy_igristoe_ekstra_bryut_beloe_125_75a58dd24e.webp"
+    },
+    "manufacturer": {
+      "name": "Вина Арпачина",
+      "slug": "vina-arpachina"
+    },
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/dolina_dona_ddc225057d.webp"
+      },
+      "name": "Долина Дона"
+    },
+    "slug": "vina-arpachina-arpachino-inohodets-sibirkovyy-beloe-ekstra-bryut-125",
+    "temperature": "8-10",
+    "title": "Арпачино. Иноходец"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Арпачино. Иноходец",
+      "title": "Арпачино. Иноходец",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/vina_arpachina_arpachino_inohodets_sibirkovyy_igristoe_ekstra_bryut_beloe_125_75a58dd24e.webp"
+    }
+  ],
+  "slug": "vina-arpachina-arpachino-inohodets-sibirkovyy-beloe-ekstra-bryut-125"
+}

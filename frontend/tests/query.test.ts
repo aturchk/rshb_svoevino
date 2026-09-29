@@ -43,12 +43,12 @@ describe('пересечение и объединение', () => {
 
 describe('runQuery на реальном каталоге', () => {
   it('пустой запрос возвращает весь каталог', () => {
-    expect(runQuery(index, query()).ids.length).toBe(2103)
+    expect(runQuery(index, query()).ids.length).toBe(2178)
   })
 
   it('фильтр по категории совпадает с разведкой', () => {
     const white = index.dict.categories.indexOf('Белое')
-    expect(runQuery(index, query({ categories: [white] })).ids.length).toBe(999)
+    expect(runQuery(index, query({ categories: [white] })).ids.length).toBe(1025)
   })
 
   it('несколько значений одной фасеты объединяются, а не пересекаются', () => {
@@ -57,7 +57,7 @@ describe('runQuery на реальном каталоге', () => {
       index,
       query({ categories: [categories.indexOf('Белое'), categories.indexOf('Красное')] }),
     )
-    expect(both.ids.length).toBe(999 + 795)
+    expect(both.ids.length).toBe(1025 + 836)
   })
 
   it('разные фасеты пересекаются', () => {
@@ -65,13 +65,13 @@ describe('runQuery на реальном каталоге', () => {
     const red = index.dict.categories.indexOf('Красное')
     const onlyCrimea = runQuery(index, query({ regions: [crimea] })).ids.length
     const both = runQuery(index, query({ regions: [crimea], categories: [red] })).ids.length
-    expect(onlyCrimea).toBe(769)
+    expect(onlyCrimea).toBe(817)
     expect(both).toBeLessThan(onlyCrimea)
     expect(both).toBeGreaterThan(0)
   })
 
   it('«стиль не указан» — полноценное значение фильтра', () => {
-    expect(runQuery(index, query({ styles: [STYLE_UNKNOWN] })).ids.length).toBe(2103 - 1726)
+    expect(runQuery(index, query({ styles: [STYLE_UNKNOWN] })).ids.length).toBe(377)
   })
 
   it('диапазон крепости по умолчанию не прячет вина без крепости', () => {
@@ -80,7 +80,7 @@ describe('runQuery на реальном каталоге', () => {
       index,
       query({ abvMin: 12, abvMax: 13, abvIncludeUnknown: false }),
     ).ids.length
-    expect(withUnknown - without).toBe(2103 - 1537)
+    expect(withUnknown - without).toBe(595)
   })
 
   it('поиск требует все токены, а не любой', () => {
@@ -107,8 +107,8 @@ describe('runQuery на реальном каталоге', () => {
     const kuban = regions.indexOf('Кубань')
     const result = runQuery(index, query({ regions: [crimea] }))
     // Выбран Крым, но Кубань обязана остаться доступной — иначе фильтр станет тупиком.
-    expect(result.counts.regions[kuban]).toBe(1067)
-    expect(result.counts.regions[crimea]).toBe(769)
+    expect(result.counts.regions[kuban]).toBe(1093)
+    expect(result.counts.regions[crimea]).toBe(817)
   })
 
   it('счётчики других фасет сужаются выбранным регионом', () => {
@@ -122,7 +122,7 @@ describe('runQuery на реальном каталоге', () => {
   })
 
   it('только с фото совпадает с числом сгенерированных картинок', () => {
-    expect(runQuery(index, query({ withPhotoOnly: true })).ids.length).toBe(992)
+    expect(runQuery(index, query({ withPhotoOnly: true })).ids.length).toBe(1067)
   })
 
   it('выдача отсортирована по возрастанию id — это требование виртуализатора', () => {

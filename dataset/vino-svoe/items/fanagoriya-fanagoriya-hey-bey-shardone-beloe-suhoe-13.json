@@ -1,0 +1,259 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 44926,
+      "format": "WEBP",
+      "height": 1500,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          406,
+          1500
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/fanagoriya-fanagoriya-hey-bey-shardone-beloe-suhoe-13.webp",
+        "sha256": "a7ed423be1c33ce863cbbe3574803b8514f92b2b66e1615a4cf2f2420addb49d",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          406,
+          1500
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/fanagoriya-fanagoriya-hey-bey-shardone-beloe-suhoe-13.webp",
+      "sha256": "0eae9235486bf8ffe4b6aa04ea37d21726b396d9d1eab398e1d7651a757f7589",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/f_Kq_In_Kw3d7b_LF_Oe_Fn_M_Gnh_Ktuh_Vl_Vjof_M3_Qaag_F_Bw_K_Wmvlyd_Gu_Q_Cp8tk_DOW_Pz1_Jf_Pnx7c_HG_Dn_X_Wt_Q_y1y7_Xu_Mfg0e_I_Qs5g_Tmt8_XG_4on_i36r8npum_ZHI_4mid_Pd_Whec_Nq_412368f0b0.webp",
+      "width": 406
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/fanagoriya-fanagoriya-hey-bey-shardone-beloe-suhoe-13",
+  "retrieved_at_utc": "2026-09-29T19:15:33.498966+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое сухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Х4122 Винные краски Шардоне  2024",
+        "url": "/uploads/H4122_Vinnye_kraski_Shardone_2024_DKV_aa038d6d04.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 4,
+      "region": "Крым",
+      "slug": "vinnye-kraski-shardone",
+      "title": "Винные краски, Шардоне"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Х4121 Винные краски Совиньон Блан  2024 ДКВ",
+        "url": "/uploads/H4121_Vinnye_kraski_Sovinon_Blan_2024_DKV_c067db407c.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 3.67,
+      "region": "Крым",
+      "slug": "vinnye-kraski-sovinon-blan",
+      "title": "Винные краски, Совиньон Блан"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Х4117 Улыбка ветра Совиньон Блан",
+        "url": "/uploads/H4117_Ulybka_vetra_Sovinon_Blan_2024_DKV_9223d656b0.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-sovinon-blan",
+      "title": "Улыбка ветра, Совиньон Блан"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Х4118 Улыбка ветра  Шардоне  2024",
+        "url": "/uploads/H4118_Ulybka_vetra_Shardone_2024_DKV_6f148eb928.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-shardone",
+      "title": "Улыбка ветра, Шардоне"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Совиньон Усадьба перовских",
+        "url": "/uploads/main_sauvignon_d3d8e795e1.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.9,
+      "region": "Крым",
+      "slug": "sovinon",
+      "title": "Совиньон"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотисто-соломенный",
+      "image": {
+        "altText": "Крымский бленд усадьба перовских",
+        "url": "/uploads/main_crimean_blend_2_5647edf21a.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "krymskij-blend",
+      "title": "Крымский бленд"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Ркацители и Мускат Оранж Усадьба перовских",
+        "url": "/uploads/main_rkatsiteli_muskat_orange_10c5cf3d2f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "rkacziteli-i-muskat-oranzh",
+      "title": "Ркацители и Мускат Оранж"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Ркацители Квеври Усадьба перовских",
+        "url": "/uploads/ge_rkatsiteli_2b9412517f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "rkacziteli-kvevri",
+      "title": "Ркацители Квеври"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Пино блан АртВин",
+        "url": "/uploads/pino_white2_no_bg_preview_carve_photos_d4f30395c7.webp"
+      },
+      "manufacturer": "Артвин",
+      "publicRating": 4.5,
+      "region": "Крым",
+      "slug": "pino-blan-art-vin",
+      "title": "Пино Блан АртВин"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "ии вино",
+        "url": "/uploads/ii_3_8ac201f314.webp"
+      },
+      "manufacturer": "WINEPARK",
+      "publicRating": 4.68,
+      "region": "Крым",
+      "slug": "ii-vino-1",
+      "title": "ИИ ВИНО"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Светло-соломенный ",
+      "image": {
+        "altText": "Хихви Сенетх",
+        "url": "/uploads/Pre_W01_5a4d8050c2.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.56,
+      "region": "Кубань",
+      "slug": "hihvi-sueta",
+      "title": "Хихви Суета"
+    },
+    {
+      "category": "Белое сухое",
+      "color": "Зеленовато-соломенный",
+      "image": {
+        "altText": "Мцване Сенетх",
+        "url": "/uploads/Pre_W03_3d7437416c.webp"
+      },
+      "manufacturer": "Сенетх",
+      "publicRating": 4.8,
+      "region": "Кубань",
+      "slug": "mczvane-sueta",
+      "title": "Мцване Суета"
+    }
+  ],
+  "site_lastmod": "2026-06-04T11:13:59.000Z",
+  "site_wine": {
+    "alcohol": 13,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое сухое"
+    },
+    "color": "Светло-соломенный с золотистыми бликами",
+    "description": "Аромат с нотами спелых яблок, персика и лёгкими цветочными оттенками; вкус сбалансированный, с хорошей кислотностью и фруктовым послевкусием. К рыбным блюдам, нежирным сырам.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ryba_moreprodukty_e57b445d95.webp"
+        },
+        "name": "Рыба и морепродукты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Shardone_2_03e3197a65.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Shardone_54bbd4df90.webp"
+        },
+        "name": "Шардоне"
+      }
+    ],
+    "image": {
+      "altText": "Фанагория Хей Бэй Шардоне",
+      "url": "/uploads/f_Kq_In_Kw3d7b_LF_Oe_Fn_M_Gnh_Ktuh_Vl_Vjof_M3_Qaag_F_Bw_K_Wmvlyd_Gu_Q_Cp8tk_DOW_Pz1_Jf_Pnx7c_HG_Dn_X_Wt_Q_y1y7_Xu_Mfg0e_I_Qs5g_Tmt8_XG_4on_i36r8npum_ZHI_4mid_Pd_Whec_Nq_412368f0b0.webp"
+    },
+    "manufacturer": {
+      "name": "винный дом «Фанагория»",
+      "slug": "fanagoriya"
+    },
+    "publicRating": 4.5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "fanagoriya-fanagoriya-hey-bey-shardone-beloe-suhoe-13",
+    "temperature": "10-12",
+    "title": "Фанагория Хей Бэй Шардоне"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Фанагория Хей Бэй Шардоне",
+      "title": "Фанагория Хей Бэй Шардоне",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/f_Kq_In_Kw3d7b_LF_Oe_Fn_M_Gnh_Ktuh_Vl_Vjof_M3_Qaag_F_Bw_K_Wmvlyd_Gu_Q_Cp8tk_DOW_Pz1_Jf_Pnx7c_HG_Dn_X_Wt_Q_y1y7_Xu_Mfg0e_I_Qs5g_Tmt8_XG_4on_i36r8npum_ZHI_4mid_Pd_Whec_Nq_412368f0b0.webp"
+    }
+  ],
+  "slug": "fanagoriya-fanagoriya-hey-bey-shardone-beloe-suhoe-13"
+}

@@ -14,6 +14,7 @@ from .field_data import (export_field_eval, make_catalog_lookup, make_field_temp
                          validate_field_manifest)
 from .eval_data import validate_eval_package, validate_eval_predictions
 from .pipelines import PIPELINE_NAMES, make_pipeline
+from .training import AUGMENTATION_POLICIES
 from .views import QUERY_VIEW_MODES, REFERENCE_VIEW_MODES
 
 
@@ -121,6 +122,8 @@ def main() -> None:
     add_siglip_arguments(train, "off")
     train.add_argument("--train-views", type=int, default=4)
     train.add_argument("--val-views", type=int, default=1)
+    train.add_argument("--augmentation", choices=AUGMENTATION_POLICIES,
+                       default="full-v1", help="Synthetic views used for adapter training")
     train.add_argument("--rank", type=int, default=64)
     train.add_argument("--epochs", type=int, default=15)
     train.add_argument("--learning-rate", type=float, default=3e-4)
@@ -238,7 +241,8 @@ def main() -> None:
             attn_implementation=args.attn_implementation, offline=args.offline,
             train_views=args.train_views, val_views=args.val_views, rank=args.rank,
             epochs=args.epochs, learning_rate=args.learning_rate,
-            weight_decay=args.weight_decay, temperature=args.temperature, seed=args.seed)
+            weight_decay=args.weight_decay, temperature=args.temperature, seed=args.seed,
+            augmentation=args.augmentation)
         print(json.dumps(result, ensure_ascii=False, indent=2))
     elif args.command == "make-proxy-eval":
         from .training import make_proxy_eval

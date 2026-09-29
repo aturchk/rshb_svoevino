@@ -1,0 +1,115 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 24868,
+      "format": "WEBP",
+      "height": 1000,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          340,
+          1000
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/aya-organic-wine-vineyards-blush-4-pino-nuar-krasnoe-ekstra-bryut-129.webp",
+        "sha256": "e9c405c7d1869a9ecfa2508b807110466d7c818a3cfb76af4a981a28a4309faa",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          340,
+          1000
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/aya-organic-wine-vineyards-blush-4-pino-nuar-krasnoe-ekstra-bryut-129.webp",
+      "sha256": "5e2f7c74b49528c1f7fab00da7bda67b932b434694c7c82a1656db9878629b0d",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/aya_organic_wine_vineyards_blush_4_pino_nuar_petnat_ekstra_bryut_krasnyy_129_26041a124c.webp",
+      "width": 340
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/aya-organic-wine-vineyards-blush-4-pino-nuar-krasnoe-ekstra-bryut-129",
+  "retrieved_at_utc": "2026-09-29T19:19:53.837715+00:00",
+  "similar_wines": [
+    {
+      "category": "Красное экстра брют",
+      "color": "Красное",
+      "image": {
+        "altText": "Выдержанное Экстра Брют Ред Брют Натюр",
+        "url": "/uploads/sp_red_brut_nature_052f929076.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.75,
+      "region": "Крым",
+      "slug": "vyderzhannoe-ekstra-bryut-red-bryut-natyur",
+      "title": "Выдержанное Экстра Брют Ред Брют Натюр"
+    }
+  ],
+  "site_lastmod": "2026-01-25T09:44:18.000Z",
+  "site_wine": {
+    "alcohol": 12,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "name": "Красное экстра брют"
+    },
+    "color": "Насыщенный рубиново-вишневый",
+    "description": "Вкус легкий, питкий, уточненный, выразительно-фруктовый, с мягкими танинами и нежной ягодной кислинкой. В аромате спелые красные ягоды, джем и специи.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/nesladkaya_vypechka_05bf04c48c.webp"
+        },
+        "name": "Выпечка и десерты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/myaso_442273df41.webp"
+        },
+        "name": "Мясо и стейки"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Nuar3_8f666dc69e.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Nuar2_6c049e4c48.webp"
+        },
+        "name": "Пино Нуар"
+      }
+    ],
+    "image": {
+      "altText": "Blush #4",
+      "url": "/uploads/aya_organic_wine_vineyards_blush_4_pino_nuar_petnat_ekstra_bryut_krasnyy_129_26041a124c.webp"
+    },
+    "manufacturer": {
+      "name": "AYA Organic Wine & Vineyards",
+      "slug": "aya-organic-wine-vineyards"
+    },
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "aya-organic-wine-vineyards-blush-4-pino-nuar-krasnoe-ekstra-bryut-129",
+    "temperature": "8-10",
+    "title": "Blush #4"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Blush #4",
+      "title": "Blush #4",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/aya_organic_wine_vineyards_blush_4_pino_nuar_petnat_ekstra_bryut_krasnyy_129_26041a124c.webp"
+    }
+  ],
+  "slug": "aya-organic-wine-vineyards-blush-4-pino-nuar-krasnoe-ekstra-bryut-129"
+}

@@ -1,0 +1,270 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 48434,
+      "format": "WEBP",
+      "height": 1500,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          515,
+          1500
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/zolotaya-balka-pink-sira-rozovoe-suhoe-13.webp",
+        "sha256": "85aadae069a2820bdef2d6e386f9e419b44271cb196b724bc8ed0f79f0c5d934",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          515,
+          1500
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/zolotaya-balka-pink-sira-rozovoe-suhoe-13.webp",
+      "sha256": "8eaeb2d75e905730399a71cf3d16657db2ac947f16df7f1c88835aa2fa724400",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/zolotaya_balka_pink_sira_rozovoe_suhoe_13_81a00fb2ab.webp",
+      "width": 515
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/zolotaya-balka-pink-sira-rozovoe-suhoe-13",
+  "retrieved_at_utc": "2026-09-29T19:15:44.753430+00:00",
+  "similar_wines": [
+    {
+      "category": "Розовое сухое",
+      "color": "Нежно-розовое",
+      "image": {
+        "altText": "Розовое сухое Усадьба перовских",
+        "url": "/uploads/main_rose_dry_daef1d0a86.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.82,
+      "region": "Крым",
+      "slug": "rozovoe-suhoe",
+      "title": "Розовое сухое"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Розовый",
+      "image": {
+        "altText": "Восток розе",
+        "url": "/uploads/c5bc5ded2f2bc7b_343x610_notcrop_2c484caa6b.webp"
+      },
+      "manufacturer": "Château Le Grand Vostock",
+      "publicRating": 4.4,
+      "region": "Кубань",
+      "slug": "vostok-roze",
+      "title": "Восток розе"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Розовый",
+      "image": {
+        "altText": "закат денисов вайнери",
+        "url": "/uploads/zakat_denisov_vajneri_no_bg_preview_carve_photos_1_6ae9baa13d.webp"
+      },
+      "manufacturer": "Denisov Winery",
+      "publicRating": 4.63,
+      "region": "Самара",
+      "slug": "zakat-denisov-vajneri",
+      "title": "Закат. Денисов Вайнери"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Лососевый",
+      "image": {
+        "altText": "Пино нуар Мельниковы",
+        "url": "/uploads/DSC_00836_4070f8fd2f.webp"
+      },
+      "manufacturer": "Винодельня Братьев Мельниковых",
+      "publicRating": 4.82,
+      "region": "Крым",
+      "slug": "pino-nuar-2025",
+      "title": "Пино Нуар, 2025"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Нежно-розовое",
+      "image": {
+        "altText": "Массандра сухое розовое",
+        "url": "/uploads/Massandra_suhoe_rozovoe_218d80e12d.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-rozovoe-suhoe",
+      "title": "Массандра розовое сухое"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Светло-розовое",
+      "image": {
+        "altText": "Golubitskoe Rose",
+        "url": "/uploads/Golubitskoe_Estate_Rose_84adcc1cea.webp"
+      },
+      "manufacturer": "Поместье Голубицкое",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "golubitskoe-rose",
+      "title": "Golubitskoe Rose"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Блестяще-розовый",
+      "image": {
+        "altText": "Высокий берег Цвайгельт",
+        "url": "/uploads/Vysokij_bereg_Czvajgelt_8c439c9f75.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "vysokij-bereg-czvajgelt",
+      "title": "Высокий Берег Цвайгельт"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Нежно-розовый",
+      "image": {
+        "altText": "Литавщук розе",
+        "url": "/uploads/Screenshot_24_c38ca52fac.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 4.92,
+      "region": "Кубань",
+      "slug": "roze-premium",
+      "title": "Розе. Премиум"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Нежно-розовый",
+      "image": {
+        "altText": "Табия розе",
+        "url": "/uploads/Screenshot_17_6d600742f0.webp"
+      },
+      "manufacturer": "Табия",
+      "publicRating": 4.97,
+      "region": "Кубань",
+      "slug": "roze-2",
+      "title": "Розе"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Лососево-розовый",
+      "image": {
+        "altText": "ЛОРИО_РОЗОВОЕ",
+        "url": "/uploads/LORIO_ROZOVOE_9e1be3c909.webp"
+      },
+      "manufacturer": "ЛОРИО -  семейная винодельня Логуновых",
+      "publicRating": 4.89,
+      "region": "Кубань",
+      "slug": "lorio-rozovoe",
+      "title": "ЛОРИО. Розовое"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Светло-розовый с лососевым оттенком и блеском",
+      "image": {
+        "altText": "Галицкий",
+        "url": "/uploads/roze_0cd69a079f.webp"
+      },
+      "manufacturer": "Галицкий и Галицкий",
+      "publicRating": 4.75,
+      "region": "Кубань",
+      "slug": "roze-1",
+      "title": "Розе"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Светло-розовый",
+      "image": {
+        "altText": "Мускат, Пино Гри сух",
+        "url": "/uploads/Muskat_Pino_Gri_suh_bbbbbf5ff9.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "zhemchuzhnaya-9-muskat-rozovyj-pino-gri",
+      "title": "Жемчужная 9 Мускат Розовый, Пино гри"
+    }
+  ],
+  "site_lastmod": "2026-06-03T23:48:59.000Z",
+  "site_wine": {
+    "alcohol": 13,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "name": "Розовое сухое"
+    },
+    "color": "Светло-розовый, блестящий",
+    "description": "Свежий аромат с нотами красных ягод, оттенками мелиссы и лёгким морским бризом. Вкус свежий, с приятной кислотностью, палитрой клубники и красной смородины, мягким послевкусием со сливочным оттенком.\nПревосходный аперитив, отлично дополняет белое мясо, рыбу, креветки, зелёные салаты и лёгкие закуски.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ptica_9a6c7e3ea1.webp"
+        },
+        "name": "Блюда из птицы"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ryba_moreprodukty_e57b445d95.webp"
+        },
+        "name": "Рыба и морепродукты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Kaberne_Fran2_fc0347f0c7.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Kaberne_Fran_d71d65de5d.webp"
+        },
+        "name": "Каберне Фран"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Shiraz_Sira3_ac5d95b730.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Shiraz_Sira2_bc5babc4a3.webp"
+        },
+        "name": "Сира"
+      }
+    ],
+    "image": {
+      "altText": "Pink-Zolotaya-Balka",
+      "url": "/uploads/zolotaya_balka_pink_sira_rozovoe_suhoe_13_81a00fb2ab.webp"
+    },
+    "manufacturer": {
+      "name": "Золотая Балка",
+      "slug": "zolotaya_balka"
+    },
+    "publicRating": 4,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "zolotaya-balka-pink-sira-rozovoe-suhoe-13",
+    "temperature": "8-10",
+    "title": "Pink"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Pink-Zolotaya-Balka",
+      "title": "Pink-Zolotaya-Balka",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/zolotaya_balka_pink_sira_rozovoe_suhoe_13_81a00fb2ab.webp"
+    }
+  ],
+  "slug": "zolotaya-balka-pink-sira-rozovoe-suhoe-13"
+}

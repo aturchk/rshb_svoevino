@@ -1,0 +1,287 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 39728,
+      "format": "WEBP",
+      "height": 1200,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          331,
+          1200
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/fiori-di-mare-krasnoe-polusuhoe.webp",
+        "sha256": "a7b2dbca0127a003787df65608a5efb5e6950adee021c7014a8e4aed863cafbf",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          331,
+          1170
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/fiori-di-mare-krasnoe-polusuhoe.webp",
+      "sha256": "4442bb1ca575d70e1e6bba1dbe988488231c8c32646238694c2ed21a958ef44b",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Derbent_Vino_Fori_di_Mare_Di_Kaspiko_d67089804b.webp",
+      "width": 331
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/fiori-di-mare-krasnoe-polusuhoe",
+  "retrieved_at_utc": "2026-09-29T19:14:51.181904+00:00",
+  "similar_wines": [
+    {
+      "category": "Красное полусухое",
+      "color": "Темно-рубиновый",
+      "image": {
+        "altText": "Каберне совньон",
+        "url": "/uploads/MAX_02337_7ecc0a53a9.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "kaberne-sovinon-3",
+      "title": "Каберне Совиньон"
+    },
+    {
+      "category": "Красное полусухое",
+      "color": "Глубокий рубиновый",
+      "image": {
+        "altText": "Прибой Марченко красное полусухое",
+        "url": "/uploads/Priboj_Marchenko_krasnoe_no_bg_preview_carve_photos_6e051269ba.webp"
+      },
+      "manufacturer": "Винодельня Марченко",
+      "publicRating": 4.25,
+      "region": "Кубань",
+      "slug": "priboj-marchenko-krasnoe-polusuhoe",
+      "title": "Прибой Марченко красное полусухое"
+    },
+    {
+      "category": "Красное полусухое",
+      "color": "Красно-рубиновый",
+      "image": {
+        "altText": "Инкерман Шато Руж",
+        "url": "/uploads/Inkerman_Shato_Ruzh_85fa6ee9ce.webp"
+      },
+      "manufacturer": "Инкерманский ЗМВ",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "inkerman-shato-ruzh",
+      "title": "Inkerman Шато Руж"
+    },
+    {
+      "category": "Красное полусухое",
+      "color": "Гранатовый",
+      "image": {
+        "altText": "Саперави винтаж",
+        "url": "/uploads/Saperavi_1fe8cca7fc.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "saperavi-premium",
+      "title": "Саперави. Премиум"
+    },
+    {
+      "category": "Красное полусухое",
+      "color": "Насыщенный рубиновый",
+      "image": {
+        "altText": "Вино полусухое красное КАБЕРНЕ СОВИНЬОН",
+        "url": "/uploads/Vino_polusuhoe_krasnoe_KABERNE_SOVINON_cfd594e5f6.webp"
+      },
+      "manufacturer": "LETO",
+      "publicRating": 4.88,
+      "region": "Кубань",
+      "slug": "leto-kaberne-sovinon-2023-polusuhoe-krasnoe",
+      "title": "LETO Каберне Совиньон 2023 полусухое красное"
+    },
+    {
+      "category": "Красное полусухое",
+      "color": "Вино красное полусухое, рубинового цвета.",
+      "image": {
+        "altText": "Полусухое красное",
+        "url": "/uploads/Krasnoe_polusuhoe_2024_a4eadaac17.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.89,
+      "region": "Крым",
+      "slug": "perovskih_polusuhoe_krasnoe",
+      "title": "Полусухое Красное"
+    },
+    {
+      "category": "Красное полусухое",
+      "color": "У вина темный пурпурный цвет.",
+      "image": {
+        "altText": "Шато де Монгольфьер Шираз Полусухое",
+        "url": "/uploads/soyuz_vino_shato_de_mongolfer_shiraz_polusuhoe_krasnoe_11_a657118526.webp"
+      },
+      "manufacturer": "Союз-Вино",
+      "region": "Кубань",
+      "slug": "soyuz-vino-shato-de-mongolfer-shiraz-polusuhoe-krasnoe-11",
+      "title": "Шато де Монгольфьер Шираз Полусухое"
+    },
+    {
+      "category": "Красное полусухое",
+      "color": "Рубиновый, с фиолетовым оттенком",
+      "image": {
+        "altText": "Alma Valley",
+        "url": "/uploads/alma_valley_solntse_vozduh_vinograd_sira_shiraz_krasnoe_polusuhoe_135_7cd3395fb2.webp"
+      },
+      "manufacturer": "Alma Valley",
+      "publicRating": 3.67,
+      "region": "Крым",
+      "slug": "alma-valley-solntse-vozduh-vinograd-sira-shiraz-krasnoe-polusuhoe-135",
+      "title": "Солнце, воздух, виноград"
+    },
+    {
+      "category": "Красное полусухое",
+      "color": "Светло-гранатовый",
+      "image": {
+        "altText": "Собер Баш",
+        "url": "/uploads/sober_bash_dve_doliny_kaberne_fran_2023_krasnoe_polusuhoe_14_fae22fb7b6.webp"
+      },
+      "manufacturer": "Собер Баш",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "sober-bash-dve-doliny-kaberne-fran-2023-krasnoe-polusuhoe-14",
+      "title": "Две долины. Каберне Фран 2023"
+    },
+    {
+      "category": "Красное полусухое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Собер Баш",
+        "url": "/uploads/sober_bash_dve_doliny_saperavi_kachich_krasnoe_polusuhoe_15_05e046e50c.webp"
+      },
+      "manufacturer": "Собер Баш",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "sober-bash-dve-doliny-saperavi-kachich-krasnoe-polusuhoe-15",
+      "title": "Две долины. Саперави-Качич"
+    },
+    {
+      "category": "Красное полусухое",
+      "color": "Темно-красный",
+      "image": {
+        "altText": "Черное из Красного. Аппассименто",
+        "url": "/uploads/vinodelnya_myshako_chernoe_iz_krasnogo_appassimento_kaberne_sovinon_krasnoe_polusuhoe_15_4a7481518e.webp"
+      },
+      "manufacturer": "Мысхако",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "vinodelnya-myshako-chernoe-iz-krasnogo-appassimento-kaberne-sovinon-krasnoe-polusuhoe-15",
+      "title": "Черное из Красного. Аппассименто"
+    },
+    {
+      "category": "Красное полусухое",
+      "color": "Рубиново-красный",
+      "image": {
+        "altText": "Каберне Совиньон. Black Out",
+        "url": "/uploads/vinodelnya_myshako_kaberne_sovinon_black_out_krasnoe_polusuhoe_16_c5bb09a533.webp"
+      },
+      "manufacturer": "Мысхако",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "vinodelnya-myshako-kaberne-sovinon-black-out-krasnoe-polusuhoe-16",
+      "title": "Каберне Совиньон. Black Out"
+    }
+  ],
+  "site_lastmod": "2026-08-05T10:44:54.000Z",
+  "site_wine": {
+    "alcohol": 12,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "name": "Красное полусухое"
+    },
+    "color": "Рубиновый",
+    "description": "В свежем аромате гармонично переплетаются нежные ягодные и цветочные ноты. В легком, питком, манящем вкусе преобладают цитрусовые тона, дополненные мягкой перечной ноткой и тонкой сладостью красных ягод из сиропа. Выраженная кислотность прекрасно балансирует остаточный сахар и дарит свежее, стойкое послевкусие.\n",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/sredizemnomorskaya_kuhnya_3c8be7f1a7.webp"
+        },
+        "name": "Закуски"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/kavkazskaya_kuhnya_0f18f731b5.webp"
+        },
+        "name": "Мясное ассорти"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/salat_1afebb2167.webp"
+        },
+        "name": "Салаты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Merlo2_92c9fc8a90.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Merlo_14_f0e42dbdb6.webp"
+        },
+        "name": "Мерло"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Pedro_Himenes1_2e24dbe5bb.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Risling2_c6fa370506.webp"
+        },
+        "name": "Молдова"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Nuar3_8f666dc69e.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Nuar2_6c049e4c48.webp"
+        },
+        "name": "Пино Нуар"
+      }
+    ],
+    "image": {
+      "altText": "Дербент Вино Фьори ди Маре Ди Каспико",
+      "url": "/uploads/Derbent_Vino_Fori_di_Mare_Di_Kaspiko_d67089804b.webp"
+    },
+    "manufacturer": {
+      "name": "Дербент Вино",
+      "slug": "derbent-vino"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/dagestan_bb35548f71.webp"
+      },
+      "name": "Дагестан"
+    },
+    "slug": "fiori-di-mare-krasnoe-polusuhoe",
+    "temperature": "14-16",
+    "title": "Fiori di Mare красное полусухое"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Дербент Вино Фьори ди Маре Ди Каспико",
+      "title": "Дербент Вино Фьори ди Маре Ди Каспико",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Derbent_Vino_Fori_di_Mare_Di_Kaspiko_d67089804b.webp"
+    }
+  ],
+  "slug": "fiori-di-mare-krasnoe-polusuhoe"
+}

@@ -1,0 +1,286 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 63248,
+      "format": "WEBP",
+      "height": 1920,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          785,
+          1920
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/pet-nat-sosedi-2024.webp",
+        "sha256": "e090cdf169f221b155ade8f1c9e9b01aab954cac7b321e06796dcd19d62feacc",
+        "source_bbox_xyxy": [
+          111,
+          224,
+          661,
+          1920
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/pet-nat-sosedi-2024.webp",
+      "sha256": "ccce18fd3c05581251dd656097cea1e976085e3e7ac4bec330a9633d6cc58510",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/DSC_09170_a4e65f21e4.webp",
+      "width": 785
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/pet-nat-sosedi-2024",
+  "retrieved_at_utc": "2026-09-29T19:14:45.444696+00:00",
+  "similar_wines": [
+    {
+      "category": "Розовое экстра брют",
+      "color": "Розовый",
+      "image": {
+        "altText": "Выдержанное Экстра Брют Розе Брют Натюр",
+        "url": "/uploads/sp_brut_rose_48a093c302.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.57,
+      "region": "Крым",
+      "slug": "vyderzhannoe-ekstra-bryut-roze-bryut-natyur",
+      "title": "Выдержанное Экстра Брют Розе Брют Натюр"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Лососевый",
+      "image": {
+        "altText": "м",
+        "url": "/uploads/f804754fa9ae3bf4c674ad5d82e86b14_d9b6930374.webp"
+      },
+      "manufacturer": "Mantra Estate",
+      "publicRating": 4.85,
+      "region": "Кубань",
+      "slug": "magnatum-rose",
+      "title": "Magnatum Rose"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Бледно-розовый с лососевым оттенком",
+      "image": {
+        "altText": "Галицкий",
+        "url": "/uploads/output_img_024_4a97c5528e.webp"
+      },
+      "manufacturer": "Галицкий и Галицкий",
+      "publicRating": 4.38,
+      "region": "Кубань",
+      "slug": "grand-jete-rose",
+      "title": "Grand Jete Rose"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Светло-соломенный с устойчивым муссом и длительным перляжем",
+      "image": {
+        "altText": "Пет-нат Рубин",
+        "url": "/uploads/PETNAT_Rubin_prozrachnaya_3964ed9fec.webp"
+      },
+      "manufacturer": "Denisov Winery",
+      "publicRating": 5,
+      "region": "Самара",
+      "slug": "denisov_pet_nat_rubin",
+      "title": "Пет-Нат Рубин"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Кораллово-розовый цвет с блеском, элегантный перляж. ",
+      "image": {
+        "altText": "Розе",
+        "url": "/uploads/Extra_Brut_Rose_b02ec16ad0.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "perovskih_rose",
+      "title": "Розе"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Нежно-розовый, прозрачный",
+      "image": {
+        "altText": "Инкерман Розе Зеро Дозаж",
+        "url": "/uploads/inkermanskiy_zmv_inkerman_roze_zero_dozazh_kokur_rozovoe_ekstra_bryut_12_2c38685dfc.webp"
+      },
+      "manufacturer": "Инкерманский ЗМВ",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "inkermanskiy-zmv-inkerman-roze-zero-dozazh-kokur-rozovoe-ekstra-bryut-12",
+      "title": "Инкерман Розе Зеро Дозаж"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Розовый",
+      "image": {
+        "altText": "Фанагория",
+        "url": "/uploads/fanagoriya_fanagoria_extra_brut_rose_2019_pino_nuar_igristoe_bryut_rozovoe_ekstra_bryut_12_aef88041a9.webp"
+      },
+      "manufacturer": "винный дом «Фанагория»",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "fanagoriya-fanagoria-extra-brut-rose-2019-pino-nuar-igristoe-bryut-rozovoe-ekstra-bryut-12",
+      "title": "Fanagoria Extra Brut Rose 2019"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Розовый с золотистым оттенком",
+      "image": {
+        "altText": "Фанагория",
+        "url": "/uploads/fanagoriya_alveus_ultra_cuvee_ekstra_bryut_rozovoe_merlo_12_dda03da431.webp"
+      },
+      "manufacturer": "винный дом «Фанагория»",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "fanagoriya-alveus-ultra-cuvee-ekstra-bryut-rozovoe-merlo-12",
+      "title": "Alveus Ultra Cuvee. Экстра брют розовое"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Розовый",
+      "image": {
+        "altText": "Реликта",
+        "url": "/uploads/relikta_relikta_petnat_antey_magarachskiy_rozovoe_ekstra_bryut_11_00d21fcaf1.webp"
+      },
+      "manufacturer": "Реликта",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "relikta-relikta-petnat-antey-magarachskiy-rozovoe-ekstra-bryut-11",
+      "title": "Реликта Петнат"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Жемчужно-розовый",
+      "image": {
+        "altText": "Аристов Кюве Розе_Пино_2023_0,75л_брют",
+        "url": "/uploads/Aristov_Kyuve_Roze_Pino_2023_0_75l_bryut_Normal_Photoroom_cc598880d5.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "aristov-kyuve-aleksandr-roze-de-pino",
+      "title": "Аристов. Кюве Александр. Розе Де Пино"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Клубнично-розовый",
+      "image": {
+        "altText": "Пино Гри",
+        "url": "/uploads/shato_pino_pino_gri_igristoe_ekstra_bryut_rozovoe_11_660c923c47.webp"
+      },
+      "manufacturer": "Шато Пино",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "shato-pino-petnat-pino-gri-rozovoe-ekstra-bryut-11",
+      "title": "Петнат Пино Гри"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Клубнично-розовый",
+      "image": {
+        "altText": "Пино Нуар",
+        "url": "/uploads/shato_pino_pino_nuar_igristoe_ekstra_bryut_rozovoe_11_ebf10494b8.webp"
+      },
+      "manufacturer": "Шато Пино",
+      "region": "Кубань",
+      "slug": "shato-pino-petnat-pino-nuar-rozovoe-ekstra-bryut-11",
+      "title": "Петнат Пино Нуар"
+    }
+  ],
+  "site_lastmod": "2026-08-09T17:42:11.000Z",
+  "site_wine": {
+    "alcohol": 10,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "name": "Розовое экстра брют"
+    },
+    "color": "Светло-персиковый",
+    "description": "Вино жемчужное игристое светло-персикового цвета. Питкий и мягкий, со сбалансированной кислотностью и плотным муссом. Во вкусе открывается яркой фруктово-ягодной нотой и нежной кислинкой в послевкусии. Многогранный аромат с оттенками барбариса, монпансье и клубничного йогурта",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ptica_9a6c7e3ea1.webp"
+        },
+        "name": "Блюда из птицы"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ryba_moreprodukty_e57b445d95.webp"
+        },
+        "name": "Блюда из рыбы"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/legkie_zakuski_e5a2dedbf7.webp"
+        },
+        "name": "Легкие закуски"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/pasta_9ce9a580b2.webp"
+        },
+        "name": "Паста"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/russkaya_kuhnya_d6b2c07249.webp"
+        },
+        "name": "Паштеты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Nuar3_8f666dc69e.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Nuar2_6c049e4c48.webp"
+        },
+        "name": "Пино Нуар"
+      }
+    ],
+    "image": {
+      "altText": "Петнат соседи",
+      "url": "/uploads/DSC_09170_a4e65f21e4.webp"
+    },
+    "manufacturer": {
+      "name": "Коммуналка",
+      "slug": "kommunalka"
+    },
+    "publicRating": 4.58,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "pet-nat-sosedi-2024",
+    "temperature": "6-10",
+    "title": "Пет Нат Соседи, 2024 "
+  },
+  "sitemap_images": [
+    {
+      "caption": "Петнат соседи",
+      "title": "Петнат соседи",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/DSC_09170_a4e65f21e4.webp"
+    }
+  ],
+  "slug": "pet-nat-sosedi-2024"
+}

@@ -1,0 +1,258 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 21894,
+      "format": "WEBP",
+      "height": 1000,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          273,
+          1000
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/vinodelnya-myshako-marselan-mode-appassimento-krasnoe-suhoe-146.webp",
+        "sha256": "6348b897f96e4be4925b9d67770a34454fadaacf1b5246362a144d0c5c29b373",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          273,
+          1000
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/vinodelnya-myshako-marselan-mode-appassimento-krasnoe-suhoe-146.webp",
+      "sha256": "e27603cb45b5c1b16cf8ec9ea57c46446341afcd647780768be772b158259e99",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/vinodelnya_myshako_marselan_mode_appassimento_krasnoe_suhoe_146_ea99d1e997.webp",
+      "width": 273
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/vinodelnya-myshako-marselan-mode-appassimento-krasnoe-suhoe-146",
+  "retrieved_at_utc": "2026-09-29T19:20:42.361390+00:00",
+  "similar_wines": [
+    {
+      "category": "Красное сухое",
+      "color": "Насыщенный рубиновый с фиолетовым отливом",
+      "image": {
+        "altText": "Красное сухое вино Мулета от винодельни Орлова",
+        "url": "/uploads/Muleta_2020_2b726546bb.webp"
+      },
+      "manufacturer": "Винодельня Орлова",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "muleta",
+      "title": "Мулета"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красно-бордовый",
+      "image": {
+        "altText": "Яйла-Мальбек",
+        "url": "/uploads/Yajla_Malbek_2024_cb1c7ff096.webp"
+      },
+      "manufacturer": "Yaiyla Winery",
+      "publicRating": 4.33,
+      "region": "Крым",
+      "slug": "yaiyla-malbec",
+      "title": "YAIYLA MALBEC"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Х4123 Винные краски Каберне Совиньон",
+        "url": "/uploads/H4123_Vinnye_kraski_Kaberne_Sovinon_2024_DKV_06462e2b91.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 4.5,
+      "region": "Крым",
+      "slug": "vinnye-kraski-kaberne-sovinon",
+      "title": "Винные краски, Каберне Совиньон"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Темно-гранатовый",
+      "image": {
+        "altText": "Х4124 Винные краски Мерло 2024 ДК",
+        "url": "/uploads/H4124_Vinnye_kraski_Merlo_2024_DKV_1_3a6f83c9be.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 4,
+      "region": "Крым",
+      "slug": "vinnye-kraski-merlo",
+      "title": "Винные краски, Мерло"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Темно-рубиновый",
+      "image": {
+        "altText": "Х4119 Улыбка Ветра Каберне Совиньон",
+        "url": "/uploads/H4119_Ulybka_Vetra_Kaberne_Sovinon_2024_DKV_eba5b4df62.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-kaberne-sovinon",
+      "title": "Улыбка ветра, Каберне Совиньон"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Х4120 Улыбка ветра Мерло 2024 ДКВ",
+        "url": "/uploads/H4120_Ulybka_vetra_Merlo_2024_DKV_426a5f1726.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-merlo",
+      "title": "Улыбка ветра, Мерло"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "Саперави — лимитированная серия",
+        "url": "/uploads/lim_saperavi_0777d3f30f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.83,
+      "region": "Крым",
+      "slug": "saperavi-limitirovannaya-seriya",
+      "title": "Саперави — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Глубокий рубиновый",
+      "image": {
+        "altText": "Каберне Фран — лимитированная серия",
+        "url": "/uploads/lim_cabernet_franc_b8513a1a08.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.8,
+      "region": "Крым",
+      "slug": "kaberne-fran-limitirovannaya-seriya",
+      "title": "Каберне Фран — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красное",
+      "image": {
+        "altText": "Каберне Совиньон и Саперави — лимитированная серия",
+        "url": "/uploads/lim_cs_saperavi_63126ea067.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.9,
+      "region": "Крым",
+      "slug": "kaberne-sovinon-i-saperavi-limitirovannaya-seriya",
+      "title": "Каберне Совиньон и Саперави — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "Мерло — лимитированная серия",
+        "url": "/uploads/lim_merlot_455ff5ee23.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.78,
+      "region": "Крым",
+      "slug": "merlo-limitirovannaya-seriya",
+      "title": "Мерло — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "Сира — лимитированная серия",
+        "url": "/uploads/lim_syrah_26570c7f18.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.89,
+      "region": "Крым",
+      "slug": "sira-limitirovannaya-seriya",
+      "title": "Сира — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "135",
+        "url": "/uploads/lim_135_8dbef0e498.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.78,
+      "region": "Крым",
+      "slug": "135",
+      "title": "135"
+    }
+  ],
+  "site_lastmod": "2026-01-12T11:42:26.000Z",
+  "site_wine": {
+    "alcohol": 14,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "name": "Красное сухое"
+    },
+    "color": "Рубиново-красный",
+    "description": "Вкус: Среднее тело, ноты вишни, сливы, послевкусие с легкими оттенками шоколада. Ноты вишни, ежевики, чернослива, вишневого ликёра и дымными оттенками.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/myaso_442273df41.webp"
+        },
+        "name": "Мясо и стейки"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Marselan10_b607b8c545.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Marselan_1858bd3d4e.webp"
+        },
+        "name": "Марселан"
+      }
+    ],
+    "image": {
+      "altText": "Марселан Mode Appassimento",
+      "url": "/uploads/vinodelnya_myshako_marselan_mode_appassimento_krasnoe_suhoe_146_ea99d1e997.webp"
+    },
+    "manufacturer": {
+      "name": "Мысхако",
+      "slug": "vinodelnya-myshako"
+    },
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "vinodelnya-myshako-marselan-mode-appassimento-krasnoe-suhoe-146",
+    "temperature": "16-18",
+    "title": "Марселан Mode Appassimento"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Марселан Mode Appassimento",
+      "title": "Марселан Mode Appassimento",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/vinodelnya_myshako_marselan_mode_appassimento_krasnoe_suhoe_146_ea99d1e997.webp"
+    }
+  ],
+  "slug": "vinodelnya-myshako-marselan-mode-appassimento-krasnoe-suhoe-146"
+}

@@ -344,6 +344,7 @@ def build_outputs(output: Path, entries: list[dict], legacy_csv: Path | None,
         if item and item.get("site_lastmod") == entry["site_lastmod"]:
             items.append(item)
     items.sort(key=lambda row: row["slug"])
+    item_by_slug = {item["slug"]: item for item in items}
     _write_jsonl(output / "catalog.jsonl", items)
     merged = [{**item, "legacy_catalog": legacy.get(item["slug"])} for item in items]
     _write_jsonl(output / "merged.jsonl", merged)
@@ -379,7 +380,7 @@ def build_outputs(output: Path, entries: list[dict], legacy_csv: Path | None,
     stale_review = set()
     review_quarantine = set()
     for slug, decision in review.items():
-        item = by_slug.get(slug)
+        item = item_by_slug.get(slug)
         if item is None:
             continue
         images = item.get("downloaded_images") or []
@@ -490,6 +491,7 @@ def build_outputs(output: Path, entries: list[dict], legacy_csv: Path | None,
         "review_stale_slugs": sorted(stale_review),
         "review_added_slugs": [row["slug"] for row in reviewed_added],
         "reviewed_gallery_candidate_count": len(combined_gallery) + len(reviewed_added),
+        "reviewed_gallery_excluded_slugs": sorted(blocked - {row["slug"] for row in reviewed_added}),
         "gallery_excluded_slugs": sorted(blocked),
         "complete": len(items) == len(entries) and not failures,
     }

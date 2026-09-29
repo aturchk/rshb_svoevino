@@ -1,0 +1,265 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 35818,
+      "format": "WEBP",
+      "height": 1323,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          1058,
+          1323
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/le-general-hiver.webp",
+        "sha256": "57b995a3beabf27a22d2d8a8315e4345e3474a0a0d8105f5b58efd88a8c349e4",
+        "source_bbox_xyxy": [
+          375,
+          0,
+          683,
+          1311
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/le-general-hiver.webp",
+      "sha256": "3bcbbb00aec7854509c7d1b356614e3abbcd33ba8c2ded242cba87e21c03a0b7",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/output_img_037_425130ed89.webp",
+      "width": 1058
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/le-general-hiver",
+  "retrieved_at_utc": "2026-09-29T19:15:01.482703+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое сладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Массандра Портвейн белый Сурож",
+        "url": "/uploads/Massandra_Portvejn_belyj_Surozh_5476f24b50.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 3.67,
+      "region": "Крым",
+      "slug": "portvejn-surozh",
+      "title": "Портвейн Сурож"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Янтарный",
+      "image": {
+        "altText": "Солнечная Долина Сары Пандас выдержанное",
+        "url": "/uploads/Solnechnaya_Dolina_Sary_Pandas_vyderzhannoe_c056d7120c.webp"
+      },
+      "manufacturer": "Солнечная долина",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "sary-pandas-vyderzhannoe",
+      "title": "Сары Пандас выдержанное"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Массандра Мадера Крымская",
+        "url": "/uploads/Massandra_Madera_Krymskaya_42f85c120a.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 4.88,
+      "region": "Крым",
+      "slug": "madera-krymskaya",
+      "title": "Мадера Крымская"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Массандра Херес",
+        "url": "/uploads/Massandra_Heres_f281a9d608.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-heres",
+      "title": "Массандра Херес"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Шато Тамань резерв мускат десертный выдержанный",
+        "url": "/uploads/Shato_Taman_rezerv_muskat_desertnyj_vyderzhannyj_fcef49a1a7.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "region": "Кубань",
+      "slug": "chateau-tamagne-grand-dessert-muscat",
+      "title": "Chateau Tamagne Grand Dessert Muscat"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Солнечная долина портвейн крымский",
+        "url": "/uploads/Solnechnaya_dolina_portvejn_krymskij_e3f225c04e.webp"
+      },
+      "manufacturer": "Солнечная долина",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "portvejn-krymskij",
+      "title": "Портвейн Крымский"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Поздний сбор",
+        "url": "/uploads/Screenshot_21_2f4c3173b1.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 4.78,
+      "region": "Кубань",
+      "slug": "pozdnij-sbor-beloe",
+      "title": "Поздний сбор  Белое"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Насыщенный золотистый",
+      "image": {
+        "altText": "Пино Гри 2025 поздний сбор бюрнье",
+        "url": "/uploads/Pino_Gri_2025_pozdnij_sbor_png_4dc63be6e9.webp"
+      },
+      "manufacturer": "Винодельня Бюрнье",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "b-yu-rne-pino-gri-pozdnij-sbor-sladkoe-beloe",
+      "title": "БЮРНЬЕ.ПИНО ГРИ Поздний сбор сладкое белое"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Золотистый, янтарный",
+      "image": {
+        "altText": "Вино Port White Alushta Massandra",
+        "url": "/uploads/massandra_portveyn_belyy_alushta_belye_sorta_vinograda_beloe_sladkoe_17_ab89a72383.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-portveyn-belyy-alushta-belye-sorta-vinograda-beloe-sladkoe-17",
+      "title": "Портвейн белый Алушта"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Янтарно-золотистый, прозрачный",
+      "image": {
+        "altText": "Вино Muskatel White Massandra",
+        "url": "/uploads/massandra_muskatel_belyy_belye_sorta_vinograda_beloe_sladkoe_16_f7e0314033.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-muskatel-belyy-belye-sorta-vinograda-beloe-sladkoe-16",
+      "title": "Мускатель белый"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Янтарно-золотистый",
+      "image": {
+        "altText": "Вино Muskat Late Harvest White Massandra",
+        "url": "/uploads/massandra_muskat_belyy_pozdnego_sbora_beloe_sladkoe_10_17230edc84.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-muskat-belyy-pozdnego-sbora-beloe-sladkoe-10",
+      "title": "Мускат белый позднего сбора"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Янтарно-золотистый",
+      "image": {
+        "altText": "Вино Port White Crimean Massandra",
+        "url": "/uploads/massandra_portveyn_belyy_krymskiy_kokur_beloe_sladkoe_18_4a04230d4f.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-portveyn-belyy-krymskiy-kokur-beloe-sladkoe-18",
+      "title": "Портвейн белый крымский"
+    }
+  ],
+  "site_lastmod": "2026-07-13T20:04:17.000Z",
+  "site_wine": {
+    "alcohol": 10,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое сладкое"
+    },
+    "color": "Янтарный, с золотистыми отблесками",
+    "description": "Аромат: в аромате невероятное переплетение оттенков спелой дыни и мёда, засахаренных цукатов и сухофруктов, цветов и восточных специй.\n\nВкус: полный и яркий, с доминантой белых фруктов в меду, отличный баланс. Живая кислотность умело и уверенно уравновешивает высокую сахаристость вина. Невероятно долгое послевкусие с медовым оттенком.\n\nОсобенность винификации\n\nРучной сбор в конце ноября, ранним утром после заморозков. Виноград собирается очень бережно. Тщательная инспекция ягод. Прессование целыми гроздями в пневматическом прессе. Отбор лучшей части концентрированного сока. Брожение в стальной емкости при температуре 15-16 градусов Цельсия - 45 дней. Выдержка в бургундских бочках второго и третьего пассажа из французского дуба, объёмом 228 литров в течение 15 месяцев - 100 % от общего объема. Розлив с применением инертного газа и вакуумирования.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/sladkaya_vypechka_71424474e1.webp"
+        },
+        "name": "Десерты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/frukty_545dae1854.webp"
+        },
+        "name": "Фруктово-ягодные десерты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/frukty_545dae1854.webp"
+        },
+        "name": "Фрукты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Risling2_c6fa370506.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Risling_5a37344384.webp"
+        },
+        "name": "Рислинг"
+      }
+    ],
+    "image": {
+      "altText": "г",
+      "url": "/uploads/output_img_037_425130ed89.webp"
+    },
+    "manufacturer": {
+      "name": "Галицкий и Галицкий",
+      "slug": "galiczkij-i-galiczkij"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "le-general-hiver",
+    "temperature": "8-10",
+    "title": "Le General Hiver"
+  },
+  "sitemap_images": [
+    {
+      "caption": "г",
+      "title": "г",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/output_img_037_425130ed89.webp"
+    }
+  ],
+  "slug": "le-general-hiver"
+}

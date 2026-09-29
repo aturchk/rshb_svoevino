@@ -1,0 +1,259 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 64152,
+      "format": "WEBP",
+      "height": 1920,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          515,
+          1920
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/perovskih_merlo.webp",
+        "sha256": "fc56e57f2798b73b25049a5d78727743782c820b590b464b084b2cd03f9f8434",
+        "source_bbox_xyxy": [
+          42,
+          35,
+          474,
+          1882
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/perovskih_merlo.webp",
+      "sha256": "bc6714560a4394a5f109796f333f77e3212571fe805ccc5e6a9f2e5477112161",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Merlo_2022_255392430a.webp",
+      "width": 515
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/perovskih_merlo",
+  "retrieved_at_utc": "2026-09-29T19:15:20.466174+00:00",
+  "similar_wines": [
+    {
+      "category": "Розовое полусухое",
+      "color": "Нежно-розовый",
+      "image": {
+        "altText": "Розовое полусухое Усадьба Перовских",
+        "url": "/uploads/main_rose_semidry_6e540b96e9.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.8,
+      "region": "Крым",
+      "slug": "rozovoe-polusuhoe",
+      "title": "Розовое полусухое"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Розовый",
+      "image": {
+        "altText": "Прибой Марченко розовое полусухое",
+        "url": "/uploads/Priboj_Marchenko_rozovoe_no_bg_preview_carve_photos_a85f40aeb6.webp"
+      },
+      "manufacturer": "Винодельня Марченко",
+      "publicRating": 4.2,
+      "region": "Кубань",
+      "slug": "priboj-marchenko-rozovoe-polusuhoe",
+      "title": "Прибой Марченко розовое полусухое"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Нежно-розовый",
+      "image": {
+        "altText": "Табия Розовое золото",
+        "url": "/uploads/Screenshot_16_a237793391.webp"
+      },
+      "manufacturer": "Табия",
+      "publicRating": 4.89,
+      "region": "Кубань",
+      "slug": "rozovoe-zoloto",
+      "title": "Розовое золото"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Ярко-розовый",
+      "image": {
+        "altText": "Пино Нуар, Мускат п.сух",
+        "url": "/uploads/Pino_Nuar_Muskat_p_suh_6f84a398e4.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+      "title": "Жемчужная 9 Пино Нуар, Мускат розовый"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Насыщенный розовый",
+      "image": {
+        "altText": "Каберне по-бел п.сух Аратти",
+        "url": "/uploads/Kaberne_po_bel_p_suh_6e9878c657.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "aratti-kaberne-po-belomu-1",
+      "title": "АРАТТИ Каберне по-белому"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Каберне, Пино Нуар п.сух.",
+      "image": {
+        "altText": "Каберне, Пино Нуар п.сух.",
+        "url": "/uploads/Kaberne_Pino_Nuar_p_suh_fe5a6a54b9.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "zhemchuzhnaya-9-kaberne-sovinon-pino-nuar",
+      "title": "Жемчужная 9 Каберне Совиньон, Пино Нуар"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Розовый",
+      "image": {
+        "altText": "айя",
+        "url": "/uploads/PU_Sjv7dn_M_Nil_H25_TO_9_Bcb_Bjo_R8u_Zy_Sbk_V5_WTE_Jjg3_C_Ky_5_U_v_Ue_Qv_P6o_l_XGG_5q_NED_Mtd_Ztu_Uj_Etjwa_Qrt_TX_Ag_c31d9f8afc.webp"
+      },
+      "manufacturer": "AYA Organic Wine & Vineyards",
+      "publicRating": 4.8,
+      "region": "Крым",
+      "slug": "aya-khrustaleva-76-merlot-organik",
+      "title": "Aya Khrustaleva 76 merlot Органик"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Нежно-розовый, лососевый",
+      "image": {
+        "altText": "Collection Russian Sparkling Pinot Noir Rose Semi-Dry Novy Svet",
+        "url": "/uploads/novyy_svet_dom_shampanskih_vin_rossiyskoe_shampanskoe_kollektsionnoe_polusuhoe_rozovoe_novyy_svet_pino_nuar_125_815a1c3374.webp"
+      },
+      "manufacturer": "Новый Свет. Дом шампанских вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-kollektsionnoe-polusuhoe-rozovoe-novyy-svet-pino-nuar-125",
+      "title": "Российское шампанское коллекционное полусухое розовое «Новый Свет. Пино Нуар»"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Нежный розовый оттенок.",
+      "image": {
+        "altText": "ZB Frizzante Semi-Dry Rose",
+        "url": "/uploads/zolotaya_balka_zb_frizzante_semi_dry_rose_risling_rozovoe_polusuhoe_10_462381c9b4.webp"
+      },
+      "manufacturer": "Золотая Балка",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "zolotaya-balka-zb-frizzante-semi-dry-rose-risling-rozovoe-polusuhoe-10",
+      "title": "ZB Frizzante Semi-Dry Rose"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Нежно-розовый",
+      "image": {
+        "altText": "Фанагория",
+        "url": "/uploads/fanagoriya_brule_cabernet_franc_polusuhoe_rozovoe_kaberne_fran_12_08e20da65a.webp"
+      },
+      "manufacturer": "винный дом «Фанагория»",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "fanagoriya-brule-cabernet-franc-polusuhoe-rozovoe-kaberne-fran-12",
+      "title": "Brule Cabernet Franc Полусухое Розовое"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Светло‑розовый с оранжевым оттенком",
+      "image": {
+        "altText": "Фанагория",
+        "url": "/uploads/fanagoriya_zelyonoe_vino_risling_tsitronnyy_magaracha_merlo_rozovoe_polusuhoe_11_b750443919.webp"
+      },
+      "manufacturer": "винный дом «Фанагория»",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-merlo-rozovoe-polusuhoe-11",
+      "title": "Зелёное вино. Рислинг - Цитронный Магарача - Мерло"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Светло-розовый",
+      "image": {
+        "altText": "Фанагория",
+        "url": "/uploads/fanagoriya_rose_kaberne_sovinon_rozovoe_polusuhoe_13_93945d7963.webp"
+      },
+      "manufacturer": "винный дом «Фанагория»",
+      "publicRating": 4.67,
+      "region": "Кубань",
+      "slug": "fanagoriya-rose-kaberne-sovinon-rozovoe-polusuhoe-13",
+      "title": "Rose. Каберне Совиньон"
+    }
+  ],
+  "site_lastmod": "2026-06-20T18:04:26.000Z",
+  "site_wine": {
+    "alcohol": 12,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "name": "Розовое полусухое"
+    },
+    "color": "Цвет глубокий розовой с персиковым блеском.",
+    "description": "В аромате свежие ноты малины, вишни, дыни и цитрусовых. Вино освежающее во вкусе, со свежей кислотностью и долгим ягодным послевкусием",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ryba_moreprodukty_e57b445d95.webp"
+        },
+        "name": "Рыба и морепродукты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/salat_1afebb2167.webp"
+        },
+        "name": "Салаты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Merlo2_92c9fc8a90.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Merlo_14_f0e42dbdb6.webp"
+        },
+        "name": "Мерло"
+      }
+    ],
+    "image": {
+      "altText": "Мерло",
+      "url": "/uploads/Merlo_2022_255392430a.webp"
+    },
+    "manufacturer": {
+      "name": "Усадьба Перовских",
+      "slug": "usadba-perovskih"
+    },
+    "publicRating": 4.9,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "perovskih_merlo",
+    "temperature": "12-14",
+    "title": "Мерло"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Мерло",
+      "title": "Мерло",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Merlo_2022_255392430a.webp"
+    }
+  ],
+  "slug": "perovskih_merlo"
+}

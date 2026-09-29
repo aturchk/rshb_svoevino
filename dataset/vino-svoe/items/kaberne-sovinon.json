@@ -1,0 +1,257 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 23478,
+      "format": "WEBP",
+      "height": 1000,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          296,
+          1000
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/kaberne-sovinon.webp",
+        "sha256": "3c483ddbd9f4d27c4fba49b633a8a45eaf61be6191fea940c2e4d450a85f7cc3",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          295,
+          1000
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/kaberne-sovinon.webp",
+      "sha256": "c54fb69ed0eb87b82df2557957d5ee46cf001c941082cccc2d09d4ed104a77bc",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/2202_v_UENI_49_2ae2376a1c.webp",
+      "width": 296
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/kaberne-sovinon",
+  "retrieved_at_utc": "2026-09-29T19:17:33.482439+00:00",
+  "similar_wines": [
+    {
+      "category": "Красное сладкое",
+      "color": "Рубиново-красный",
+      "image": {
+        "altText": "Цимлянское кюве красное красностоп и цимлянский черный",
+        "url": "/uploads/Czimlyanskoe_kyuve_krasnoe_krasnostop_i_czimlyanskij_chernyj_d1e86bb6b6.webp"
+      },
+      "manufacturer": "Цимлянские вина",
+      "publicRating": 5,
+      "region": "Долина Дона",
+      "slug": "kyuve-czimlyanskij-chernyj-i-krasnostop-zolotoj",
+      "title": "Кюве Цимлянский черный и Красностоп золотовский"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Шато Тамань резерв нектар десертный выдержанный",
+        "url": "/uploads/Shato_Taman_rezerv_nektar_desertnyj_vyderzhannyj_36d8cd6fae.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "region": "Кубань",
+      "slug": "chateau-tamagne-grand-dessert-nectar",
+      "title": "Chateau Tamagne Grand Dessert Nectar"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Игристое сладкое красное Цимлянское",
+        "url": "/uploads/Igristoe_krasnoe_sladkoe_Czimlyanskoe_ea86054adf.webp"
+      },
+      "manufacturer": "Цимлянские вина",
+      "publicRating": 5,
+      "region": "Долина Дона",
+      "slug": "igristoe-krasnoe-sladkoe-czimlyanskoe",
+      "title": "Игристое красное сладкое Цимлянское"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Солнечная долина Приват",
+        "url": "/uploads/Solnechnaya_dolina_Privat_e29e2f450a.webp"
+      },
+      "manufacturer": "Солнечная долина",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "privat",
+      "title": "Приват"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Гранатово-красный",
+      "image": {
+        "altText": "Литавщук поздний",
+        "url": "/uploads/Screenshot_22_1b291bec0e.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "pozdnij-sbor-krasnoe",
+      "title": "Поздний сбор, Красное"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Глубокий рубиновый",
+      "image": {
+        "altText": "Винтаж премиум",
+        "url": "/uploads/MAX_02207_7755994110.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "vintazh-premium",
+      "title": "Винтаж. Премиум"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "У вина глубокий красно-рубиновый цвет.",
+      "image": {
+        "altText": "Канонические Традиции Красное Сладкое",
+        "url": "/uploads/soyuz_vino_kanonicheskie_traditsii_krasnoe_sladkoe_kaberne_sovinon_115_7b60103360.webp"
+      },
+      "manufacturer": "Союз-Вино",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "soyuz-vino-kanonicheskie-traditsii-krasnoe-sladkoe-kaberne-sovinon-115",
+      "title": "Канонические Традиции Красное Сладкое"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Тёмно-рубиновый с коричневатым оттенком",
+      "image": {
+        "altText": "Портвейн красный Алушта",
+        "url": "/uploads/massandra_portveyn_krasnyy_alushta_krasnye_sorta_vinograda_krasnoe_sladkoe_17_15423ac1a3.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 4.8,
+      "region": "Крым",
+      "slug": "massandra-portveyn-krasnyy-alushta-krasnye-sorta-vinograda-krasnoe-sladkoe-17",
+      "title": "Портвейн красный Алушта"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Тёмно-рубиновый",
+      "image": {
+        "altText": "Вино Muskatel Black Massandra",
+        "url": "/uploads/massandra_muskatel_chernyy_krasnye_sorta_vinograda_krasnoe_sladkoe_16_b35635608c.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 4.88,
+      "region": "Крым",
+      "slug": "massandra-muskatel-chernyy-krasnye-sorta-vinograda-krasnoe-sladkoe-16",
+      "title": "Мускатель черный"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Тёмно-рубиновый с коричневатым оттенком",
+      "image": {
+        "altText": "Вино Port Red Livadia Massandra",
+        "url": "/uploads/massandra_portveyn_krasnyy_livadiya_kaberne_sovinon_krasnoe_sladkoe_185_02e4e0776e.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-portveyn-krasnyy-livadiya-kaberne-sovinon-krasnoe-sladkoe-185",
+      "title": "Портвейн красный Ливадия"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Тёмно-рубиновый, густой",
+      "image": {
+        "altText": "Вино Lacryma Christi Massandra",
+        "url": "/uploads/massandra_lakrima_kristi_aleatiko_krasnoe_sladkoe_16_2a990c55e6.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-lakrima-kristi-aleatiko-krasnoe-sladkoe-16",
+      "title": "Лакрима Кристи"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Тёмно-рубиновый",
+      "image": {
+        "altText": "Вино Kagor Gursuf Massandra",
+        "url": "/uploads/massandra_kagor_gurzuf_saperavi_krasnoe_sladkoe_16_deb9b34e9f.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 4.67,
+      "region": "Крым",
+      "slug": "massandra-kagor-gurzuf-saperavi-krasnoe-sladkoe-16",
+      "title": "Кагор Гурзуф"
+    }
+  ],
+  "site_lastmod": "2026-02-23T16:53:35.000Z",
+  "site_wine": {
+    "alcohol": 9,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "name": "Красное сладкое"
+    },
+    "color": "Рубиновый",
+    "description": "Богатые ягодные тона во вкусе вина оттеняются нюансами дымка и бисквитной выпечки. Долгое, плотное послевкусие окутывает приятными нотами вишневого джема и чернослива.\n\nКлассический, хорошо выраженный аромат вина наполнен тонами спелой вишни и черных лесных ягод.\n\nОдно из моносортовых сладких вин, которыми славится Массандра. Каберне Совиньон является популярным красным сортом во всем мире, однако десертные вина из него довольно редки. Собранный виноград тщательно сортируется и ферментируется при строго контролируемой температуре. При нужном уровне сахара брожение останавливается холодом.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/nesladkaya_vypechka_05bf04c48c.webp"
+        },
+        "name": "Выпечка и десерты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/frukty_545dae1854.webp"
+        },
+        "name": "Фрукты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Kaberne_Sovinon3_39f7936b80.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Kaberne_Sovinon2_2b33e41092.webp"
+        },
+        "name": "Каберне Совиньон"
+      }
+    ],
+    "image": {
+      "altText": "Каберне Совиньон. Массандра",
+      "url": "/uploads/2202_v_UENI_49_2ae2376a1c.webp"
+    },
+    "manufacturer": {
+      "name": "Массандра",
+      "slug": "massandra"
+    },
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "kaberne-sovinon",
+    "temperature": "16-18",
+    "title": "Каберне Совиньон"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Каберне Совиньон. Массандра",
+      "title": "Каберне Совиньон. Массандра",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/2202_v_UENI_49_2ae2376a1c.webp"
+    }
+  ],
+  "slug": "kaberne-sovinon"
+}

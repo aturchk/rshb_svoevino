@@ -1,0 +1,265 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 34658,
+      "format": "WEBP",
+      "height": 1000,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          305,
+          1000
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/vinodelnya-myshako-quintessence-new-generation-semi-dry-rose-pino-nuar-rozovoe-polusuhoe-11.webp",
+        "sha256": "a8acc1cac7c8c887959d03d5fc6a48a1b71f792223ef1a05e1f75a9bb79501b5",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          305,
+          1000
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/vinodelnya-myshako-quintessence-new-generation-semi-dry-rose-pino-nuar-rozovoe-polusuhoe-11.webp",
+      "sha256": "ea2023ff297da5154476dc386111f4445a312b9296bde2879f007af4434bd477",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/vinodelnya_myshako_quintessence_new_generation_semi_dry_rose_pino_nuar_igristoe_polusuhoe_rozovoe_11_541c16ca91.webp",
+      "width": 305
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/vinodelnya-myshako-quintessence-new-generation-semi-dry-rose-pino-nuar-rozovoe-polusuhoe-11",
+  "retrieved_at_utc": "2026-09-29T19:20:23.954496+00:00",
+  "similar_wines": [
+    {
+      "category": "Розовое полусухое",
+      "color": "Нежно-розовый",
+      "image": {
+        "altText": "Розовое полусухое Усадьба Перовских",
+        "url": "/uploads/main_rose_semidry_6e540b96e9.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.8,
+      "region": "Крым",
+      "slug": "rozovoe-polusuhoe",
+      "title": "Розовое полусухое"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Розовый",
+      "image": {
+        "altText": "Прибой Марченко розовое полусухое",
+        "url": "/uploads/Priboj_Marchenko_rozovoe_no_bg_preview_carve_photos_a85f40aeb6.webp"
+      },
+      "manufacturer": "Винодельня Марченко",
+      "publicRating": 4.2,
+      "region": "Кубань",
+      "slug": "priboj-marchenko-rozovoe-polusuhoe",
+      "title": "Прибой Марченко розовое полусухое"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Нежно-розовый",
+      "image": {
+        "altText": "Табия Розовое золото",
+        "url": "/uploads/Screenshot_16_a237793391.webp"
+      },
+      "manufacturer": "Табия",
+      "publicRating": 4.89,
+      "region": "Кубань",
+      "slug": "rozovoe-zoloto",
+      "title": "Розовое золото"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Ярко-розовый",
+      "image": {
+        "altText": "Пино Нуар, Мускат п.сух",
+        "url": "/uploads/Pino_Nuar_Muskat_p_suh_6f84a398e4.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+      "title": "Жемчужная 9 Пино Нуар, Мускат розовый"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Насыщенный розовый",
+      "image": {
+        "altText": "Каберне по-бел п.сух Аратти",
+        "url": "/uploads/Kaberne_po_bel_p_suh_6e9878c657.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "aratti-kaberne-po-belomu-1",
+      "title": "АРАТТИ Каберне по-белому"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Каберне, Пино Нуар п.сух.",
+      "image": {
+        "altText": "Каберне, Пино Нуар п.сух.",
+        "url": "/uploads/Kaberne_Pino_Nuar_p_suh_fe5a6a54b9.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "zhemchuzhnaya-9-kaberne-sovinon-pino-nuar",
+      "title": "Жемчужная 9 Каберне Совиньон, Пино Нуар"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Розовый",
+      "image": {
+        "altText": "айя",
+        "url": "/uploads/PU_Sjv7dn_M_Nil_H25_TO_9_Bcb_Bjo_R8u_Zy_Sbk_V5_WTE_Jjg3_C_Ky_5_U_v_Ue_Qv_P6o_l_XGG_5q_NED_Mtd_Ztu_Uj_Etjwa_Qrt_TX_Ag_c31d9f8afc.webp"
+      },
+      "manufacturer": "AYA Organic Wine & Vineyards",
+      "publicRating": 4.8,
+      "region": "Крым",
+      "slug": "aya-khrustaleva-76-merlot-organik",
+      "title": "Aya Khrustaleva 76 merlot Органик"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Цвет глубокий розовой с персиковым блеском.",
+      "image": {
+        "altText": "Мерло",
+        "url": "/uploads/Merlo_2022_255392430a.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.9,
+      "region": "Крым",
+      "slug": "perovskih_merlo",
+      "title": "Мерло"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Нежно-розовый, лососевый",
+      "image": {
+        "altText": "Collection Russian Sparkling Pinot Noir Rose Semi-Dry Novy Svet",
+        "url": "/uploads/novyy_svet_dom_shampanskih_vin_rossiyskoe_shampanskoe_kollektsionnoe_polusuhoe_rozovoe_novyy_svet_pino_nuar_125_815a1c3374.webp"
+      },
+      "manufacturer": "Новый Свет. Дом шампанских вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-kollektsionnoe-polusuhoe-rozovoe-novyy-svet-pino-nuar-125",
+      "title": "Российское шампанское коллекционное полусухое розовое «Новый Свет. Пино Нуар»"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Нежный розовый оттенок.",
+      "image": {
+        "altText": "ZB Frizzante Semi-Dry Rose",
+        "url": "/uploads/zolotaya_balka_zb_frizzante_semi_dry_rose_risling_rozovoe_polusuhoe_10_462381c9b4.webp"
+      },
+      "manufacturer": "Золотая Балка",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "zolotaya-balka-zb-frizzante-semi-dry-rose-risling-rozovoe-polusuhoe-10",
+      "title": "ZB Frizzante Semi-Dry Rose"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Нежно-розовый",
+      "image": {
+        "altText": "Фанагория",
+        "url": "/uploads/fanagoriya_brule_cabernet_franc_polusuhoe_rozovoe_kaberne_fran_12_08e20da65a.webp"
+      },
+      "manufacturer": "винный дом «Фанагория»",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "fanagoriya-brule-cabernet-franc-polusuhoe-rozovoe-kaberne-fran-12",
+      "title": "Brule Cabernet Franc Полусухое Розовое"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Светло‑розовый с оранжевым оттенком",
+      "image": {
+        "altText": "Фанагория",
+        "url": "/uploads/fanagoriya_zelyonoe_vino_risling_tsitronnyy_magaracha_merlo_rozovoe_polusuhoe_11_b750443919.webp"
+      },
+      "manufacturer": "винный дом «Фанагория»",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-merlo-rozovoe-polusuhoe-11",
+      "title": "Зелёное вино. Рислинг - Цитронный Магарача - Мерло"
+    }
+  ],
+  "site_lastmod": "2026-01-12T11:42:09.000Z",
+  "site_wine": {
+    "alcohol": 11,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "name": "Розовое полусухое"
+    },
+    "color": "Нежно-розовый",
+    "description": "Вкус: Гармоничный с приятным сбалансированным послевкусием. Джем из малины и клубники, сыроватый камень, сырой мел, пудра, красная роза,",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/legkie_zakuski_e5a2dedbf7.webp"
+        },
+        "name": "Легкие закуски"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ryba_moreprodukty_e57b445d95.webp"
+        },
+        "name": "Рыба и морепродукты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/salat_1afebb2167.webp"
+        },
+        "name": "Салаты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Nuar3_8f666dc69e.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Nuar2_6c049e4c48.webp"
+        },
+        "name": "Пино Нуар"
+      }
+    ],
+    "image": {
+      "altText": "Quintessence New Generation. Semi-Dry Rose",
+      "url": "/uploads/vinodelnya_myshako_quintessence_new_generation_semi_dry_rose_pino_nuar_igristoe_polusuhoe_rozovoe_11_541c16ca91.webp"
+    },
+    "manufacturer": {
+      "name": "Мысхако",
+      "slug": "vinodelnya-myshako"
+    },
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "vinodelnya-myshako-quintessence-new-generation-semi-dry-rose-pino-nuar-rozovoe-polusuhoe-11",
+    "temperature": "8-10",
+    "title": "Quintessence New Generation. Semi-Dry Rose"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Quintessence New Generation. Semi-Dry Rose",
+      "title": "Quintessence New Generation. Semi-Dry Rose",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/vinodelnya_myshako_quintessence_new_generation_semi_dry_rose_pino_nuar_igristoe_polusuhoe_rozovoe_11_541c16ca91.webp"
+    }
+  ],
+  "slug": "vinodelnya-myshako-quintessence-new-generation-semi-dry-rose-pino-nuar-rozovoe-polusuhoe-11"
+}

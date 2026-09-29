@@ -1,0 +1,15 @@
+slug	source_image_sha256	decision	reason
+fanagoriya-par-amour-pervenets-magaracha-beloe-polusladkoe-105-125	f9b8a3b45f30ef2fa0441c33fed31d34317808d42a567e0d5babd6e8871610f7	allow	Visible Par Amour label says white semisweet and matches page category
+fanagoriya-par-amour-pervenets-magaracha-beloe-polusuhoe-105-125	87e51be670b0de04b911d72506acb94036246188ace08d7b2ac07b7bd0b90850	allow	Visible Par Amour label says white semidry and matches page category
+fanagoriya-par-amour-pervenets-magaracha-rozovoe-polusuhoe-105-125	0b33a73248c6f9fb734881580b8ba7e88b170e8c64c1de30c5241973c7b1b1c9	allow	Visible Par Amour label says rose semidry and matches page category
+fanagoriya-par-amour-rubin-golodrigi-krasnoe-polusladkoe-105-125	69a6dd1f8ce64623394a9fad74f2b13f4c011974142b37ed06d9a3eef40d13f5	allow	Visible Par Amour label says red semisweet and matches page category
+fanagoriya-velvet-season-muskat-ottonel-beloe-sladkoe-13	d125cfd7dc680df85dbea77565ac09734eb0d28b0617956b4e37881718e73752	quarantine	Image visibly says Saperavi although page identifies Muscat Ottonel
+fanagoriya-velvet-season-risling-beloe-sladkoe-12	b8c6e4293f77880341ff9fb358c8c5f4580d2068e0412067706e1f80fcba423f	quarantine	Image visibly says Cabernet although page identifies Riesling
+zhemchuzhnaya-9-pino-nuar-muskat-rozovyj	71a34e7aa71294e0f1ef30862a4ec337771d71f97c8594b1859f34ef4406a9af	allow	Visible label says rose dry and matches this separate SKU
+zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1	bbcc6f2ede4bd4344cfb05bc6daf948b7ef88b0b705ff2efc675709c9d38f762	allow	Visible label says rose semidry 2024 and matches this separate SKU
+zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-2	f0637396b9342c323b1086c9f37c4e1554ad65a62eda7954a2af713990616554	allow	Visible label says rose semisweet 2024 and matches this separate SKU
+zhemchuzhnaya-9-czitron-shardone	0d5b7887ba74ccb7cfc06013c8501d48b1bd66e96cb1e99d467fe01b8eed54aa	quarantine	Image visibly says Aligote and Citron although page identifies Citron and Chardonnay
+zhemchuzhnaya-9-czitron-shardone-1	c448e5e097ae564639a0c9bc1f056bf6fa0bd301b82395e9f42c32e91e2e3710	allow	Visible label says Citron Chardonnay white semisweet 2024
+aratti-kaberne-po-belomu-1	da30f5916260921f637c89f21cf31b6ab42c007f95d34e7a1df8e605e25c7a36	allow	Visible label says Cabernet po-belomu 2024 semidry
+sovinon-blan	016f720ae6facad28a15c15ad096b7ae86bb6f20d2f6edab157550a1232ca6ea	allow	Visible Litavshchuk label says Sauvignon Blanc white semisweet
+sovinon-blan-2	16d09aaa0ac2fd8fd69c8331cb8c0d6b5fe62aadc1940cb7d4c490a3517ed861	allow	Visible Litavshchuk label says Sauvignon Blanc white dry

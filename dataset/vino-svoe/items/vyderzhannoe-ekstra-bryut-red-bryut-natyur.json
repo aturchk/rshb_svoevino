@@ -1,0 +1,116 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 24926,
+      "format": "WEBP",
+      "height": 1000,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          467,
+          1000
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/vyderzhannoe-ekstra-bryut-red-bryut-natyur.webp",
+        "sha256": "6d6c0c0f1d3cf5ec97478ffe8dff95b8e5d78cdd0b091be7f6da486151841746",
+        "source_bbox_xyxy": [
+          79,
+          30,
+          381,
+          983
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/vyderzhannoe-ekstra-bryut-red-bryut-natyur.webp",
+      "sha256": "516f987a0f70ddd1e089ab0cafc158cd5211c3dfc7a67a69ae5509f67764732d",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/sp_red_brut_nature_052f929076.webp",
+      "width": 467
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/vyderzhannoe-ekstra-bryut-red-bryut-natyur",
+  "retrieved_at_utc": "2026-09-29T19:14:31.944842+00:00",
+  "similar_wines": [
+    {
+      "category": "Красное экстра брют",
+      "color": "Насыщенный рубиново-вишневый",
+      "image": {
+        "altText": "Blush #4",
+        "url": "/uploads/aya_organic_wine_vineyards_blush_4_pino_nuar_petnat_ekstra_bryut_krasnyy_129_26041a124c.webp"
+      },
+      "manufacturer": "AYA Organic Wine & Vineyards",
+      "region": "Крым",
+      "slug": "aya-organic-wine-vineyards-blush-4-pino-nuar-krasnoe-ekstra-bryut-129",
+      "title": "Blush #4"
+    }
+  ],
+  "site_lastmod": "2026-09-22T07:33:24.000Z",
+  "site_wine": {
+    "alcohol": 11,
+    "alcoholMax": 13,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "name": "Красное экстра брют"
+    },
+    "color": "Красное",
+    "description": "В аромате красные ягоды, смородина, кизил. Вкус гармоничный, полный, сочные ягоды, танин легкий, едва заметный. Послевкусие приятное, средней продолжительности.\n\nПроизводство: вторичное брожение в бутылке и выдержка на осадке не менее 24 месяцев.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/kavkazskaya_kuhnya_0f18f731b5.webp"
+        },
+        "name": "Мясное ассорти"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/nesladkaya_vypechka_05bf04c48c.webp"
+        },
+        "name": "Несладкая выпечка"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Kaberne_Sovinon3_39f7936b80.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Kaberne_Sovinon2_2b33e41092.webp"
+        },
+        "name": "Каберне Совиньон"
+      }
+    ],
+    "image": {
+      "altText": "Выдержанное Экстра Брют Ред Брют Натюр",
+      "url": "/uploads/sp_red_brut_nature_052f929076.webp"
+    },
+    "manufacturer": {
+      "name": "Усадьба Перовских",
+      "slug": "usadba-perovskih"
+    },
+    "publicRating": 4.75,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "vyderzhannoe-ekstra-bryut-red-bryut-natyur",
+    "temperature": "6-8",
+    "title": "Выдержанное Экстра Брют Ред Брют Натюр"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Выдержанное Экстра Брют Ред Брют Натюр",
+      "title": "Выдержанное Экстра Брют Ред Брют Натюр",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/sp_red_brut_nature_052f929076.webp"
+    }
+  ],
+  "slug": "vyderzhannoe-ekstra-bryut-red-bryut-natyur"
+}

@@ -1,0 +1,258 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 38036,
+      "format": "WEBP",
+      "height": 1000,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          262,
+          1000
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/vina-arpachina-arpachino-tsimlyanskiy-chernyy-rozovoe-ekstra-bryut-13.webp",
+        "sha256": "7b7910239af58fb3fc962441b2816d9aff400aa77cfdb7e120ae7ce54cd0852a",
+        "source_bbox_xyxy": [
+          0,
+          1,
+          261,
+          999
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/vina-arpachina-arpachino-tsimlyanskiy-chernyy-rozovoe-ekstra-bryut-13.webp",
+      "sha256": "5ada322c1ebdf9c63e7e387f03e886ceaa67ae712e5f314a546798730f0c53e4",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/vina_arpachina_arpachino_tsimlyanskiy_chernyy_igristoe_ekstra_bryut_rozovoe_13_174452bb6e.webp",
+      "width": 262
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/vina-arpachina-arpachino-tsimlyanskiy-chernyy-rozovoe-ekstra-bryut-13",
+  "retrieved_at_utc": "2026-09-29T19:20:01.252817+00:00",
+  "similar_wines": [
+    {
+      "category": "Розовое экстра брют",
+      "color": "Розовый",
+      "image": {
+        "altText": "Выдержанное Экстра Брют Розе Брют Натюр",
+        "url": "/uploads/sp_brut_rose_48a093c302.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.57,
+      "region": "Крым",
+      "slug": "vyderzhannoe-ekstra-bryut-roze-bryut-natyur",
+      "title": "Выдержанное Экстра Брют Розе Брют Натюр"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Светло-персиковый",
+      "image": {
+        "altText": "Петнат соседи",
+        "url": "/uploads/DSC_09170_a4e65f21e4.webp"
+      },
+      "manufacturer": "Коммуналка",
+      "publicRating": 4.58,
+      "region": "Крым",
+      "slug": "pet-nat-sosedi-2024",
+      "title": "Пет Нат Соседи, 2024 "
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Лососевый",
+      "image": {
+        "altText": "м",
+        "url": "/uploads/f804754fa9ae3bf4c674ad5d82e86b14_d9b6930374.webp"
+      },
+      "manufacturer": "Mantra Estate",
+      "publicRating": 4.85,
+      "region": "Кубань",
+      "slug": "magnatum-rose",
+      "title": "Magnatum Rose"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Бледно-розовый с лососевым оттенком",
+      "image": {
+        "altText": "Галицкий",
+        "url": "/uploads/output_img_024_4a97c5528e.webp"
+      },
+      "manufacturer": "Галицкий и Галицкий",
+      "publicRating": 4.38,
+      "region": "Кубань",
+      "slug": "grand-jete-rose",
+      "title": "Grand Jete Rose"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Светло-соломенный с устойчивым муссом и длительным перляжем",
+      "image": {
+        "altText": "Пет-нат Рубин",
+        "url": "/uploads/PETNAT_Rubin_prozrachnaya_3964ed9fec.webp"
+      },
+      "manufacturer": "Denisov Winery",
+      "publicRating": 5,
+      "region": "Самара",
+      "slug": "denisov_pet_nat_rubin",
+      "title": "Пет-Нат Рубин"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Кораллово-розовый цвет с блеском, элегантный перляж. ",
+      "image": {
+        "altText": "Розе",
+        "url": "/uploads/Extra_Brut_Rose_b02ec16ad0.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "perovskih_rose",
+      "title": "Розе"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Нежно-розовый, прозрачный",
+      "image": {
+        "altText": "Инкерман Розе Зеро Дозаж",
+        "url": "/uploads/inkermanskiy_zmv_inkerman_roze_zero_dozazh_kokur_rozovoe_ekstra_bryut_12_2c38685dfc.webp"
+      },
+      "manufacturer": "Инкерманский ЗМВ",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "inkermanskiy-zmv-inkerman-roze-zero-dozazh-kokur-rozovoe-ekstra-bryut-12",
+      "title": "Инкерман Розе Зеро Дозаж"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Розовый",
+      "image": {
+        "altText": "Фанагория",
+        "url": "/uploads/fanagoriya_fanagoria_extra_brut_rose_2019_pino_nuar_igristoe_bryut_rozovoe_ekstra_bryut_12_aef88041a9.webp"
+      },
+      "manufacturer": "винный дом «Фанагория»",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "fanagoriya-fanagoria-extra-brut-rose-2019-pino-nuar-igristoe-bryut-rozovoe-ekstra-bryut-12",
+      "title": "Fanagoria Extra Brut Rose 2019"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Розовый с золотистым оттенком",
+      "image": {
+        "altText": "Фанагория",
+        "url": "/uploads/fanagoriya_alveus_ultra_cuvee_ekstra_bryut_rozovoe_merlo_12_dda03da431.webp"
+      },
+      "manufacturer": "винный дом «Фанагория»",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "fanagoriya-alveus-ultra-cuvee-ekstra-bryut-rozovoe-merlo-12",
+      "title": "Alveus Ultra Cuvee. Экстра брют розовое"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Розовый",
+      "image": {
+        "altText": "Реликта",
+        "url": "/uploads/relikta_relikta_petnat_antey_magarachskiy_rozovoe_ekstra_bryut_11_00d21fcaf1.webp"
+      },
+      "manufacturer": "Реликта",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "relikta-relikta-petnat-antey-magarachskiy-rozovoe-ekstra-bryut-11",
+      "title": "Реликта Петнат"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Жемчужно-розовый",
+      "image": {
+        "altText": "Аристов Кюве Розе_Пино_2023_0,75л_брют",
+        "url": "/uploads/Aristov_Kyuve_Roze_Pino_2023_0_75l_bryut_Normal_Photoroom_cc598880d5.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "aristov-kyuve-aleksandr-roze-de-pino",
+      "title": "Аристов. Кюве Александр. Розе Де Пино"
+    },
+    {
+      "category": "Розовое экстра брют",
+      "color": "Клубнично-розовый",
+      "image": {
+        "altText": "Пино Гри",
+        "url": "/uploads/shato_pino_pino_gri_igristoe_ekstra_bryut_rozovoe_11_660c923c47.webp"
+      },
+      "manufacturer": "Шато Пино",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "shato-pino-petnat-pino-gri-rozovoe-ekstra-bryut-11",
+      "title": "Петнат Пино Гри"
+    }
+  ],
+  "site_lastmod": "2026-01-12T11:45:55.000Z",
+  "site_wine": {
+    "alcohol": 13,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "name": "Розовое экстра брют"
+    },
+    "color": "Розово-персиковый",
+    "description": "Вкус: Свежий, с оттенками грейпфрута, ноты красных ягод, оттенки миндаля. Фруктово-ягодный с нотами грейпфрута, малины, клубники, цветочные оттенки.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ptica_9a6c7e3ea1.webp"
+        },
+        "name": "Блюда из птицы"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/myaso_442273df41.webp"
+        },
+        "name": "Мясо и стейки"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Merlo_14_f0e42dbdb6.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Czimlyanskij_chernyj1_1becf8ce13.webp"
+        },
+        "name": "Цимлянский черный"
+      }
+    ],
+    "image": {
+      "altText": "Арпачино. Цимлянский Черный",
+      "url": "/uploads/vina_arpachina_arpachino_tsimlyanskiy_chernyy_igristoe_ekstra_bryut_rozovoe_13_174452bb6e.webp"
+    },
+    "manufacturer": {
+      "name": "Вина Арпачина",
+      "slug": "vina-arpachina"
+    },
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/dolina_dona_ddc225057d.webp"
+      },
+      "name": "Долина Дона"
+    },
+    "slug": "vina-arpachina-arpachino-tsimlyanskiy-chernyy-rozovoe-ekstra-bryut-13",
+    "temperature": "16-18",
+    "title": "Арпачино. Цимлянский Черный"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Арпачино. Цимлянский Черный",
+      "title": "Арпачино. Цимлянский Черный",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/vina_arpachina_arpachino_tsimlyanskiy_chernyy_igristoe_ekstra_bryut_rozovoe_13_174452bb6e.webp"
+    }
+  ],
+  "slug": "vina-arpachina-arpachino-tsimlyanskiy-chernyy-rozovoe-ekstra-bryut-13"
+}

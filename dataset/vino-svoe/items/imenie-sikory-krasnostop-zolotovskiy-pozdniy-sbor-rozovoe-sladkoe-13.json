@@ -1,0 +1,194 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 71858,
+      "format": "WEBP",
+      "height": 1920,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          610,
+          1920
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/imenie-sikory-krasnostop-zolotovskiy-pozdniy-sbor-rozovoe-sladkoe-13.webp",
+        "sha256": "3e52b765cbc87f94a4a4fb7c870f5ea25cce100eb8af087911e5ab7be71bef11",
+        "source_bbox_xyxy": [
+          80,
+          61,
+          506,
+          1897
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/imenie-sikory-krasnostop-zolotovskiy-pozdniy-sbor-rozovoe-sladkoe-13.webp",
+      "sha256": "4daf9553698417b6d3d7b7beb3b0d26815d0d09794be5117e9113ea7923a8ea3",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/imenie_sikory_krasnostop_zolotovskiy_pozdniy_sbor_rozovoe_sladkoe_13_305f6270ac.webp",
+      "width": 610
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/imenie-sikory-krasnostop-zolotovskiy-pozdniy-sbor-rozovoe-sladkoe-13",
+  "retrieved_at_utc": "2026-09-29T19:16:00.841963+00:00",
+  "similar_wines": [
+    {
+      "category": "Розовое сладкое",
+      "color": "Розовый, насыщенный",
+      "image": {
+        "altText": "Вино Muskatel Rose Massandra",
+        "url": "/uploads/massandra_muskatel_rozovyy_belye_sorta_vinograda_rozovoe_sladkoe_16_3e12b153be.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-muskatel-rozovyy-belye-sorta-vinograda-rozovoe-sladkoe-16",
+      "title": "Мускатель розовый"
+    },
+    {
+      "category": "Розовое сладкое",
+      "color": "Янтарно-розовый, насыщенный",
+      "image": {
+        "altText": "Мускат розовый позднего сбора",
+        "url": "/uploads/massandra_muskat_rozovyy_pozdnego_sbora_rozovoe_sladkoe_10_543ccac814.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-muskat-rozovyy-pozdnego-sbora-rozovoe-sladkoe-10",
+      "title": "Мускат розовый позднего сбора"
+    },
+    {
+      "category": "Розовое сладкое",
+      "color": "Розовый",
+      "image": {
+        "altText": "Фанагория",
+        "url": "/uploads/fanagoriya_ice_wine_merlo_rozovoe_sladkoe_10_f04efb1e6f.webp"
+      },
+      "manufacturer": "винный дом «Фанагория»",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "fanagoriya-ice-wine-merlo-rozovoe-sladkoe-10",
+      "title": "Ice Wine Мерло розовое"
+    },
+    {
+      "category": "Розовое сладкое",
+      "color": "Насыщенный розовый",
+      "image": {
+        "altText": "ЗМВ Коктебель",
+        "url": "/uploads/zmv_koktebel_muskat_desertnyy_rozovoe_sladkoe_16_42c8ac5c99.webp"
+      },
+      "manufacturer": "ЗМВ Коктебель",
+      "region": "Крым",
+      "slug": "zmv-koktebel-muskat-desertnyy-rozovoe-sladkoe-16",
+      "title": "Мускат десертный"
+    },
+    {
+      "category": "Розовое сладкое",
+      "color": "Нежно-розовое",
+      "image": {
+        "altText": "Мускат позднего сбора розовый",
+        "url": "/uploads/4290_z_D_Kb_OVA_no_bg_preview_carve_photos_6bdfe80e27.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "muskat-pozdnego-sbora-rozovyj",
+      "title": "Мускат позднего сбора розовый"
+    },
+    {
+      "category": "Розовое сладкое",
+      "color": "Вино красивого кораллового цвета с блеском.",
+      "image": {
+        "altText": "Мускатное Фестивальное",
+        "url": "/uploads/solnechnaya_dolina_muskatnoe_festivalnoe_muskat_belyy_rozovoe_sladkoe_16_a0294f4818.webp"
+      },
+      "manufacturer": "Солнечная долина",
+      "publicRating": 5,
+      "rating": 4.3,
+      "region": "Крым",
+      "slug": "solnechnaya-dolina-muskatnoe-festivalnoe-muskat-belyy-rozovoe-sladkoe-16",
+      "title": "Мускатное Фестивальное"
+    },
+    {
+      "category": "Розовое сладкое",
+      "color": "Вино светло-персикового цвета.",
+      "image": {
+        "altText": "Tête de Cheval\nсладкое розе",
+        "url": "/uploads/pomeste_golubitskoe_tte_de_cheval_sladkoe_roze_pino_gri_sladkoe_rozovoe_115_f49c737b87.webp"
+      },
+      "manufacturer": "Golubitskoe Estate",
+      "publicRating": 3.5,
+      "rating": 4.23,
+      "region": "Кубань",
+      "slug": "pomeste-golubitskoe-tte-de-cheval-sladkoe-roze-pino-gri-rozovoe-115",
+      "title": "Tête de Cheval\n сладкое розе"
+    }
+  ],
+  "site_lastmod": "2026-04-02T13:33:44.000Z",
+  "site_wine": {
+    "alcohol": 13,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "name": "Розовое сладкое"
+    },
+    "color": "Ярко-розовый",
+    "description": "В аромате малина, дикая земляника. Вкус сладкий, земляничный джем и свежая кислотность.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/sladkaya_vypechka_71424474e1.webp"
+        },
+        "name": "Десерты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Krasnostop_876941a1ad.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Nebbiolo3_3595beb1b9.webp"
+        },
+        "name": "Красностоп Золотовский"
+      }
+    ],
+    "image": {
+      "altText": "Имение Сикоры",
+      "url": "/uploads/imenie_sikory_krasnostop_zolotovskiy_pozdniy_sbor_rozovoe_sladkoe_13_305f6270ac.webp"
+    },
+    "manufacturer": {
+      "name": "Имение Сикоры",
+      "slug": "imenie-sikory"
+    },
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "imenie-sikory-krasnostop-zolotovskiy-pozdniy-sbor-rozovoe-sladkoe-13",
+    "temperature": "8-10",
+    "title": "Красностоп Золотовский. Поздний сбор"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Имение Сикоры",
+      "title": "Имение Сикоры",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/imenie_sikory_krasnostop_zolotovskiy_pozdniy_sbor_rozovoe_sladkoe_13_305f6270ac.webp"
+    }
+  ],
+  "slug": "imenie-sikory-krasnostop-zolotovskiy-pozdniy-sbor-rozovoe-sladkoe-13"
+}

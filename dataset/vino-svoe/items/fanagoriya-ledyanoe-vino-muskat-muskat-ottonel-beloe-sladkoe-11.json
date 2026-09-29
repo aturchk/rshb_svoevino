@@ -1,0 +1,273 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 53476,
+      "format": "WEBP",
+      "height": 1920,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          1920,
+          1920
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/fanagoriya-ledyanoe-vino-muskat-muskat-ottonel-beloe-sladkoe-11.webp",
+        "sha256": "624d718434f05d2ec6fe369cfcc1c097044ec2ac993a36b7546fb0c5593e3308",
+        "source_bbox_xyxy": [
+          834,
+          0,
+          1151,
+          1920
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/fanagoriya-ledyanoe-vino-muskat-muskat-ottonel-beloe-sladkoe-11.webp",
+      "sha256": "2c36156d7fe536aceef6a437b509b96fd58a0c0fc7fc3926f14140e7f54a4aeb",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/fanagoriya_ledyanoe_vino_muskat_muskat_ottonel_beloe_sladkoe_11_b8c2ae7315.webp",
+      "width": 1920
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/fanagoriya-ledyanoe-vino-muskat-muskat-ottonel-beloe-sladkoe-11",
+  "retrieved_at_utc": "2026-09-29T19:18:09.743019+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое сладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Массандра Портвейн белый Сурож",
+        "url": "/uploads/Massandra_Portvejn_belyj_Surozh_5476f24b50.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 3.67,
+      "region": "Крым",
+      "slug": "portvejn-surozh",
+      "title": "Портвейн Сурож"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Янтарный",
+      "image": {
+        "altText": "Солнечная Долина Сары Пандас выдержанное",
+        "url": "/uploads/Solnechnaya_Dolina_Sary_Pandas_vyderzhannoe_c056d7120c.webp"
+      },
+      "manufacturer": "Солнечная долина",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "sary-pandas-vyderzhannoe",
+      "title": "Сары Пандас выдержанное"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Массандра Мадера Крымская",
+        "url": "/uploads/Massandra_Madera_Krymskaya_42f85c120a.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 4.88,
+      "region": "Крым",
+      "slug": "madera-krymskaya",
+      "title": "Мадера Крымская"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Массандра Херес",
+        "url": "/uploads/Massandra_Heres_f281a9d608.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-heres",
+      "title": "Массандра Херес"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Шато Тамань резерв мускат десертный выдержанный",
+        "url": "/uploads/Shato_Taman_rezerv_muskat_desertnyj_vyderzhannyj_fcef49a1a7.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "region": "Кубань",
+      "slug": "chateau-tamagne-grand-dessert-muscat",
+      "title": "Chateau Tamagne Grand Dessert Muscat"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Солнечная долина портвейн крымский",
+        "url": "/uploads/Solnechnaya_dolina_portvejn_krymskij_e3f225c04e.webp"
+      },
+      "manufacturer": "Солнечная долина",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "portvejn-krymskij",
+      "title": "Портвейн Крымский"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Поздний сбор",
+        "url": "/uploads/Screenshot_21_2f4c3173b1.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 4.78,
+      "region": "Кубань",
+      "slug": "pozdnij-sbor-beloe",
+      "title": "Поздний сбор  Белое"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Янтарный, с золотистыми отблесками",
+      "image": {
+        "altText": "г",
+        "url": "/uploads/output_img_037_425130ed89.webp"
+      },
+      "manufacturer": "Галицкий и Галицкий",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "le-general-hiver",
+      "title": "Le General Hiver"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Насыщенный золотистый",
+      "image": {
+        "altText": "Пино Гри 2025 поздний сбор бюрнье",
+        "url": "/uploads/Pino_Gri_2025_pozdnij_sbor_png_4dc63be6e9.webp"
+      },
+      "manufacturer": "Винодельня Бюрнье",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "b-yu-rne-pino-gri-pozdnij-sbor-sladkoe-beloe",
+      "title": "БЮРНЬЕ.ПИНО ГРИ Поздний сбор сладкое белое"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Золотистый, янтарный",
+      "image": {
+        "altText": "Вино Port White Alushta Massandra",
+        "url": "/uploads/massandra_portveyn_belyy_alushta_belye_sorta_vinograda_beloe_sladkoe_17_ab89a72383.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-portveyn-belyy-alushta-belye-sorta-vinograda-beloe-sladkoe-17",
+      "title": "Портвейн белый Алушта"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Янтарно-золотистый, прозрачный",
+      "image": {
+        "altText": "Вино Muskatel White Massandra",
+        "url": "/uploads/massandra_muskatel_belyy_belye_sorta_vinograda_beloe_sladkoe_16_f7e0314033.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-muskatel-belyy-belye-sorta-vinograda-beloe-sladkoe-16",
+      "title": "Мускатель белый"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Янтарно-золотистый",
+      "image": {
+        "altText": "Вино Muskat Late Harvest White Massandra",
+        "url": "/uploads/massandra_muskat_belyy_pozdnego_sbora_beloe_sladkoe_10_17230edc84.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-muskat-belyy-pozdnego-sbora-beloe-sladkoe-10",
+      "title": "Мускат белый позднего сбора"
+    }
+  ],
+  "site_lastmod": "2026-01-12T11:24:11.000Z",
+  "site_wine": {
+    "alcohol": 11,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое сладкое"
+    },
+    "color": "Вино золотистого цвета с медовыми переливами.",
+    "description": "Аромат сдержанный, но узнаваемый: цветочные нотки жасмина, нарцисса и акации, сладкие тона белых персиков, желтых груш, зрелой айвы и цукатов из лайма. Во вкусе продолжение богатой фруктовой палитры. Достойная, хорошо выраженная кислотность помогает вину сохранить баланс и маскирует заметную сладость и плотность. Долгое фруктовое послевкусие.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ptica_9a6c7e3ea1.webp"
+        },
+        "name": "Блюда из птицы"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/nesladkaya_vypechka_05bf04c48c.webp"
+        },
+        "name": "Выпечка и десерты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/frukty_545dae1854.webp"
+        },
+        "name": "Фрукты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Muskat_d58579a0e1.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Vione_i_Verdeho_3502efff14.webp"
+        },
+        "name": "Мускат Оттонель"
+      }
+    ],
+    "image": {
+      "altText": "Ледяное вино. Мускат",
+      "url": "/uploads/fanagoriya_ledyanoe_vino_muskat_muskat_ottonel_beloe_sladkoe_11_b8c2ae7315.webp"
+    },
+    "manufacturer": {
+      "name": "винный дом «Фанагория»",
+      "slug": "fanagoriya"
+    },
+    "publicRating": 4.6,
+    "rating": 4.37,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "fanagoriya-ledyanoe-vino-muskat-muskat-ottonel-beloe-sladkoe-11",
+    "temperature": "6–12",
+    "title": "Ледяное вино. Мускат"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Ледяное вино. Мускат",
+      "title": "Ледяное вино. Мускат",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/fanagoriya_ledyanoe_vino_muskat_muskat_ottonel_beloe_sladkoe_11_b8c2ae7315.webp"
+    }
+  ],
+  "slug": "fanagoriya-ledyanoe-vino-muskat-muskat-ottonel-beloe-sladkoe-11"
+}

@@ -1,0 +1,270 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 30934,
+      "format": "WEBP",
+      "height": 889,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          224,
+          889
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/zhemchuzhnaya-9-pino-nuar-muskat-rozovyj.webp",
+        "sha256": "20c91ff1f332bea732ddd9cd01d8849f2a49df9f296369acc09a24a18eb0664e",
+        "source_bbox_xyxy": [
+          0,
+          1,
+          224,
+          889
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/zhemchuzhnaya-9-pino-nuar-muskat-rozovyj.webp",
+      "sha256": "71a34e7aa71294e0f1ef30862a4ec337771d71f97c8594b1859f34ef4406a9af",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Pino_Nuar_Muskat_suh_82108c8383.webp",
+      "width": 224
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/zhemchuzhnaya-9-pino-nuar-muskat-rozovyj",
+  "retrieved_at_utc": "2026-09-29T19:15:06.971679+00:00",
+  "similar_wines": [
+    {
+      "category": "Розовое сухое",
+      "color": "Нежно-розовое",
+      "image": {
+        "altText": "Розовое сухое Усадьба перовских",
+        "url": "/uploads/main_rose_dry_daef1d0a86.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.82,
+      "region": "Крым",
+      "slug": "rozovoe-suhoe",
+      "title": "Розовое сухое"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Розовый",
+      "image": {
+        "altText": "Восток розе",
+        "url": "/uploads/c5bc5ded2f2bc7b_343x610_notcrop_2c484caa6b.webp"
+      },
+      "manufacturer": "Château Le Grand Vostock",
+      "publicRating": 4.4,
+      "region": "Кубань",
+      "slug": "vostok-roze",
+      "title": "Восток розе"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Розовый",
+      "image": {
+        "altText": "закат денисов вайнери",
+        "url": "/uploads/zakat_denisov_vajneri_no_bg_preview_carve_photos_1_6ae9baa13d.webp"
+      },
+      "manufacturer": "Denisov Winery",
+      "publicRating": 4.63,
+      "region": "Самара",
+      "slug": "zakat-denisov-vajneri",
+      "title": "Закат. Денисов Вайнери"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Лососевый",
+      "image": {
+        "altText": "Пино нуар Мельниковы",
+        "url": "/uploads/DSC_00836_4070f8fd2f.webp"
+      },
+      "manufacturer": "Винодельня Братьев Мельниковых",
+      "publicRating": 4.82,
+      "region": "Крым",
+      "slug": "pino-nuar-2025",
+      "title": "Пино Нуар, 2025"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Нежно-розовое",
+      "image": {
+        "altText": "Массандра сухое розовое",
+        "url": "/uploads/Massandra_suhoe_rozovoe_218d80e12d.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-rozovoe-suhoe",
+      "title": "Массандра розовое сухое"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Светло-розовое",
+      "image": {
+        "altText": "Golubitskoe Rose",
+        "url": "/uploads/Golubitskoe_Estate_Rose_84adcc1cea.webp"
+      },
+      "manufacturer": "Поместье Голубицкое",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "golubitskoe-rose",
+      "title": "Golubitskoe Rose"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Блестяще-розовый",
+      "image": {
+        "altText": "Высокий берег Цвайгельт",
+        "url": "/uploads/Vysokij_bereg_Czvajgelt_8c439c9f75.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "vysokij-bereg-czvajgelt",
+      "title": "Высокий Берег Цвайгельт"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Нежно-розовый",
+      "image": {
+        "altText": "Литавщук розе",
+        "url": "/uploads/Screenshot_24_c38ca52fac.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 4.92,
+      "region": "Кубань",
+      "slug": "roze-premium",
+      "title": "Розе. Премиум"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Нежно-розовый",
+      "image": {
+        "altText": "Табия розе",
+        "url": "/uploads/Screenshot_17_6d600742f0.webp"
+      },
+      "manufacturer": "Табия",
+      "publicRating": 4.97,
+      "region": "Кубань",
+      "slug": "roze-2",
+      "title": "Розе"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Лососево-розовый",
+      "image": {
+        "altText": "ЛОРИО_РОЗОВОЕ",
+        "url": "/uploads/LORIO_ROZOVOE_9e1be3c909.webp"
+      },
+      "manufacturer": "ЛОРИО -  семейная винодельня Логуновых",
+      "publicRating": 4.89,
+      "region": "Кубань",
+      "slug": "lorio-rozovoe",
+      "title": "ЛОРИО. Розовое"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Светло-розовый с лососевым оттенком и блеском",
+      "image": {
+        "altText": "Галицкий",
+        "url": "/uploads/roze_0cd69a079f.webp"
+      },
+      "manufacturer": "Галицкий и Галицкий",
+      "publicRating": 4.75,
+      "region": "Кубань",
+      "slug": "roze-1",
+      "title": "Розе"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Светло-розовый",
+      "image": {
+        "altText": "Мускат, Пино Гри сух",
+        "url": "/uploads/Muskat_Pino_Gri_suh_bbbbbf5ff9.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "zhemchuzhnaya-9-muskat-rozovyj-pino-gri",
+      "title": "Жемчужная 9 Мускат Розовый, Пино гри"
+    }
+  ],
+  "site_lastmod": "2026-07-09T13:16:33.000Z",
+  "site_wine": {
+    "alcohol": 12,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "name": "Розовое сухое"
+    },
+    "color": "Ярко-розовый",
+    "description": "Вкус и аромат: первая клубника, лепестки роз, лёгкий намёк на медовые травы. Воздушное, освежающее, с бархатной ягодной волной. \nСочетания: креветки, салаты с клубникой и козьим сыром, куриная грудка на гриле.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ptica_9a6c7e3ea1.webp"
+        },
+        "name": "Блюда из птицы"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Muskat_d58579a0e1.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Vione_i_Verdeho_3502efff14.webp"
+        },
+        "name": "Мускат Розовый"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Nuar3_8f666dc69e.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Nuar2_6c049e4c48.webp"
+        },
+        "name": "Пино Нуар"
+      }
+    ],
+    "image": {
+      "altText": "Пино Нуар,Мускат сух Аратти",
+      "url": "/uploads/Pino_Nuar_Muskat_suh_82108c8383.webp"
+    },
+    "manufacturer": {
+      "name": "АРАТТИ",
+      "slug": "aratti"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj",
+    "temperature": "10-12",
+    "title": "Жемчужная 9 Пино Нуар, Мускат Розовый"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Пино Нуар,Мускат сух Аратти",
+      "title": "Пино Нуар,Мускат сух Аратти",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Pino_Nuar_Muskat_suh_82108c8383.webp"
+    }
+  ],
+  "slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj"
+}

@@ -1,0 +1,265 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 93026,
+      "format": "WEBP",
+      "height": 1920,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          726,
+          1920
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/khrustaleva-76-muscat-bryut-beloe.webp",
+        "sha256": "da3176612c5fe10da0ea818d8c777f4d6a8b24b9f1397cdfb607a216644e8289",
+        "source_bbox_xyxy": [
+          23,
+          21,
+          705,
+          1893
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/khrustaleva-76-muscat-bryut-beloe.webp",
+      "sha256": "d926a3495b5f8dd65a01908f168073178e6761d68af8110c35f2911f3cc80b40",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/hrustaleva_bryut_muskat_314381c682.webp",
+      "width": 726
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/khrustaleva-76-muscat-bryut-beloe",
+  "retrieved_at_utc": "2026-09-29T19:17:50.638957+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое брют",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Мускат Оттонель Гусев",
+        "url": "/uploads/petnat_muskat_no_bg_preview_carve_photos_2296dc8b1a.webp"
+      },
+      "manufacturer": "Гусевъ",
+      "publicRating": 5,
+      "region": "Нижняя Волга",
+      "slug": "muskat-ottonel-gusev",
+      "title": "Мускат Оттонель Гусевъ"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "алвиса монблан",
+        "url": "/uploads/MB_igrist_Blanc_vid_032026_kopiya_5c6680d1ef.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.86,
+      "region": "Дагестан",
+      "slug": "mont-blanc-blanc-de-blancs",
+      "title": "Mont Blanc, Blanc de Blancs"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Mont Vlanc Alvisa",
+        "url": "/uploads/MB_igrist_Cuvee_vid_032026_kopiya_8bb830fcc2.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.95,
+      "region": "Дагестан",
+      "slug": "mont-blanc-cuvee",
+      "title": "Mont Blanc Cuvée"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса рисл",
+        "url": "/uploads/CANTIANI_Igristoe_Riesl_vid_032025_kopiya_8150a5e627.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.88,
+      "region": "Дагестан",
+      "slug": "cantiani-riesling-1",
+      "title": "Cantiani Riesling"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса брют ",
+        "url": "/uploads/CANTIANI_Igrist_Brut_vid5_042026_kopiya_1b13527c60.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.83,
+      "region": "Дагестан",
+      "slug": "cantiani-brut",
+      "title": "Cantiani Brut"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса ркац",
+        "url": "/uploads/CANTIANI_Igristoe_Rkats_vid_032025_kopiya_29e44021af.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.98,
+      "region": "Дагестан",
+      "slug": "cantiani-rkatsiteli-1",
+      "title": "Cantiani Rkatsiteli"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса шадр",
+        "url": "/uploads/CANTIANI_Igristoe_Chardon_444h1200px_fa4fe5363b.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 5,
+      "region": "Дагестан",
+      "slug": "cantiani-chardonnay",
+      "title": "Cantiani Chardonnay"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Просека",
+        "url": "/uploads/Screenshot_4_7c7945f9a9.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 3.81,
+      "region": "Кубань",
+      "slug": "lesnaya-proseka",
+      "title": "Лесная просека"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Небо России Глера",
+        "url": "/uploads/Screenshot_6_Photoroom_b5b45ec3f4.webp"
+      },
+      "manufacturer": "Kalos Limen",
+      "publicRating": 4.91,
+      "region": "Крым",
+      "slug": "nebo-rossii-glera",
+      "title": "Небо России Глера"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Глера Манно",
+        "url": "/uploads/Screenshot_2_66036870aa.webp"
+      },
+      "manufacturer": "Мысхако",
+      "publicRating": 4.67,
+      "region": "Кубань",
+      "slug": "glera-manno",
+      "title": "Глера Манно"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Русток Глера Ru 140",
+        "url": "/uploads/Screenshot_3_dce2afc6e1.webp"
+      },
+      "manufacturer": "Мысхако",
+      "publicRating": 4.5,
+      "region": "Кубань",
+      "slug": "rustok-glera-ru-140",
+      "title": "Русток Глера Ru 140"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Аристов Анима милезимиато брют",
+        "url": "/uploads/Aristov_Anima_milezimiato_bryut_4a887b783f.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 4.67,
+      "region": "Кубань",
+      "slug": "aristov-anima-millesimato-beloe-bryut",
+      "title": "Аристов ANIMA Millesimato белое брют"
+    }
+  ],
+  "site_lastmod": "2026-01-25T10:38:27.000Z",
+  "site_wine": {
+    "alcohol": 11,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое брют"
+    },
+    "color": "Светло-соломенный ",
+    "description": "Вкус легкий, почти невесомый, сбалансированный, послевкусие средней продолжительности с тонами цитрусов и персика. Аромат с оттенками цветов липы, акации, розы, цитрусов и нектарина.\n\nВино органическое, подтверждено сертификатом РФ. 83 балла в независимой премии российских игристых вин RUSSIAN BUBBLY CHART 2025.\n\nПрессование винограда при 10°C, стабуляж 10 дней при 5°C, брожение в течение 15 дней в ёмкостях из нержавеющей стали с автоматическим контролем температуры брожения 14‑17°C, по окончании брожения — декантация с толстого дрожжевого осадка. Вторичное брожение в течение 20 дней, с остановкой брожения холодом, при необходимых сахарах. Выдержка в акратофоре на дрожжах в течение 1 месяца.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ryba_moreprodukty_e57b445d95.webp"
+        },
+        "name": "Рыба и морепродукты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ustricy_aaab30581c.webp"
+        },
+        "name": "Устрицы"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Muskat_648c0fbc3f.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Shenen_Blan_0914f145a9.webp"
+        },
+        "name": "Мускат"
+      }
+    ],
+    "image": {
+      "altText": "хрусталева брют мускат",
+      "url": "/uploads/hrustaleva_bryut_muskat_314381c682.webp"
+    },
+    "manufacturer": {
+      "name": "AYA Organic Wine & Vineyards",
+      "slug": "aya-organic-wine-vineyards"
+    },
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "khrustaleva-76-muscat-bryut-beloe",
+    "temperature": "8-10",
+    "title": "Khrustaleva 76 muscat, брют, белое"
+  },
+  "sitemap_images": [
+    {
+      "caption": "хрусталева брют мускат",
+      "title": "хрусталева брют мускат",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/hrustaleva_bryut_muskat_314381c682.webp"
+    }
+  ],
+  "slug": "khrustaleva-76-muscat-bryut-beloe"
+}

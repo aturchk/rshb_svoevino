@@ -4,27 +4,28 @@
 
 ## Текущий статус
 
-- frontend: mobile-first Nuxt 4, каталог на 2 103 SKU, камера, история и карточки;
-- ML: `google/siglip2-base-patch16-384` + rank-64 adapter, точный cosine retrieval;
-- production default: adapter-SigLIP без ORB;
-- strict searchable gallery: 928 из 2 103 SKU;
-- 94,1% Top-1 и p95 84,9 мс измерены **только на synthetic proxy**, не на фото из магазинов;
+- frontend: mobile-first Nuxt 4, каталог на 2 178 SKU (включая 75 новых с сайта), камера, история и карточки;
+- переносимый снимок `vino-svoe.ru`: 2 110 карточек с атрибутами и исходными фото; проверенная галерея — 1 936 SKU;
+- ML: закреплённый `google/siglip2-base-patch16-384` + включённый в репозиторий rank-64 adapter, cosine retrieval по полной бутылке и детали этикетки;
+- production default: adapter-SigLIP с `full-label` эталонами и полным полевым фото, без ORB;
+- на внутреннем pool из 59 покрытых полевых фото: 41/59 Top-1 (69,5%), 53/59 Recall@5 (89,8%), p95 237,5 мс на RTX 5090; frozen baseline — 39/59 и 51/59;
 - 100 реальных фото вручную просмотрены: 64 exact-SKU, 35 `not_in_catalog`, 1 `uncertain`;
-- из 64 подтверждений только 23 сейчас входят в strict gallery, поэтому field accuracy пока не заявляется;
-- официальный test ожидается 1 октября 2026 года; до него модель и thresholds остаются замороженными.
+- 59 из 64 подтверждённых входят в новую галерею; это однопроходная разметка для диагностики, **не закрытый test** и не подтверждение цели ТЗ 90%; пороги отказа не откалиброваны.
 
-Проверяемый пакет для презентации: [docs/presentation/ml-status/README.md](docs/presentation/ml-status/README.md). Полная ML-документация: [ml/README.md](ml/README.md).
+Полные методика, метрики и ограничения: [отчёт о точности](ml/docs/FIELD_ACCURACY_REPORT.md).
+Модель и воспроизведение: [ML README](ml/README.md), [карточка адаптера](ml/models/README.md).
+Приложение и фичи: [frontend README](frontend/README.md).
 
 ## Структура
 
 ```text
 frontend/   Nuxt UI и server-side proxy к ML
 ml/         обучение, benchmark, inference API, Docker
-dataset/    неизменяемые исходные данные и real_photo
+dataset/    неизменяемые исходные данные, real_photo и переносимый снимок vino-svoe
 data/       reviewed-аннотации и catalog lookup
 eval/       контракт и fixtures организатора
 docs/       презентационные и проектные материалы
-work/       локальные модели, кэши и отчёты; не коммитится
+work/       локальные кэши, эксперименты и временные отчёты; не коммитится
 ```
 
 ## Полный локальный запуск
@@ -39,8 +40,10 @@ make local
 
 После готовности откройте `http://127.0.0.1:3000`. ML работает локально на
 `http://127.0.0.1:8080`; устройство выбирается автоматически: CUDA, Apple MPS или
-CPU. Артефакты остаются в ignored `work/`. Если adapter отсутствует на чистой машине,
-он один раз обучается локально. Принудительная повторная подготовка: `make local-setup`.
+CPU. Проверенный adapter уже хранится в `ml/models/` и **не переобучается** при
+запуске. Базовый публичный checkpoint загружается один раз по закреплённой
+ревизии, затем локальный индекс сохраняется в ignored `work/`.
+Принудительная повторная подготовка: `make local-setup`.
 
 Для быстрой проверки только интерфейса без ML:
 
@@ -72,7 +75,7 @@ npm run dev            # http://localhost:3000
 ### Временный интерфейс разметки
 
 После `npm run dev` откройте `http://localhost:3000/annotate`. Слева показывается
-оригинальная фотография из `dataset/real_photo`, справа — поиск по всем 2 103 SKU.
+оригинальная фотография из `dataset/real_photo`, справа — поиск по каталогу.
 Подтверждение атомарно обновляет канонический `data/field_mapping.tsv`; при первом
 сохранении процесса исходная версия копируется в `work/annotation-backups/`.
 Интерфейс доступен автоматически только в dev. Для отдельного trusted deployment
@@ -110,10 +113,9 @@ Runtime разделён на два контейнера: наружу публ
 
    ```bash
    .venv/bin/python ml/scripts/build_release.py \
-     --adapter work/models/siglip2-field-adapter.safetensors \
      --cache-dir work/siglip-cache \
      --model-dir /path/to/huggingface-cache-root \
-     --release-id siglip2-20260928 --output work/release
+     --release-id siglip2-site-20260929 --output work/release
    ```
 
 2. Запустите:

@@ -1,0 +1,266 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 32306,
+      "format": "WEBP",
+      "height": 1323,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          1058,
+          1323
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/krasnostop-zolotovskij.webp",
+        "sha256": "eacef8f586433ae876862ad6e1567bb73200509ed9bd4137b36fe7c26ff64add",
+        "source_bbox_xyxy": [
+          363,
+          0,
+          711,
+          1318
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/krasnostop-zolotovskij.webp",
+      "sha256": "98800a0a6ff5acbbe58060cfceea1faa38bccbb09083adf543771b8030a0b189",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/krasnostop_cca9e0b43e.webp",
+      "width": 1058
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/krasnostop-zolotovskij",
+  "retrieved_at_utc": "2026-09-29T19:15:01.341153+00:00",
+  "similar_wines": [
+    {
+      "category": "Красное сухое",
+      "color": "Насыщенный рубиновый с фиолетовым отливом",
+      "image": {
+        "altText": "Красное сухое вино Мулета от винодельни Орлова",
+        "url": "/uploads/Muleta_2020_2b726546bb.webp"
+      },
+      "manufacturer": "Винодельня Орлова",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "muleta",
+      "title": "Мулета"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красно-бордовый",
+      "image": {
+        "altText": "Яйла-Мальбек",
+        "url": "/uploads/Yajla_Malbek_2024_cb1c7ff096.webp"
+      },
+      "manufacturer": "Yaiyla Winery",
+      "publicRating": 4.33,
+      "region": "Крым",
+      "slug": "yaiyla-malbec",
+      "title": "YAIYLA MALBEC"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Х4123 Винные краски Каберне Совиньон",
+        "url": "/uploads/H4123_Vinnye_kraski_Kaberne_Sovinon_2024_DKV_06462e2b91.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 4.5,
+      "region": "Крым",
+      "slug": "vinnye-kraski-kaberne-sovinon",
+      "title": "Винные краски, Каберне Совиньон"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Темно-гранатовый",
+      "image": {
+        "altText": "Х4124 Винные краски Мерло 2024 ДК",
+        "url": "/uploads/H4124_Vinnye_kraski_Merlo_2024_DKV_1_3a6f83c9be.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 4,
+      "region": "Крым",
+      "slug": "vinnye-kraski-merlo",
+      "title": "Винные краски, Мерло"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Темно-рубиновый",
+      "image": {
+        "altText": "Х4119 Улыбка Ветра Каберне Совиньон",
+        "url": "/uploads/H4119_Ulybka_Vetra_Kaberne_Sovinon_2024_DKV_eba5b4df62.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-kaberne-sovinon",
+      "title": "Улыбка ветра, Каберне Совиньон"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Х4120 Улыбка ветра Мерло 2024 ДКВ",
+        "url": "/uploads/H4120_Ulybka_vetra_Merlo_2024_DKV_426a5f1726.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-merlo",
+      "title": "Улыбка ветра, Мерло"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "Саперави — лимитированная серия",
+        "url": "/uploads/lim_saperavi_0777d3f30f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.83,
+      "region": "Крым",
+      "slug": "saperavi-limitirovannaya-seriya",
+      "title": "Саперави — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Глубокий рубиновый",
+      "image": {
+        "altText": "Каберне Фран — лимитированная серия",
+        "url": "/uploads/lim_cabernet_franc_b8513a1a08.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.8,
+      "region": "Крым",
+      "slug": "kaberne-fran-limitirovannaya-seriya",
+      "title": "Каберне Фран — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красное",
+      "image": {
+        "altText": "Каберне Совиньон и Саперави — лимитированная серия",
+        "url": "/uploads/lim_cs_saperavi_63126ea067.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.9,
+      "region": "Крым",
+      "slug": "kaberne-sovinon-i-saperavi-limitirovannaya-seriya",
+      "title": "Каберне Совиньон и Саперави — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "Мерло — лимитированная серия",
+        "url": "/uploads/lim_merlot_455ff5ee23.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.78,
+      "region": "Крым",
+      "slug": "merlo-limitirovannaya-seriya",
+      "title": "Мерло — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "Сира — лимитированная серия",
+        "url": "/uploads/lim_syrah_26570c7f18.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.89,
+      "region": "Крым",
+      "slug": "sira-limitirovannaya-seriya",
+      "title": "Сира — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "135",
+        "url": "/uploads/lim_135_8dbef0e498.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.78,
+      "region": "Крым",
+      "slug": "135",
+      "title": "135"
+    }
+  ],
+  "site_lastmod": "2026-07-13T19:59:21.000Z",
+  "site_wine": {
+    "alcohol": 15,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "name": "Красное сухое"
+    },
+    "color": "Глубокий рубиновый",
+    "description": "Аромат: кофе мокко, тёмный шоколад, терново-черносливовые оттенки, кожаное седло и лакрица.\n\nВкус: объёмное тело, мощные спелые танины обещают вину долгое поступательное развитие в бутылке. Преобладающие оттенки вкуса: чернослив, ежевика, сочная вишня. Долгий финиш с кофейно-сливочным оттенком, тёплый за счет высокой спиртуозности.\n\nОсобенность винификации\n\nРучная уборка в последних числах сентября. В этот момент ягоды заизюмлены на лозе на 60%. 2/3 винограда направляются на винификацию. 1/3 — на дополнительное подвяливание в кассетных ящиках с перфорацией. Увяливание происходит в течение 3-х недель на открытом воздухе под навесом и на ветру, в абсолютно естественных условиях — классическая технология апассименто. 2/3 винограда, который сразу после уборки направился на винификацию: деликатное гребнеотделение, без дробления ягоды. Перемещаем в винификатор и делаем холодное настаивание в течение 4-х суток при температуре 3–5 градусов Цельсия. Затем поднимаем температуру до 25 градусов Цельсия, задаём дрожжи — штамм специально селекционированный для Амароне. Брожение при температуре 29–30 градусов Цельсия. Техники винификации: комбинация деликатного медленного ворошения шапки специальной встроенной в винификатор лопастью и ремонтаж. После завершения брожения, которое длится 9 дней, проводим постферментационную мацерацию. Общий скин-контакт более 20 дней. Деликатное лёгкое прессование, осветление и залив в новые 500-литровые тонно из французского дуба. Малолактика в тонно. Выдержка в тонно 2 года. Кларификация — свежий альбумин из яиц домашней курицы. Деликатная фильтрация. Розлив в бутылку с применением инертного газа и вакуумирования. Выдержка в бутылке 1 год. С виноградом, оставленным на естественное увяливание на воздухе — всё то же, но задаётся гипперконцентрация дрожжей, чтобы запустить брожение.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/kavkazskaya_kuhnya_0f18f731b5.webp"
+        },
+        "name": "BBQ"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ptica_9a6c7e3ea1.webp"
+        },
+        "name": "Блюда из птицы"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/kavkazskaya_kuhnya_0f18f731b5.webp"
+        },
+        "name": "Мясное ассорти"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Krasnostop_876941a1ad.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Nebbiolo3_3595beb1b9.webp"
+        },
+        "name": "Красностоп Золотовский"
+      }
+    ],
+    "image": {
+      "altText": "Галицкий",
+      "url": "/uploads/krasnostop_cca9e0b43e.webp"
+    },
+    "manufacturer": {
+      "name": "Галицкий и Галицкий",
+      "slug": "galiczkij-i-galiczkij"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "krasnostop-zolotovskij",
+    "temperature": "16-18",
+    "title": "Красностоп Золотовский"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Галицкий",
+      "title": "Галицкий",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/krasnostop_cca9e0b43e.webp"
+    }
+  ],
+  "slug": "krasnostop-zolotovskij"
+}

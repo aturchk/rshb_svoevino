@@ -1,0 +1,270 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 26658,
+      "format": "WEBP",
+      "height": 1000,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          265,
+          1000
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/abrau-dyurso-abrau-estates-krasnoe-kaberne-sovinon-suhoe-13.webp",
+        "sha256": "645c2de25bbdaa54c47646da1eef6bd56e95c1bcd27ad241eb267fe46c45c708",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          263,
+          1000
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/abrau-dyurso-abrau-estates-krasnoe-kaberne-sovinon-suhoe-13.webp",
+      "sha256": "8dfff49cc234a67f031e55155f491c62ca66016e7e86a182d242d9ed8853ed01",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/abrau_dyurso_abrau_estates_krasnoe_kaberne_sovinon_suhoe_13_1770f5150f.webp",
+      "width": 265
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/abrau-dyurso-abrau-estates-krasnoe-kaberne-sovinon-suhoe-13",
+  "retrieved_at_utc": "2026-09-29T19:16:37.127768+00:00",
+  "similar_wines": [
+    {
+      "category": "Красное сухое",
+      "color": "Насыщенный рубиновый с фиолетовым отливом",
+      "image": {
+        "altText": "Красное сухое вино Мулета от винодельни Орлова",
+        "url": "/uploads/Muleta_2020_2b726546bb.webp"
+      },
+      "manufacturer": "Винодельня Орлова",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "muleta",
+      "title": "Мулета"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красно-бордовый",
+      "image": {
+        "altText": "Яйла-Мальбек",
+        "url": "/uploads/Yajla_Malbek_2024_cb1c7ff096.webp"
+      },
+      "manufacturer": "Yaiyla Winery",
+      "publicRating": 4.33,
+      "region": "Крым",
+      "slug": "yaiyla-malbec",
+      "title": "YAIYLA MALBEC"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Х4123 Винные краски Каберне Совиньон",
+        "url": "/uploads/H4123_Vinnye_kraski_Kaberne_Sovinon_2024_DKV_06462e2b91.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 4.5,
+      "region": "Крым",
+      "slug": "vinnye-kraski-kaberne-sovinon",
+      "title": "Винные краски, Каберне Совиньон"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Темно-гранатовый",
+      "image": {
+        "altText": "Х4124 Винные краски Мерло 2024 ДК",
+        "url": "/uploads/H4124_Vinnye_kraski_Merlo_2024_DKV_1_3a6f83c9be.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 4,
+      "region": "Крым",
+      "slug": "vinnye-kraski-merlo",
+      "title": "Винные краски, Мерло"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Темно-рубиновый",
+      "image": {
+        "altText": "Х4119 Улыбка Ветра Каберне Совиньон",
+        "url": "/uploads/H4119_Ulybka_Vetra_Kaberne_Sovinon_2024_DKV_eba5b4df62.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-kaberne-sovinon",
+      "title": "Улыбка ветра, Каберне Совиньон"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Х4120 Улыбка ветра Мерло 2024 ДКВ",
+        "url": "/uploads/H4120_Ulybka_vetra_Merlo_2024_DKV_426a5f1726.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-merlo",
+      "title": "Улыбка ветра, Мерло"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "Саперави — лимитированная серия",
+        "url": "/uploads/lim_saperavi_0777d3f30f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.83,
+      "region": "Крым",
+      "slug": "saperavi-limitirovannaya-seriya",
+      "title": "Саперави — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Глубокий рубиновый",
+      "image": {
+        "altText": "Каберне Фран — лимитированная серия",
+        "url": "/uploads/lim_cabernet_franc_b8513a1a08.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.8,
+      "region": "Крым",
+      "slug": "kaberne-fran-limitirovannaya-seriya",
+      "title": "Каберне Фран — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красное",
+      "image": {
+        "altText": "Каберне Совиньон и Саперави — лимитированная серия",
+        "url": "/uploads/lim_cs_saperavi_63126ea067.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.9,
+      "region": "Крым",
+      "slug": "kaberne-sovinon-i-saperavi-limitirovannaya-seriya",
+      "title": "Каберне Совиньон и Саперави — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "Мерло — лимитированная серия",
+        "url": "/uploads/lim_merlot_455ff5ee23.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.78,
+      "region": "Крым",
+      "slug": "merlo-limitirovannaya-seriya",
+      "title": "Мерло — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "Сира — лимитированная серия",
+        "url": "/uploads/lim_syrah_26570c7f18.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.89,
+      "region": "Крым",
+      "slug": "sira-limitirovannaya-seriya",
+      "title": "Сира — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "135",
+        "url": "/uploads/lim_135_8dbef0e498.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.78,
+      "region": "Крым",
+      "slug": "135",
+      "title": "135"
+    }
+  ],
+  "site_lastmod": "2026-04-02T12:42:13.000Z",
+  "site_wine": {
+    "alcohol": 13,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "name": "Красное сухое"
+    },
+    "color": "Тёмно-гранатовый",
+    "description": "В аромате фрукты, табак, чернослив, шоколад и мускатный орех. Вкус кислотный, свежий, с мягкими танинами, легкими животными и табачными нюансами в послевкусии.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/kavkazskaya_kuhnya_0f18f731b5.webp"
+        },
+        "name": "Мясное ассорти"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Kaberne_Sovinon3_39f7936b80.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Kaberne_Sovinon2_2b33e41092.webp"
+        },
+        "name": "Каберне Совиньон"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Merlo2_92c9fc8a90.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Merlo_14_f0e42dbdb6.webp"
+        },
+        "name": "Мерло"
+      }
+    ],
+    "image": {
+      "altText": "Абрау-Дюрсо",
+      "url": "/uploads/abrau_dyurso_abrau_estates_krasnoe_kaberne_sovinon_suhoe_13_1770f5150f.webp"
+    },
+    "manufacturer": {
+      "name": "Абрау-Дюрсо",
+      "slug": "abrau-dyurso"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "abrau-dyurso-abrau-estates-krasnoe-kaberne-sovinon-suhoe-13",
+    "temperature": "16-18",
+    "title": "Abrau Estates красное"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Абрау-Дюрсо",
+      "title": "Абрау-Дюрсо",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/abrau_dyurso_abrau_estates_krasnoe_kaberne_sovinon_suhoe_13_1770f5150f.webp"
+    }
+  ],
+  "slug": "abrau-dyurso-abrau-estates-krasnoe-kaberne-sovinon-suhoe-13"
+}

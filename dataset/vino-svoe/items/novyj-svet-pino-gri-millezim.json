@@ -1,0 +1,264 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 25656,
+      "format": "WEBP",
+      "height": 1000,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          273,
+          1000
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/novyj-svet-pino-gri-millezim.webp",
+        "sha256": "c2f09146e8c9a1b46dd758fc36b6693756f4f08664618aa389164888bb910574",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          273,
+          1000
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/novyj-svet-pino-gri-millezim.webp",
+      "sha256": "a2a9c2c37bcc45ae56042a823e12fa98b8566467436c1d59c877729627105d14",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/4303_v_E_Ae_Fb_H_c2ae43e296.webp",
+      "width": 273
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/novyj-svet-pino-gri-millezim",
+  "retrieved_at_utc": "2026-09-29T19:17:31.854413+00:00",
+  "similar_wines": [
+    {
+      "category": "Розовое брют",
+      "color": "Нежно-розовый",
+      "image": {
+        "altText": "Эндемы Саперави",
+        "url": "/uploads/Endemy_Saperavi_e63474ff4b.webp"
+      },
+      "manufacturer": "Дербент Вино",
+      "publicRating": 4.83,
+      "region": "Дагестан",
+      "slug": "endemy-saperavi",
+      "title": "Эндемы Саперави"
+    },
+    {
+      "category": "Розовое брют",
+      "color": "Розовый",
+      "image": {
+        "altText": "ан",
+        "url": "/uploads/PU_Sjv7dn_M_Nil_H25_TO_9_Bcb_B_f_Zx_Nza_Xse9_Yvayfomyz45k_B47omg8pj9_DLYV_Wx_OE_Jy_AZ_Vfga_W_Ht2_Sel_D_Ifwt_Ne_Q_d24c827e0c.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 4.63,
+      "region": "Кубань",
+      "slug": "aristov-anima-millesimato",
+      "title": "Аристов Anima Millesimato"
+    },
+    {
+      "category": "Розовое брют",
+      "color": "Розовый",
+      "image": {
+        "altText": "анима",
+        "url": "/uploads/PU_Sjv7dn_M_Nil_H25_TO_9_Bcb_Pd_Yfu_Vd_Fztw_O_Jbguw7qrtonw_KE_4g_Yx_Kvy_Gu7_XT_Uol_KPA_Hgei_CO_Qicppgq_Kd_Ef_Gg_030a72f094.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 4,
+      "region": "Кубань",
+      "slug": "aristov-anima-pinot-grigio-blush",
+      "title": "Аристов Anima Pinot Grigio Blush"
+    },
+    {
+      "category": "Розовое брют",
+      "color": "Розовый",
+      "image": {
+        "altText": "зб",
+        "url": "/uploads/PU_Sjv7dn_M_Nil_H25_TO_9_Bcb_Ldza_JNH_1_Hv9_W_Or_Hokzv1ehc6k_Ky_O_Sa_NL_81_Blk2_Wzh_W9_BBPU_9ky_PHC_Zl_Df_I0_Sstz_Q_7a31558363.webp"
+      },
+      "manufacturer": "Золотая Балка",
+      "publicRating": 4.8,
+      "region": "Крым",
+      "slug": "rozovoe-bryut-spumante",
+      "title": "Розовое брют Спуманте"
+    },
+    {
+      "category": "Розовое брют",
+      "color": "Розовый",
+      "image": {
+        "altText": "балка",
+        "url": "/uploads/PU_Sjv7dn_M_Nil_H25_TO_9_Bcb_FBPZSZMWHW_C96_w_Sl_B_Ivm4j7_Som_Vif_Cn_Wb_Cxb_VPT_4yr_DB_1uyf_ORJ_Yphzw_KV_Ywj_Q_f45fac7d4e.webp"
+      },
+      "manufacturer": "Золотая Балка",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "rozovoe-bryut-1",
+      "title": "Розовое брют"
+    },
+    {
+      "category": "Розовое брют",
+      "color": "Розовый",
+      "image": {
+        "altText": "monte",
+        "url": "/uploads/PU_Sjv7dn_M_Nil_H25_TO_9_Bcb_G_Lfwi_SE_8_H5cq_Xo_T_Ec1_yac_Fq_C67_G_Bdpq_E3_H_Xb_Aj_Cyq73a90_Q8_Kp_BC_64_Bcw_S_Wo_Q_a100d7b92b.webp"
+      },
+      "manufacturer": "Дербент Вино",
+      "publicRating": 5,
+      "region": "Дагестан",
+      "slug": "rozovoe-bryut",
+      "title": "Розовое брют Monte Garu"
+    },
+    {
+      "category": "Розовое брют",
+      "color": "Лососевый",
+      "image": {
+        "altText": "ди каспико",
+        "url": "/uploads/PU_Sjv7dn_M_Nil_H25_TO_9_Bcb_Pv_EK_1_Fhd_Y8_N_Chl65_03i_I_Rbe662_P_Itcwol_Ea035_C3g_Q_Vz_Ms_L6_Qa_Ptitt_N_Ij_G_Pfq_Ow_6227b012ea.webp"
+      },
+      "manufacturer": "Дербент Вино",
+      "publicRating": 4.33,
+      "region": "Дагестан",
+      "slug": "di-caspico-rozovoe-bryut",
+      "title": "Di Caspico розовое брют"
+    },
+    {
+      "category": "Розовое брют",
+      "color": "Нежно-розовый с ягодным отливом",
+      "image": {
+        "altText": "Ведерниковъ Цимлянский Чёрный Брют Розе",
+        "url": "/uploads/vinodelnya_vedernikov_vedernikov_tsimlyanskiy_chyornyy_bryut_roze_2_tsimlyanskiy_chernyy_rozovoe_12_f890d2ca11.webp"
+      },
+      "manufacturer": "Ведерниковъ",
+      "publicRating": 4.5,
+      "region": "Долина Дона",
+      "slug": "vinodelnya-vedernikov-vedernikov-tsimlyanskiy-chyornyy-bryut-roze-2-tsimlyanskiy-chernyy-rozovoe-12",
+      "title": "Ведерниковъ Цимлянский Чёрный Брют Розе 2"
+    },
+    {
+      "category": "Розовое брют",
+      "color": "Нежно-розовый с ягодным отливом",
+      "image": {
+        "altText": "Ведерниковъ Цимлянский Чёрный Брют Розе",
+        "url": "/uploads/vinodelnya_vedernikov_vedernikov_tsimlyanskiy_chyornyy_bryut_roze_tsimlyanskiy_chernyy_rozovoe_12_62efb1454a.webp"
+      },
+      "manufacturer": "Ведерниковъ",
+      "region": "Долина Дона",
+      "slug": "vinodelnya-vedernikov-vedernikov-tsimlyanskiy-chyornyy-bryut-roze-tsimlyanskiy-chernyy-rozovoe-12",
+      "title": "Ведерниковъ Цимлянский Чёрный Брют Розе"
+    },
+    {
+      "category": "Розовое брют",
+      "color": "Бледно-соломенный с золотистым отливом",
+      "image": {
+        "altText": "Cuvee de Prestige Pinot Millesime Collection Russian Sparkling Brut Novy Svet",
+        "url": "/uploads/novyy_svet_dom_shampanskih_vin_rossiyskoe_shampanskoe_kollektsionnoe_bryut_beloe_novyy_svet_kyuve_de_prestizh_pino_gri_millezim_rozovoe_125_04f220ac39.webp"
+      },
+      "manufacturer": "Новый Свет. Дом шампанских вин",
+      "publicRating": 4,
+      "region": "Крым",
+      "slug": "novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-kollektsionnoe-bryut-beloe-novyy-svet-kyuve-de-prestizh-pino-gri-millezim-rozovoe-125",
+      "title": "Российское шампанское коллекционное брют белое «Новый Свет. Кюве Де Престиж Пино Гри Миллезим»"
+    },
+    {
+      "category": "Розовое брют",
+      "color": "Нежно-розовый с лёгким коралловым оттенком",
+      "image": {
+        "altText": "Aged Russian Sparkling Cabernet Sauvignon Brut Rose Novy Svet",
+        "url": "/uploads/novyy_svet_dom_shampanskih_vin_rossiyskoe_shampanskoe_vyderzhannoe_bryut_rozovoe_novyy_svet_kaberne_kaberne_sovinon_11_7a22643210.webp"
+      },
+      "manufacturer": "Новый Свет. Дом шампанских вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-vyderzhannoe-bryut-rozovoe-novyy-svet-kaberne-kaberne-sovinon-11",
+      "title": "Российское шампанское выдержанное брют розовое «Новый Свет. Каберне»"
+    },
+    {
+      "category": "Розовое брют",
+      "color": "Блестящий розовый",
+      "image": {
+        "altText": "Pinot Fran Rose Brut Noviy Svet",
+        "url": "/uploads/novyy_svet_dom_shampanskih_vin_igristoe_vino_vyderzhannoe_bryut_rozovoe_novyy_svet_pino_fran_135_e6633aa65e.webp"
+      },
+      "manufacturer": "Новый Свет. Дом шампанских вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "novyy-svet-dom-shampanskih-vin-igristoe-vino-vyderzhannoe-bryut-rozovoe-novyy-svet-pino-fran-135",
+      "title": "Игристое вино выдержанное брют розовое «Новый Свет. Пино Фран»"
+    }
+  ],
+  "site_lastmod": "2026-02-23T15:37:33.000Z",
+  "site_wine": {
+    "alcohol": 10,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "name": "Розовое брют"
+    },
+    "color": "Светло-коралловый",
+    "description": "Миллезимное вино из сорта винограда Пино Гри отличается легкостью, мягкостью и гастрономичностью. Виноград, рожденный на меловых почвах предгорной зоны западного Крыма, в долине рек Альма и Кача, собирается вручную, в прохладные утренние часы. При производстве используется сок только первого отжима — «кюве». Вино выдерживается на осадке более 36 месяцев в тоннелях конца XIX века при постоянной температуре +14С. Технологические операции: перекладка, ремюаж — проводятся вручную. \n\nСветло-кораллового цвета с тонким ягодно-сливочным букетом. Во вкусе преобладает изобилие сладких тонов земляники, малины и розовой черешни. Вино сбалансировано, легкая сладость ягод гармонирует с изумительной свежестью.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ptica_9a6c7e3ea1.webp"
+        },
+        "name": "Блюда из птицы"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/myaso_442273df41.webp"
+        },
+        "name": "Мясо и стейки"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Gri_76fc8e544f.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Gri2_4fc806861d.webp"
+        },
+        "name": "Пино Гри"
+      }
+    ],
+    "image": {
+      "altText": "Новый Свет. Пино Гри Миллезим",
+      "url": "/uploads/4303_v_E_Ae_Fb_H_c2ae43e296.webp"
+    },
+    "manufacturer": {
+      "name": "Новый Свет. Дом шампанских вин",
+      "slug": "noviy_svet"
+    },
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "novyj-svet-pino-gri-millezim",
+    "temperature": "4-8",
+    "title": "Новый Свет. Пино Гри Миллезим"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Новый Свет. Пино Гри Миллезим",
+      "title": "Новый Свет. Пино Гри Миллезим",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/4303_v_E_Ae_Fb_H_c2ae43e296.webp"
+    }
+  ],
+  "slug": "novyj-svet-pino-gri-millezim"
+}

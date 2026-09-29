@@ -1,0 +1,194 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 77090,
+      "format": "WEBP",
+      "height": 1920,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          1920,
+          1920
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/solnechnaya-dolina-muskatnoe-festivalnoe-muskat-belyy-rozovoe-sladkoe-16.webp",
+        "sha256": "b64385027ce2009d861fec4bbdd5431f8da66de74cb2053aa91a3669f6a4981d",
+        "source_bbox_xyxy": [
+          706,
+          0,
+          1212,
+          1920
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/solnechnaya-dolina-muskatnoe-festivalnoe-muskat-belyy-rozovoe-sladkoe-16.webp",
+      "sha256": "1ef13f53fb5f97c7e04613070e81117d9f3014339a74ed21fb7c962ddc063828",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/solnechnaya_dolina_muskatnoe_festivalnoe_muskat_belyy_rozovoe_sladkoe_16_a0294f4818.webp",
+      "width": 1920
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/solnechnaya-dolina-muskatnoe-festivalnoe-muskat-belyy-rozovoe-sladkoe-16",
+  "retrieved_at_utc": "2026-09-29T19:18:00.019723+00:00",
+  "similar_wines": [
+    {
+      "category": "Розовое сладкое",
+      "color": "Розовый, насыщенный",
+      "image": {
+        "altText": "Вино Muskatel Rose Massandra",
+        "url": "/uploads/massandra_muskatel_rozovyy_belye_sorta_vinograda_rozovoe_sladkoe_16_3e12b153be.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-muskatel-rozovyy-belye-sorta-vinograda-rozovoe-sladkoe-16",
+      "title": "Мускатель розовый"
+    },
+    {
+      "category": "Розовое сладкое",
+      "color": "Янтарно-розовый, насыщенный",
+      "image": {
+        "altText": "Мускат розовый позднего сбора",
+        "url": "/uploads/massandra_muskat_rozovyy_pozdnego_sbora_rozovoe_sladkoe_10_543ccac814.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-muskat-rozovyy-pozdnego-sbora-rozovoe-sladkoe-10",
+      "title": "Мускат розовый позднего сбора"
+    },
+    {
+      "category": "Розовое сладкое",
+      "color": "Ярко-розовый",
+      "image": {
+        "altText": "Имение Сикоры",
+        "url": "/uploads/imenie_sikory_krasnostop_zolotovskiy_pozdniy_sbor_rozovoe_sladkoe_13_305f6270ac.webp"
+      },
+      "manufacturer": "Имение Сикоры",
+      "region": "Кубань",
+      "slug": "imenie-sikory-krasnostop-zolotovskiy-pozdniy-sbor-rozovoe-sladkoe-13",
+      "title": "Красностоп Золотовский. Поздний сбор"
+    },
+    {
+      "category": "Розовое сладкое",
+      "color": "Розовый",
+      "image": {
+        "altText": "Фанагория",
+        "url": "/uploads/fanagoriya_ice_wine_merlo_rozovoe_sladkoe_10_f04efb1e6f.webp"
+      },
+      "manufacturer": "винный дом «Фанагория»",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "fanagoriya-ice-wine-merlo-rozovoe-sladkoe-10",
+      "title": "Ice Wine Мерло розовое"
+    },
+    {
+      "category": "Розовое сладкое",
+      "color": "Насыщенный розовый",
+      "image": {
+        "altText": "ЗМВ Коктебель",
+        "url": "/uploads/zmv_koktebel_muskat_desertnyy_rozovoe_sladkoe_16_42c8ac5c99.webp"
+      },
+      "manufacturer": "ЗМВ Коктебель",
+      "region": "Крым",
+      "slug": "zmv-koktebel-muskat-desertnyy-rozovoe-sladkoe-16",
+      "title": "Мускат десертный"
+    },
+    {
+      "category": "Розовое сладкое",
+      "color": "Нежно-розовое",
+      "image": {
+        "altText": "Мускат позднего сбора розовый",
+        "url": "/uploads/4290_z_D_Kb_OVA_no_bg_preview_carve_photos_6bdfe80e27.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "muskat-pozdnego-sbora-rozovyj",
+      "title": "Мускат позднего сбора розовый"
+    },
+    {
+      "category": "Розовое сладкое",
+      "color": "Вино светло-персикового цвета.",
+      "image": {
+        "altText": "Tête de Cheval\nсладкое розе",
+        "url": "/uploads/pomeste_golubitskoe_tte_de_cheval_sladkoe_roze_pino_gri_sladkoe_rozovoe_115_f49c737b87.webp"
+      },
+      "manufacturer": "Golubitskoe Estate",
+      "publicRating": 3.5,
+      "rating": 4.23,
+      "region": "Кубань",
+      "slug": "pomeste-golubitskoe-tte-de-cheval-sladkoe-roze-pino-gri-rozovoe-115",
+      "title": "Tête de Cheval\n сладкое розе"
+    }
+  ],
+  "site_lastmod": "2026-01-12T11:23:31.000Z",
+  "site_wine": {
+    "alcohol": 16,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "name": "Розовое сладкое"
+    },
+    "color": "Вино красивого кораллового цвета с блеском.",
+    "description": "Аромат манящий и выразительный: тона клубники, малины, засахаренных ягод вишни, апельсиновых цукатов и варенья из лепестков роз в обрамлении тонких нюансов средиземноморских трав. Вкус полный, обвалакивающий, со спокойной кислотностью и длительным ягодным послевкусием. Богато, объемно и согревающе. Отличный дижестив.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/nesladkaya_vypechka_05bf04c48c.webp"
+        },
+        "name": "Выпечка и десерты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Muskat_d58579a0e1.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Marsan3_97291c74a8.webp"
+        },
+        "name": "Мускат Белый"
+      }
+    ],
+    "image": {
+      "altText": "Мускатное Фестивальное",
+      "url": "/uploads/solnechnaya_dolina_muskatnoe_festivalnoe_muskat_belyy_rozovoe_sladkoe_16_a0294f4818.webp"
+    },
+    "manufacturer": {
+      "name": "Солнечная долина",
+      "slug": "solnechnaya_dolina"
+    },
+    "publicRating": 5,
+    "rating": 4.3,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "solnechnaya-dolina-muskatnoe-festivalnoe-muskat-belyy-rozovoe-sladkoe-16",
+    "temperature": "14-16",
+    "title": "Мускатное Фестивальное"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Мускатное Фестивальное",
+      "title": "Мускатное Фестивальное",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/solnechnaya_dolina_muskatnoe_festivalnoe_muskat_belyy_rozovoe_sladkoe_16_a0294f4818.webp"
+    }
+  ],
+  "slug": "solnechnaya-dolina-muskatnoe-festivalnoe-muskat-belyy-rozovoe-sladkoe-16"
+}

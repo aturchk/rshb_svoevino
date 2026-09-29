@@ -10,7 +10,8 @@ cd "$root"
 
 model_id="google/siglip2-base-patch16-384"
 model_revision="f775b65a79762255128c981547af89addcfe0f88"
-adapter="work/models/siglip2-field-adapter.safetensors"
+gallery="dataset/vino-svoe/gallery-reviewed-candidates.jsonl"
+adapter="ml/models/siglip2-site-label-adapter.safetensors"
 device="${ML_DEVICE:-auto}"
 precision="${ML_PRECISION:-auto}"
 batch_size="${ML_BATCH_SIZE:-8}"
@@ -42,22 +43,19 @@ if [ ! -d frontend/node_modules ]; then
   (cd frontend && npm ci)
 fi
 
-.venv/bin/wine-cv prepare-strict --data-root .
-
-if [ ! -f "$adapter" ] || [ ! -f "$adapter.json" ]; then
-  printf 'No frozen adapter found; training it locally. This is a one-time operation.\n'
-  .venv/bin/wine-cv train-adapter \
-    --gallery work/gallery-strict.jsonl --data-root . --output "$adapter" \
-    --model-id "$model_id" --model-revision "$model_revision" \
-    --device "$device" --precision "$precision" --batch-size "$batch_size" \
-    --train-views 4 --val-views 1 --rank 64 --epochs 15 --seed 20260928
-fi
+for artifact in "$gallery" "$adapter" "$adapter.json"; do
+  [ -f "$artifact" ] || {
+    printf 'Missing production artifact: %s\n' "$artifact" >&2
+    exit 1
+  }
+done
 
 .venv/bin/wine-cv build-index \
-  --pipeline siglip2 --gallery work/gallery-strict.jsonl --data-root . \
+  --pipeline siglip2 --gallery "$gallery" --data-root . \
   --model-id "$model_id" --model-revision "$model_revision" \
   --adapter-path "$adapter" --device "$device" --precision "$precision" \
-  --batch-size "$batch_size" --cache-policy auto
+  --batch-size "$batch_size" --reference-view-mode full-label \
+  --query-view-mode full --cache-policy auto
 
 (cd frontend && npm run build:images && npm run build)
 printf 'Local stack is prepared. Start it with: make local\n'

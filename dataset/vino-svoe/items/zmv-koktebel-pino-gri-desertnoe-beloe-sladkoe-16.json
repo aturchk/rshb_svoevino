@@ -1,0 +1,257 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 58346,
+      "format": "WEBP",
+      "height": 1920,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          655,
+          1920
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/zmv-koktebel-pino-gri-desertnoe-beloe-sladkoe-16.webp",
+        "sha256": "4e2db98e6aa9bb33b00141cb7c3015586c2d7bfabc6030c86ff2389ebdf47a81",
+        "source_bbox_xyxy": [
+          144,
+          91,
+          509,
+          1817
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/zmv-koktebel-pino-gri-desertnoe-beloe-sladkoe-16.webp",
+      "sha256": "d7542478552ce7711ee400c2e161c5b5219aa9cf1f43d2c0dd7e5b6c2d6fba4a",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/zmv_koktebel_pino_gri_desertnoe_beloe_sladkoe_16_b61dc2f497.webp",
+      "width": 655
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/zmv-koktebel-pino-gri-desertnoe-beloe-sladkoe-16",
+  "retrieved_at_utc": "2026-09-29T19:16:56.981199+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое сладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Массандра Портвейн белый Сурож",
+        "url": "/uploads/Massandra_Portvejn_belyj_Surozh_5476f24b50.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 3.67,
+      "region": "Крым",
+      "slug": "portvejn-surozh",
+      "title": "Портвейн Сурож"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Янтарный",
+      "image": {
+        "altText": "Солнечная Долина Сары Пандас выдержанное",
+        "url": "/uploads/Solnechnaya_Dolina_Sary_Pandas_vyderzhannoe_c056d7120c.webp"
+      },
+      "manufacturer": "Солнечная долина",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "sary-pandas-vyderzhannoe",
+      "title": "Сары Пандас выдержанное"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Массандра Мадера Крымская",
+        "url": "/uploads/Massandra_Madera_Krymskaya_42f85c120a.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 4.88,
+      "region": "Крым",
+      "slug": "madera-krymskaya",
+      "title": "Мадера Крымская"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Массандра Херес",
+        "url": "/uploads/Massandra_Heres_f281a9d608.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-heres",
+      "title": "Массандра Херес"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Шато Тамань резерв мускат десертный выдержанный",
+        "url": "/uploads/Shato_Taman_rezerv_muskat_desertnyj_vyderzhannyj_fcef49a1a7.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "region": "Кубань",
+      "slug": "chateau-tamagne-grand-dessert-muscat",
+      "title": "Chateau Tamagne Grand Dessert Muscat"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Солнечная долина портвейн крымский",
+        "url": "/uploads/Solnechnaya_dolina_portvejn_krymskij_e3f225c04e.webp"
+      },
+      "manufacturer": "Солнечная долина",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "portvejn-krymskij",
+      "title": "Портвейн Крымский"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Поздний сбор",
+        "url": "/uploads/Screenshot_21_2f4c3173b1.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 4.78,
+      "region": "Кубань",
+      "slug": "pozdnij-sbor-beloe",
+      "title": "Поздний сбор  Белое"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Янтарный, с золотистыми отблесками",
+      "image": {
+        "altText": "г",
+        "url": "/uploads/output_img_037_425130ed89.webp"
+      },
+      "manufacturer": "Галицкий и Галицкий",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "le-general-hiver",
+      "title": "Le General Hiver"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Насыщенный золотистый",
+      "image": {
+        "altText": "Пино Гри 2025 поздний сбор бюрнье",
+        "url": "/uploads/Pino_Gri_2025_pozdnij_sbor_png_4dc63be6e9.webp"
+      },
+      "manufacturer": "Винодельня Бюрнье",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "b-yu-rne-pino-gri-pozdnij-sbor-sladkoe-beloe",
+      "title": "БЮРНЬЕ.ПИНО ГРИ Поздний сбор сладкое белое"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Золотистый, янтарный",
+      "image": {
+        "altText": "Вино Port White Alushta Massandra",
+        "url": "/uploads/massandra_portveyn_belyy_alushta_belye_sorta_vinograda_beloe_sladkoe_17_ab89a72383.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-portveyn-belyy-alushta-belye-sorta-vinograda-beloe-sladkoe-17",
+      "title": "Портвейн белый Алушта"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Янтарно-золотистый, прозрачный",
+      "image": {
+        "altText": "Вино Muskatel White Massandra",
+        "url": "/uploads/massandra_muskatel_belyy_belye_sorta_vinograda_beloe_sladkoe_16_f7e0314033.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-muskatel-belyy-belye-sorta-vinograda-beloe-sladkoe-16",
+      "title": "Мускатель белый"
+    },
+    {
+      "category": "Белое сладкое",
+      "color": "Янтарно-золотистый",
+      "image": {
+        "altText": "Вино Muskat Late Harvest White Massandra",
+        "url": "/uploads/massandra_muskat_belyy_pozdnego_sbora_beloe_sladkoe_10_17230edc84.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-muskat-belyy-pozdnego-sbora-beloe-sladkoe-10",
+      "title": "Мускат белый позднего сбора"
+    }
+  ],
+  "site_lastmod": "2026-04-02T12:17:47.000Z",
+  "site_wine": {
+    "alcohol": 16,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое сладкое"
+    },
+    "color": "Янтарный",
+    "description": "В аромате варенье из инжира, алычи, белой черешни, гречишный мед, пряные оттенки. Во вкусе белая черешня, айва, инжир, варенье из крыжовника. Продолжительное сбалансированное послевкусие.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/sladkaya_vypechka_71424474e1.webp"
+        },
+        "name": "Десерты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Gri_76fc8e544f.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Gri2_4fc806861d.webp"
+        },
+        "name": "Пино Гри"
+      }
+    ],
+    "image": {
+      "altText": "ЗМВ Коктебель",
+      "url": "/uploads/zmv_koktebel_pino_gri_desertnoe_beloe_sladkoe_16_b61dc2f497.webp"
+    },
+    "manufacturer": {
+      "name": "ЗМВ Коктебель",
+      "slug": "zmv-koktebel"
+    },
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "zmv-koktebel-pino-gri-desertnoe-beloe-sladkoe-16",
+    "temperature": "16-18",
+    "title": "Пино гри десертное"
+  },
+  "sitemap_images": [
+    {
+      "caption": "ЗМВ Коктебель",
+      "title": "ЗМВ Коктебель",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/zmv_koktebel_pino_gri_desertnoe_beloe_sladkoe_16_b61dc2f497.webp"
+    }
+  ],
+  "slug": "zmv-koktebel-pino-gri-desertnoe-beloe-sladkoe-16"
+}

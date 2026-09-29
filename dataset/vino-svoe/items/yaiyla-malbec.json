@@ -1,0 +1,267 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 11782,
+      "format": "WEBP",
+      "height": 600,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          500,
+          600
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/yaiyla-malbec.webp",
+        "sha256": "70f770a52771fdf355352a9146d55cc463fdb2aecd304db5576b1ec29a1503a1",
+        "source_bbox_xyxy": [
+          173,
+          5,
+          336,
+          594
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/yaiyla-malbec.webp",
+      "sha256": "8abc382d265b35fe6198950356d3a72ed2a34fde935d9151ffa68dd8b2063173",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Yajla_Malbek_2024_cb1c7ff096.webp",
+      "width": 500
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/yaiyla-malbec",
+  "retrieved_at_utc": "2026-09-29T19:14:08.478603+00:00",
+  "similar_wines": [
+    {
+      "category": "Красное сухое",
+      "color": "Насыщенный рубиновый с фиолетовым отливом",
+      "image": {
+        "altText": "Красное сухое вино Мулета от винодельни Орлова",
+        "url": "/uploads/Muleta_2020_2b726546bb.webp"
+      },
+      "manufacturer": "Винодельня Орлова",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "muleta",
+      "title": "Мулета"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Х4123 Винные краски Каберне Совиньон",
+        "url": "/uploads/H4123_Vinnye_kraski_Kaberne_Sovinon_2024_DKV_06462e2b91.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 4.5,
+      "region": "Крым",
+      "slug": "vinnye-kraski-kaberne-sovinon",
+      "title": "Винные краски, Каберне Совиньон"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Темно-гранатовый",
+      "image": {
+        "altText": "Х4124 Винные краски Мерло 2024 ДК",
+        "url": "/uploads/H4124_Vinnye_kraski_Merlo_2024_DKV_1_3a6f83c9be.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 4,
+      "region": "Крым",
+      "slug": "vinnye-kraski-merlo",
+      "title": "Винные краски, Мерло"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Темно-рубиновый",
+      "image": {
+        "altText": "Х4119 Улыбка Ветра Каберне Совиньон",
+        "url": "/uploads/H4119_Ulybka_Vetra_Kaberne_Sovinon_2024_DKV_eba5b4df62.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-kaberne-sovinon",
+      "title": "Улыбка ветра, Каберне Совиньон"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Х4120 Улыбка ветра Мерло 2024 ДКВ",
+        "url": "/uploads/H4120_Ulybka_vetra_Merlo_2024_DKV_426a5f1726.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-merlo",
+      "title": "Улыбка ветра, Мерло"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "Саперави — лимитированная серия",
+        "url": "/uploads/lim_saperavi_0777d3f30f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.83,
+      "region": "Крым",
+      "slug": "saperavi-limitirovannaya-seriya",
+      "title": "Саперави — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Глубокий рубиновый",
+      "image": {
+        "altText": "Каберне Фран — лимитированная серия",
+        "url": "/uploads/lim_cabernet_franc_b8513a1a08.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.8,
+      "region": "Крым",
+      "slug": "kaberne-fran-limitirovannaya-seriya",
+      "title": "Каберне Фран — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красное",
+      "image": {
+        "altText": "Каберне Совиньон и Саперави — лимитированная серия",
+        "url": "/uploads/lim_cs_saperavi_63126ea067.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.9,
+      "region": "Крым",
+      "slug": "kaberne-sovinon-i-saperavi-limitirovannaya-seriya",
+      "title": "Каберне Совиньон и Саперави — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "Мерло — лимитированная серия",
+        "url": "/uploads/lim_merlot_455ff5ee23.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.78,
+      "region": "Крым",
+      "slug": "merlo-limitirovannaya-seriya",
+      "title": "Мерло — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "Сира — лимитированная серия",
+        "url": "/uploads/lim_syrah_26570c7f18.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.89,
+      "region": "Крым",
+      "slug": "sira-limitirovannaya-seriya",
+      "title": "Сира — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "135",
+        "url": "/uploads/lim_135_8dbef0e498.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.78,
+      "region": "Крым",
+      "slug": "135",
+      "title": "135"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "44 Параллель",
+        "url": "/uploads/lim_44_parallel_9bcf69d5d7.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.57,
+      "region": "Крым",
+      "slug": "44-parallel",
+      "title": "44 Параллель"
+    }
+  ],
+  "site_lastmod": "2026-09-25T12:55:11.000Z",
+  "site_wine": {
+    "alcohol": 10,
+    "alcoholMax": 11,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "name": "Красное сухое"
+    },
+    "color": "Красно-бордовый",
+    "description": "Красное сухое вино сделано из сорта винограда Мальбек урожая 2025 года, выращенного в юго-западном Крыму в Сакском районе. \n\nВиноград собирался 3 октября в небольшие ящики по 10 кг с ручной сортировкой на винограднике. Ферментация происходила на диких дрожжах при невысоких температурах с последующей постферментационной мацерацией. \nВино частично выдерживалось в старых французских дубовых бочках, и частично в емкости из нержавеющей стали в течение 6 месяцев. \n\nКрасивая ягодная ароматика с оттенками вишни и черешни. Легкое и питкое вино со яркой кислотностью и очень мягкими танинами. Вино легко-тельное, сделанное в стиле Glu-Glu.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ptica_9a6c7e3ea1.webp"
+        },
+        "name": "Блюда из птицы"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/myaso_442273df41.webp"
+        },
+        "name": "Мясо и стейки"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Malbek_0e79a2dd99.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Malbek2_20377afe87.webp"
+        },
+        "name": "Мальбек"
+      }
+    ],
+    "image": {
+      "altText": "Яйла-Мальбек",
+      "url": "/uploads/Yajla_Malbek_2024_cb1c7ff096.webp"
+    },
+    "manufacturer": {
+      "name": "Yaiyla Winery",
+      "slug": "yaiyla_winery"
+    },
+    "publicRating": 4.33,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "yaiyla-malbec",
+    "temperature": "16-18",
+    "title": "YAIYLA MALBEC"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Яйла-Мальбек",
+      "title": "Яйла-Мальбек",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Yajla_Malbek_2024_cb1c7ff096.webp"
+    }
+  ],
+  "slug": "yaiyla-malbec"
+}

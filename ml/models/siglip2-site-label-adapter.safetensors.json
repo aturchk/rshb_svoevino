@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "method": "frozen_siglip2_low_rank_residual",
+  "model_id": "google/siglip2-base-patch16-384",
+  "requested_revision": "f775b65a79762255128c981547af89addcfe0f88",
+  "resolved_revision": "f775b65a79762255128c981547af89addcfe0f88",
+  "gallery_sha256": "22fd16912871143c4a3f8b369cbc748528d63f196391c83d6c6995f4e9e09836",
+  "gallery_size": 1936,
+  "embedding_dimension": 768,
+  "rank": 64,
+  "train_views_per_item": 4,
+  "validation_views_per_item": 1,
+  "seed": 20260929,
+  "augmentation": "label-mix-v2",
+  "view_transform_version": "bottle-bbox-label-crops-v1",
+  "epochs": 15,
+  "best_epoch": 15,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0001,
+  "temperature": 0.05,
+  "baseline_proxy": {
+    "top1_accuracy": 0.6627066115702479,
+    "recall_at_5": 0.8011363636363636
+  },
+  "best_proxy": {
+    "top1_accuracy": 0.7908057851239669,
+    "recall_at_5": 0.9297520661157025
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.355097370206817,
+      "top1_accuracy": 0.7221074380165289,
+      "recall_at_5": 0.8450413223140496
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.3786520917307248,
+      "top1_accuracy": 0.7489669421487604,
+      "recall_at_5": 0.8868801652892562
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.2487587475579631,
+      "top1_accuracy": 0.7556818181818182,
+      "recall_at_5": 0.893595041322314
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.2090112244294695,
+      "top1_accuracy": 0.7587809917355371,
+      "recall_at_5": 0.8982438016528925
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.1872642343201913,
+      "top1_accuracy": 0.7592975206611571,
+      "recall_at_5": 0.8966942148760331
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.161452729839924,
+      "top1_accuracy": 0.762396694214876,
+      "recall_at_5": 0.9039256198347108
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.1346527177932835,
+      "top1_accuracy": 0.7634297520661157,
+      "recall_at_5": 0.9085743801652892
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.1079800590749616,
+      "top1_accuracy": 0.7722107438016529,
+      "recall_at_5": 0.9121900826446281
+    },
+    {
+      "epoch": 9,
+      "train_loss": 1.078710269213708,
+      "top1_accuracy": 0.7711776859504132,
+      "recall_at_5": 0.9127066115702479
+    },
+    {
+      "epoch": 10,
+      "train_loss": 1.0505826155508846,
+      "top1_accuracy": 0.7768595041322314,
+      "recall_at_5": 0.922004132231405
+    },
+    {
+      "epoch": 11,
+      "train_loss": 1.0255924369678024,
+      "top1_accuracy": 0.7799586776859504,
+      "recall_at_5": 0.9214876033057852
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.9979560875202999,
+      "top1_accuracy": 0.7846074380165289,
+      "recall_at_5": 0.9245867768595041
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.9752170617176481,
+      "top1_accuracy": 0.7882231404958677,
+      "recall_at_5": 0.9282024793388429
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.952095888739775,
+      "top1_accuracy": 0.7877066115702479,
+      "recall_at_5": 0.9307851239669421
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.930834247430494,
+      "top1_accuracy": 0.7908057851239669,
+      "recall_at_5": 0.9297520661157025
+    }
+  ],
+  "proxy_warning": "Metrics use synthetic views of the same catalog images and are regression signals, not field-photo accuracy.",
+  "runtime": {
+    "model_id": "google/siglip2-base-patch16-384",
+    "requested_revision": "f775b65a79762255128c981547af89addcfe0f88",
+    "resolved_revision": "f775b65a79762255128c981547af89addcfe0f88",
+    "device": "cuda",
+    "precision": "float16",
+    "torch": "2.8.0+cu128",
+    "cuda_runtime": "12.8",
+    "cuda_device_name": "NVIDIA GeForce RTX 5090",
+    "batch_size": 32,
+    "max_num_patches": null,
+    "attn_implementation": "sdpa",
+    "offline": false,
+    "adapter_path": null,
+    "adapter_sha256": null,
+    "reference_view_mode": "full",
+    "query_view_mode": "full",
+    "view_transform_version": "bottle-bbox-label-crops-v1",
+    "views_per_reference": 1,
+    "cache_hit": false,
+    "cache_path": null,
+    "embedding_dimension": null,
+    "model_load_ms": 15714.22,
+    "cache_load_ms": null,
+    "cache_load_error": null,
+    "gallery_encode_ms": null
+  },
+  "elapsed_seconds": 343.742
+}

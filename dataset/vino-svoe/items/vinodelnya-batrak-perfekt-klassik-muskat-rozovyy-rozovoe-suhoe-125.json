@@ -1,0 +1,279 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 23724,
+      "format": "WEBP",
+      "height": 1000,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          236,
+          1000
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/vinodelnya-batrak-perfekt-klassik-muskat-rozovyy-rozovoe-suhoe-125.webp",
+        "sha256": "03326589725edd4042a0c4d19b000a4f90a332c8ae579d88e6b8fca0844898c6",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          236,
+          1000
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/vinodelnya-batrak-perfekt-klassik-muskat-rozovyy-rozovoe-suhoe-125.webp",
+      "sha256": "1b53e73e7c39e31409e2d507670183d223ad0b50b238a4af38a2814d7a7df2ab",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/vinodelnya_batrak_perfekt_klassik_muskat_rozovyy_rozovoe_suhoe_125_3a24f57798.webp",
+      "width": 236
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/vinodelnya-batrak-perfekt-klassik-muskat-rozovyy-rozovoe-suhoe-125",
+  "retrieved_at_utc": "2026-09-29T19:19:19.032049+00:00",
+  "similar_wines": [
+    {
+      "category": "Розовое сухое",
+      "color": "Нежно-розовое",
+      "image": {
+        "altText": "Розовое сухое Усадьба перовских",
+        "url": "/uploads/main_rose_dry_daef1d0a86.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.82,
+      "region": "Крым",
+      "slug": "rozovoe-suhoe",
+      "title": "Розовое сухое"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Розовый",
+      "image": {
+        "altText": "Восток розе",
+        "url": "/uploads/c5bc5ded2f2bc7b_343x610_notcrop_2c484caa6b.webp"
+      },
+      "manufacturer": "Château Le Grand Vostock",
+      "publicRating": 4.4,
+      "region": "Кубань",
+      "slug": "vostok-roze",
+      "title": "Восток розе"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Розовый",
+      "image": {
+        "altText": "закат денисов вайнери",
+        "url": "/uploads/zakat_denisov_vajneri_no_bg_preview_carve_photos_1_6ae9baa13d.webp"
+      },
+      "manufacturer": "Denisov Winery",
+      "publicRating": 4.63,
+      "region": "Самара",
+      "slug": "zakat-denisov-vajneri",
+      "title": "Закат. Денисов Вайнери"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Лососевый",
+      "image": {
+        "altText": "Пино нуар Мельниковы",
+        "url": "/uploads/DSC_00836_4070f8fd2f.webp"
+      },
+      "manufacturer": "Винодельня Братьев Мельниковых",
+      "publicRating": 4.82,
+      "region": "Крым",
+      "slug": "pino-nuar-2025",
+      "title": "Пино Нуар, 2025"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Нежно-розовое",
+      "image": {
+        "altText": "Массандра сухое розовое",
+        "url": "/uploads/Massandra_suhoe_rozovoe_218d80e12d.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-rozovoe-suhoe",
+      "title": "Массандра розовое сухое"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Светло-розовое",
+      "image": {
+        "altText": "Golubitskoe Rose",
+        "url": "/uploads/Golubitskoe_Estate_Rose_84adcc1cea.webp"
+      },
+      "manufacturer": "Поместье Голубицкое",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "golubitskoe-rose",
+      "title": "Golubitskoe Rose"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Блестяще-розовый",
+      "image": {
+        "altText": "Высокий берег Цвайгельт",
+        "url": "/uploads/Vysokij_bereg_Czvajgelt_8c439c9f75.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "vysokij-bereg-czvajgelt",
+      "title": "Высокий Берег Цвайгельт"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Нежно-розовый",
+      "image": {
+        "altText": "Литавщук розе",
+        "url": "/uploads/Screenshot_24_c38ca52fac.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 4.92,
+      "region": "Кубань",
+      "slug": "roze-premium",
+      "title": "Розе. Премиум"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Нежно-розовый",
+      "image": {
+        "altText": "Табия розе",
+        "url": "/uploads/Screenshot_17_6d600742f0.webp"
+      },
+      "manufacturer": "Табия",
+      "publicRating": 4.97,
+      "region": "Кубань",
+      "slug": "roze-2",
+      "title": "Розе"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Лососево-розовый",
+      "image": {
+        "altText": "ЛОРИО_РОЗОВОЕ",
+        "url": "/uploads/LORIO_ROZOVOE_9e1be3c909.webp"
+      },
+      "manufacturer": "ЛОРИО -  семейная винодельня Логуновых",
+      "publicRating": 4.89,
+      "region": "Кубань",
+      "slug": "lorio-rozovoe",
+      "title": "ЛОРИО. Розовое"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Светло-розовый с лососевым оттенком и блеском",
+      "image": {
+        "altText": "Галицкий",
+        "url": "/uploads/roze_0cd69a079f.webp"
+      },
+      "manufacturer": "Галицкий и Галицкий",
+      "publicRating": 4.75,
+      "region": "Кубань",
+      "slug": "roze-1",
+      "title": "Розе"
+    },
+    {
+      "category": "Розовое сухое",
+      "color": "Светло-розовый",
+      "image": {
+        "altText": "Мускат, Пино Гри сух",
+        "url": "/uploads/Muskat_Pino_Gri_suh_bbbbbf5ff9.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "zhemchuzhnaya-9-muskat-rozovyj-pino-gri",
+      "title": "Жемчужная 9 Мускат Розовый, Пино гри"
+    }
+  ],
+  "site_lastmod": "2026-01-12T11:51:26.000Z",
+  "site_wine": {
+    "alcohol": 12,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "name": "Розовое сухое"
+    },
+    "color": "Розово-лососевый",
+    "description": "Вкус: Изысканный, с гармоничной кислинкой, фруктово-ягодной палитрой, цветочными мотивами и бархатистым послевкусием. Изящный, с мускатными акцентами и нюансами чайной розы.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ptica_9a6c7e3ea1.webp"
+        },
+        "name": "Блюда из птицы"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/legkie_zakuski_e5a2dedbf7.webp"
+        },
+        "name": "Легкие закуски"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/myaso_442273df41.webp"
+        },
+        "name": "Мясо и стейки"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ryba_moreprodukty_e57b445d95.webp"
+        },
+        "name": "Рыба и морепродукты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/frukty_545dae1854.webp"
+        },
+        "name": "Фрукты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Muskat_d58579a0e1.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Vione_i_Verdeho_3502efff14.webp"
+        },
+        "name": "Мускат Розовый"
+      }
+    ],
+    "image": {
+      "altText": "Perfekt Klassik Мускат Розовый",
+      "url": "/uploads/vinodelnya_batrak_perfekt_klassik_muskat_rozovyy_rozovoe_suhoe_125_3a24f57798.webp"
+    },
+    "manufacturer": {
+      "name": "Винодельня Батрак",
+      "slug": "vinodelnya-batrak"
+    },
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/stavropolie_c83a9850fc.webp"
+      },
+      "name": "Ставрополье"
+    },
+    "slug": "vinodelnya-batrak-perfekt-klassik-muskat-rozovyy-rozovoe-suhoe-125",
+    "temperature": "10-12",
+    "title": "Perfekt Klassik Мускат Розовый"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Perfekt Klassik Мускат Розовый",
+      "title": "Perfekt Klassik Мускат Розовый",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/vinodelnya_batrak_perfekt_klassik_muskat_rozovyy_rozovoe_suhoe_125_3a24f57798.webp"
+    }
+  ],
+  "slug": "vinodelnya-batrak-perfekt-klassik-muskat-rozovyy-rozovoe-suhoe-125"
+}

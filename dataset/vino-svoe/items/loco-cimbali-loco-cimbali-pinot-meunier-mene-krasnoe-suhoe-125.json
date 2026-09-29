@@ -1,0 +1,259 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 28202,
+      "format": "WEBP",
+      "height": 1500,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          511,
+          1500
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/loco-cimbali-loco-cimbali-pinot-meunier-mene-krasnoe-suhoe-125.webp",
+        "sha256": "471cc6ad70d6625a6cf17783fb0d3a1779c3adbaf8728228cb3bf41aa76236af",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          511,
+          1500
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/loco-cimbali-loco-cimbali-pinot-meunier-mene-krasnoe-suhoe-125.webp",
+      "sha256": "cdb2b378e3b7577d43d08779c91d9959aa34555565dc150eecb44ab868872a21",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/loco_cimbali_loco_cimbali_pinot_meunier_mene_krasnoe_suhoe_125_bc6731c1b6.webp",
+      "width": 511
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/loco-cimbali-loco-cimbali-pinot-meunier-mene-krasnoe-suhoe-125",
+  "retrieved_at_utc": "2026-09-29T19:15:44.558267+00:00",
+  "similar_wines": [
+    {
+      "category": "Красное сухое",
+      "color": "Насыщенный рубиновый с фиолетовым отливом",
+      "image": {
+        "altText": "Красное сухое вино Мулета от винодельни Орлова",
+        "url": "/uploads/Muleta_2020_2b726546bb.webp"
+      },
+      "manufacturer": "Винодельня Орлова",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "muleta",
+      "title": "Мулета"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красно-бордовый",
+      "image": {
+        "altText": "Яйла-Мальбек",
+        "url": "/uploads/Yajla_Malbek_2024_cb1c7ff096.webp"
+      },
+      "manufacturer": "Yaiyla Winery",
+      "publicRating": 4.33,
+      "region": "Крым",
+      "slug": "yaiyla-malbec",
+      "title": "YAIYLA MALBEC"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Х4123 Винные краски Каберне Совиньон",
+        "url": "/uploads/H4123_Vinnye_kraski_Kaberne_Sovinon_2024_DKV_06462e2b91.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 4.5,
+      "region": "Крым",
+      "slug": "vinnye-kraski-kaberne-sovinon",
+      "title": "Винные краски, Каберне Совиньон"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Темно-гранатовый",
+      "image": {
+        "altText": "Х4124 Винные краски Мерло 2024 ДК",
+        "url": "/uploads/H4124_Vinnye_kraski_Merlo_2024_DKV_1_3a6f83c9be.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 4,
+      "region": "Крым",
+      "slug": "vinnye-kraski-merlo",
+      "title": "Винные краски, Мерло"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Темно-рубиновый",
+      "image": {
+        "altText": "Х4119 Улыбка Ветра Каберне Совиньон",
+        "url": "/uploads/H4119_Ulybka_Vetra_Kaberne_Sovinon_2024_DKV_eba5b4df62.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-kaberne-sovinon",
+      "title": "Улыбка ветра, Каберне Совиньон"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Х4120 Улыбка ветра Мерло 2024 ДКВ",
+        "url": "/uploads/H4120_Ulybka_vetra_Merlo_2024_DKV_426a5f1726.webp"
+      },
+      "manufacturer": "Дом Крымских Вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "ulybka-vetra-merlo",
+      "title": "Улыбка ветра, Мерло"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "Саперави — лимитированная серия",
+        "url": "/uploads/lim_saperavi_0777d3f30f.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.83,
+      "region": "Крым",
+      "slug": "saperavi-limitirovannaya-seriya",
+      "title": "Саперави — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Глубокий рубиновый",
+      "image": {
+        "altText": "Каберне Фран — лимитированная серия",
+        "url": "/uploads/lim_cabernet_franc_b8513a1a08.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.8,
+      "region": "Крым",
+      "slug": "kaberne-fran-limitirovannaya-seriya",
+      "title": "Каберне Фран — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красное",
+      "image": {
+        "altText": "Каберне Совиньон и Саперави — лимитированная серия",
+        "url": "/uploads/lim_cs_saperavi_63126ea067.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.9,
+      "region": "Крым",
+      "slug": "kaberne-sovinon-i-saperavi-limitirovannaya-seriya",
+      "title": "Каберне Совиньон и Саперави — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "Мерло — лимитированная серия",
+        "url": "/uploads/lim_merlot_455ff5ee23.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.78,
+      "region": "Крым",
+      "slug": "merlo-limitirovannaya-seriya",
+      "title": "Мерло — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "Сира — лимитированная серия",
+        "url": "/uploads/lim_syrah_26570c7f18.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.89,
+      "region": "Крым",
+      "slug": "sira-limitirovannaya-seriya",
+      "title": "Сира — лимитированная серия"
+    },
+    {
+      "category": "Красное сухое",
+      "color": "Красный",
+      "image": {
+        "altText": "135",
+        "url": "/uploads/lim_135_8dbef0e498.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.78,
+      "region": "Крым",
+      "slug": "135",
+      "title": "135"
+    }
+  ],
+  "site_lastmod": "2026-06-03T23:48:59.000Z",
+  "site_wine": {
+    "alcohol": 12,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "name": "Красное сухое"
+    },
+    "color": "Ярко-малиновый с рубиновым оттенком",
+    "description": "Элегантный аромат красных северных ягод — брусники, земляники, красной смородины, рябины — с лёгкими пряными оттенками. Вкус свежий, сочный, с невесомым шелковистым танином и ягодной питкостью.\nОтлично к лёгким ненасыщенным блюдам: тёплым салатам, белому мясу под ягодным соусом, татаки из тунца, утке конфи, тар-тару из говядины.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/myaso_442273df41.webp"
+        },
+        "name": "Мясо и стейки"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Бастардо",
+          "url": "/uploads/Bastardo_jpg_e0b3b61b63.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Grenash_Garnacha_a51104802e.webp"
+        },
+        "name": "Менье"
+      }
+    ],
+    "image": {
+      "altText": "Loco Cimbali Pinot Meunier",
+      "url": "/uploads/loco_cimbali_loco_cimbali_pinot_meunier_mene_krasnoe_suhoe_125_bc6731c1b6.webp"
+    },
+    "manufacturer": {
+      "name": "Loco Cimbali",
+      "slug": "loco-cimbali"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "loco-cimbali-loco-cimbali-pinot-meunier-mene-krasnoe-suhoe-125",
+    "temperature": "14-16",
+    "title": "Loco Cimbali Pinot Meunier"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Loco Cimbali Pinot Meunier",
+      "title": "Loco Cimbali Pinot Meunier",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/loco_cimbali_loco_cimbali_pinot_meunier_mene_krasnoe_suhoe_125_bc6731c1b6.webp"
+    }
+  ],
+  "slug": "loco-cimbali-loco-cimbali-pinot-meunier-mene-krasnoe-suhoe-125"
+}

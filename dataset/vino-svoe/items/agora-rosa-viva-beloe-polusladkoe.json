@@ -1,0 +1,296 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 37284,
+      "format": "WEBP",
+      "height": 1280,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          438,
+          1280
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/agora-rosa-viva-beloe-polusladkoe.webp",
+        "sha256": "8b45f4a9fd5af5f3a6a0d13438e3d8c905d105157610ebc17ece398cc4342a63",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          438,
+          1280
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/agora-rosa-viva-beloe-polusladkoe.webp",
+      "sha256": "bbe64a2f8d230ba4996df77faacb3cfd9b5651cbd2350468fadd09551023fad8",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/ugb_HOG_Jxx_J9_Pv_Cj_1775200212_f3b8b5681b.webp",
+      "width": 438
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/agora-rosa-viva-beloe-polusladkoe",
+  "retrieved_at_utc": "2026-09-29T19:15:52.956420+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое полусладкое",
+      "color": "Золотисто-соломенный",
+      "image": {
+        "altText": "Peti-Mansen_Dyna-kopia",
+        "url": "/uploads/Peti_Mansen_Dyna_kopia_14af7215d1.webp"
+      },
+      "manufacturer": "Yaiyla Winery",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "yaiyla-petit-manseng",
+      "title": "YAIYLA PETIT MANSENG  "
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Совиньон блан",
+        "url": "/uploads/MAX_02320_d56a1a6d6d.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 3,
+      "region": "Кубань",
+      "slug": "sovinon-blan",
+      "title": "Совиньон Блан"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Горка",
+        "url": "/uploads/MAX_02374_8762420674.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "region": "Кубань",
+      "slug": "domashnyaya-gorka",
+      "title": "Домашняя горка "
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса слад",
+        "url": "/uploads/CANTIANI_Igristoe_white_semi_444h1200px_2d2892b235.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.84,
+      "region": "Дагестан",
+      "slug": "cantiani-semisweet",
+      "title": "Cantiani Semisweet"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Caucasian Джарагъ",
+        "url": "/uploads/Caucasian_Dzharag_300681b16f.webp"
+      },
+      "manufacturer": "Дербент Вино",
+      "publicRating": 4.4,
+      "region": "Дагестан",
+      "slug": "caucasian-dzharag",
+      "title": "Caucasian Джарагъ "
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Inkerman мускатное белое полусладкое",
+        "url": "/uploads/Inkerman_muskatnoe_beloe_polusladkoe_092002be0d.webp"
+      },
+      "manufacturer": "Инкерманский ЗМВ",
+      "publicRating": 3,
+      "region": "Крым",
+      "slug": "inkerman-muskatnoe-beloe",
+      "title": "Inkerman Мускатное белое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Цимлянское белое полусладкое",
+        "url": "/uploads/Czimlyanskoe_beloe_polusladkoe_5c7026a82e.webp"
+      },
+      "manufacturer": "Цимлянские вина",
+      "publicRating": 3.5,
+      "region": "Долина Дона",
+      "slug": "czimlyanskoe-beloe-polusladkoe",
+      "title": "Цимлянское белое полусладкое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Цимлянское Бианка белое",
+        "url": "/uploads/Czimlyanskoe_Bianka_beloe_04a59b0f1e.webp"
+      },
+      "manufacturer": "Цимлянские вина",
+      "publicRating": 4,
+      "region": "Долина Дона",
+      "slug": "czimlyanskoe-bianka",
+      "title": "Цимлянское Бианка"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Валерий Захарьин Кокур и Ко игристое белое полусладкое",
+        "url": "/uploads/Valerij_Zaharin_Kokur_i_Ko_igristoe_beloe_polusladkoe_1334dee26c.webp"
+      },
+      "manufacturer": "Валерий Захарьин",
+      "region": "Крым",
+      "slug": "valerij-zaharin-kokur-i-ko-beloe-polusladkoe",
+      "title": "Валерий Захарьин Кокур и Ко белое полусладкое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Соломенно-желтый с золотистым оттенком",
+      "image": {
+        "altText": "Мысхако игристое полусладкое белое",
+        "url": "/uploads/Myshako_igristoe_polusladkoe_beloe_846a405f2a.webp"
+      },
+      "manufacturer": "Мысхако",
+      "region": "Кубань",
+      "slug": "myshako-igristoe-beloe-polusladkoe",
+      "title": "Мысхако игристое белое полусладкое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Абрау Дюрсо физз полусладкое",
+        "url": "/uploads/Abrau_Dyurso_fizz_polusladkoe_031d93d5e0.webp"
+      },
+      "manufacturer": "Абрау-Дюрсо",
+      "publicRating": 3.33,
+      "region": "Кубань",
+      "slug": "abrau-dyurso-fizz-beloe-polusladkoe",
+      "title": "Абрау Дюрсо Физз белое полусладкое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Соломенно-зеленоватый с ярким блеском",
+      "image": {
+        "altText": "Фанагория полусладкое",
+        "url": "/uploads/Fanagrriya_polusladkoe_30637d1cb8.webp"
+      },
+      "manufacturer": "винный дом «Фанагория»",
+      "publicRating": 4.6,
+      "region": "Кубань",
+      "slug": "fanagoriya-beloe-polusladkoe",
+      "title": "Фанагория белое полусладкое"
+    }
+  ],
+  "site_lastmod": "2026-04-05T15:37:57.000Z",
+  "site_wine": {
+    "alcohol": 10,
+    "alcoholMax": 12.5,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое полусладкое"
+    },
+    "color": "Светло-золотистый",
+    "description": "Вкус гармоничный и округлый, с деликатной сладостью, подчёркнутой свежей кислотностью. Послевкусие плавное, утончённое и продолжительное.\n\nВ аромате белые цветы, персик, цитрусовые.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/sladkaya_vypechka_71424474e1.webp"
+        },
+        "name": "Десерты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/legkie_zakuski_e5a2dedbf7.webp"
+        },
+        "name": "Легкие закуски"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/frukty_545dae1854.webp"
+        },
+        "name": "Фрукты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Risling2_c6fa370506.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Risling_5a37344384.webp"
+        },
+        "name": "Рислинг"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Rkacziteli1_5fa00630c0.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Rkacziteli1_5fa00630c0.webp"
+        },
+        "name": "Ркацители"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Sovinon_Blan_e82f684de6.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Sovinon_Blan2_64c30a0af4.webp"
+        },
+        "name": "Совиньон Блан"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Sovinon_Blan_e82f684de6.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Sovinon_Blan2_64c30a0af4.webp"
+        },
+        "name": "Совиньон Зеленый"
+      }
+    ],
+    "image": {
+      "altText": "Agora Rosa Viva Белое Полусладкое",
+      "url": "/uploads/ugb_HOG_Jxx_J9_Pv_Cj_1775200212_f3b8b5681b.webp"
+    },
+    "manufacturer": {
+      "name": "AGORA WINERY",
+      "slug": "agora-winery"
+    },
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "agora-rosa-viva-beloe-polusladkoe",
+    "temperature": "6-10",
+    "title": "Agora Rosa Viva Белое Полусладкое"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Agora Rosa Viva Белое Полусладкое",
+      "title": "Agora Rosa Viva Белое Полусладкое",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/ugb_HOG_Jxx_J9_Pv_Cj_1775200212_f3b8b5681b.webp"
+    }
+  ],
+  "slug": "agora-rosa-viva-beloe-polusladkoe"
+}

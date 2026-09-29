@@ -1,0 +1,316 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 40454,
+      "format": "WEBP",
+      "height": 1200,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          308,
+          1200
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/privat.webp",
+        "sha256": "da013ad94707866d27efaeacdf6f0e12ad8d688f140a55329de16642ed50a2f9",
+        "source_bbox_xyxy": [
+          7,
+          6,
+          301,
+          1178
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/privat.webp",
+      "sha256": "646a9a94fb1f27a4337031402efda73e928c76661f079f3b04c6394448b4d384",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Solnechnaya_dolina_Privat_e29e2f450a.webp",
+      "width": 308
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/privat",
+  "retrieved_at_utc": "2026-09-29T19:14:52.450828+00:00",
+  "similar_wines": [
+    {
+      "category": "Красное сладкое",
+      "color": "Рубиново-красный",
+      "image": {
+        "altText": "Цимлянское кюве красное красностоп и цимлянский черный",
+        "url": "/uploads/Czimlyanskoe_kyuve_krasnoe_krasnostop_i_czimlyanskij_chernyj_d1e86bb6b6.webp"
+      },
+      "manufacturer": "Цимлянские вина",
+      "publicRating": 5,
+      "region": "Долина Дона",
+      "slug": "kyuve-czimlyanskij-chernyj-i-krasnostop-zolotoj",
+      "title": "Кюве Цимлянский черный и Красностоп золотовский"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Шато Тамань резерв нектар десертный выдержанный",
+        "url": "/uploads/Shato_Taman_rezerv_nektar_desertnyj_vyderzhannyj_36d8cd6fae.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "region": "Кубань",
+      "slug": "chateau-tamagne-grand-dessert-nectar",
+      "title": "Chateau Tamagne Grand Dessert Nectar"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Игристое сладкое красное Цимлянское",
+        "url": "/uploads/Igristoe_krasnoe_sladkoe_Czimlyanskoe_ea86054adf.webp"
+      },
+      "manufacturer": "Цимлянские вина",
+      "publicRating": 5,
+      "region": "Долина Дона",
+      "slug": "igristoe-krasnoe-sladkoe-czimlyanskoe",
+      "title": "Игристое красное сладкое Цимлянское"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Гранатово-красный",
+      "image": {
+        "altText": "Литавщук поздний",
+        "url": "/uploads/Screenshot_22_1b291bec0e.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "pozdnij-sbor-krasnoe",
+      "title": "Поздний сбор, Красное"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Глубокий рубиновый",
+      "image": {
+        "altText": "Винтаж премиум",
+        "url": "/uploads/MAX_02207_7755994110.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "vintazh-premium",
+      "title": "Винтаж. Премиум"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "У вина глубокий красно-рубиновый цвет.",
+      "image": {
+        "altText": "Канонические Традиции Красное Сладкое",
+        "url": "/uploads/soyuz_vino_kanonicheskie_traditsii_krasnoe_sladkoe_kaberne_sovinon_115_7b60103360.webp"
+      },
+      "manufacturer": "Союз-Вино",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "soyuz-vino-kanonicheskie-traditsii-krasnoe-sladkoe-kaberne-sovinon-115",
+      "title": "Канонические Традиции Красное Сладкое"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Тёмно-рубиновый с коричневатым оттенком",
+      "image": {
+        "altText": "Портвейн красный Алушта",
+        "url": "/uploads/massandra_portveyn_krasnyy_alushta_krasnye_sorta_vinograda_krasnoe_sladkoe_17_15423ac1a3.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 4.8,
+      "region": "Крым",
+      "slug": "massandra-portveyn-krasnyy-alushta-krasnye-sorta-vinograda-krasnoe-sladkoe-17",
+      "title": "Портвейн красный Алушта"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Тёмно-рубиновый",
+      "image": {
+        "altText": "Вино Muskatel Black Massandra",
+        "url": "/uploads/massandra_muskatel_chernyy_krasnye_sorta_vinograda_krasnoe_sladkoe_16_b35635608c.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 4.88,
+      "region": "Крым",
+      "slug": "massandra-muskatel-chernyy-krasnye-sorta-vinograda-krasnoe-sladkoe-16",
+      "title": "Мускатель черный"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Тёмно-рубиновый с коричневатым оттенком",
+      "image": {
+        "altText": "Вино Port Red Livadia Massandra",
+        "url": "/uploads/massandra_portveyn_krasnyy_livadiya_kaberne_sovinon_krasnoe_sladkoe_185_02e4e0776e.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-portveyn-krasnyy-livadiya-kaberne-sovinon-krasnoe-sladkoe-185",
+      "title": "Портвейн красный Ливадия"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Тёмно-рубиновый, густой",
+      "image": {
+        "altText": "Вино Lacryma Christi Massandra",
+        "url": "/uploads/massandra_lakrima_kristi_aleatiko_krasnoe_sladkoe_16_2a990c55e6.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-lakrima-kristi-aleatiko-krasnoe-sladkoe-16",
+      "title": "Лакрима Кристи"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Тёмно-рубиновый",
+      "image": {
+        "altText": "Вино Kagor Gursuf Massandra",
+        "url": "/uploads/massandra_kagor_gurzuf_saperavi_krasnoe_sladkoe_16_deb9b34e9f.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 4.67,
+      "region": "Крым",
+      "slug": "massandra-kagor-gurzuf-saperavi-krasnoe-sladkoe-16",
+      "title": "Кагор Гурзуф"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Тёмно-рубиновый с фиолетовым оттенком",
+      "image": {
+        "altText": "Вино Bastardo Massandra",
+        "url": "/uploads/massandra_bastardo_bastardo_magarachskiy_krasnoe_sladkoe_16_c111755788.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-bastardo-bastardo-magarachskiy-krasnoe-sladkoe-16",
+      "title": "Бастардо"
+    }
+  ],
+  "site_lastmod": "2026-08-05T10:08:31.000Z",
+  "site_wine": {
+    "alcohol": 15,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "name": "Красное сладкое"
+    },
+    "color": "Рубиновый",
+    "description": "В аромате тона спелых ягод великолепно сбалансированы нотками малины, тонами кожи, специй и легкими минеральными оттенками. Элегантное, округлое во вкусе вино с шелковистыми танинами и сочным продолжительным послевкусием.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/nesladkaya_vypechka_05bf04c48c.webp"
+        },
+        "name": "Выпечка и десерты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/sladkaya_vypechka_71424474e1.webp"
+        },
+        "name": "Десерты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/frukty_545dae1854.webp"
+        },
+        "name": "Фруктово-ягодные десерты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Alyaniko2_45f10e3262.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Izabella_0a3d8c6d20.webp"
+        },
+        "name": "Бастардо Магарачский"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Kaberne_Sovinon3_39f7936b80.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Kaberne_Sovinon2_2b33e41092.webp"
+        },
+        "name": "Каберне Совиньон"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Muskat_d58579a0e1.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Vione_i_Verdeho_3502efff14.webp"
+        },
+        "name": "Мускат Розовый"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Izabella2_7f2bbc35c9.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Izabella2_7f2bbc35c9.webp"
+        },
+        "name": "Одесский черный"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Nuar3_8f666dc69e.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Nuar2_6c049e4c48.webp"
+        },
+        "name": "Пино Нуар"
+      }
+    ],
+    "image": {
+      "altText": "Солнечная долина Приват",
+      "url": "/uploads/Solnechnaya_dolina_Privat_e29e2f450a.webp"
+    },
+    "manufacturer": {
+      "name": "Солнечная долина",
+      "slug": "solnechnaya_dolina"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "privat",
+    "temperature": "16-18",
+    "title": "Приват"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Солнечная долина Приват",
+      "title": "Солнечная долина Приват",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Solnechnaya_dolina_Privat_e29e2f450a.webp"
+    }
+  ],
+  "slug": "privat"
+}

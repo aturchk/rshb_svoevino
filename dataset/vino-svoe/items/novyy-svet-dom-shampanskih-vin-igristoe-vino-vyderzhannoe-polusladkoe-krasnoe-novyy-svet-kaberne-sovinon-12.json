@@ -1,0 +1,255 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 36464,
+      "format": "WEBP",
+      "height": 1037,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          282,
+          1037
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/novyy-svet-dom-shampanskih-vin-igristoe-vino-vyderzhannoe-polusladkoe-krasnoe-novyy-svet-kaberne-sovinon-12.webp",
+        "sha256": "d24771c021250e61745d3a2950ca42b8dc59296673b5d1e1d5a8de08f97ad4ce",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          282,
+          1036
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/novyy-svet-dom-shampanskih-vin-igristoe-vino-vyderzhannoe-polusladkoe-krasnoe-novyy-svet-kaberne-sovinon-12.webp",
+      "sha256": "7f5ff583a7d129efed21b54089dbc10f783383bbb7c02bf3c3deba665a16f48e",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/novyy_svet_dom_shampanskih_vin_igristoe_vino_vyderzhannoe_polusladkoe_krasnoe_novyy_svet_kaberne_sovinon_12_fd0d395f6b.webp",
+      "width": 282
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/novyy-svet-dom-shampanskih-vin-igristoe-vino-vyderzhannoe-polusladkoe-krasnoe-novyy-svet-kaberne-sovinon-12",
+  "retrieved_at_utc": "2026-09-29T19:15:42.337415+00:00",
+  "similar_wines": [
+    {
+      "category": "Красное полусладкое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Веселая горка",
+        "url": "/uploads/MAX_02353_297cd6e851.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "region": "Кубань",
+      "slug": "veselaya-gorka",
+      "title": "Веселая горка"
+    },
+    {
+      "category": "Красное полусладкое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Золотая Балка игристое красное полусладкое",
+        "url": "/uploads/Zolotaya_Balka_igristoe_krasnoe_polusladkoe_8604608e59.webp"
+      },
+      "manufacturer": "Золотая Балка",
+      "publicRating": 3,
+      "region": "Крым",
+      "slug": "zolotaya-balka-igristoe-krasnoe-polusladkoe",
+      "title": "Золотая Балка игристое красное полусладкое"
+    },
+    {
+      "category": "Красное полусладкое",
+      "color": "Темно-рубиновый",
+      "image": {
+        "altText": "Черная Львица Аратти",
+        "url": "/uploads/Chernaya_Lvicza_d00f4b1f84.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "chernaya-lvicza-polusladkoe-krasnoe",
+      "title": "Черная Львица полусладкое красное"
+    },
+    {
+      "category": "Красное полусладкое",
+      "color": "Рубиновый с фиолетовыми бликами",
+      "image": {
+        "altText": "Каберне Фран полусладкое 2024 LETO",
+        "url": "/uploads/Kaberne_Fran_polusladkoe_a62c376c55.webp"
+      },
+      "manufacturer": "LETO",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "leto-kaberne-fran-2024-polusladkoe-krasnoe",
+      "title": "LETO Каберне Фран 2024 полусладкое красное"
+    },
+    {
+      "category": "Красное полусладкое",
+      "color": "Вино с глубоким гранатовым оттенком. ",
+      "image": {
+        "altText": "Полусладкое красное",
+        "url": "/uploads/Krasnoe_polusladkoe_2024_f21c3df4d0.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.88,
+      "region": "Крым",
+      "slug": "perovskih_polusladkoe_krasnoe",
+      "title": "Полусладкое Красное"
+    },
+    {
+      "category": "Красное полусладкое",
+      "color": "У вина яркий гранатово-красный цвет.",
+      "image": {
+        "altText": "mosavali",
+        "url": "/uploads/soyuz_vino_mosavali_saperavi_polusladkoe_krasnoe_11_Photoroom_f236b93ec6.webp"
+      },
+      "manufacturer": "Союз-Вино",
+      "publicRating": 4,
+      "region": "Кубань",
+      "slug": "soyuz-vino-mosavali-saperavi-polusladkoe-krasnoe-11",
+      "title": "Мосавали Саперави Полусладкое"
+    },
+    {
+      "category": "Красное полусладкое",
+      "color": "У вина яркий красный цвет с фиолетовыми бликами.",
+      "image": {
+        "altText": "Шато де Монгольфьер Шираз Моэллё",
+        "url": "/uploads/soyuz_vino_shato_de_mongolfer_shiraz_moellyo_krasnoe_polusladkoe_11_fde68acdc1.webp"
+      },
+      "manufacturer": "Союз-Вино",
+      "publicRating": 1,
+      "region": "Кубань",
+      "slug": "soyuz-vino-shato-de-mongolfer-shiraz-moellyo-krasnoe-polusladkoe-11",
+      "title": "Шато де Монгольфьер Шираз Моэллё"
+    },
+    {
+      "category": "Красное полусладкое",
+      "color": "Цвет варьируется от красного до темно-бордового с рубиновым оттенком.",
+      "image": {
+        "altText": "Зелёная Долина Каберне-Мерло",
+        "url": "/uploads/soyuz_vino_zelyonaya_dolina_kaberne_merlo_kaberne_sovinon_krasnoe_polusladkoe_12_7bd855e183.webp"
+      },
+      "manufacturer": "Союз-Вино",
+      "publicRating": 3.67,
+      "region": "Кубань",
+      "slug": "soyuz-vino-zelyonaya-dolina-kaberne-merlo-kaberne-sovinon-krasnoe-polusladkoe-12",
+      "title": "Зелёная Долина Каберне-Мерло"
+    },
+    {
+      "category": "Красное полусладкое",
+      "color": "У вина яркий красный цвет.",
+      "image": {
+        "altText": "Аристов Россо Полусладкое",
+        "url": "/uploads/kuban_vino_aristov_rosso_polusladkoe_saperavi_krasnoe_13_ed04238b6b.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "region": "Кубань",
+      "slug": "kuban-vino-aristov-rosso-polusladkoe-saperavi-krasnoe-13",
+      "title": "Аристов Россо Полусладкое"
+    },
+    {
+      "category": "Красное полусладкое",
+      "color": "Вино глубокого рубиново-красного цвета.",
+      "image": {
+        "altText": "Канонические Традиции Красное Полусладкое",
+        "url": "/uploads/soyuz_vino_kanonicheskie_traditsii_krasnoe_polusladkoe_kaberne_sovinon_115_e1f1bb8027.webp"
+      },
+      "manufacturer": "Союз-Вино",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "soyuz-vino-kanonicheskie-traditsii-krasnoe-polusladkoe-kaberne-sovinon-115",
+      "title": "Канонические Традиции Красное Полусладкое"
+    },
+    {
+      "category": "Красное полусладкое",
+      "color": "У вина глубокий красно-рубиновый цвет с пурпурными отблесками.",
+      "image": {
+        "altText": "Союз-Вино Изабелла",
+        "url": "/uploads/soyuz_vino_soyuz_vino_izabella_krasnoe_polusladkoe_11_1abeea2193.webp"
+      },
+      "manufacturer": "Союз-Вино",
+      "publicRating": 4,
+      "region": "Кубань",
+      "slug": "soyuz-vino-soyuz-vino-izabella-krasnoe-polusladkoe-11",
+      "title": "Союз-Вино Изабелла"
+    },
+    {
+      "category": "Красное полусладкое",
+      "color": "Имеет глубокий красно-рубиновый цвет.",
+      "image": {
+        "altText": "Конфесса Санджовезе Полусладкое",
+        "url": "/uploads/soyuz_vino_konfessa_sandzhoveze_polusladkoe_krasnoe_11_a47a602f57.webp"
+      },
+      "manufacturer": "Союз-Вино",
+      "region": "Кубань",
+      "slug": "soyuz-vino-konfessa-sandzhoveze-polusladkoe-krasnoe-11",
+      "title": "Конфесса Санджовезе Полусладкое"
+    }
+  ],
+  "site_lastmod": "2026-06-04T10:03:53.000Z",
+  "site_wine": {
+    "alcohol": 12,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "name": "Красное полусладкое"
+    },
+    "color": "Тёмно-рубиновый, насыщенный",
+    "description": "Аромат насыщенный, с нотами тёмных ягод, изюма и сухофруктов; вкус ярко ягодный с медовыми нотками, тонами изюма, с приятной ненавязчивой сладостью и долгим послевкусием. Рекомендуется к сладким десертам, прохладным кремовым блюдам и фруктовым тартам.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/nesladkaya_vypechka_05bf04c48c.webp"
+        },
+        "name": "Выпечка и десерты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/sladkaya_vypechka_71424474e1.webp"
+        },
+        "name": "Десерты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Kaberne_Sovinon3_39f7936b80.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Kaberne_Sovinon2_2b33e41092.webp"
+        },
+        "name": "Каберне Совиньон"
+      }
+    ],
+    "image": {
+      "altText": "Cabernet Sauvignon Semi-Sweet Novy Svet",
+      "url": "/uploads/novyy_svet_dom_shampanskih_vin_igristoe_vino_vyderzhannoe_polusladkoe_krasnoe_novyy_svet_kaberne_sovinon_12_fd0d395f6b.webp"
+    },
+    "manufacturer": {
+      "name": "Новый Свет. Дом шампанских вин",
+      "slug": "noviy_svet"
+    },
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "novyy-svet-dom-shampanskih-vin-igristoe-vino-vyderzhannoe-polusladkoe-krasnoe-novyy-svet-kaberne-sovinon-12",
+    "temperature": "6-8",
+    "title": "Игристое вино выдержанное полусладкое красное «Новый Свет. Каберне Совиньон»"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Cabernet Sauvignon Semi-Sweet Novy Svet",
+      "title": "Cabernet Sauvignon Semi-Sweet Novy Svet",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/novyy_svet_dom_shampanskih_vin_igristoe_vino_vyderzhannoe_polusladkoe_krasnoe_novyy_svet_kaberne_sovinon_12_fd0d395f6b.webp"
+    }
+  ],
+  "slug": "novyy-svet-dom-shampanskih-vin-igristoe-vino-vyderzhannoe-polusladkoe-krasnoe-novyy-svet-kaberne-sovinon-12"
+}

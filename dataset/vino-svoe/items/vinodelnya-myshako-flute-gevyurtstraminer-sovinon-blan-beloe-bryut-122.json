@@ -1,0 +1,265 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 24672,
+      "format": "WEBP",
+      "height": 1000,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          304,
+          1000
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/vinodelnya-myshako-flute-gevyurtstraminer-sovinon-blan-beloe-bryut-122.webp",
+        "sha256": "8c44c9f81e95e3ff4cc8de01459f8841041b7bd7dfb4208b127d03302d1b7d48",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          304,
+          1000
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/vinodelnya-myshako-flute-gevyurtstraminer-sovinon-blan-beloe-bryut-122.webp",
+      "sha256": "286cfcd969ceb367f7ae35305e5c0a69ad9b6b44f8864f8d2a05e4d93dee79a8",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/vinodelnya_myshako_flute_gevyurtstraminer_sovinon_blan_igristoe_bryut_beloe_122_9d73a2d644.webp",
+      "width": 304
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/vinodelnya-myshako-flute-gevyurtstraminer-sovinon-blan-beloe-bryut-122",
+  "retrieved_at_utc": "2026-09-29T19:20:18.237365+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое брют",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Мускат Оттонель Гусев",
+        "url": "/uploads/petnat_muskat_no_bg_preview_carve_photos_2296dc8b1a.webp"
+      },
+      "manufacturer": "Гусевъ",
+      "publicRating": 5,
+      "region": "Нижняя Волга",
+      "slug": "muskat-ottonel-gusev",
+      "title": "Мускат Оттонель Гусевъ"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "алвиса монблан",
+        "url": "/uploads/MB_igrist_Blanc_vid_032026_kopiya_5c6680d1ef.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.86,
+      "region": "Дагестан",
+      "slug": "mont-blanc-blanc-de-blancs",
+      "title": "Mont Blanc, Blanc de Blancs"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Mont Vlanc Alvisa",
+        "url": "/uploads/MB_igrist_Cuvee_vid_032026_kopiya_8bb830fcc2.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.95,
+      "region": "Дагестан",
+      "slug": "mont-blanc-cuvee",
+      "title": "Mont Blanc Cuvée"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса рисл",
+        "url": "/uploads/CANTIANI_Igristoe_Riesl_vid_032025_kopiya_8150a5e627.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.88,
+      "region": "Дагестан",
+      "slug": "cantiani-riesling-1",
+      "title": "Cantiani Riesling"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса брют ",
+        "url": "/uploads/CANTIANI_Igrist_Brut_vid5_042026_kopiya_1b13527c60.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.83,
+      "region": "Дагестан",
+      "slug": "cantiani-brut",
+      "title": "Cantiani Brut"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса ркац",
+        "url": "/uploads/CANTIANI_Igristoe_Rkats_vid_032025_kopiya_29e44021af.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.98,
+      "region": "Дагестан",
+      "slug": "cantiani-rkatsiteli-1",
+      "title": "Cantiani Rkatsiteli"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса шадр",
+        "url": "/uploads/CANTIANI_Igristoe_Chardon_444h1200px_fa4fe5363b.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 5,
+      "region": "Дагестан",
+      "slug": "cantiani-chardonnay",
+      "title": "Cantiani Chardonnay"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Просека",
+        "url": "/uploads/Screenshot_4_7c7945f9a9.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 3.81,
+      "region": "Кубань",
+      "slug": "lesnaya-proseka",
+      "title": "Лесная просека"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Небо России Глера",
+        "url": "/uploads/Screenshot_6_Photoroom_b5b45ec3f4.webp"
+      },
+      "manufacturer": "Kalos Limen",
+      "publicRating": 4.91,
+      "region": "Крым",
+      "slug": "nebo-rossii-glera",
+      "title": "Небо России Глера"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Глера Манно",
+        "url": "/uploads/Screenshot_2_66036870aa.webp"
+      },
+      "manufacturer": "Мысхако",
+      "publicRating": 4.67,
+      "region": "Кубань",
+      "slug": "glera-manno",
+      "title": "Глера Манно"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Русток Глера Ru 140",
+        "url": "/uploads/Screenshot_3_dce2afc6e1.webp"
+      },
+      "manufacturer": "Мысхако",
+      "publicRating": 4.5,
+      "region": "Кубань",
+      "slug": "rustok-glera-ru-140",
+      "title": "Русток Глера Ru 140"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Аристов Анима милезимиато брют",
+        "url": "/uploads/Aristov_Anima_milezimiato_bryut_4a887b783f.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 4.67,
+      "region": "Кубань",
+      "slug": "aristov-anima-millesimato-beloe-bryut",
+      "title": "Аристов ANIMA Millesimato белое брют"
+    }
+  ],
+  "site_lastmod": "2026-01-12T11:42:23.000Z",
+  "site_wine": {
+    "alcohol": 12,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое брют"
+    },
+    "color": "Соломенный",
+    "description": "Вкус: Яркий с оттенком леденцов монпансье, выразительной минеральностью и долгим послевкусием, в котором ощущается засахаренная цедра апельсина. Тропические фрукты, мёд и спелый розовый персик.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/legkie_zakuski_e5a2dedbf7.webp"
+        },
+        "name": "Легкие закуски"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ryba_moreprodukty_e57b445d95.webp"
+        },
+        "name": "Рыба и морепродукты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/salat_1afebb2167.webp"
+        },
+        "name": "Салаты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Gevyurcztraminer_0266e6c621.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Traminer_rozovyj_1b5cafd2a9.webp"
+        },
+        "name": "Гевюрцтраминер"
+      }
+    ],
+    "image": {
+      "altText": "Flute Гевюрцтраминер Совиньон Блан",
+      "url": "/uploads/vinodelnya_myshako_flute_gevyurtstraminer_sovinon_blan_igristoe_bryut_beloe_122_9d73a2d644.webp"
+    },
+    "manufacturer": {
+      "name": "Мысхако",
+      "slug": "vinodelnya-myshako"
+    },
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "vinodelnya-myshako-flute-gevyurtstraminer-sovinon-blan-beloe-bryut-122",
+    "temperature": "8-10",
+    "title": "Flute Гевюрцтраминер Совиньон Блан"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Flute Гевюрцтраминер Совиньон Блан",
+      "title": "Flute Гевюрцтраминер Совиньон Блан",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/vinodelnya_myshako_flute_gevyurtstraminer_sovinon_blan_igristoe_bryut_beloe_122_9d73a2d644.webp"
+    }
+  ],
+  "slug": "vinodelnya-myshako-flute-gevyurtstraminer-sovinon-blan-beloe-bryut-122"
+}

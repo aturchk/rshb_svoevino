@@ -1,0 +1,268 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 36090,
+      "format": "WEBP",
+      "height": 1000,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          285,
+          1000
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/oxana-istratova-wine-vione-2024-oranzhevoe-suhoe-13.webp",
+        "sha256": "5aab794757c7eb6b6d944b09b247b532a479ca945809e8122dca9a960b316ad0",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          285,
+          1000
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/oxana-istratova-wine-vione-2024-oranzhevoe-suhoe-13.webp",
+      "sha256": "d53a8e30e2c0b67b5130963a5abf7d90a90c459128c11827a2711411942c4393",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/oxana_istratova_wine_vione_2024_oranzhevoe_suhoe_13_66846a8d60.webp",
+      "width": 285
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/oxana-istratova-wine-vione-2024-oranzhevoe-suhoe-13",
+  "retrieved_at_utc": "2026-09-29T19:20:10.900966+00:00",
+  "similar_wines": [
+    {
+      "category": "Оранжевое сухое",
+      "color": "Янтарный",
+      "image": {
+        "altText": "Ajla_Vermentino-kopia",
+        "url": "/uploads/Ajla_Vermentino_kopia_73dbfe9a20.webp"
+      },
+      "manufacturer": "Yaiyla Winery",
+      "publicRating": 4,
+      "region": "Крым",
+      "slug": "yaiyla-vermentino-orange",
+      "title": "YAIYLA VERMENTINO ORANGE "
+    },
+    {
+      "category": "Оранжевое сухое",
+      "color": "Янтарный",
+      "image": {
+        "altText": "Oranz_Muskat_2025",
+        "url": "/uploads/Oranz_Muskat_2025_kopia_4270f365ca.webp"
+      },
+      "manufacturer": "Yaiyla Winery",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "yaiyla-muscat-orange",
+      "title": "YAIYLA MUSCAT ORANGE "
+    },
+    {
+      "category": "Оранжевое сухое",
+      "color": "Золотистый с розовым отливом",
+      "image": {
+        "altText": "Гевюрцтраминер Оранж Усадьба Петовских",
+        "url": "/uploads/Gevyurcztraminer_Oranzh_Usadba_Petovskih_f3d914f332.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.62,
+      "region": "Крым",
+      "slug": "gevyurcztraminer-oranzh",
+      "title": "Гевюрцтраминер Оранж"
+    },
+    {
+      "category": "Оранжевое сухое",
+      "color": "Цвет вина колеблется от светло-соломенного до желтого.",
+      "image": {
+        "altText": "Шато Таманье Селект Оранж",
+        "url": "/uploads/kuban_vino_shato_tamane_selekt_oranzh_tsitronnyy_magaracha_oranzhevoe_suhoe_135_4e83f61d0a.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "region": "Кубань",
+      "slug": "kuban-vino-shato-tamane-selekt-oranzh-tsitronnyy-magaracha-oranzhevoe-suhoe-135",
+      "title": "Шато Тамань Селект Оранж"
+    },
+    {
+      "category": "Оранжевое сухое",
+      "color": "Янтарный",
+      "image": {
+        "altText": "Абрау-Дюрсо",
+        "url": "/uploads/abrau_dyurso_abrau_estates_oranzh_tsitronnyy_magaracha_oranzhevoe_suhoe_105_95e00a834b.webp"
+      },
+      "manufacturer": "Абрау-Дюрсо",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "abrau-dyurso-abrau-estates-oranzh-tsitronnyy-magaracha-oranzhevoe-suhoe-105",
+      "title": "Abrau Estates Оранж"
+    },
+    {
+      "category": "Оранжевое сухое",
+      "color": "Золотистый с оттенками от оранжевых до янтарных",
+      "image": {
+        "altText": "ШТ NATURE 0.75 2024гу_ Normal Orange",
+        "url": "/uploads/Sh_T_NATURE_0_75_2024gu_Normal_Orange_88fb104a59.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "chateau-tamagne-nature-orange",
+      "title": "Chateau Tamagne Nature. Orange"
+    },
+    {
+      "category": "Оранжевое сухое",
+      "color": "Светлый, соломенного оттенка",
+      "image": {
+        "altText": "Траминер Оранж 2",
+        "url": "/uploads/vaynkraft_traminer_oranzh_2_traminer_rozovyy_oranzhevoe_suhoe_125_3c507d40ce.webp"
+      },
+      "manufacturer": "ВайнКрафт",
+      "region": "Крым",
+      "slug": "vaynkraft-traminer-oranzh-2-traminer-rozovyy-oranzhevoe-suhoe-125",
+      "title": "Траминер Оранж 2"
+    },
+    {
+      "category": "Оранжевое сухое",
+      "color": "Темно-золотистый с едва различимыми персиково-соломенными бликами.",
+      "image": {
+        "altText": "Ркацители Оранж",
+        "url": "/uploads/vaynkraft_rkatsiteli_oranzh_oranzhevoe_suhoe_12_65fe9c2119.webp"
+      },
+      "manufacturer": "ВайнКрафт",
+      "region": "Крым",
+      "slug": "vaynkraft-rkatsiteli-oranzh-oranzhevoe-suhoe-12",
+      "title": "Ркацители Оранж"
+    },
+    {
+      "category": "Оранжевое сухое",
+      "color": "Светло-желтый",
+      "image": {
+        "altText": "Траминер Оранж",
+        "url": "/uploads/vaynkraft_traminer_oranzh_traminer_rozovyy_oranzhevoe_suhoe_125_8a46ea97b3.webp"
+      },
+      "manufacturer": "ВайнКрафт",
+      "region": "Крым",
+      "slug": "vaynkraft-traminer-oranzh-traminer-rozovyy-oranzhevoe-suhoe-125",
+      "title": "Траминер Оранж"
+    },
+    {
+      "category": "Оранжевое сухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Мускат Оранж",
+        "url": "/uploads/belbek_muskat_oranzh_muskat_belyy_oranzhevoe_suhoe_125_15ac5f6bc6.webp"
+      },
+      "manufacturer": "Бельбек",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "belbek-muskat-oranzh-muskat-belyy-oranzhevoe-suhoe-125",
+      "title": "Мускат Оранж"
+    },
+    {
+      "category": "Оранжевое сухое",
+      "color": "Золотисто-янтарный",
+      "image": {
+        "altText": "Рислинг Оранж",
+        "url": "/uploads/golubitskoe_estate_risling_oranzh_risling_reynskiy_oranzhevoe_suhoe_13_f1f3796561.webp"
+      },
+      "manufacturer": "Golubitskoe Estate",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "golubitskoe-estate-risling-oranzh-risling-reynskiy-oranzhevoe-suhoe-13",
+      "title": "Рислинг Оранж"
+    },
+    {
+      "category": "Оранжевое сухое",
+      "color": "Золотистый с янтарными оттенками.",
+      "image": {
+        "altText": "Цитрон оранж",
+        "url": "/uploads/denisov_winery_tsitron_oranzh_tsitronnyy_magaracha_oranzhevoe_suhoe_105_3d8bed58d0.webp"
+      },
+      "manufacturer": "Denisov Winery",
+      "publicRating": 5,
+      "region": "Самара",
+      "slug": "denisov-winery-tsitron-oranzh-tsitronnyy-magaracha-oranzhevoe-suhoe-105",
+      "title": "Цитрон оранж"
+    }
+  ],
+  "site_lastmod": "2026-01-12T11:44:52.000Z",
+  "site_wine": {
+    "alcohol": 13,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FDBF98 0%, #ED7C35 100%)",
+      "name": "Оранжевое сухое"
+    },
+    "color": "Янтарный",
+    "description": "Вкус: Округлый, хорошая кислотность, мягкий танин, минеральные тона, сухофрукты, восковой тон. Средняя ароматика,медовые тона,сухофрукты,восковые тона",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ptica_9a6c7e3ea1.webp"
+        },
+        "name": "Блюда из птицы"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/legkie_zakuski_e5a2dedbf7.webp"
+        },
+        "name": "Легкие закуски"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/myaso_442273df41.webp"
+        },
+        "name": "Мясо и стейки"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ryba_moreprodukty_e57b445d95.webp"
+        },
+        "name": "Рыба и морепродукты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Glera_0f17a1d0bf.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Vione_47efa643ea.webp"
+        },
+        "name": "Вионье"
+      }
+    ],
+    "image": {
+      "altText": "Вионье 2024",
+      "url": "/uploads/oxana_istratova_wine_vione_2024_oranzhevoe_suhoe_13_66846a8d60.webp"
+    },
+    "manufacturer": {
+      "name": "Oxana Istratova Wine",
+      "slug": "oxana-istratova-wine"
+    },
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/krym_18db39fc91.webp"
+      },
+      "name": "Крым"
+    },
+    "slug": "oxana-istratova-wine-vione-2024-oranzhevoe-suhoe-13",
+    "temperature": "10-12",
+    "title": "Вионье 2024"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Вионье 2024",
+      "title": "Вионье 2024",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/oxana_istratova_wine_vione_2024_oranzhevoe_suhoe_13_66846a8d60.webp"
+    }
+  ],
+  "slug": "oxana-istratova-wine-vione-2024-oranzhevoe-suhoe-13"
+}

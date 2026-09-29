@@ -1,0 +1,272 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 30180,
+      "format": "WEBP",
+      "height": 1000,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          340,
+          1000
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/vinodelnya-myshako-merlo-black-out-krasnoe-sladkoe-14.webp",
+        "sha256": "140ab96f0a9b94997b2794ed6438fa8ba04c1e8735488db78b6e9da8cf31b5d5",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          340,
+          1000
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/vinodelnya-myshako-merlo-black-out-krasnoe-sladkoe-14.webp",
+      "sha256": "fba7da26d299d4ad89486a0b307b9d67cb96b5ddf59aad82ce330baaa189e4fb",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/vinodelnya_myshako_merlo_black_out_krasnoe_sladkoe_14_83578ec427.webp",
+      "width": 340
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/vinodelnya-myshako-merlo-black-out-krasnoe-sladkoe-14",
+  "retrieved_at_utc": "2026-09-29T19:20:22.750064+00:00",
+  "similar_wines": [
+    {
+      "category": "Красное сладкое",
+      "color": "Рубиново-красный",
+      "image": {
+        "altText": "Цимлянское кюве красное красностоп и цимлянский черный",
+        "url": "/uploads/Czimlyanskoe_kyuve_krasnoe_krasnostop_i_czimlyanskij_chernyj_d1e86bb6b6.webp"
+      },
+      "manufacturer": "Цимлянские вина",
+      "publicRating": 5,
+      "region": "Долина Дона",
+      "slug": "kyuve-czimlyanskij-chernyj-i-krasnostop-zolotoj",
+      "title": "Кюве Цимлянский черный и Красностоп золотовский"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Шато Тамань резерв нектар десертный выдержанный",
+        "url": "/uploads/Shato_Taman_rezerv_nektar_desertnyj_vyderzhannyj_36d8cd6fae.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "region": "Кубань",
+      "slug": "chateau-tamagne-grand-dessert-nectar",
+      "title": "Chateau Tamagne Grand Dessert Nectar"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Игристое сладкое красное Цимлянское",
+        "url": "/uploads/Igristoe_krasnoe_sladkoe_Czimlyanskoe_ea86054adf.webp"
+      },
+      "manufacturer": "Цимлянские вина",
+      "publicRating": 5,
+      "region": "Долина Дона",
+      "slug": "igristoe-krasnoe-sladkoe-czimlyanskoe",
+      "title": "Игристое красное сладкое Цимлянское"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Рубиновый",
+      "image": {
+        "altText": "Солнечная долина Приват",
+        "url": "/uploads/Solnechnaya_dolina_Privat_e29e2f450a.webp"
+      },
+      "manufacturer": "Солнечная долина",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "privat",
+      "title": "Приват"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Гранатово-красный",
+      "image": {
+        "altText": "Литавщук поздний",
+        "url": "/uploads/Screenshot_22_1b291bec0e.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "pozdnij-sbor-krasnoe",
+      "title": "Поздний сбор, Красное"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Глубокий рубиновый",
+      "image": {
+        "altText": "Винтаж премиум",
+        "url": "/uploads/MAX_02207_7755994110.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "vintazh-premium",
+      "title": "Винтаж. Премиум"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "У вина глубокий красно-рубиновый цвет.",
+      "image": {
+        "altText": "Канонические Традиции Красное Сладкое",
+        "url": "/uploads/soyuz_vino_kanonicheskie_traditsii_krasnoe_sladkoe_kaberne_sovinon_115_7b60103360.webp"
+      },
+      "manufacturer": "Союз-Вино",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "soyuz-vino-kanonicheskie-traditsii-krasnoe-sladkoe-kaberne-sovinon-115",
+      "title": "Канонические Традиции Красное Сладкое"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Тёмно-рубиновый с коричневатым оттенком",
+      "image": {
+        "altText": "Портвейн красный Алушта",
+        "url": "/uploads/massandra_portveyn_krasnyy_alushta_krasnye_sorta_vinograda_krasnoe_sladkoe_17_15423ac1a3.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 4.8,
+      "region": "Крым",
+      "slug": "massandra-portveyn-krasnyy-alushta-krasnye-sorta-vinograda-krasnoe-sladkoe-17",
+      "title": "Портвейн красный Алушта"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Тёмно-рубиновый",
+      "image": {
+        "altText": "Вино Muskatel Black Massandra",
+        "url": "/uploads/massandra_muskatel_chernyy_krasnye_sorta_vinograda_krasnoe_sladkoe_16_b35635608c.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 4.88,
+      "region": "Крым",
+      "slug": "massandra-muskatel-chernyy-krasnye-sorta-vinograda-krasnoe-sladkoe-16",
+      "title": "Мускатель черный"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Тёмно-рубиновый с коричневатым оттенком",
+      "image": {
+        "altText": "Вино Port Red Livadia Massandra",
+        "url": "/uploads/massandra_portveyn_krasnyy_livadiya_kaberne_sovinon_krasnoe_sladkoe_185_02e4e0776e.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-portveyn-krasnyy-livadiya-kaberne-sovinon-krasnoe-sladkoe-185",
+      "title": "Портвейн красный Ливадия"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Тёмно-рубиновый, густой",
+      "image": {
+        "altText": "Вино Lacryma Christi Massandra",
+        "url": "/uploads/massandra_lakrima_kristi_aleatiko_krasnoe_sladkoe_16_2a990c55e6.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "massandra-lakrima-kristi-aleatiko-krasnoe-sladkoe-16",
+      "title": "Лакрима Кристи"
+    },
+    {
+      "category": "Красное сладкое",
+      "color": "Тёмно-рубиновый",
+      "image": {
+        "altText": "Вино Kagor Gursuf Massandra",
+        "url": "/uploads/massandra_kagor_gurzuf_saperavi_krasnoe_sladkoe_16_deb9b34e9f.webp"
+      },
+      "manufacturer": "Массандра",
+      "publicRating": 4.67,
+      "region": "Крым",
+      "slug": "massandra-kagor-gurzuf-saperavi-krasnoe-sladkoe-16",
+      "title": "Кагор Гурзуф"
+    }
+  ],
+  "site_lastmod": "2026-01-12T11:42:13.000Z",
+  "site_wine": {
+    "alcohol": 14,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "name": "Красное сладкое"
+    },
+    "color": "Рубиново-красный",
+    "description": "Вкус: Сладкий, сбалансированный, богатый, с фруктово-шоколадным профилем, нюансами пряностей и долгим, обволакивающим послевкусием. Темные фрукты, шоколад, специй, ваниль и дуб.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/nesladkaya_vypechka_05bf04c48c.webp"
+        },
+        "name": "Выпечка и десерты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/myaso_442273df41.webp"
+        },
+        "name": "Мясо и стейки"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/frukty_545dae1854.webp"
+        },
+        "name": "Фрукты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Merlo2_92c9fc8a90.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Merlo_14_f0e42dbdb6.webp"
+        },
+        "name": "Мерло"
+      }
+    ],
+    "image": {
+      "altText": "Мерло. Black Out",
+      "url": "/uploads/vinodelnya_myshako_merlo_black_out_krasnoe_sladkoe_14_83578ec427.webp"
+    },
+    "manufacturer": {
+      "name": "Мысхако",
+      "slug": "vinodelnya-myshako"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "vinodelnya-myshako-merlo-black-out-krasnoe-sladkoe-14",
+    "temperature": "16-18",
+    "title": "Мерло. Black Out"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Мерло. Black Out",
+      "title": "Мерло. Black Out",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/vinodelnya_myshako_merlo_black_out_krasnoe_sladkoe_14_83578ec427.webp"
+    }
+  ],
+  "slug": "vinodelnya-myshako-merlo-black-out-krasnoe-sladkoe-14"
+}

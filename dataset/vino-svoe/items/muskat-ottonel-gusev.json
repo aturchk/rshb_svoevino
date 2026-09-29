@@ -1,0 +1,259 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 41062,
+      "format": "WEBP",
+      "height": 1280,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          463,
+          1280
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/muskat-ottonel-gusev.webp",
+        "sha256": "0107b47cdd516382e0974f3f2197e2e2ff4dca97742aafcbf17a2f64b6440b34",
+        "source_bbox_xyxy": [
+          28,
+          33,
+          426,
+          1246
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/muskat-ottonel-gusev.webp",
+      "sha256": "2d82dcbf29ec72261f4cf4239bcead2dd9218367d8128ce98f3abe1bfe070fe2",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/petnat_muskat_no_bg_preview_carve_photos_2296dc8b1a.webp",
+      "width": 463
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/muskat-ottonel-gusev",
+  "retrieved_at_utc": "2026-09-29T19:14:40.478694+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "алвиса монблан",
+        "url": "/uploads/MB_igrist_Blanc_vid_032026_kopiya_5c6680d1ef.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.86,
+      "region": "Дагестан",
+      "slug": "mont-blanc-blanc-de-blancs",
+      "title": "Mont Blanc, Blanc de Blancs"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Mont Vlanc Alvisa",
+        "url": "/uploads/MB_igrist_Cuvee_vid_032026_kopiya_8bb830fcc2.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.95,
+      "region": "Дагестан",
+      "slug": "mont-blanc-cuvee",
+      "title": "Mont Blanc Cuvée"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса рисл",
+        "url": "/uploads/CANTIANI_Igristoe_Riesl_vid_032025_kopiya_8150a5e627.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.88,
+      "region": "Дагестан",
+      "slug": "cantiani-riesling-1",
+      "title": "Cantiani Riesling"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса брют ",
+        "url": "/uploads/CANTIANI_Igrist_Brut_vid5_042026_kopiya_1b13527c60.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.83,
+      "region": "Дагестан",
+      "slug": "cantiani-brut",
+      "title": "Cantiani Brut"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса ркац",
+        "url": "/uploads/CANTIANI_Igristoe_Rkats_vid_032025_kopiya_29e44021af.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.98,
+      "region": "Дагестан",
+      "slug": "cantiani-rkatsiteli-1",
+      "title": "Cantiani Rkatsiteli"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса шадр",
+        "url": "/uploads/CANTIANI_Igristoe_Chardon_444h1200px_fa4fe5363b.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 5,
+      "region": "Дагестан",
+      "slug": "cantiani-chardonnay",
+      "title": "Cantiani Chardonnay"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Просека",
+        "url": "/uploads/Screenshot_4_7c7945f9a9.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 3.81,
+      "region": "Кубань",
+      "slug": "lesnaya-proseka",
+      "title": "Лесная просека"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Небо России Глера",
+        "url": "/uploads/Screenshot_6_Photoroom_b5b45ec3f4.webp"
+      },
+      "manufacturer": "Kalos Limen",
+      "publicRating": 4.91,
+      "region": "Крым",
+      "slug": "nebo-rossii-glera",
+      "title": "Небо России Глера"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Глера Манно",
+        "url": "/uploads/Screenshot_2_66036870aa.webp"
+      },
+      "manufacturer": "Мысхако",
+      "publicRating": 4.67,
+      "region": "Кубань",
+      "slug": "glera-manno",
+      "title": "Глера Манно"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Русток Глера Ru 140",
+        "url": "/uploads/Screenshot_3_dce2afc6e1.webp"
+      },
+      "manufacturer": "Мысхако",
+      "publicRating": 4.5,
+      "region": "Кубань",
+      "slug": "rustok-glera-ru-140",
+      "title": "Русток Глера Ru 140"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Аристов Анима милезимиато брют",
+        "url": "/uploads/Aristov_Anima_milezimiato_bryut_4a887b783f.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 4.67,
+      "region": "Кубань",
+      "slug": "aristov-anima-millesimato-beloe-bryut",
+      "title": "Аристов ANIMA Millesimato белое брют"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Солнечная Долина меганом кокур",
+        "url": "/uploads/Solnechnaya_Dolina_meganom_kokur_0084a50e59.webp"
+      },
+      "manufacturer": "Солнечная долина",
+      "publicRating": 3.67,
+      "region": "Крым",
+      "slug": "solnechnaya-dolina-meganom-kokur-beloe-bryut",
+      "title": "Солнечная Долина Меганом Кокур белое брют"
+    }
+  ],
+  "site_lastmod": "2026-09-01T11:48:59.000Z",
+  "site_wine": {
+    "alcohol": 108,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое брют"
+    },
+    "color": "Соломенный",
+    "description": "Аромат: парфюмерный, с оттенками спелого винограда, белых цветов и жёлтой сливы.\n\nВкус: сочный, с умеренной кислотностью и продолжительным сладким послевкусием.\n\nТехнология:  Ручной сбор, Охлаждение винограда до 2-4°С, Мягкое прессование в мембранном прессе, Остановка брожения холодом, Выдержка на осадке 6 месяцев.\n",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ptica_9a6c7e3ea1.webp"
+        },
+        "name": "Блюда из птицы"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/legkie_zakuski_e5a2dedbf7.webp"
+        },
+        "name": "Легкие закуски"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Muskat_d58579a0e1.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Vione_i_Verdeho_3502efff14.webp"
+        },
+        "name": "Мускат Оттонель"
+      }
+    ],
+    "image": {
+      "altText": "Мускат Оттонель Гусев",
+      "url": "/uploads/petnat_muskat_no_bg_preview_carve_photos_2296dc8b1a.webp"
+    },
+    "manufacturer": {
+      "name": "Гусевъ",
+      "slug": "gusev"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/volgograd_f6a44e0132.webp"
+      },
+      "name": "Нижняя Волга"
+    },
+    "slug": "muskat-ottonel-gusev",
+    "temperature": "8-10",
+    "title": "Мускат Оттонель Гусевъ"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Мускат Оттонель Гусев",
+      "title": "Мускат Оттонель Гусев",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/petnat_muskat_no_bg_preview_carve_photos_2296dc8b1a.webp"
+    }
+  ],
+  "slug": "muskat-ottonel-gusev"
+}

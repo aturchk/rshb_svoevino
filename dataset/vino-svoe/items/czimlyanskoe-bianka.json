@@ -1,0 +1,263 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 28268,
+      "format": "WEBP",
+      "height": 1200,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          322,
+          1200
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/czimlyanskoe-bianka.webp",
+        "sha256": "1e1d2e20815f7c6c7d0acfcbdd6ed498da80e24bde0c8e48d55d1e8f8b91bc8e",
+        "source_bbox_xyxy": [
+          3,
+          0,
+          317,
+          1200
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/czimlyanskoe-bianka.webp",
+      "sha256": "ac2e26fad62c121f42543e814a9cb8c94c88c9409623050175ec9586bd1093bb",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Czimlyanskoe_Bianka_beloe_04a59b0f1e.webp",
+      "width": 322
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/czimlyanskoe-bianka",
+  "retrieved_at_utc": "2026-09-29T19:14:52.941784+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое полусладкое",
+      "color": "Золотисто-соломенный",
+      "image": {
+        "altText": "Peti-Mansen_Dyna-kopia",
+        "url": "/uploads/Peti_Mansen_Dyna_kopia_14af7215d1.webp"
+      },
+      "manufacturer": "Yaiyla Winery",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "yaiyla-petit-manseng",
+      "title": "YAIYLA PETIT MANSENG  "
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Совиньон блан",
+        "url": "/uploads/MAX_02320_d56a1a6d6d.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "publicRating": 3,
+      "region": "Кубань",
+      "slug": "sovinon-blan",
+      "title": "Совиньон Блан"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Горка",
+        "url": "/uploads/MAX_02374_8762420674.webp"
+      },
+      "manufacturer": "Литавщук. Litavshchuk vineyards & winery",
+      "region": "Кубань",
+      "slug": "domashnyaya-gorka",
+      "title": "Домашняя горка "
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса слад",
+        "url": "/uploads/CANTIANI_Igristoe_white_semi_444h1200px_2d2892b235.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.84,
+      "region": "Дагестан",
+      "slug": "cantiani-semisweet",
+      "title": "Cantiani Semisweet"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Caucasian Джарагъ",
+        "url": "/uploads/Caucasian_Dzharag_300681b16f.webp"
+      },
+      "manufacturer": "Дербент Вино",
+      "publicRating": 4.4,
+      "region": "Дагестан",
+      "slug": "caucasian-dzharag",
+      "title": "Caucasian Джарагъ "
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Inkerman мускатное белое полусладкое",
+        "url": "/uploads/Inkerman_muskatnoe_beloe_polusladkoe_092002be0d.webp"
+      },
+      "manufacturer": "Инкерманский ЗМВ",
+      "publicRating": 3,
+      "region": "Крым",
+      "slug": "inkerman-muskatnoe-beloe",
+      "title": "Inkerman Мускатное белое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Цимлянское белое полусладкое",
+        "url": "/uploads/Czimlyanskoe_beloe_polusladkoe_5c7026a82e.webp"
+      },
+      "manufacturer": "Цимлянские вина",
+      "publicRating": 3.5,
+      "region": "Долина Дона",
+      "slug": "czimlyanskoe-beloe-polusladkoe",
+      "title": "Цимлянское белое полусладкое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Валерий Захарьин Кокур и Ко игристое белое полусладкое",
+        "url": "/uploads/Valerij_Zaharin_Kokur_i_Ko_igristoe_beloe_polusladkoe_1334dee26c.webp"
+      },
+      "manufacturer": "Валерий Захарьин",
+      "region": "Крым",
+      "slug": "valerij-zaharin-kokur-i-ko-beloe-polusladkoe",
+      "title": "Валерий Захарьин Кокур и Ко белое полусладкое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Соломенно-желтый с золотистым оттенком",
+      "image": {
+        "altText": "Мысхако игристое полусладкое белое",
+        "url": "/uploads/Myshako_igristoe_polusladkoe_beloe_846a405f2a.webp"
+      },
+      "manufacturer": "Мысхако",
+      "region": "Кубань",
+      "slug": "myshako-igristoe-beloe-polusladkoe",
+      "title": "Мысхако игристое белое полусладкое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Абрау Дюрсо физз полусладкое",
+        "url": "/uploads/Abrau_Dyurso_fizz_polusladkoe_031d93d5e0.webp"
+      },
+      "manufacturer": "Абрау-Дюрсо",
+      "publicRating": 3.33,
+      "region": "Кубань",
+      "slug": "abrau-dyurso-fizz-beloe-polusladkoe",
+      "title": "Абрау Дюрсо Физз белое полусладкое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Соломенно-зеленоватый с ярким блеском",
+      "image": {
+        "altText": "Фанагория полусладкое",
+        "url": "/uploads/Fanagrriya_polusladkoe_30637d1cb8.webp"
+      },
+      "manufacturer": "винный дом «Фанагория»",
+      "publicRating": 4.6,
+      "region": "Кубань",
+      "slug": "fanagoriya-beloe-polusladkoe",
+      "title": "Фанагория белое полусладкое"
+    },
+    {
+      "category": "Белое полусладкое",
+      "color": "Светло-соломенный с зеленоватым оттенком",
+      "image": {
+        "altText": "Фанагория белое полусладкое она сказала да",
+        "url": "/uploads/Fanagoriya_beloe_polusladkoe_ona_skazala_da_5ed0a48dfd.webp"
+      },
+      "manufacturer": "винный дом «Фанагория»",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "fanagoriya-ona-skazala-da-beloe-polusladkoe",
+      "title": "Фанагория Она сказала Да! белое полусладкое"
+    }
+  ],
+  "site_lastmod": "2026-08-05T09:30:13.000Z",
+  "site_wine": {
+    "alcohol": 9,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое полусладкое"
+    },
+    "color": "Светло-соломенный",
+    "description": "Вино демонстрирует легкий, свежий вкус с цветочными нотками и приятной сладостью в сдержанном послевкусии. Утонченный аромат вина наполнен оттенками луговых цветов. Вино светло-соломенного цвета.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ostroe_cd4130b86a.webp"
+        },
+        "name": "Азиатская кухня"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ptica_9a6c7e3ea1.webp"
+        },
+        "name": "Блюда из птицы"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/nesladkaya_vypechka_05bf04c48c.webp"
+        },
+        "name": "Выпечка и десерты"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Makabeo2_8d30670a08.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Glera2_9e33eb5e65.webp"
+        },
+        "name": "Бианка"
+      }
+    ],
+    "image": {
+      "altText": "Цимлянское Бианка белое",
+      "url": "/uploads/Czimlyanskoe_Bianka_beloe_04a59b0f1e.webp"
+    },
+    "manufacturer": {
+      "name": "Цимлянские вина",
+      "slug": "tsimlyanskie-vina"
+    },
+    "publicRating": 4,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/dolina_dona_ddc225057d.webp"
+      },
+      "name": "Долина Дона"
+    },
+    "slug": "czimlyanskoe-bianka",
+    "temperature": "10-12",
+    "title": "Цимлянское Бианка"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Цимлянское Бианка белое",
+      "title": "Цимлянское Бианка белое",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Czimlyanskoe_Bianka_beloe_04a59b0f1e.webp"
+    }
+  ],
+  "slug": "czimlyanskoe-bianka"
+}

@@ -94,6 +94,9 @@ class FieldReportTests(unittest.TestCase):
         self.assertEqual(report["metrics"]["mean_set_f1_at_5"], 1.0)
         self.assertEqual(report["metrics"]["gallery_coverage_of_confirmed"], 0.5)
         self.assertEqual(report["metrics"]["p95_latency_ms"], 42)
+        self.assertEqual(report["answer_rank_buckets"], {
+            "rank_1": 1, "rank_2_to_5": 0, "rank_6_to_20": 0, "below_20": 0,
+        })
         self.assertIn("не официальный test", (self.out / "accuracy.md").read_text())
 
     def test_rejects_changed_query_or_unrelated_benchmark(self) -> None:
@@ -118,6 +121,15 @@ class FieldReportTests(unittest.TestCase):
         self.mapping.write_text(self.mapping.read_text(encoding="utf-8") + "\n",
                                 encoding="utf-8")
         with self.assertRaisesRegex(ValueError, "annotations changed"):
+            score_field_sample(self.out / "selection.pool.json", self.gallery,
+                               predictions, summary, self.out)
+
+    def test_rejects_summary_that_disagrees_with_rankings(self) -> None:
+        _, predictions, summary = self._prepare_and_predict()
+        declared = json.loads(summary.read_text(encoding="utf-8"))
+        declared["top1_accuracy"] = 0.0
+        summary.write_text(json.dumps(declared), encoding="utf-8")
+        with self.assertRaisesRegex(ValueError, "contradicts predictions"):
             score_field_sample(self.out / "selection.pool.json", self.gallery,
                                predictions, summary, self.out)
 

@@ -1,0 +1,310 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 13228,
+      "format": "WEBP",
+      "height": 730,
+      "normalized": {
+        "alpha_cropped": true,
+        "original_size": [
+          220,
+          730
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/chateau-tamagne-select-blanc-brut.webp",
+        "sha256": "92ea584585a838dea4a8d6c0a2f53c8f4627d5330ffdcc917c853c6b7f16f0e6",
+        "source_bbox_xyxy": [
+          1,
+          0,
+          219,
+          730
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/chateau-tamagne-select-blanc-brut.webp",
+      "sha256": "03528e4d44f3650c9b3885dfa676e367fa684b1e8f68cd19f727d5cb95868d52",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/taman_shato_bez_fona_d2c12c80a3.webp",
+      "width": 220
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/chateau-tamagne-select-blanc-brut",
+  "retrieved_at_utc": "2026-09-29T19:14:54.855219+00:00",
+  "similar_wines": [
+    {
+      "category": "Белое брют",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Мускат Оттонель Гусев",
+        "url": "/uploads/petnat_muskat_no_bg_preview_carve_photos_2296dc8b1a.webp"
+      },
+      "manufacturer": "Гусевъ",
+      "publicRating": 5,
+      "region": "Нижняя Волга",
+      "slug": "muskat-ottonel-gusev",
+      "title": "Мускат Оттонель Гусевъ"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "алвиса монблан",
+        "url": "/uploads/MB_igrist_Blanc_vid_032026_kopiya_5c6680d1ef.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.86,
+      "region": "Дагестан",
+      "slug": "mont-blanc-blanc-de-blancs",
+      "title": "Mont Blanc, Blanc de Blancs"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Mont Vlanc Alvisa",
+        "url": "/uploads/MB_igrist_Cuvee_vid_032026_kopiya_8bb830fcc2.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.95,
+      "region": "Дагестан",
+      "slug": "mont-blanc-cuvee",
+      "title": "Mont Blanc Cuvée"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса рисл",
+        "url": "/uploads/CANTIANI_Igristoe_Riesl_vid_032025_kopiya_8150a5e627.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.88,
+      "region": "Дагестан",
+      "slug": "cantiani-riesling-1",
+      "title": "Cantiani Riesling"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса брют ",
+        "url": "/uploads/CANTIANI_Igrist_Brut_vid5_042026_kopiya_1b13527c60.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.83,
+      "region": "Дагестан",
+      "slug": "cantiani-brut",
+      "title": "Cantiani Brut"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса ркац",
+        "url": "/uploads/CANTIANI_Igristoe_Rkats_vid_032025_kopiya_29e44021af.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 4.98,
+      "region": "Дагестан",
+      "slug": "cantiani-rkatsiteli-1",
+      "title": "Cantiani Rkatsiteli"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Алвиса шадр",
+        "url": "/uploads/CANTIANI_Igristoe_Chardon_444h1200px_fa4fe5363b.webp"
+      },
+      "manufacturer": "Шато АЛВИСА",
+      "publicRating": 5,
+      "region": "Дагестан",
+      "slug": "cantiani-chardonnay",
+      "title": "Cantiani Chardonnay"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Просека",
+        "url": "/uploads/Screenshot_4_7c7945f9a9.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 3.81,
+      "region": "Кубань",
+      "slug": "lesnaya-proseka",
+      "title": "Лесная просека"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Небо России Глера",
+        "url": "/uploads/Screenshot_6_Photoroom_b5b45ec3f4.webp"
+      },
+      "manufacturer": "Kalos Limen",
+      "publicRating": 4.91,
+      "region": "Крым",
+      "slug": "nebo-rossii-glera",
+      "title": "Небо России Глера"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Соломенный",
+      "image": {
+        "altText": "Глера Манно",
+        "url": "/uploads/Screenshot_2_66036870aa.webp"
+      },
+      "manufacturer": "Мысхако",
+      "publicRating": 4.67,
+      "region": "Кубань",
+      "slug": "glera-manno",
+      "title": "Глера Манно"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-золотистый",
+      "image": {
+        "altText": "Русток Глера Ru 140",
+        "url": "/uploads/Screenshot_3_dce2afc6e1.webp"
+      },
+      "manufacturer": "Мысхако",
+      "publicRating": 4.5,
+      "region": "Кубань",
+      "slug": "rustok-glera-ru-140",
+      "title": "Русток Глера Ru 140"
+    },
+    {
+      "category": "Белое брют",
+      "color": "Светло-соломенный",
+      "image": {
+        "altText": "Аристов Анима милезимиато брют",
+        "url": "/uploads/Aristov_Anima_milezimiato_bryut_4a887b783f.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "publicRating": 4.67,
+      "region": "Кубань",
+      "slug": "aristov-anima-millesimato-beloe-bryut",
+      "title": "Аристов ANIMA Millesimato белое брют"
+    }
+  ],
+  "site_lastmod": "2026-08-05T06:38:54.000Z",
+  "site_wine": {
+    "alcohol": 12,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FCFBDF 0%, #F0EFD5 100%)",
+      "name": "Белое брют"
+    },
+    "color": "Светло-соломенный ",
+    "description": "Вкус: игристое вино демонстрирует освежающий, утонченный вкус с приятной кислинкой и легкими фруктово-цветочными оттенками в чистом послевкусии.\n\nАромат: игристое вино обладает гармоничным, свежим ароматом с легкими фруктово-цветочными оттенками.\n\n\"Chateau Tamagne\" Select Blanc Brut — игристое белое вино, созданное из винограда сортов Пино Блан, Бианка, Алиготе, Цветочный, Мюллер Тургау. Игристое вино является отличным аперитивом, а также его рекомендуется подавать охлажденным до 6-8 °С к блюдам из мяса домашней птицы, рыбы, морепродуктов, к легким овощным закускам.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ryba_moreprodukty_e57b445d95.webp"
+        },
+        "name": "Рыба и морепродукты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/salat_1afebb2167.webp"
+        },
+        "name": "Салаты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Marsan3_97291c74a8.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Malvaziya_2_6fa1f30062.webp"
+        },
+        "name": "Алиготе"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Makabeo2_8d30670a08.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Glera2_9e33eb5e65.webp"
+        },
+        "name": "Бианка"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Бастардо",
+          "url": "/uploads/Bastardo_jpg_e0b3b61b63.webp"
+        },
+        "image": {
+          "altText": "ребо",
+          "url": "/uploads/rebo_dbf2855820.webp"
+        },
+        "name": "Мюллер тургау"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Blan2_2e1cacc40f.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Pino_Blan_4f2900e7cb.webp"
+        },
+        "name": "Пино Блан"
+      },
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Risling_5a37344384.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Glera2_9e33eb5e65.webp"
+        },
+        "name": "Цветочный"
+      }
+    ],
+    "image": {
+      "altText": "Шато тамань селект 0,2",
+      "url": "/uploads/taman_shato_bez_fona_d2c12c80a3.webp"
+    },
+    "manufacturer": {
+      "name": "Кубань-Вино",
+      "slug": "kuban-vino"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "chateau-tamagne-select-blanc-brut",
+    "temperature": "8-10",
+    "title": "Chateau Tamagne Select Blanc Brut"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Шато тамань селект 0,2",
+      "title": "Шато тамань селект 0,2",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/taman_shato_bez_fona_d2c12c80a3.webp"
+    }
+  ],
+  "slug": "chateau-tamagne-select-blanc-brut"
+}

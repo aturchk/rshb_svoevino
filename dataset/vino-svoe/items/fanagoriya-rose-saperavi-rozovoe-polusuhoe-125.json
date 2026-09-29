@@ -1,0 +1,273 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 39656,
+      "format": "WEBP",
+      "height": 1920,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          510,
+          1920
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/fanagoriya-rose-saperavi-rozovoe-polusuhoe-125.webp",
+        "sha256": "37197a50847df8e5d2dbe773f8b720c9da3927c52df3e09d823e70693058c2da",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          510,
+          1920
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/fanagoriya-rose-saperavi-rozovoe-polusuhoe-125.webp",
+      "sha256": "e5aa30a62fcc143515c8806d987c573e4725a48fb735510bf04b5d37f891a324",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/fanagoriya_rose_saperavi_rozovoe_polusuhoe_125_79cbdac8e3.webp",
+      "width": 510
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/fanagoriya-rose-saperavi-rozovoe-polusuhoe-125",
+  "retrieved_at_utc": "2026-09-29T19:16:15.691125+00:00",
+  "similar_wines": [
+    {
+      "category": "Розовое полусухое",
+      "color": "Нежно-розовый",
+      "image": {
+        "altText": "Розовое полусухое Усадьба Перовских",
+        "url": "/uploads/main_rose_semidry_6e540b96e9.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.8,
+      "region": "Крым",
+      "slug": "rozovoe-polusuhoe",
+      "title": "Розовое полусухое"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Розовый",
+      "image": {
+        "altText": "Прибой Марченко розовое полусухое",
+        "url": "/uploads/Priboj_Marchenko_rozovoe_no_bg_preview_carve_photos_a85f40aeb6.webp"
+      },
+      "manufacturer": "Винодельня Марченко",
+      "publicRating": 4.2,
+      "region": "Кубань",
+      "slug": "priboj-marchenko-rozovoe-polusuhoe",
+      "title": "Прибой Марченко розовое полусухое"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Нежно-розовый",
+      "image": {
+        "altText": "Табия Розовое золото",
+        "url": "/uploads/Screenshot_16_a237793391.webp"
+      },
+      "manufacturer": "Табия",
+      "publicRating": 4.89,
+      "region": "Кубань",
+      "slug": "rozovoe-zoloto",
+      "title": "Розовое золото"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Ярко-розовый",
+      "image": {
+        "altText": "Пино Нуар, Мускат п.сух",
+        "url": "/uploads/Pino_Nuar_Muskat_p_suh_6f84a398e4.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "zhemchuzhnaya-9-pino-nuar-muskat-rozovyj-1",
+      "title": "Жемчужная 9 Пино Нуар, Мускат розовый"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Насыщенный розовый",
+      "image": {
+        "altText": "Каберне по-бел п.сух Аратти",
+        "url": "/uploads/Kaberne_po_bel_p_suh_6e9878c657.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "aratti-kaberne-po-belomu-1",
+      "title": "АРАТТИ Каберне по-белому"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Каберне, Пино Нуар п.сух.",
+      "image": {
+        "altText": "Каберне, Пино Нуар п.сух.",
+        "url": "/uploads/Kaberne_Pino_Nuar_p_suh_fe5a6a54b9.webp"
+      },
+      "manufacturer": "АРАТТИ",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "zhemchuzhnaya-9-kaberne-sovinon-pino-nuar",
+      "title": "Жемчужная 9 Каберне Совиньон, Пино Нуар"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Розовый",
+      "image": {
+        "altText": "айя",
+        "url": "/uploads/PU_Sjv7dn_M_Nil_H25_TO_9_Bcb_Bjo_R8u_Zy_Sbk_V5_WTE_Jjg3_C_Ky_5_U_v_Ue_Qv_P6o_l_XGG_5q_NED_Mtd_Ztu_Uj_Etjwa_Qrt_TX_Ag_c31d9f8afc.webp"
+      },
+      "manufacturer": "AYA Organic Wine & Vineyards",
+      "publicRating": 4.8,
+      "region": "Крым",
+      "slug": "aya-khrustaleva-76-merlot-organik",
+      "title": "Aya Khrustaleva 76 merlot Органик"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Цвет глубокий розовой с персиковым блеском.",
+      "image": {
+        "altText": "Мерло",
+        "url": "/uploads/Merlo_2022_255392430a.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.9,
+      "region": "Крым",
+      "slug": "perovskih_merlo",
+      "title": "Мерло"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Нежно-розовый, лососевый",
+      "image": {
+        "altText": "Collection Russian Sparkling Pinot Noir Rose Semi-Dry Novy Svet",
+        "url": "/uploads/novyy_svet_dom_shampanskih_vin_rossiyskoe_shampanskoe_kollektsionnoe_polusuhoe_rozovoe_novyy_svet_pino_nuar_125_815a1c3374.webp"
+      },
+      "manufacturer": "Новый Свет. Дом шампанских вин",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "novyy-svet-dom-shampanskih-vin-rossiyskoe-shampanskoe-kollektsionnoe-polusuhoe-rozovoe-novyy-svet-pino-nuar-125",
+      "title": "Российское шампанское коллекционное полусухое розовое «Новый Свет. Пино Нуар»"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Нежный розовый оттенок.",
+      "image": {
+        "altText": "ZB Frizzante Semi-Dry Rose",
+        "url": "/uploads/zolotaya_balka_zb_frizzante_semi_dry_rose_risling_rozovoe_polusuhoe_10_462381c9b4.webp"
+      },
+      "manufacturer": "Золотая Балка",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "zolotaya-balka-zb-frizzante-semi-dry-rose-risling-rozovoe-polusuhoe-10",
+      "title": "ZB Frizzante Semi-Dry Rose"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Нежно-розовый",
+      "image": {
+        "altText": "Фанагория",
+        "url": "/uploads/fanagoriya_brule_cabernet_franc_polusuhoe_rozovoe_kaberne_fran_12_08e20da65a.webp"
+      },
+      "manufacturer": "винный дом «Фанагория»",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "fanagoriya-brule-cabernet-franc-polusuhoe-rozovoe-kaberne-fran-12",
+      "title": "Brule Cabernet Franc Полусухое Розовое"
+    },
+    {
+      "category": "Розовое полусухое",
+      "color": "Светло‑розовый с оранжевым оттенком",
+      "image": {
+        "altText": "Фанагория",
+        "url": "/uploads/fanagoriya_zelyonoe_vino_risling_tsitronnyy_magaracha_merlo_rozovoe_polusuhoe_11_b750443919.webp"
+      },
+      "manufacturer": "винный дом «Фанагория»",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "fanagoriya-zelyonoe-vino-risling-tsitronnyy-magaracha-merlo-rozovoe-polusuhoe-11",
+      "title": "Зелёное вино. Рислинг - Цитронный Магарача - Мерло"
+    }
+  ],
+  "site_lastmod": "2026-04-02T13:20:14.000Z",
+  "site_wine": {
+    "alcohol": 12,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #F2AAAD 0%, #F2828F 100%)",
+      "name": "Розовое полусухое"
+    },
+    "color": "Тёмно-розовый",
+    "description": "В аромате брусника, черешня, багульник. Вкус мягкий, с длительным ягодным послевкусием.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/fastfood_9fbdc9215b.webp"
+        },
+        "name": "Брускетты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ostroe_cd4130b86a.webp"
+        },
+        "name": "Морепродукты"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/kavkazskaya_kuhnya_0f18f731b5.webp"
+        },
+        "name": "Мясное ассорти"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Saperavi3_973cb28f6e.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Saperavi_severnyj_e91216eac7.webp"
+        },
+        "name": "Саперави"
+      }
+    ],
+    "image": {
+      "altText": "Фанагория",
+      "url": "/uploads/fanagoriya_rose_saperavi_rozovoe_polusuhoe_125_79cbdac8e3.webp"
+    },
+    "manufacturer": {
+      "name": "винный дом «Фанагория»",
+      "slug": "fanagoriya"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "fanagoriya-rose-saperavi-rozovoe-polusuhoe-125",
+    "temperature": "10–12",
+    "title": "Rose. Саперави"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Фанагория",
+      "title": "Фанагория",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/fanagoriya_rose_saperavi_rozovoe_polusuhoe_125_79cbdac8e3.webp"
+    }
+  ],
+  "slug": "fanagoriya-rose-saperavi-rozovoe-polusuhoe-125"
+}

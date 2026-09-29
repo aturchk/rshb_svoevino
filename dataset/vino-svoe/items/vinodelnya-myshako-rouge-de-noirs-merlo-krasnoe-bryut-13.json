@@ -1,0 +1,141 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 22764,
+      "format": "WEBP",
+      "height": 999,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          306,
+          999
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/vinodelnya-myshako-rouge-de-noirs-merlo-krasnoe-bryut-13.webp",
+        "sha256": "176b8cd77348bff57e170fee1a5fa12fa61aa21c34043c271689bbce48f409f5",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          306,
+          999
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/vinodelnya-myshako-rouge-de-noirs-merlo-krasnoe-bryut-13.webp",
+      "sha256": "871801d93a1c5b410af52c502daf797bf797d4e1de43a898f71fc208c2e94893",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/vinodelnya_myshako_rouge_de_noirs_merlo_igristoe_bryut_krasnoe_13_3e3fa77db7.webp",
+      "width": 306
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/vinodelnya-myshako-rouge-de-noirs-merlo-krasnoe-bryut-13",
+  "retrieved_at_utc": "2026-09-29T19:20:16.756918+00:00",
+  "similar_wines": [
+    {
+      "category": "Красное брют",
+      "color": "Тёмно-рубиновый, насыщенный",
+      "image": {
+        "altText": "Cabernet Sauvignon Brut Novy Svet",
+        "url": "/uploads/novyy_svet_dom_shampanskih_vin_igristoe_vino_vyderzhannoe_bryut_krasnoe_novyy_svet_kaberne_sovinon_135_c251fa3c04.webp"
+      },
+      "manufacturer": "Новый Свет. Дом шампанских вин",
+      "publicRating": 4,
+      "region": "Крым",
+      "slug": "novyy-svet-dom-shampanskih-vin-igristoe-vino-vyderzhannoe-bryut-krasnoe-novyy-svet-kaberne-sovinon-135",
+      "title": "Игристое вино выдержанное брют красное «Новый Свет. Каберне Совиньон»"
+    },
+    {
+      "category": "Красное брют",
+      "color": "Тёмно-рубиновый",
+      "image": {
+        "altText": "Фанагория",
+        "url": "/uploads/fanagoriya_brule_saperavi_saperavi_igristoe_sladkoe_krasnoe_bryut_125_433b942aaa.webp"
+      },
+      "manufacturer": "винный дом «Фанагория»",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "fanagoriya-brule-saperavi-saperavi-igristoe-sladkoe-krasnoe-bryut-125",
+      "title": "Brule Saperavi"
+    },
+    {
+      "category": "Красное брют",
+      "color": "Темно-рубиновый",
+      "image": {
+        "altText": "Новый Свет. Каберне Совиньон",
+        "url": "/uploads/4308_TC_5bs_GE_232f37619b.webp"
+      },
+      "manufacturer": "Новый Свет. Дом шампанских вин",
+      "region": "Крым",
+      "slug": "novyj-svet-kaberne-sovinon",
+      "title": "Новый Свет. Каберне Совиньон"
+    }
+  ],
+  "site_lastmod": "2026-01-12T11:42:27.000Z",
+  "site_wine": {
+    "alcohol": 13,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #A51B3A 0%, #741D30 100%)",
+      "name": "Красное брют"
+    },
+    "color": "Красный",
+    "description": "Вкус: Комплексный, округлый вкус с фруктово-ягодными акцентами и приятным послевкусием. Ноты ежевики, вишни и барбариса.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/myaso_442273df41.webp"
+        },
+        "name": "Мясо и стейки"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/syr_820e71a7c0.webp"
+        },
+        "name": "Сыры"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Merlo2_92c9fc8a90.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Merlo_14_f0e42dbdb6.webp"
+        },
+        "name": "Мерло"
+      }
+    ],
+    "image": {
+      "altText": "Rouge de Noirs",
+      "url": "/uploads/vinodelnya_myshako_rouge_de_noirs_merlo_igristoe_bryut_krasnoe_13_3e3fa77db7.webp"
+    },
+    "manufacturer": {
+      "name": "Мысхако",
+      "slug": "vinodelnya-myshako"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "vinodelnya-myshako-rouge-de-noirs-merlo-krasnoe-bryut-13",
+    "temperature": "8-10",
+    "title": "Rouge de Noirs"
+  },
+  "sitemap_images": [
+    {
+      "caption": "Rouge de Noirs",
+      "title": "Rouge de Noirs",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/vinodelnya_myshako_rouge_de_noirs_merlo_igristoe_bryut_krasnoe_13_3e3fa77db7.webp"
+    }
+  ],
+  "slug": "vinodelnya-myshako-rouge-de-noirs-merlo-krasnoe-bryut-13"
+}

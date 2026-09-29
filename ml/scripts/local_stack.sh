@@ -8,7 +8,7 @@ script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 root="$(cd "$script_dir/../.." && pwd)"
 cd "$root"
 
-if [ ! -x .venv/bin/wine-cv ] || [ ! -f work/models/siglip2-field-adapter.safetensors ] || \
+if [ ! -x .venv/bin/wine-cv ] || [ ! -f ml/models/siglip2-site-label-adapter.safetensors ] || \
    [ ! -d work/siglip-cache ] || [ ! -f frontend/.output/server/index.mjs ]; then
   "$script_dir/local_setup.sh"
 fi

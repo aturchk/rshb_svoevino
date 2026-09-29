@@ -1,0 +1,262 @@
+{
+  "downloaded_images": [
+    {
+      "bytes": 73432,
+      "format": "WEBP",
+      "height": 1920,
+      "normalized": {
+        "alpha_cropped": false,
+        "original_size": [
+          447,
+          1920
+        ],
+        "output_size": [
+          768,
+          768
+        ],
+        "path": "images/normalized/chateau-tamagne-nature-orange.webp",
+        "sha256": "0bf716301e45dc9d8a7ddc7d69896c10c67d37a8e30a67229fdd6eca5b1a0602",
+        "source_bbox_xyxy": [
+          0,
+          0,
+          447,
+          1920
+        ],
+        "version": "exif-alpha-crop-pad-white-webp0-v2"
+      },
+      "path": "images/raw/chateau-tamagne-nature-orange.webp",
+      "sha256": "29803676b401079e1336188e85821cce0b693f7f51fbc84ff724ce3f7da3b9cb",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Sh_T_NATURE_0_75_2024gu_Normal_Orange_88fb104a59.webp",
+      "width": 447
+    }
+  ],
+  "page_url": "https://vino-svoe.ru/wines/chateau-tamagne-nature-orange",
+  "retrieved_at_utc": "2026-09-29T19:17:39.188671+00:00",
+  "similar_wines": [
+    {
+      "category": "Оранжевое сухое",
+      "color": "Янтарный",
+      "image": {
+        "altText": "Ajla_Vermentino-kopia",
+        "url": "/uploads/Ajla_Vermentino_kopia_73dbfe9a20.webp"
+      },
+      "manufacturer": "Yaiyla Winery",
+      "publicRating": 4,
+      "region": "Крым",
+      "slug": "yaiyla-vermentino-orange",
+      "title": "YAIYLA VERMENTINO ORANGE "
+    },
+    {
+      "category": "Оранжевое сухое",
+      "color": "Янтарный",
+      "image": {
+        "altText": "Oranz_Muskat_2025",
+        "url": "/uploads/Oranz_Muskat_2025_kopia_4270f365ca.webp"
+      },
+      "manufacturer": "Yaiyla Winery",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "yaiyla-muscat-orange",
+      "title": "YAIYLA MUSCAT ORANGE "
+    },
+    {
+      "category": "Оранжевое сухое",
+      "color": "Золотистый с розовым отливом",
+      "image": {
+        "altText": "Гевюрцтраминер Оранж Усадьба Петовских",
+        "url": "/uploads/Gevyurcztraminer_Oranzh_Usadba_Petovskih_f3d914f332.webp"
+      },
+      "manufacturer": "Усадьба Перовских",
+      "publicRating": 4.62,
+      "region": "Крым",
+      "slug": "gevyurcztraminer-oranzh",
+      "title": "Гевюрцтраминер Оранж"
+    },
+    {
+      "category": "Оранжевое сухое",
+      "color": "Цвет вина колеблется от светло-соломенного до желтого.",
+      "image": {
+        "altText": "Шато Таманье Селект Оранж",
+        "url": "/uploads/kuban_vino_shato_tamane_selekt_oranzh_tsitronnyy_magaracha_oranzhevoe_suhoe_135_4e83f61d0a.webp"
+      },
+      "manufacturer": "Кубань-Вино",
+      "region": "Кубань",
+      "slug": "kuban-vino-shato-tamane-selekt-oranzh-tsitronnyy-magaracha-oranzhevoe-suhoe-135",
+      "title": "Шато Тамань Селект Оранж"
+    },
+    {
+      "category": "Оранжевое сухое",
+      "color": "Янтарный",
+      "image": {
+        "altText": "Абрау-Дюрсо",
+        "url": "/uploads/abrau_dyurso_abrau_estates_oranzh_tsitronnyy_magaracha_oranzhevoe_suhoe_105_95e00a834b.webp"
+      },
+      "manufacturer": "Абрау-Дюрсо",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "abrau-dyurso-abrau-estates-oranzh-tsitronnyy-magaracha-oranzhevoe-suhoe-105",
+      "title": "Abrau Estates Оранж"
+    },
+    {
+      "category": "Оранжевое сухое",
+      "color": "Светлый, соломенного оттенка",
+      "image": {
+        "altText": "Траминер Оранж 2",
+        "url": "/uploads/vaynkraft_traminer_oranzh_2_traminer_rozovyy_oranzhevoe_suhoe_125_3c507d40ce.webp"
+      },
+      "manufacturer": "ВайнКрафт",
+      "region": "Крым",
+      "slug": "vaynkraft-traminer-oranzh-2-traminer-rozovyy-oranzhevoe-suhoe-125",
+      "title": "Траминер Оранж 2"
+    },
+    {
+      "category": "Оранжевое сухое",
+      "color": "Темно-золотистый с едва различимыми персиково-соломенными бликами.",
+      "image": {
+        "altText": "Ркацители Оранж",
+        "url": "/uploads/vaynkraft_rkatsiteli_oranzh_oranzhevoe_suhoe_12_65fe9c2119.webp"
+      },
+      "manufacturer": "ВайнКрафт",
+      "region": "Крым",
+      "slug": "vaynkraft-rkatsiteli-oranzh-oranzhevoe-suhoe-12",
+      "title": "Ркацители Оранж"
+    },
+    {
+      "category": "Оранжевое сухое",
+      "color": "Светло-желтый",
+      "image": {
+        "altText": "Траминер Оранж",
+        "url": "/uploads/vaynkraft_traminer_oranzh_traminer_rozovyy_oranzhevoe_suhoe_125_8a46ea97b3.webp"
+      },
+      "manufacturer": "ВайнКрафт",
+      "region": "Крым",
+      "slug": "vaynkraft-traminer-oranzh-traminer-rozovyy-oranzhevoe-suhoe-125",
+      "title": "Траминер Оранж"
+    },
+    {
+      "category": "Оранжевое сухое",
+      "color": "Золотистый",
+      "image": {
+        "altText": "Мускат Оранж",
+        "url": "/uploads/belbek_muskat_oranzh_muskat_belyy_oranzhevoe_suhoe_125_15ac5f6bc6.webp"
+      },
+      "manufacturer": "Бельбек",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "belbek-muskat-oranzh-muskat-belyy-oranzhevoe-suhoe-125",
+      "title": "Мускат Оранж"
+    },
+    {
+      "category": "Оранжевое сухое",
+      "color": "Золотисто-янтарный",
+      "image": {
+        "altText": "Рислинг Оранж",
+        "url": "/uploads/golubitskoe_estate_risling_oranzh_risling_reynskiy_oranzhevoe_suhoe_13_f1f3796561.webp"
+      },
+      "manufacturer": "Golubitskoe Estate",
+      "publicRating": 5,
+      "region": "Кубань",
+      "slug": "golubitskoe-estate-risling-oranzh-risling-reynskiy-oranzhevoe-suhoe-13",
+      "title": "Рислинг Оранж"
+    },
+    {
+      "category": "Оранжевое сухое",
+      "color": "Золотистый с янтарными оттенками.",
+      "image": {
+        "altText": "Цитрон оранж",
+        "url": "/uploads/denisov_winery_tsitron_oranzh_tsitronnyy_magaracha_oranzhevoe_suhoe_105_3d8bed58d0.webp"
+      },
+      "manufacturer": "Denisov Winery",
+      "publicRating": 5,
+      "region": "Самара",
+      "slug": "denisov-winery-tsitron-oranzh-tsitronnyy-magaracha-oranzhevoe-suhoe-105",
+      "title": "Цитрон оранж"
+    },
+    {
+      "category": "Оранжевое сухое",
+      "color": "Бледно-янтарный",
+      "image": {
+        "altText": "Мускат Оранж",
+        "url": "/uploads/rem_akchurin_muskat_oranzh_oranzhevoe_suhoe_115_d72b609dd9.webp"
+      },
+      "manufacturer": "Rem Akchurin",
+      "publicRating": 5,
+      "region": "Крым",
+      "slug": "rem-akchurin-muskat-oranzh-oranzhevoe-suhoe-115",
+      "title": "Мускат Оранж"
+    }
+  ],
+  "site_lastmod": "2026-02-03T20:21:36.000Z",
+  "site_wine": {
+    "alcohol": 13,
+    "category": {
+      "backgroundGradient": "linear-gradient(180deg, #FDBF98 0%, #ED7C35 100%)",
+      "name": "Оранжевое сухое"
+    },
+    "color": "Золотистый с оттенками от оранжевых до янтарных",
+    "description": "Вкус полный, с плотной структурой, приятной гармоничной свежестью и долгим развивающимся послевкусием. Аромат развитый, комплексный с преобладанием тонов спелых фруктов на фоне пряных растительных нот.\n\nПереработку винограда не проводят, а осуществляют загрузку в винификатор (емкость из нержавеющей стали), целыми гроздями. Загруженный виноград сульфитируют диоксидом серы до 30 мг/дм3. Брожение проводят на чистых культурах дрожжей, которые задают в соответствии с рекомендациями фирм производителей, используя сусло образовавшееся при загрузке винограда. Верхнюю часть мезги систематически орошают, перекачивая нижнии слои сусла на поверхность для лучшей экстракции фенольных и ароматических веществ из кожицы винограда. В зависимости от используемого оборудования режимы экстракции могут варьироваться. Брожение проводят при температуре 16- 18°С с осуществлением систематического контроля температуры и количества сброженных сахаров. Брожение считают законченным при содержании сахаров не более 4 г/дм3. Выбродившую мезгу доливают до полна в емкости. Процесс хранения и выдержки на мезге (постферментативный настой) не менее 6 месяцев, после окончания брожения, с постоянным органолептическим и физико- химических контролем всех показателей, а также постоянной доливкой до полна и уходом за виноматериалом. По окончанию срока выдержки, проводят прессование мезги с дальнейшим купажированием и защитой виноматериалов. Без выдержки в дубе. Выдержка на мезге не менее 6 месяцев.",
+    "dishes": [
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/ptica_9a6c7e3ea1.webp"
+        },
+        "name": "Блюда из птицы"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/kavkazskaya_kuhnya_0f18f731b5.webp"
+        },
+        "name": "Кавказская кухня"
+      },
+      {
+        "image": {
+          "altText": "Блюда",
+          "url": "/uploads/panasian_kuhnya_9b6b0e0ba3.webp"
+        },
+        "name": "Средиземноморская кухня"
+      }
+    ],
+    "grapes": [
+      {
+        "backgroundImage": {
+          "altText": "Виноград",
+          "url": "/uploads/Rkacziteli2_a6dd4baca5.webp"
+        },
+        "image": {
+          "altText": "Виноград",
+          "url": "/uploads/Vione_i_Verdeho_3502efff14.webp"
+        },
+        "name": "Цитронный Магарача"
+      }
+    ],
+    "image": {
+      "altText": "ШТ NATURE 0.75 2024гу_ Normal Orange",
+      "url": "/uploads/Sh_T_NATURE_0_75_2024gu_Normal_Orange_88fb104a59.webp"
+    },
+    "manufacturer": {
+      "name": "Кубань-Вино",
+      "slug": "kuban-vino"
+    },
+    "publicRating": 5,
+    "region": {
+      "image": {
+        "altText": "Регион",
+        "url": "/uploads/kuban_3a7a0211ba.webp"
+      },
+      "name": "Кубань"
+    },
+    "slug": "chateau-tamagne-nature-orange",
+    "temperature": "8-10",
+    "title": "Chateau Tamagne Nature. Orange"
+  },
+  "sitemap_images": [
+    {
+      "caption": "ШТ NATURE 0.75 2024гу_ Normal Orange",
+      "title": "ШТ NATURE 0.75 2024гу_ Normal Orange",
+      "url": "https://api.vino-svoe.ru/v1/img/str-api/1920/1920/resize/uploads/Sh_T_NATURE_0_75_2024gu_Normal_Orange_88fb104a59.webp"
+    }
+  ],
+  "slug": "chateau-tamagne-nature-orange"
+}

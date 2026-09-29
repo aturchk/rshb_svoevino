@@ -13,9 +13,11 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageOps
 
 from .siglip import Siglip2Pipeline
+from .views import VIEW_TRANSFORM_VERSION, reference_views
 
 
 ADAPTER_FORMAT_VERSION = 1
+AUGMENTATION_POLICIES = ("full-v1", "label-mix-v2")
 
 
 def gallery_digest(gallery: list[dict]) -> str:
@@ -66,8 +68,26 @@ def field_augment(image: Image.Image, seed: int) -> Image.Image:
     return image
 
 
+def label_field_augment(image: Image.Image, seed: int) -> Image.Image:
+    """Mix whole bottles and source-pixel label crops; never use field/test photos."""
+    rng = random.Random(seed)
+    base = ImageOps.exif_transpose(image).convert("RGB")
+    try:
+        views = reference_views(base, "full-mid-label")
+    finally:
+        base.close()
+    try:
+        # Whole-bottle views keep the original domain represented, while label
+        # crops teach the small adapter about the close framing seen in shops.
+        choice = rng.choices((0, 1, 2), weights=(4, 3, 3), k=1)[0]
+        return field_augment(views[choice], seed + 1_000_003)
+    finally:
+        for view in views:
+            view.close()
+
+
 def _encode_views(pipeline: Siglip2Pipeline, gallery: list[dict], views: int,
-                  seed: int, stage: str):
+                  seed: int, stage: str, augmentation: str):
     torch = pipeline._torch
     features = []
     labels = []
@@ -84,11 +104,13 @@ def _encode_views(pipeline: Siglip2Pipeline, gallery: list[dict], views: int,
         pending.clear()
         pending_labels.clear()
 
+    augment = (field_augment if augmentation == "full-v1" else label_field_augment)
     for label, item in enumerate(gallery):
         with Image.open(item["image_path"]) as source:
             source.load()
             for view in range(views):
-                pending.append(field_augment(source, seed + label * 1009 + view * 9176))
+                view_seed = seed + label * 1009 + view * 9176
+                pending.append(augment(source, view_seed))
                 pending_labels.append(label)
                 if len(pending) >= pipeline.batch_size:
                     flush()
@@ -121,9 +143,11 @@ def train_adapter(gallery: list[dict], output: Path, *, model_id: str,
                   train_views: int = 4, val_views: int = 1, rank: int = 64,
                   epochs: int = 15, learning_rate: float = 3e-4,
                   weight_decay: float = 1e-4, temperature: float = 0.05,
-                  seed: int = 20260928) -> dict:
+                  seed: int = 20260928, augmentation: str = "full-v1") -> dict:
     if train_views < 1 or val_views < 1 or rank < 1 or epochs < 1:
         raise ValueError("views, rank, and epochs must be positive")
+    if augmentation not in AUGMENTATION_POLICIES:
+        raise ValueError(f"Unsupported augmentation policy: {augmentation}")
     started = time.perf_counter()
     pipeline = Siglip2Pipeline(
         model_id=model_id, revision=revision, device=device, precision=precision,
@@ -141,9 +165,10 @@ def train_adapter(gallery: list[dict], output: Path, *, model_id: str,
     base_prototypes = pipeline._encode_paths(reference_paths).float()
     print("reference: complete", flush=True)
     train_features, train_labels = _encode_views(
-        pipeline, gallery, train_views, seed, "train_views")
+        pipeline, gallery, train_views, seed, "train_views", augmentation)
     val_features, val_labels = _encode_views(
-        pipeline, gallery, val_views, seed + 10_000_019, "validation_views")
+        pipeline, gallery, val_views, seed + 10_000_019,
+        "validation_views", augmentation)
     dimension = base_prototypes.shape[1]
     effective_rank = min(rank, dimension)
     down = torch.nn.Parameter(torch.empty(effective_rank, dimension, device=pipeline._device))
@@ -203,6 +228,9 @@ def train_adapter(gallery: list[dict], output: Path, *, model_id: str,
         "train_views_per_item": train_views,
         "validation_views_per_item": val_views,
         "seed": seed,
+        "augmentation": augmentation,
+        "view_transform_version": (VIEW_TRANSFORM_VERSION
+                                   if augmentation == "label-mix-v2" else None),
         "epochs": epochs,
         "best_epoch": best_epoch,
         "learning_rate": learning_rate,

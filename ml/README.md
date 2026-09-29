@@ -2,24 +2,67 @@
 
 This package turns the supplied catalog and media export into a reviewable reference gallery, validates manual field-photo labels, compares interchangeable retrieval pipelines, and serves both the product and organizer prediction endpoints. The source brief is summarized in [TASK_CONTEXT.md](docs/TASK_CONTEXT.md), the experiment order is in [CV_PLAN.md](docs/CV_PLAN.md), and the annotation contract is in [FIELD_DATA.md](docs/FIELD_DATA.md).
 
-The completed reference training receipt and proxy benchmark are summarized in
-[TRAINING_RESULTS.md](docs/TRAINING_RESULTS.md). These measurements are synthetic regression
-signals. The 100 `real_photo` files now have one-pass manual decisions, but they remain
-a development pool; the official test is expected on 1 October 2026.
+The older strict-gallery training receipt in
+[TRAINING_RESULTS.md](docs/TRAINING_RESULTS.md) is a historical synthetic regression
+experiment, not the production candidate. The 100 `real_photo` files have
+one-pass manual decisions and remain a development pool; no closed-test result
+is claimed here.
+
+## Production candidate (29 September 2026)
+
+The checked-in snapshot under `dataset/vino-svoe/` contains 2,110 wine pages,
+their complete parsed site attributes, original downloaded photos, normalized
+white-background views, and a SHA-checked 1,936-SKU reviewed gallery. The
+11 manually released ambiguous references and three quarantined mistakes are
+bound to source-image SHA-256 in `data/site_reference_review.tsv`. The
+original Strapi inputs remain untouched. See [SITE_DATASET.md](docs/SITE_DATASET.md)
+for provenance, resumable refresh, normalization, and exclusion rules.
+
+The inference model is frozen
+`google/siglip2-base-patch16-384` at revision
+`f775b65a79762255128c981547af89addcfe0f88` plus the committed
+[rank-64 adapter](models/README.md) trained on catalog-derived full-bottle and
+label views on an RTX 5090. It indexes both whole-bottle and existing-pixel
+label crops, retaining the full field photo as its query. The base checkpoint
+is downloaded once; no field or closed-test image was used to train the
+adapter. The packaged model component is
+`ml/models/siglip2-site-label-adapter.safetensors` with its JSON receipt.
+
+On the same 59 one-pass reviewed, gallery-covered field photos, the RTX 5090
+baseline scored **39/59 Top-1 (66.1%)**, **51/59 Recall@5 (86.4%)**, p95
+**232.25 ms**. The adapter scored **41/59 Top-1 (69.5%)**, **53/59 Recall@5
+(89.8%)**, p95 **237.50 ms**. Both were below three seconds for all 59.
+Five confirmed photos have no indexed answer, and the pool is not an
+independent test; do not present these as official accuracy or the 90% target.
+Definitions, prediction files, SHA receipts, full commands, limitations, and
+all requested TZ metrics are in [FIELD_ACCURACY_REPORT.md](docs/FIELD_ACCURACY_REPORT.md).
+
+For the complete local application:
+
+```bash
+make local-setup
+make local
+```
+
+`make local-setup` downloads the pinned base encoder, validates every gallery
+image hash, builds the adapter-specific `full-label` index, and builds Nuxt.
+The inference service and UI then run at `127.0.0.1:8080` and
+`127.0.0.1:3000`. CUDA, Apple MPS, and CPU are supported, but the measured
+latencies above are for the specified RTX 5090 configuration.
 
 ## Current data snapshot
 
-The public site can now be captured separately with:
+The public site can be refreshed separately with:
 
 ```bash
 PYTHONPATH=ml/src .venv/bin/python -m wine_cv.site_dataset --workers 8
 ```
 
 This produces a resumable catalog, full-size site photos, normalized reference
-views, an exact-slug join to the CSV below, and an experimental gallery in
+views, an exact-slug join to the CSV below, and candidate galleries in
 `work/vino-svoe/`. See [SITE_DATASET.md](docs/SITE_DATASET.md) for the data
-contract and field-photo adaptation plan. The existing strict gallery remains
-the current benchmark baseline until the site gallery is reviewed and measured.
+contract. The checked-in snapshot is the selected production gallery; the
+older strict-gallery numbers below are retained for historical comparison.
 
 `dataset/strapi_output0709.csv` has 4,147 rows but only 2,103 distinct slugs; 2,044 rows are exact duplicates. The three upload folders contain 3,483 supported images. The deterministic linker finds 1,038 filename matches before conflict checks: 941 after separator and Strapi-hash normalization, plus 97 after exact Russian-to-Latin transliteration. It then quarantines every cross-slug asset or byte-identical image conflict.
 
@@ -47,6 +90,12 @@ For the complete local SigLIP pipeline (CUDA, Apple MPS, or CPU):
 ```
 
 The project pins `transformers==5.17.0`. No API key is needed. The first online run downloads the public Apache-2.0 model; final benchmark and service runs can use `--offline` after the files are cached. From the repository root, `make local-setup` performs the full preparation and automatically selects CUDA, Apple MPS, or CPU.
+
+## Historical strict-gallery harness
+
+The following steps preserve the original 928-SKU experiment and annotation
+workflow. For the production candidate, use the checked-in 1,936-SKU site
+gallery and `make local-setup` above.
 
 ## 1. Build the reference gallery
 
@@ -139,21 +188,24 @@ Run these experiments in order on the frozen development set:
 Do not choose a model from the three unlabeled organizer fixtures. They are useful only
 for endpoint and transport checks. Do not tune after opening the official 1 October test.
 
-### Train the conservative catalog adapter
+### Retrain the production catalog adapter (optional)
 
-With one catalog image per SKU, the implemented training path keeps the SigLIP 2 vision
-backbone frozen and learns a rank-64 residual projection from four deterministic field-like
-views per reference. The loss is a full 928-way contrastive classification objective, so
-every other catalog item participates as a negative. It does not rewrite source images.
+The implemented training path keeps the SigLIP 2 vision backbone frozen and
+learns a rank-64 residual projection from four deterministic field-like views
+per reference, mixing full bottles and label crops. The loss compares each
+view against all 1,936 gallery classes. It does not rewrite source images or
+use real field photos. The checked-in adapter was trained on Runpod; this
+command reproduces its settings but creates a separate experimental output.
 
 ```bash
 .venv/bin/wine-cv train-adapter \
-  --gallery work/gallery-strict.jsonl --data-root . \
-  --output work/models/siglip2-field-adapter.safetensors \
+  --gallery dataset/vino-svoe/gallery-reviewed-candidates.jsonl --data-root . \
+  --output work/models/siglip2-site-label-adapter-retrain.safetensors \
   --model-id google/siglip2-base-patch16-384 \
   --model-revision f775b65a79762255128c981547af89addcfe0f88 \
-  --device auto --precision auto --batch-size 8 \
-  --train-views 4 --val-views 1 --rank 64 --epochs 15 --seed 20260928
+  --device cuda --precision float16 --batch-size 32 \
+  --train-views 4 --val-views 1 --rank 64 --epochs 15 \
+  --augmentation label-mix-v2 --seed 20260929
 ```
 
 For a synthetic smoke/regression set only:
@@ -186,9 +238,10 @@ matched per request.
   --device auto --precision auto --batch-size 8 --cache-policy require --offline
 ```
 
-The reference GPU proxy gain from ORB was only +0.0011 Top-1 while p95 rose by about 49 ms.
-Therefore the current production-candidate default is `siglip2` plus the adapter; enable
-`siglip2-orb` only if the reviewed real-photo development set shows a meaningful gain.
+The historical synthetic GPU proxy gain from ORB was only +0.0011 Top-1 while
+p95 rose by about 49 ms. The selected production candidate is `siglip2` plus
+the committed site-label adapter and `full-label` reference views; ORB is not
+enabled. Re-evaluate it on independently reviewed field photos before rollout.
 
 ## 5. Serve the organizer endpoint
 

@@ -8,6 +8,7 @@ import type { ImagesManifest } from '../app/shared/config/dataset-schema.ts'
 import { loadCatalog } from './lib/csv.ts'
 import { assertDataset, CSV_PATH, IMG_DIR, IMG_MANIFEST } from './lib/paths.ts'
 import { buildUploadsIndex, resolveImage } from './lib/resolve-images.ts'
+import { loadSiteCatalog, siteImagePath } from './lib/site-catalog.ts'
 
 /**
  * Генерация двух размеров бутылок.
@@ -70,19 +71,28 @@ async function main(): Promise<void> {
   assertDataset()
   const started = Date.now()
   const { rows } = loadCatalog(CSV_PATH)
+  const site = loadSiteCatalog().wines
+  const legacySlugs = new Set(rows.map((row) => row.Slug))
+  for (const wine of site) {
+    if (legacySlugs.has(wine.slug)) throw new Error(`Site-only slug уже есть в CSV: ${wine.slug}`)
+  }
   const uploads = buildUploadsIndex()
 
-  const jobs = rows
+  const legacyJobs = rows
     .map((row) => ({
       slug: row.Slug,
       source: resolveImage(uploads, row['Название фото'], row.Slug),
     }))
     .filter((job): job is { slug: string; source: string } => job.source !== null)
+  const jobs = [
+    ...legacyJobs,
+    ...site.map((wine) => ({ slug: wine.slug, source: siteImagePath(wine.slug) })),
+  ]
 
   console.log(
-    `Каталог: ${rows.length} позиций. Файлов в uploads: ${uploads.scanned} ` +
+    `Каталог: ${rows.length} CSV + ${site.length} site-only. Файлов в uploads: ${uploads.scanned} ` +
       `(отброшено по расширению: ${uploads.skippedByExtension}). ` +
-      `Резолвится фотографий: ${jobs.length} (${((100 * jobs.length) / rows.length).toFixed(1)}%).`,
+      `Резолвится фотографий: ${jobs.length} (${((100 * jobs.length) / (rows.length + site.length)).toFixed(1)}%).`,
   )
 
   mkdirSync(join(IMG_DIR, 'thumb'), { recursive: true })

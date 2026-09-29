@@ -3,6 +3,7 @@
 /.venv/
 /work/
 /tmp/
+/eval/predictions*.jsonl
 __pycache__/
 *.egg-info/
 frontend/node_modules/

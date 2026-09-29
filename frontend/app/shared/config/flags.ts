@@ -4,5 +4,6 @@ export function useFlags() {
   return {
     mockScanHistory: config.public.mockScanHistory === true,
     demoScan: config.public.demoScan === true,
+    liteScan: config.public.liteScan === true,
   }
 }

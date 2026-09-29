@@ -34,7 +34,7 @@ const result = computed(() => flow.outcome.value?.result ?? null)
 
 <template>
   <section class="scan">
-    <h1 class="visually-hidden">Сканер этикеток</h1>
+    <h1 class="visually-hidden">Сканер винных бутылок</h1>
     <Scanner :flow="flow" />
     <ScanResultSheet
       v-if="result"

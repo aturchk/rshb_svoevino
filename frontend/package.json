@@ -9,6 +9,7 @@
     "preview": "nuxt preview",
     "preview:mobile": "HTTPS=1 nuxt preview --host 0.0.0.0 --port 4173",
     "build:data": "tsx scripts/build-dataset.ts",
+    "build:lite-index": "tsx scripts/build-dhash-index.ts",
     "build:images": "tsx scripts/build-images.ts",
     "sync:site-catalog": "tsx scripts/sync-site-catalog.ts",
     "postinstall": "nuxt prepare",
@@ -21,6 +22,7 @@
     "@fontsource-variable/playfair-display": "^5.3.0",
     "@tanstack/vue-virtual": "^3.13.39",
     "nuxt": "^4.5.2",
+    "sharp": "0.35.4",
     "vue": "^3.5.43",
     "vue-router": "^5.3.1"
   },
@@ -33,7 +35,6 @@
     "eslint-plugin-import": "^2.32.0",
     "papaparse": "^5.7.0",
     "prettier": "^3.9.8",
-    "sharp": "^0.35.4",
     "tsx": "^4.23.15",
     "vitest": "^5.0.1",
     "vue-tsc": "^3.3.11"

@@ -1,171 +1,109 @@
-# «Своё Вино»: scanner + SigLIP 2 retrieval
+# Сканер вин «Своё Вино»
 
-Единый репозиторий мобильного Nuxt-приложения и воспроизводимого ML-контура для распознавания российских вин по полевой фотографии.
+Мобильное Nuxt-приложение и локальный SigLIP 2 сервис поиска вина по фотографии.
+Интерфейс сканера, захват бутылки целиком и резервный Railway-режим сохранены
+из актуального `main`. Задание: [`task/10. РСХБ.Цифра.pdf`](task/10.%20РСХБ.Цифра.pdf).
 
-## Текущий статус
+## Что входит в репозиторий
 
-- frontend: mobile-first Nuxt 4, каталог на 2 178 SKU (включая 75 новых с сайта), камера, история и карточки;
-- переносимый снимок `vino-svoe.ru`: 2 110 карточек с атрибутами и исходными фото; проверенная галерея — 1 936 SKU;
-- ML: закреплённый `google/siglip2-base-patch16-384` + включённый в репозиторий rank-64 adapter, cosine retrieval по полной бутылке и детали этикетки;
-- production default: adapter-SigLIP с `full-label` эталонами и полным полевым фото, без ORB;
-- на внутреннем pool из 59 покрытых полевых фото: 41/59 Top-1 (69,5%), 53/59 Recall@5 (89,8%), p95 237,5 мс на RTX 5090; frozen baseline — 39/59 и 51/59;
-- 100 реальных фото вручную просмотрены: 64 exact-SKU, 35 `not_in_catalog`, 1 `uncertain`;
-- 59 из 64 подтверждённых входят в новую галерею; это однопроходная разметка для диагностики, **не закрытый test** и не подтверждение цели ТЗ 90%; пороги отказа не откалиброваны.
+- Каталог приложения: 2 178 вин, включая 75 новых карточек сайта; камера,
+  загрузка фото, поиск, история, карточки и API для оценочного скрипта.
+- Переносимый снимок `vino-svoe.ru`: 2 110 карточек с атрибутами и исходными
+  фотографиями. Допущенная к поиску галерея: 1 936 SKU.
+- Обученный rank-64 адаптер для закреплённой ревизии
+  `google/siglip2-base-patch16-384`. Веса адаптера лежат в `ml/models/`;
+  публичный базовый checkpoint загружается при первом запуске.
+- Поиск по полной бутылке и кропу этикетки в эталоне против полного полевого
+  кадра. Нормализация изображений, хеши данных и модели защищают индекс от
+  устаревшего кэша. Обучение на каталожных фото использует синтетические
+  изменения масштаба, света, поворота, бликов и частичные перекрытия, но не
+  полевые фото и не замену фона.
+- Внутренний полевой pool: адаптер 41/59 Top-1 (69,49%), 53/59 Recall@5
+  (89,83%), p95 поиска 237,50 мс на RTX 5090; frozen SigLIP — 39/59 и
+  51/59. Это 59 покрытых фото из 64 подтверждённых, а не закрытый тест.
 
-Полные методика, метрики и ограничения: [отчёт о точности](ml/docs/FIELD_ACCURACY_REPORT.md).
-Модель и воспроизведение: [ML README](ml/README.md), [карточка адаптера](ml/models/README.md).
-Приложение и фичи: [frontend README](frontend/README.md).
+Цель ТЗ 90% Top-1 пока **не достигнута**. Отдельного результата на закрытом
+тесте нет; пороги уверенного совпадения и отказа от ответа не откалиброваны.
+Все знаменатели, F1@1, set-F1@5, Recall@20, задержки, хеши и ограничения —
+в [отчёте о точности](ml/docs/FIELD_ACCURACY_REPORT.md).
 
-## Структура
+## Локальный запуск
 
-```text
-frontend/   Nuxt UI и server-side proxy к ML
-ml/         обучение, benchmark, inference API, Docker
-dataset/    неизменяемые исходные данные, real_photo и переносимый снимок vino-svoe
-data/       reviewed-аннотации и catalog lookup
-eval/       контракт и fixtures организатора
-docs/       презентационные и проектные материалы
-work/       локальные кэши, эксперименты и временные отчёты; не коммитится
-```
-
-## Полный локальный запуск
-
-Нужны Python 3.10+, `curl` и Node из `frontend/.nvmrc`. Первый запуск сам создаёт
-Python environment, устанавливает зависимости, готовит gallery, локальный SigLIP
-index и production build frontend:
+Нужны Python 3.10+, Node.js из `frontend/.nvmrc`, npm, `curl` и интернет для
+первой загрузки базового checkpoint:
 
 ```bash
+nvm use
 make local
 ```
 
-После готовности откройте `http://127.0.0.1:3000`. ML работает локально на
-`http://127.0.0.1:8080`; устройство выбирается автоматически: CUDA, Apple MPS или
-CPU. Проверенный adapter уже хранится в `ml/models/` и **не переобучается** при
-запуске. Базовый публичный checkpoint загружается один раз по закреплённой
-ревизии, затем локальный индекс сохраняется в ignored `work/`.
-Принудительная повторная подготовка: `make local-setup`.
+Первый запуск создаёт `.venv`, ставит зависимости, строит совместимый индекс
+SigLIP и production-сборку Nuxt. **Повторного обучения нет**: используется
+закоммиченный адаптер. Откройте <http://127.0.0.1:3000/scan>; ML API работает
+на `127.0.0.1:8080`. `ML_DEVICE=auto` выбирает CUDA, Apple MPS или CPU; на CPU
+подготовка и поиск существенно медленнее. Остановка — `Ctrl+C`, логи —
+`work/local/logs/`. Повторная подготовка: `make local-setup`.
 
-Для быстрой проверки только интерфейса без ML:
+Для проверки только интерфейса без модели:
 
 ```bash
 make install
-make demo              # http://localhost:3000, сканер явно помечен «Демо»
+make demo
 ```
 
-Полная локальная проверка данных, Python/Nuxt тестов, production build и HTTP-smoke:
+Демо явно помечено и не распознаёт реальное фото. Камера на телефоне требует
+HTTPS; загрузка сохранённого снимка доступна и без камеры. Браузер отправляет
+весь кадр после ориентации и уменьшения до 1280 пикселей, без обрезки по
+рамке видоискателя. Автоматические детектор бутылки, OCR и исправление
+перспективы пока не реализованы.
+
+## Production и облегчённый режим
+
+Основной вариант — Nuxt как внешний сервис и один ML-процесс на GPU во
+внутренней сети. Для автономного offline-релиза после построения индекса:
 
 ```bash
-make test
+.venv/bin/python ml/scripts/build_release.py \
+  --cache-dir work/siglip-cache \
+  --model-dir /path/to/huggingface-cache-root \
+  --release-id siglip2-site-20260929 --output work/release
+cp .env.example .env
+docker compose up --build
 ```
 
-### Frontend
+Release содержит проверенную галерею, эталонные фото, адаптер, индекс и
+закреплённый snapshot базовой модели. Снаружи доступны Nuxt `/api/v1/recognize`
+и оценочный `/api/v1/eval/predict`; ML-сервис остаётся внутренним.
 
-Нужен Node из `frontend/.nvmrc`.
+В актуальном фронтенде сохранён отдельный односервисный Railway-вариант
+(`Dockerfile`) без GPU: `NUXT_ML_FALLBACK=dhash`,
+`NUXT_PUBLIC_LITE_SCAN=true`, `NUXT_PUBLIC_DEMO_SCAN=false`, `PORT=3000`.
+Он использует компактный старый индекс dHash на 928 изображениях, показывает
+пометку «Базовый поиск» и **не является** новой SigLIP-моделью или поиском
+по всей галерее. Полевой точности для этого fallback нет. При доступной GPU
+уберите fallback и задайте `NUXT_ML_BASE_URL`.
 
-```bash
-cd frontend
-nvm use
-npm ci
-npm run build:images   # один раз или после изменения dataset/
-npm run dev            # http://localhost:3000
-```
-
-Для UI без GPU: `NUXT_PUBLIC_DEMO_SCAN=true npm run dev`. В обычном режиме Nuxt вызывает ML по приватному `NUXT_ML_BASE_URL` (по умолчанию `http://127.0.0.1:8080`).
-
-### Временный интерфейс разметки
-
-После `npm run dev` откройте `http://localhost:3000/annotate`. Слева показывается
-оригинальная фотография из `dataset/real_photo`, справа — поиск по каталогу.
-Подтверждение атомарно обновляет канонический `data/field_mapping.tsv`; при первом
-сохранении процесса исходная версия копируется в `work/annotation-backups/`.
-Интерфейс доступен автоматически только в dev. Для отдельного trusted deployment
-его нужно явно включить переменной `NUXT_ANNOTATION_ENABLED=true` и передать
-`ANNOTATION_REPO_ROOT`; публиковать write-endpoint в интернет нельзя.
-
-Перед началом новой партии проверьте, не совпадают ли полевые фото с каталогом:
-
-```bash
-.venv/bin/python ml/scripts/audit_real_photo_overlap.py
-```
-
-Текущий снимок и границы доверия описаны в [`data/README.md`](data/README.md).
-
-### ML
-
-Команды выполняются из корня репозитория: относительные пути `dataset/`, `data/`, `eval/` и `work/` остаются едиными.
-
-```bash
-python3 -m venv .venv
-.venv/bin/python -m pip install -e './ml[orb,api]'
-.venv/bin/python -m unittest discover -s ml/tests -v
-.venv/bin/wine-cv prepare-strict --data-root .
-```
-
-Для полного SigLIP-контура используйте `make local-setup`; он ставит
-`./ml[siglip,orb,api,test]`, выбирает доступный accelerator и создаёт совместимый
-локальный embedding-cache. Подробности приведены в [ML README](ml/README.md#5-serve-the-organizer-endpoint).
-
-## Production deployment
-
-Runtime разделён на два контейнера: наружу публикуется только Nuxt, а один ML-процесс владеет одной GPU во внутренней сети. Обучение вынесено в отдельный image/profile.
-
-1. Создайте self-contained release с gallery, проверенными reference images, adapter, cache и offline Hugging Face cache с закреплённым snapshot:
-
-   ```bash
-   .venv/bin/python ml/scripts/build_release.py \
-     --cache-dir work/siglip-cache \
-     --model-dir /path/to/huggingface-cache-root \
-     --release-id siglip2-site-20260929 --output work/release
-   ```
-
-2. Запустите:
-
-   ```bash
-   cp .env.example .env
-   docker compose up --build
-   ```
-
-Health endpoints: frontend `/api/health`, ML `/health/live` и `/health/ready`. Organizer contract доступен через frontend `/api/v1/eval/predict`; продуктовый endpoint — `/api/v1/recognize`.
-
-## Проверки перед релизом
+## Проверка и документация
 
 ```bash
 make release-check
 ```
 
-Пороговые переменные `ML_*_THRESHOLD` намеренно пусты. Их можно заполнить только
-вместе с `ML_THRESHOLD_VERSION` после frozen acceptance test. ORB включается как
-отдельная абляция: на proxy он дал лишь +0,11 п.п. Top-1 при +48,6 мс к p95.
+Команда проверяет данные, Python-тесты, Nuxt lint/typecheck, frontend-тесты,
+production-сборку, HTTP smoke и секреты. Три фото в `eval/queries/` проверяют
+только контракт, не точность. Когда организатор выдаст закрытый пакет,
+используйте `make october-test`; без ответов он измеряет транспорт и задержку,
+но не accuracy. До этого модель, галерею, preprocessing и адаптер следует
+считать замороженными.
 
-## Acceptance test 1 октября
+- [Архитектура и компоненты](ARCHITECTURE.md)
+- [Приложение и фичи](frontend/README.md)
+- [ML: модель, обучение и inference](ml/README.md)
+- [Карточка обученного адаптера](ml/models/README.md)
+- [Снимок сайта и правила объединения данных](ml/docs/SITE_DATASET.md)
+- [Метрики и воспроизводимые RunPod receipts](ml/docs/FIELD_ACCURACY_REPORT.md)
+- [Протокол оценочного скрипта](eval/README.md)
 
-Положите выданные файлы без переименования в `eval/test/images/`, а manifest — в
-`eval/test/queries.tsv`. Полный стек поднимется, проверит package, выполнит запросы
-через Nuxt и сохранит evidence одной локальной командой:
-
-```bash
-make october-test
-```
-
-Команда проверяет входные SHA-256, записывает `/api/v1/metadata`, последовательно
-вызывает organizer endpoint и валидирует итоговый JSONL. Evidence сохраняется в
-игнорируемом `work/acceptance-<timestamp>/`. Без answer labels этот прогон подтверждает только
-целостность, контракт и latency — не accuracy. Полный протокол: [`eval/README.md`](eval/README.md).
-
-## Stop-code
-
-Перед публикацией финального репозитория:
-
-1. Не менять модель, gallery, preprocessing и adapter после открытия test.
-2. Выполнить `make release-check` на чистом checkout.
-3. Выполнить acceptance run и сохранить receipts отдельно от Git.
-4. Зафиксировать commit SHA, release ID, model metadata и hash test package.
-5. Публиковать field accuracy только при наличии официальных answer labels/score.
-
-Пошаговый локальный publication runbook: [`docs/STOP_CODE.md`](docs/STOP_CODE.md).
-
-## Security
-
-Секреты и приватный test package не хранятся в репозитории. Для локального запуска
-API-ключи не требуются: базовая модель публичная, а после `make local-setup` сервис
-работает с локальным model cache в offline-режиме.
+Исходные изображения остаются в `dataset/`; размеченные ответы — в `data/`;
+кэши, логи и приватные тестовые файлы — в игнорируемом `work/`. Ни закрытые
+ответы, ни секреты в Git не включаются.

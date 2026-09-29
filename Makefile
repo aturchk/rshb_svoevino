@@ -1,6 +1,6 @@
 .PHONY: check-node install demo local-setup local october-test test frontend-check \
 	prepare validate-data smoke-demo acceptance-preflight acceptance-run release-check \
-	check-secrets
+	check-secrets verify-production
 
 check-node:
 	@node -e 'const [major, minor] = process.versions.node.split(".").map(Number); if (major < 22 || (major === 22 && minor < 12)) { console.error(`Node >=22.12 required; found $${process.versions.node}. Run: cd frontend && nvm use`); process.exit(1) }'
@@ -54,7 +54,10 @@ acceptance-preflight:
 acceptance-run:
 	eval/run_acceptance.sh
 
-release-check: test check-secrets
+verify-production:
+	.venv/bin/python ml/scripts/verify_production.py --root .
+
+release-check: test check-secrets verify-production
 	git diff --check -- . ':(exclude)data/*.tsv'
 
 check-secrets:

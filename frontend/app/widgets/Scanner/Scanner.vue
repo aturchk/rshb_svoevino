@@ -51,7 +51,7 @@ const CAMERA_MESSAGES: Record<
 > = {
   idle: {
     icon: 'scan',
-    title: 'Наведите камеру на этикетку',
+    title: 'Наведите камеру на бутылку',
     text: 'Найдём вино в каталоге «Своё Вино» за пару секунд — с описанием, похожими винами и советом сомелье.',
     action: 'start',
     secondary: 'upload',
@@ -73,7 +73,7 @@ const CAMERA_MESSAGES: Record<
   'not-found': {
     icon: 'camera-off',
     title: 'Камера не найдена',
-    text: 'Похоже, на этом устройстве её нет. Загрузите фото этикетки из галереи.',
+    text: 'Похоже, на этом устройстве её нет. Загрузите фото бутылки из галереи.',
     action: 'upload',
     secondary: null,
   },
@@ -94,14 +94,14 @@ const CAMERA_MESSAGES: Record<
   unsupported: {
     icon: 'camera-off',
     title: 'Браузер не показывает камеру',
-    text: 'Попробуйте Safari или Chrome — или загрузите фото этикетки.',
+    text: 'Попробуйте Safari или Chrome — или загрузите фото бутылки.',
     action: 'upload',
     secondary: null,
   },
   error: {
     icon: 'camera-off',
     title: 'Не удалось включить камеру',
-    text: 'Попробуйте ещё раз или загрузите фото этикетки.',
+    text: 'Попробуйте ещё раз или загрузите фото бутылки.',
     action: 'start',
     secondary: 'upload',
   },
@@ -112,7 +112,7 @@ const message = computed<Message | null>(() => {
     return {
       icon: 'info',
       title: 'Распознавание пока не подключено',
-      text: 'Сервис распознавания этикеток ещё в работе. Найдите вино по названию в каталоге — это займёт пару секунд.',
+      text: 'Сервис распознавания вина ещё в работе. Найдите вино по названию в каталоге — это займёт пару секунд.',
       action: 'catalog',
       secondary: 'back',
     }
@@ -261,18 +261,10 @@ onBeforeUnmount(() => window.clearInterval(stepTimer))
         v-if="frozen"
         class="frozen"
         :src="flow.preview.value ?? undefined"
-        alt="Снимок этикетки"
+        alt="Снимок бутылки"
       />
 
-      <div v-if="live || frozen" class="frame" :class="{ scanning: busy }" aria-hidden="true">
-        <span class="corner tl" />
-        <span class="corner tr" />
-        <span class="corner bl" />
-        <span class="corner br" />
-        <span v-if="busy" class="sweep" />
-      </div>
-
-      <p v-if="live && phase === 'live'" class="caption">Этикетка целиком в рамке</p>
+      <p v-if="live && phase === 'live'" class="caption">Поместите бутылку целиком в кадр</p>
 
       <div v-if="busy" class="progress" role="status" aria-live="polite">
         <p class="stepText">
@@ -302,6 +294,9 @@ onBeforeUnmount(() => window.clearInterval(stepTimer))
       </div>
 
       <div class="topBar">
+        <span v-if="flags.liteScan" class="liteBadge" title="Упрощённый поиск по визуальному хэшу; точность на реальных фото не измерена">
+          Базовый поиск
+        </span>
         <div v-if="flags.demoScan" class="demo">
           <button
             type="button"
@@ -362,10 +357,10 @@ onBeforeUnmount(() => window.clearInterval(stepTimer))
         :disabled="busy"
         :aria-label="
           live
-            ? 'Сфотографировать этикетку'
+            ? 'Сфотографировать бутылку'
             : shutterLabel === 'Камера'
               ? 'Включить камеру'
-              : 'Выбрать фото этикетки'
+              : 'Выбрать фото бутылки'
         "
         @click="onShutter"
       >
@@ -410,7 +405,6 @@ onBeforeUnmount(() => window.clearInterval(stepTimer))
   overflow: hidden;
   border-radius: var(--radius-lg);
   background-color: var(--color-surface-cream);
-  container-type: size;
   isolation: isolate;
 }
 
@@ -424,86 +418,12 @@ onBeforeUnmount(() => window.clearInterval(stepTimer))
   inset: 0;
   width: 100%;
   height: 100%;
-  /* cover обязателен: поток 4:3 или 16:9 не совпадает с рамкой — иначе растяжение. */
-  object-fit: cover;
+  /* Показываем весь поток, чтобы видоискатель соответствовал полному снимку. */
+  object-fit: contain;
 }
 
 .frozen {
   animation: freeze 0.3s ease-out both;
-}
-
-/* Рамка-подсказка под этикетку: всё вокруг приглушено. Пропорция 3:4 — этикетка
-   на бутылке вертикальная; размер ограничен и шириной, и высотой сцены. */
-.frame {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: min(64cqw, 52cqh);
-  aspect-ratio: 3 / 4;
-  border-radius: 20px;
-  box-shadow: 0 0 0 100vmax rgb(0 0 0 / 38%);
-  transform: translate(-50%, -54%);
-  overflow: hidden;
-  pointer-events: none;
-}
-
-.corner {
-  position: absolute;
-  width: 34px;
-  height: 34px;
-  border: 3px solid #fff;
-  filter: drop-shadow(0 0 3px rgb(0 0 0 / 35%));
-}
-
-.scanning .corner {
-  border-color: var(--color-surface-gold);
-  animation: pulse 1.2s ease-in-out infinite;
-}
-
-.tl {
-  top: 0;
-  left: 0;
-  border-right: none;
-  border-bottom: none;
-  border-radius: 20px 0 0;
-}
-
-.tr {
-  top: 0;
-  right: 0;
-  border-left: none;
-  border-bottom: none;
-  border-radius: 0 20px 0 0;
-}
-
-.bl {
-  bottom: 0;
-  left: 0;
-  border-right: none;
-  border-top: none;
-  border-radius: 0 0 0 20px;
-}
-
-.br {
-  right: 0;
-  bottom: 0;
-  border-left: none;
-  border-top: none;
-  border-radius: 0 0 20px;
-}
-
-/* Полоса сканирования: элемент высотой в рамку, светлая кромка внизу,
-   едет сверху вниз одним transform. */
-.sweep {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to bottom,
-    rgb(248 236 201 / 0%) 70%,
-    rgb(248 236 201 / 35%) 96%,
-    rgb(255 255 255 / 95%) 100%
-  );
-  animation: sweep 1.6s cubic-bezier(0.45, 0, 0.55, 1) infinite;
 }
 
 .caption {
@@ -644,6 +564,19 @@ onBeforeUnmount(() => window.clearInterval(stepTimer))
 
 .demo {
   position: relative;
+}
+
+.liteBadge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 6px 12px;
+  border-radius: var(--radius-pill);
+  background-color: var(--color-surface-gold);
+  color: var(--color-accent);
+  font-size: 12px;
+  font-weight: 600;
+  box-shadow: var(--shadow-floating);
 }
 
 .demoBadge {
@@ -816,22 +749,6 @@ onBeforeUnmount(() => window.clearInterval(stepTimer))
   opacity: 0.4;
 }
 
-@keyframes sweep {
-  from {
-    transform: translateY(-100%);
-  }
-
-  to {
-    transform: translateY(0);
-  }
-}
-
-@keyframes pulse {
-  50% {
-    opacity: 0.45;
-  }
-}
-
 @keyframes fill {
   from {
     transform: scaleX(0.04);
@@ -888,8 +805,6 @@ onBeforeUnmount(() => window.clearInterval(stepTimer))
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .sweep,
-  .scanning .corner,
   .flash.on,
   .frozen,
   .message,

@@ -4,6 +4,7 @@ import type { WineCard } from '@/entities/wine/model/types'
 
 import { loadWineDetail, useCatalog } from '../../utils/catalog'
 import { demoRecognize } from '../../utils/demo-recognizer'
+import { retrieveFromDhash } from '../../utils/dhash-retrieval'
 import { retrieveFromMl } from '../../utils/ml-client'
 import { attributeSimilarWines } from '../../utils/similar-wines'
 
@@ -47,11 +48,13 @@ export default defineEventHandler(async (event): Promise<RecognizeResult> => {
     return demoRecognize(image.data, requested)
   }
 
-  const ml = await retrieveFromMl(
-    config.ml.baseUrl,
-    { data: image.data, filename: image.filename, type: image.type },
-    Number(config.ml.timeoutMs),
-  )
+  const ml = config.ml.fallback === 'dhash'
+    ? await retrieveFromDhash(image.data)
+    : await retrieveFromMl(
+        config.ml.baseUrl,
+        { data: image.data, filename: image.filename, type: image.type },
+        Number(config.ml.timeoutMs),
+      )
   const { index, idBySlug } = await useCatalog()
   for (const item of ml.top5) {
     if (!idBySlug.has(item.slug)) {

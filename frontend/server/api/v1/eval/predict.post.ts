@@ -1,4 +1,5 @@
 import { useCatalog } from '../../../utils/catalog'
+import { retrieveFromDhash } from '../../../utils/dhash-retrieval'
 import { evaluateWithMl } from '../../../utils/ml-client'
 
 const MAX_BYTES = 12 * 1024 * 1024
@@ -15,11 +16,13 @@ export default defineEventHandler(async (event): Promise<{ slug: string | null }
   }
 
   const config = useRuntimeConfig(event)
-  const result = await evaluateWithMl(
-    config.ml.baseUrl,
-    { data: image.data, filename: image.filename, type: image.type },
-    Number(config.ml.timeoutMs),
-  )
+  const result = config.ml.fallback === 'dhash'
+    ? { slug: (await retrieveFromDhash(image.data)).top1?.slug ?? null }
+    : await evaluateWithMl(
+        config.ml.baseUrl,
+        { data: image.data, filename: image.filename, type: image.type },
+        Number(config.ml.timeoutMs),
+      )
   if (result.slug !== null) {
     const { idBySlug } = await useCatalog()
     if (!idBySlug.has(result.slug)) {
